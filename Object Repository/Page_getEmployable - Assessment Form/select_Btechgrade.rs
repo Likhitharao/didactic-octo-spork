@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_DDDDDDDDDDDDDDMDMMMMMMMPMPPPPP</name>
+   <name>select_Btechgrade</name>
    <tag></tag>
    <elementGuidId>4f792aff-dfd5-4d58-800c-c39553779512</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

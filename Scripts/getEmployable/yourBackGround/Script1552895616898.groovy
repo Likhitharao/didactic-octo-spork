@@ -12,7 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+'Ethnicity'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_IrishEnglishWelshScottishNorthern IrishGypsy or Irish TravellerAny other White backgroundWhite and Black CaribbeanWhite and AsianAny other Mixed Multiple ethnic backgroundWhite and Black AfricanIndianPakistaniBang'), 
     'number:13', true)
 

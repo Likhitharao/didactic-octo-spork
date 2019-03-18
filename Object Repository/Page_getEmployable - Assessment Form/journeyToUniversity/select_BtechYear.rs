@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_BtechYear</name>
+   <tag></tag>
+   <elementGuidId>b863e8b0-e86e-4768-b8ad-03ece089c25e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='msform']/fieldset[5]/div/div/div[12]/div/div[3]/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='msform']/fieldset[5]/div/div/div[12]/div/div[3]/div/select</value>
+   </webElementProperties>
+</WebElementEntity>
