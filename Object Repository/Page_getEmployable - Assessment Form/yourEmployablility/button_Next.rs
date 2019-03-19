@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>careerpage</name>
+   <name>button_Next</name>
    <tag></tag>
-   <elementGuidId>ef96438f-0def-40a7-b961-3e31abe2a2ce</elementGuidId>
+   <elementGuidId>05002014-fbb3-4a6a-93c3-ad645b35466d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='msform']/fieldset[4]/div[1]/div/div/table/tbody/tr[2]/td/label/table/tbody/tr/td[2]
-</value>
+         <value>.//*[@id='gef_question_next_clicked']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='msform']/fieldset[4]/div[1]/div/div/table/tbody/tr[2]/td/label/table/tbody/tr/td[2]
-</value>
+      <value>.//*[@id='gef_question_next_clicked']</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='msform']/fieldset[4]/div[2]/div/div/table/tbody/tr[1]/td[2]</value>
+         <value>.//*[@id='msform']/fieldset[4]/div[2]/div/div/table/tbody/tr[1]/td[2]/div/label/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='msform']/fieldset[4]/div[2]/div/div/table/tbody/tr[1]/td[2]</value>
+      <value>.//*[@id='msform']/fieldset[4]/div[2]/div/div/table/tbody/tr[1]/td[2]/div/label/input</value>
    </webElementProperties>
 </WebElementEntity>

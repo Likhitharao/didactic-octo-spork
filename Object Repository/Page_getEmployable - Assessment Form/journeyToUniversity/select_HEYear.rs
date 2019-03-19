@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>careerpage</name>
+   <name>select_HEYear</name>
    <tag></tag>
-   <elementGuidId>ef96438f-0def-40a7-b961-3e31abe2a2ce</elementGuidId>
+   <elementGuidId>2e3a99cc-6433-4e71-83e3-533802bd0740</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='msform']/fieldset[4]/div[1]/div/div/table/tbody/tr[2]/td/label/table/tbody/tr/td[2]
-</value>
+         <value>././/*[@id='msform']/fieldset[5]/div/div/div[12]/div/div[3]/div/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='msform']/fieldset[4]/div[1]/div/div/table/tbody/tr[2]/td/label/table/tbody/tr/td[2]
-</value>
+      <value>././/*[@id='msform']/fieldset[5]/div/div/div[12]/div/div[3]/div/select</value>
    </webElementProperties>
 </WebElementEntity>

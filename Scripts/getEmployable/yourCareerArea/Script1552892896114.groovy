@@ -13,11 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('getEmployable/yourEmployability'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Select "Banking and Finance Springboard sponsored by Bank of America Merrill Lynch "'
 WebUI.click(findTestObject('Page_getEmployable - Assessment Form/yourCareerArea/careerpage'))
 
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/yourCareerArea/stronginterest'))
-
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/yourCareerArea/next'))
-
 WebUI.delay(5)
+
+'Click  NEXT'
+WebUI.click(findTestObject('Page_getEmployable - Assessment Form/yourCareerArea/next'))
 

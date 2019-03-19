@@ -35,6 +35,8 @@ if (UniveristyCourseCount == 94) {
     WebUI.setText(findTestObject('Page_getEmployable - Assessment Form/select_UniversityCourseOther'), 'VTU ')
 }
 
+WebUI.delay(5)
+
 'Random Selection of Degree'
 DegreeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/select_Degree'))
 
@@ -59,5 +61,5 @@ WebUI.delay(10)
 'Click Next '
 WebUI.click(findTestObject('Page_getEmployable - Assessment Form/button_NextUniversity'))
 
-WebUI.delay(600)
+WebUI.delay(2)
 

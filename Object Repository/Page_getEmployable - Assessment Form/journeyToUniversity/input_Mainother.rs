@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>careerpage</name>
+   <name>input_Mainother</name>
    <tag></tag>
-   <elementGuidId>ef96438f-0def-40a7-b961-3e31abe2a2ce</elementGuidId>
+   <elementGuidId>11b70598-b029-4659-9dac-f05f991d3b25</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='msform']/fieldset[4]/div[1]/div/div/table/tbody/tr[2]/td/label/table/tbody/tr/td[2]
-</value>
+         <value>.//*[@id='msform']/fieldset[5]/div/div/div[12]/div/div/textarea</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='msform']/fieldset[4]/div[1]/div/div/table/tbody/tr[2]/td/label/table/tbody/tr/td[2]
-</value>
+      <value>.//*[@id='msform']/fieldset[5]/div/div/div[12]/div/div/textarea</value>
    </webElementProperties>
 </WebElementEntity>

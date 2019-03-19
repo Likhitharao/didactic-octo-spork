@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>careerpage</name>
+   <name>select_GradeThree</name>
    <tag></tag>
-   <elementGuidId>ef96438f-0def-40a7-b961-3e31abe2a2ce</elementGuidId>
+   <elementGuidId>badd3c7b-0804-4704-9022-0bc8c4dca14a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='msform']/fieldset[4]/div[1]/div/div/table/tbody/tr[2]/td/label/table/tbody/tr/td[2]
-</value>
+         <value>.//*[@id='msform']/fieldset[5]/div/div/div[11]/div[3]/div[2]/div/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='msform']/fieldset[4]/div[1]/div/div/table/tbody/tr[2]/td/label/table/tbody/tr/td[2]
-</value>
+      <value>.//*[@id='msform']/fieldset[5]/div/div/div[11]/div[3]/div[2]/div/select</value>
    </webElementProperties>
 </WebElementEntity>

@@ -14,7 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('getEmployable/yourUniversity'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('getEmployable/yourCareerArea'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Select GCSE Math Grade'
 GCSEMathGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_GCSEMathsGrade'))
@@ -131,6 +131,21 @@ if (MainQualificationCount == 0) {
         Year2)
 
     'Subject Title Three'
+    WebUI.setText(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/input_SubThree'), 'Further Mathematics')
+
+    Grade3TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_GradeThree'))
+
+    int Grade3 = rad.nextInt(Grade3TotalOptions)
+
+    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_GradeThree'), 
+        Grade3)
+
+    Year3TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_YearThree'))
+
+    int Year3 = rad.nextInt(Year3TotalOptions)
+
+    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_YearThree'), 
+        Year3)
 } else if (MainQualificationCount == 1) {
     'B-Tech Subject Line'
     WebUI.setText(findTestObject('Object Repository/Page_getEmployable - Assessment Form/input_Year awarded_form-text ng-untouched ng-valid ng-dirty ng-valid-parse'), 
@@ -149,48 +164,66 @@ if (MainQualificationCount == 0) {
     WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_BtechYear'), 
         BtechYearCount)
 } else if (MainQualificationCount == 2) {
-    IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_1234567'))
+    IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBP1'))
 
     int IBP1count = rad.nextInt(IBP1TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/select_1234567'), null)
+    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBP1'), IBP1count)
 
-    IBY1TotalPoints = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_2019                                2018                                2017                                2016                                2015                                2014                             '))
+    IBY1TotalPoints = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBY1'))
 
     int IBY1count = rad.nextInt(IBY1TotalPoints)
 
-    IBP2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_1234567'))
+    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBY1'), IBY1count)
+
+    IBP2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBP2'))
 
     int IBP2count = rad.nextInt(IBP2TotalOptions)
 
-    IBY2TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_2019                                2018                                2017                                2016                                2015                                2014                             '))
+    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBP2'), IBP2count)
+
+    IBY2TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBY2'))
 
     int IBY2count = rad.nextInt(IBY2TotalOptions)
 
-    IBP3TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_1234567'))
+    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBY2'), IBY2count)
+
+    IBP3TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBP3'))
 
     int IBP3count = rad.nextInt(IBP3TotalOptions)
 
-    IBY3TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_2019                                2018                                2017                                2016                                2015                                2014                             '))
+    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBP3'), IBP3count)
+
+    IBY3TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBY3'))
 
     int IBY3count = rad.nextInt(IBY3TotalOptions)
+
+    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_IBY3'), IBY3count)
 } else if (MainQualificationCount == 3) {
-    WebUI.setText(findTestObject('Object Repository/Page_getEmployable - Assessment Form/textarea_Year awarded_form-text ng-untouched ng-dirty ng-valid-parse ng-valid ng-valid-required'), 
-        'other ouualifications ')
+    WebUI.setText(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/input_Mainother'), 'other ouualifications ')
 } else if (MainQualificationCount == 4) {
     WebUI.setText(findTestObject('Object Repository/Page_getEmployable - Assessment Form/input_Year awarded_form-text ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse'), 
-        'mathshe course')
+        'hemathshe course')
 
-    WebUI.selectOptionByValue(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_Grade AGrade AGrade BGrade CGrade DGrade EGrade FGrade UDid not take'), 
-        'string:B', true)
+    HEGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_HEGrade'))
 
-    WebUI.selectOptionByValue(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_2019                                2018                                2017                                2016                                2015                                2014                             '), 
-        '2009', true)
+    int HEGradeCount = rad.nextInt(HEGradeTotalOptions)
+
+    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_HEGrade'), 
+        HEGradeCount)
+
+    HEYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_HEYear'))
+
+    int HEYearCount = rad.nextInt(HEYearTotalOptions)
+
+    WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/select_HEYear'), 
+        HEYearCount)
 }
 
 'A-Level HomePostal Code'
-WebUI.setText(findTestObject('Object Repository/Page_getEmployable - Assessment Form/input_Year awarded_alevel-postal-code'), 
-    'NW64DN')
+WebUI.setText(findTestObject('Page_getEmployable - Assessment Form/journeyToUniversity/input_ALevelPostcode'), 'NW6DN')
+
+WebUI.delay(5)
 
 'GCSE Home Postal Code'
 WebUI.setText(findTestObject('Object Repository/Page_getEmployable - Assessment Form/input_Year awarded_gcse-postal-code'), 
