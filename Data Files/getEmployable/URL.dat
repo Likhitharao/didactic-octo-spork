@@ -8,11 +8,22 @@
    <dataFileGUID>29f40fa9-39a2-4411-bd7e-86be318427a7</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>https%3A%2F%2Fuat.getemployable.org%2Fgef-assessment</data>
+   <data>https%3A%2F%2Fuat.getemployable.org%2Fgef-assessment getEmployable</data>
+   <data>https%3A%2F%2Fuat.realrating.co.uk%2F REALrating</data>
+   <data>https%3A%2F%2Fnh-uat.realrating.co.uk%2F North+Highland</data>
+   <data>https%3A%2F%2F2020-uat.realrating.co.uk%2F 2020+Delivery</data>
+   <data>https%3A%2F%2Fgs-uat.realrating.co.uk%2F GreenSill</data>
+   <data>https%3A%2F%2Fippr-uat.realrating.co.uk%2F IPPR</data>
+   <data>https%3A%2F%2Ffclp-uat.realrating.co.uk%2F FCLP</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>Site URL</name>
-      <size>1</size>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Description</name>
+      <size>7</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

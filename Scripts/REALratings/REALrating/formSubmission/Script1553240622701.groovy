@@ -13,25 +13,37 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Open Browser'
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://uat.realrating.co.uk')
+'Launch REALratings Application'
+WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 2))
 
 WebUI.maximizeWindow()
 
+'Verify REALratings Application Page'
+WebUI.verifyElementPresent(findTestObject('REALRatings/REALrating/Get Started'), 5, FailureHandling.STOP_ON_FAILURE)
+
+'Click Get Started'
 WebUI.click(findTestObject('REALRatings/REALrating/Get Started'))
 
-WebUI.delay(5)
+WebUI.delay(1)
 
 WebUI.comment('Basic Information')
 
-WebUI.setText(findTestObject('REALRatings/REALrating/First Name'), 'asha')
+'Enter First Name'
+WebUI.setText(findTestObject('REALRatings/REALrating/First Name'), findTestData('getEmployable/Applicants').getValue(1, 
+        1))
 
-WebUI.setText(findTestObject('REALRatings/REALrating/Last Name'), 'rajendran')
+'Enter Last Name'
+WebUI.setText(findTestObject('REALRatings/REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(2, 1))
 
-WebUI.setText(findTestObject('REALRatings/REALrating/University Email'), 'asharajendran@uni.ac.uk')
+'Enter University Email'
+WebUI.setText(findTestObject('REALRatings/REALrating/University Email'), findTestData('getEmployable/Applicants').getValue(
+        3, 1))
 
-WebUI.click(findTestObject('REALRatings/REALrating/FP Next'))
+'Click NEXT'
+WebUI.click(findTestObject('REALRatings/REALrating/FP Next'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('School Information')
 
@@ -100,6 +112,7 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Main Qualificat
 
 WebUI.delay(5)
 
+'A-Level'
 if (MainQualificationCount == 1) {
     'Subject Title One'
     WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/TitleOne'), 'Further Mathematics')
@@ -214,23 +227,36 @@ if (MainQualificationCount == 1) {
     WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/HEYear'), HEYearCount)
 }
 
-WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/ALevelschool'), 'King Richard School')
+'Alevel School'
+WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/ALevelschool'), findTestData('getEmployable/Applicants').getValue(
+        6, 1))
 
-WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/GCSEschool'), 'King Richard School')
+'GCSE School'
+WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/GCSEschool'), findTestData('getEmployable/Applicants').getValue(
+        7, 1))
 
 WebUI.click(findTestObject('dummy/Page_REALrating/Page_REALrating/Gender'))
 
-WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/ALevelPostcode'), 'NW64DN')
+'ALevel PostalCode'
+WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/ALevelPostcode'), findTestData('getEmployable/Applicants').getValue(
+        8, 1))
 
-WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/GCSEPostcode'), 'NW64DN')
+'GCSE PostalCode'
+WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/GCSEPostcode'), findTestData('getEmployable/Applicants').getValue(
+        9, 1))
 
+'Tick Any Statement'
 WebUI.click(findTestObject('dummy/Page_REALrating/Page_REALrating/TickAnyStatement'))
 
+'How did you Hear About?'
 WebUI.click(findTestObject('dummy/Page_REALrating/Page_REALrating/HearAbout'))
 
+'User Agreement'
 WebUI.click(findTestObject('dummy/Page_REALrating/Page_REALrating/User Agreement and Data Protection Policy.'))
 
-WebUI.delay(5)
-
+'Click on Submit Button'
 WebUI.click(findTestObject('dummy/Page_REALrating/Page_REALrating/button_Submit'))
+
+'verify Sucessfull Form Submission'
+assert WebUI.getUrl() == 'https://uat.realrating.co.uk/realrating/thankyou'
 
