@@ -98,117 +98,139 @@ int MainQualificationCount = rad.nextInt(MainQualificationTotaloptions)
 
 WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Main Qualification'), MainQualificationCount)
 
-if (MainQualificationCount == 0) {
-    'Subject Title One'
-    WebUI.setText(findTestObject('REALRatings/REALrating/ALevel Title One'), 'Further Mathematics')
+WebUI.delay(5)
 
-    Grade1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/ALevel Grade One'))
+if (MainQualificationCount == 1) {
+    'Subject Title One'
+    WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/TitleOne'), 'Further Mathematics')
+
+    Grade1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/GradeOne'))
 
     int Grade1 = rad.nextInt(Grade1TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/ALevel Grade One'), Grade1)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/GradeOne'), Grade1)
 
-    Year1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Alevel Year One'))
+    Year1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/YearOne'))
 
     int Year1 = rad.nextInt(Year1TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Alevel Year One'), Year1)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/YearOne'), Year1)
 
     'Subject Title Two'
-    WebUI.setText(findTestObject('REALRatings/REALrating/ALevel Title Two'), 'Computer Science')
+    WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/TitleTwo'), 'Computer Science')
 
-    Grade2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/ALevel Grade Two'))
+    Grade2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/GradeTwo'))
 
     int Grade2 = rad.nextInt(Grade2TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/ALevel Grade Two'), Grade2)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/GradeTwo'), Grade2)
 
-    Year2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/ALevel Year Two'))
+    Year2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/YearTwo'))
 
     int Year2 = rad.nextInt(Year2TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/ALevel Year Two'), Year2)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/YearTwo'), Year2)
 
     'Subject Title Three'
-    WebUI.setText(findTestObject('REALRatings/REALrating/ALevel Title Three'), 'Further Mathematics')
+    WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/TitleThree'), 'Further Mathematics')
 
-    Grade3TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Alevel Grade Three'))
+    Grade3TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/GradeThree'))
 
     int Grade3 = rad.nextInt(Grade3TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Alevel Grade Three'), Grade3)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/GradeThree'), Grade3)
 
-    Year3TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/ALevel Year Three'))
+    Year3TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/YearThree'))
 
     int Year3 = rad.nextInt(Year3TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/ALevel Year Three'), Year3)
-} else if (MainQualificationCount == 1) {
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/YearThree'), Year3)
+} else if (MainQualificationCount == 2) {
     'B-Tech Subject Line'
-    WebUI.setText(findTestObject('REALRatings/REALrating/BTech Title'), 'maths')
+    WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/BTechTitle'), 'maths')
 
-    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/BTech Grade'))
+    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/BTechGrade'))
 
     int BtechGradeCount = rad.nextInt(BtechGradeTotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/BTech Grade'), BtechGradeCount)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/BTechGrade'), BtechGradeCount)
 
-    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/BTech Year'))
+    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/BTechYear'))
 
     int BtechYearCount = rad.nextInt(BtechYearTotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/BTech Year'), BtechYearCount)
-} else if (MainQualificationCount == 2) {
-    IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/IBPoints One'))
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/BTechYear'), BtechYearCount)
+} else if (MainQualificationCount == 3) {
+    IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/IBPointsOne'))
 
     int IBP1count = rad.nextInt(IBP1TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/IBPoints One'), IBP1count)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/IBPointsOne'), IBP1count)
 
-    IBY1TotalPoints = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/IBYear One'))
+    IBY1TotalPoints = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/IBYearOne'))
 
     int IBY1count = rad.nextInt(IBY1TotalPoints)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/IBYear One'), IBY1count)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/IBYearOne'), IBY1count)
 
-    IBP2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/IBPoints Two'))
+    IBP2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/IBPointsTwo'))
 
     int IBP2count = rad.nextInt(IBP2TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/IBPoints Two'), IBP2count)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/IBPointsTwo'), IBP2count)
 
-    IBY2TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('REALRatings/REALrating/IBYear Two'))
+    IBY2TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('dummy/Page_REALrating/Page_REALrating/IBYearTwo'))
 
     int IBY2count = rad.nextInt(IBY2TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/IBYear Two'), IBY2count)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/IBYearTwo'), IBY2count)
 
-    IBP3TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('REALRatings/REALrating/IBPoints Three'))
+    IBP3TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('dummy/Page_REALrating/Page_REALrating/IBPointsThree'))
 
     int IBP3count = rad.nextInt(IBP3TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/IBPoints Three'), IBP3count)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/IBPointsThree'), IBP3count)
 
-    IBY3TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('REALRatings/REALrating/IBYear Three'))
+    IBY3TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('dummy/Page_REALrating/Page_REALrating/IBYearThree'))
 
     int IBY3count = rad.nextInt(IBY3TotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/IBYear Three'), IBY3count)
-} else if (MainQualificationCount == 3) {
-    WebUI.setText(findTestObject('REALRatings/REALrating/Other Qualification'), 'other ouualifications ')
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/IBYearThree'), IBY3count)
 } else if (MainQualificationCount == 4) {
-    WebUI.setText(findTestObject('REALRatings/REALrating/HE Title'), 'hemathshe course')
+    WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/OtherQualification'), 'other ouualifications ')
+} else if (MainQualificationCount == 5) {
+    WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/HETitle'), 'hemathshe course')
 
-    HEGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/HE Grade'))
+    HEGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/HEGrade'))
 
     int HEGradeCount = rad.nextInt(HEGradeTotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/HE Grade'), HEGradeCount)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/HEGrade'), HEGradeCount)
 
-    HEYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/HE Year'))
+    HEYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('dummy/Page_REALrating/Page_REALrating/HEYear'))
 
     int HEYearCount = rad.nextInt(HEYearTotalOptions)
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/HE Year'), HEYearCount)
+    WebUI.selectOptionByIndex(findTestObject('dummy/Page_REALrating/Page_REALrating/HEYear'), HEYearCount)
 }
+
+WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/ALevelschool'), 'King Richard School')
+
+WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/GCSEschool'), 'King Richard School')
+
+WebUI.click(findTestObject('dummy/Page_REALrating/Page_REALrating/Gender'))
+
+WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/ALevelPostcode'), 'NW64DN')
+
+WebUI.setText(findTestObject('dummy/Page_REALrating/Page_REALrating/GCSEPostcode'), 'NW64DN')
+
+WebUI.click(findTestObject('dummy/Page_REALrating/Page_REALrating/TickAnyStatement'))
+
+WebUI.click(findTestObject('dummy/Page_REALrating/Page_REALrating/HearAbout'))
+
+WebUI.click(findTestObject('dummy/Page_REALrating/Page_REALrating/User Agreement and Data Protection Policy.'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('dummy/Page_REALrating/Page_REALrating/button_Submit'))
 
