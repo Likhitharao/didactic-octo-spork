@@ -13,30 +13,30 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 'Ethnicity'
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_IrishEnglishWelshScottishNorthern IrishGypsy or Irish TravellerAny other White backgroundWhite and Black CaribbeanWhite and AsianAny other Mixed Multiple ethnic backgroundWhite and Black AfricanIndianPakistaniBang'), 
+WebUI.selectOptionByValue(findTestObject('getEmployable/select_IrishEnglishWelshScottishNorthern IrishGypsy or Irish TravellerAny other White backgroundWhite and Black CaribbeanWhite and AsianAny other Mixed Multiple ethnic backgroundWhite and Black AfricanIndianPakistaniBang'), 
     'number:13', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_HeterosexualstraightGay womanlesbianGay manBisexualPrefer not to say'), 
+WebUI.selectOptionByValue(findTestObject('getEmployable/select_HeterosexualstraightGay womanlesbianGay manBisexualPrefer not to say'), 
     'HETERO_SEXUAL', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_No religionBuddhistChristianHinduJewishMuslimSikhAny other religionPrefer not to say'), 
+WebUI.selectOptionByValue(findTestObject('getEmployable/select_No religionBuddhistChristianHinduJewishMuslimSikhAny other religionPrefer not to say'), 
     'BUDDHIST', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_DivorcedMarriedSingleWidowedPrefer not to say'), 
+WebUI.selectOptionByValue(findTestObject('getEmployable/select_DivorcedMarriedSingleWidowedPrefer not to say'), 
     'MARRIED', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_getEmployable - Assessment Form/select_Yes                                                     No                                                     Prefer not to say'), 
+WebUI.selectOptionByValue(findTestObject('getEmployable/select_Yes                                                     No                                                     Prefer not to say'), 
     'NO', true)
 
-WebUI.click(findTestObject('Object Repository/Page_getEmployable - Assessment Form/span_I am interested show me the eligibility criteria.'))
+WebUI.click(findTestObject('getEmployable/span_I am interested show me the eligibility criteria.'))
 
-WebUI.click(findTestObject('Object Repository/Page_getEmployable - Assessment Form/span_I meet the eligibility criteria.'))
+WebUI.click(findTestObject('getEmployable/span_I meet the eligibility criteria.'))
 
-WebUI.click(findTestObject('Object Repository/Page_getEmployable - Assessment Form/span_Please tick this box to consent to upReach contacting you in the future to help you secure a graduate job.'))
+WebUI.click(findTestObject('getEmployable/span_Please tick this box to consent to upReach contacting you in the future to help you secure a graduate job.'))
 
-WebUI.click(findTestObject('Object Repository/Page_getEmployable - Assessment Form/span_By ticking this box I confirm that I agree to the'))
+WebUI.click(findTestObject('getEmployable/span_By ticking this box I confirm that I agree to the'))
 
-WebUI.click(findTestObject('Object Repository/Page_getEmployable - Assessment Form/input_getEmployable User Agreement and Data Protection Policy._form-submit'))
+WebUI.click(findTestObject('getEmployable/input_getEmployable User Agreement and Data Protection Policy._form-submit'))
 
 WebUI.click(findTestObject('Page_getEmployable/div_Congratulations on completing the Employability Assessment                                         Your Employability Score and report have been sent to your University email address.                                 '))
 

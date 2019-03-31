@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Resilience_One</name>
+   <tag></tag>
+   <elementGuidId>d574107d-4e36-4518-bf4f-3a57ebf01f49</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>answer.answer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I set myself goals that are often too stretching, and get demotivated when I fail to achieve them.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;8&quot;)/div[@class=&quot;question-wrapper ng-scope&quot;]/div[@class=&quot;panel panel-info text-left&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;col-md-12 list-timeline ng-scope&quot;]/div[@class=&quot;col-md-12 list-timeline-section bg-light col-md-15-neg&quot;]/div[@class=&quot;col-md-12 list-timeline-detail&quot;]/div[@class=&quot;form-animate-text&quot;]/table[1]/tbody[1]/tr[1]/td[2]/label[1]/span[@class=&quot;ng-binding&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='8']/div[2]/div/div[2]/div/div[6]/div/div/div/table/tbody/tr/td[2]/label/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I set myself goals and usually achieve them.'])[1]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I set myself goals and sometimes achieve them.'])[1]/following::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('I wish I hadn', &quot;'&quot;, 't wasted time attempting it.')])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('It usually isn', &quot;'&quot;, 't my fault I failed, I did my best.')])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[8]/div[2]/div/div[2]/div/div[6]/div/div/div/table/tbody/tr/td[2]/label/span</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -13,17 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Launch browser'
+'Open Browser'
 WebUI.openBrowser('')
 
-'Invoke getEmployable site '
-WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 1))
+'Launch REALratings Application'
+WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 2))
 
-'Maximize the browser'
 WebUI.maximizeWindow()
 
-'Verify the site lauched sucessfully'
-WebUI.verifyElementPresent(findTestObject('getEmployable/form'), 10, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
+WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
 

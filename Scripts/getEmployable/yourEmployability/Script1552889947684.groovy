@@ -15,7 +15,39 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('getEmployable/yourUniversity'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/yourEmployablility/button_Next'))
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_one'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Two'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Three'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Four'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Five'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Six'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Seven'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Eight'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Eight_Add'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Nine'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Ten'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Eleven'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Twelve'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Next'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Thirteen'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_fourteen'))
+
+WebUI.click(findTestObject('getEmployable/yourEmployablility/WorkExperience_Fifteen'))
 
 WebUI.delay(5)
 
