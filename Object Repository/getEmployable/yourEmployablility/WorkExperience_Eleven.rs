@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>WorkExperience_Eleven</name>
+   <tag></tag>
+   <elementGuidId>2ff4b860-0359-4731-92a4-08dc628edc2b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>answer.answer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Friends of my family have helped me learn more about graduate careers.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1&quot;)/div[@class=&quot;question-wrapper ng-scope&quot;]/div[@class=&quot;panel panel-info text-left&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;col-md-12 list-timeline ng-scope&quot;]/div[@class=&quot;col-md-12 list-timeline-section bg-light col-md-15-neg&quot;]/div[@class=&quot;col-md-12 list-timeline-detail&quot;]/div[@class=&quot;form-group form-animate-checkbox&quot;]/table[1]/tbody[1]/tr[1]/td[2]/label[1]/span[@class=&quot;ng-binding&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='1']/div[14]/div/div[2]/div/div[2]/div/div/div/table/tbody/tr/td[2]/label/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My family'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[14]/div/div[2]/div/div[2]/div/div/div/table/tbody/tr/td[2]/label/span</value>
+   </webElementXpaths>
+</WebElementEntity>

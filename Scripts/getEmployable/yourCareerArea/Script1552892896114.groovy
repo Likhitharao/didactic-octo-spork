@@ -16,10 +16,10 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('getEmployable/yourEmployability'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Select "Banking and Finance Springboard sponsored by Bank of America Merrill Lynch "'
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/yourCareerArea/careerpage'))
+WebUI.click(findTestObject('getEmployable/yourCareerArea/careerpage'))
 
 WebUI.delay(5)
 
 'Click  NEXT'
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/yourCareerArea/next'))
+WebUI.click(findTestObject('getEmployable/yourCareerArea/next'))
 

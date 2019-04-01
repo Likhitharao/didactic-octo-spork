@@ -16,50 +16,50 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('getEmployable/aboutYou'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Random Selection of University '
-UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/select_University'))
+UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('getEmployable/select_University'))
 
 Random rad = new Random()
 
 int UniversityCount = rad.nextInt(UniversityTotalOption)
 
-WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/select_University'), UniversityCount)
+WebUI.selectOptionByIndex(findTestObject('getEmployable/select_University'), UniversityCount)
 
 'Random Selection of University Course'
-UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/select_UniversityCourse'))
+UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('getEmployable/select_UniversityCourse'))
 
 int UniveristyCourseCount = rad.nextInt(UniversityCourseTotalOption)
 
-WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/select_UniversityCourse'), UniveristyCourseCount)
+WebUI.selectOptionByIndex(findTestObject('getEmployable/select_UniversityCourse'), UniveristyCourseCount)
 
 if (UniveristyCourseCount == 94) {
-    WebUI.setText(findTestObject('Page_getEmployable - Assessment Form/select_UniversityCourseOther'), 'VTU ')
+    WebUI.setText(findTestObject('getEmployable/select_UniversityCourseOther'), 'VTU ')
 }
 
 WebUI.delay(5)
 
 'Random Selection of Degree'
-DegreeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/select_Degree'))
+DegreeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('getEmployable/select_Degree'))
 
 int DegreeCount = rad.nextInt(DegreeTotalOptions)
 
-WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/select_Degree'), DegreeCount)
+WebUI.selectOptionByIndex(findTestObject('getEmployable/select_Degree'), DegreeCount)
 
 'Random selection of Course Duration and Year Of Study'
-CourseDurationTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('Page_getEmployable - Assessment Form/select_CourseDuration'))
+CourseDurationTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('getEmployable/select_CourseDuration'))
 
 int CourseDurationCount = rad.nextInt(CourseDurationTotalOptions)
 
-WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/select_CourseDuration'), CourseDurationCount)
+WebUI.selectOptionByIndex(findTestObject('getEmployable/select_CourseDuration'), CourseDurationCount)
 
-WebUI.selectOptionByIndex(findTestObject('Page_getEmployable - Assessment Form/select_YearOfStudy'), CourseDurationCount)
+WebUI.selectOptionByIndex(findTestObject('getEmployable/select_YearOfStudy'), CourseDurationCount)
 
 'Select Full Time '
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/select_FullTime'))
+WebUI.click(findTestObject('getEmployable/select_FullTime'))
 
 WebUI.delay(10)
 
 'Click Next '
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/button_NextUniversity'))
+WebUI.click(findTestObject('getEmployable/button_NextUniversity'))
 
 WebUI.delay(2)
 

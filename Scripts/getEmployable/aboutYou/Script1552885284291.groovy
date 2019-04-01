@@ -16,36 +16,36 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('getEmployable/launchSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Enter First Name\r\n'
-WebUI.setText(findTestObject('Object Repository/Page_getEmployable - Assessment Form/input_First Name'), findTestData('getEmployable/Applicants').getValue(
+WebUI.setText(findTestObject('getEmployable/input_First Name'), findTestData('getEmployable/Applicants').getValue(
         1, 1))
 
 'Enter Last Name'
-WebUI.setText(findTestObject('Object Repository/Page_getEmployable - Assessment Form/input_Last name'), findTestData('getEmployable/Applicants').getValue(
+WebUI.setText(findTestObject('getEmployable/input_Last name'), findTestData('getEmployable/Applicants').getValue(
         2, 1))
 
 'Enter University Email'
-WebUI.setText(findTestObject('Object Repository/Page_getEmployable - Assessment Form/input_University Email'), findTestData(
+WebUI.setText(findTestObject('getEmployable/input_University Email'), findTestData(
         'getEmployable/Applicants').getValue(3, 1))
 
 'Enter Personal Email '
-WebUI.setText(findTestObject('Object Repository/Page_getEmployable - Assessment Form/input_Personal Email'), findTestData(
+WebUI.setText(findTestObject('getEmployable/input_Personal Email'), findTestData(
         'getEmployable/Applicants').getValue(4, 1))
 
 'Enter Mobile Number\r\n'
-WebUI.setText(findTestObject('Object Repository/Page_getEmployable - Assessment Form/input_Phone Number'), findTestData(
+WebUI.setText(findTestObject('getEmployable/input_Phone Number'), findTestData(
         'getEmployable/Applicants').getValue(5, 1))
 
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/input_date Of Birth'))
+WebUI.click(findTestObject('getEmployable/input_date Of Birth'))
 
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/input_Date'))
+WebUI.click(findTestObject('getEmployable/input_Date'))
 
 WebUI.delay(10)
 
 'Select Gender'
-WebUI.click(findTestObject('Object Repository/Page_getEmployable - Assessment Form/label_Female'))
+WebUI.click(findTestObject('getEmployable/label_Female'))
 
 'Click Next '
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/input_Other_next'))
+WebUI.click(findTestObject('getEmployable/input_Other_next'))
 
 WebUI.delay(5)
 
