@@ -17,16 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('')
 
 'Launch REALratings Application'
-WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 2))
+WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 6))
 
 WebUI.maximizeWindow()
 
 'Verify REALratings Application Page'
-WebUI.verifyElementPresent(findTestObject('REALRatings/REALrating/Get Started'), 5, FailureHandling.STOP_ON_FAILURE)
 
+//WebUI.verifyElementPresent(findTestObject('REALRatings/REALrating/Get Started'), 5, FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('REALRatings/REALrating/Get Started'))
 'Click Get Started'
-WebUI.click(findTestObject('REALRatings/REALrating/Get Started'))
-
 WebUI.delay(1)
 
 WebUI.comment('Basic Information')
@@ -42,10 +41,13 @@ WebUI.setText(findTestObject('REALRatings/REALrating/Last Name'), findTestData('
 WebUI.setText(findTestObject('REALRatings/REALrating/University Email'), findTestData('getEmployable/Applicants').getValue(
         3, 1))
 
+WebUI.delay(5)
+
 'Click NEXT'
-WebUI.click(findTestObject('REALRatings/REALrating/FP Next'), FailureHandling.STOP_ON_FAILURE)
+//bUI.click(findTestObject('REALRatings/REALrating/FP Next'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('School Information')
+Random rad = new Random()
 
 'A-Level year'
 ALevelYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/ALevel Year'))
@@ -99,7 +101,7 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Current Year Of
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('REALRatings/REALrating/button_Next (1)'))
+//bUI.click(findTestObject('REALRatings/REALrating/button_Next (1)'))
 
 WebUI.comment('Main Qualification')
 

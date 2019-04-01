@@ -15,7 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('getEmployable/yourUniversity'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_getEmployable - Assessment Form/yourEmployablility/button_Next'))
-
 WebUI.delay(5)
+int loop;
+for(loop = 2 ;loop<=15 ;loop++){
+WebUI.click(findTestObject('Page_getEmployable - Assessment Form/span_Under 3 months' ,[('Variable'):loop]))
+WebUI.delay(2)
 
+}
