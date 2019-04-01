@@ -4,6 +4,12 @@
    <name>Second Next</name>
    <tag></tag>
    <elementGuidId>0bd2e9de-b4fa-4b4f-920c-610333d7a35d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;tab2&quot;)/div[@class=&quot;col-md-12 col-sm-12 col-sx-12 col-xs-12 text-center&quot;]/a[@class=&quot;btn btn-green&quot;][count(. | //a[(text() = 'Next' or . = 'Next')]) = count(//a[(text() = 'Next' or . = 'Next')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +41,7 @@
       <value>Next</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

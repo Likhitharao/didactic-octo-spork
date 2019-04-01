@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="sample" time="57" tests="0" failures="1" errors="0">
+   <testsuite name="sample" tests="0" failures="1" errors="0" time="57" timestamp="2019-04-01 18:04:59" hostname="Administrator - Asha.jmandigital.in" id="Test Suites/sample">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\didactic-octo-spork\\Reports\\sample\\20190401_180456"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\didactic-octo-spork\\Reports\\sample\\20190401_180456\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\git\\didactic-octo-spork\\Reports\\sample\\20190401_180456\\1554122155890.png"/>
+         <property name="hostName" value="Administrator - Asha.jmandigital.in"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="192.168.0.32"/>
+         <property name="sessionId" value="659d7649-89f2-401e-b3cc-4945c4bab7ca"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/REALratings/REALrating/formSubmission" classname="Test Cases/REALratings/REALrating/formSubmission" status="FAILED">
+         <failure type="FAILED" message="Test Cases/REALratings/REALrating/formSubmission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get total options of object 'Object Repository/REALRatings/REALrating/ALevel Year'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at formSubmission.run(formSubmission:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554122096232.run(TempTestSuite1554122096232.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/REALRatings/REALrating/ALevel Year' located by 'By.xpath: .//*[@id='yearofAlevels']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.doCall(GetNumberOfTotalOptionKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.call(GetNumberOfTotalOptionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:50)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at Script1553240622701.run(Script1553240622701.groovy:54)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-01 18:04:59 - [TEST_CASE][FAILED] - Test Cases/REALratings/REALrating/formSubmission: Test Cases/REALratings/REALrating/formSubmission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get total options of object 'Object Repository/REALRatings/REALrating/ALevel Year'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at formSubmission.run(formSubmission:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554122096232.run(TempTestSuite1554122096232.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/REALRatings/REALrating/ALevel Year' located by 'By.xpath: .//*[@id='yearofAlevels']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.doCall(GetNumberOfTotalOptionKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.call(GetNumberOfTotalOptionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:50)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at Script1553240622701.run(Script1553240622701.groovy:54)
+	... 13 more
+
+
+2019-04-01 18:05:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-01 18:05:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-01 18:05:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-01 18:05:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-01 18:05:17 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("getEmployable/URL").getValue(1, 2)): Navigate to 'https://uat.realrating.co.uk/' successfully
+
+2019-04-01 18:05:20 - [MESSAGE][PASSED] - Navigate to 'https://uat.realrating.co.uk/' successfully
+
+2019-04-01 18:05:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-01 18:05:20 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-01 18:05:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("REALRatings/REALrating/Get Started"), 5, STOP_ON_FAILURE): Object 'Object Repository/REALRatings/REALrating/Get Started' is present
+
+2019-04-01 18:05:21 - [MESSAGE][PASSED] - Object 'Object Repository/REALRatings/REALrating/Get Started' is present
+
+2019-04-01 18:05:21 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/REALrating/Get Started")): Object: 'Object Repository/REALRatings/REALrating/Get Started' is clicked on
+
+2019-04-01 18:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/REALrating/Get Started' is clicked on
+
+2019-04-01 18:05:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 18:05:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 18:05:22 - [TEST_STEP][PASSED] - comment("Basic Information"): Basic Information
+
+2019-04-01 18:05:22 - [MESSAGE][INFO] - Basic Information
+
+2019-04-01 18:05:22 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/REALrating/First Name"), findTestData("getEmployable/Applicants").getValue(1, 1)): Text 'Asha' is set on object 'Object Repository/REALRatings/REALrating/First Name'
+
+2019-04-01 18:05:22 - [MESSAGE][PASSED] - Text 'Asha' is set on object 'Object Repository/REALRatings/REALrating/First Name'
+
+2019-04-01 18:05:22 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/REALrating/Last Name"), findTestData("getEmployable/Applicants").getValue(2, 1)): Text 'Rajendran' is set on object 'Object Repository/REALRatings/REALrating/Last Name'
+
+2019-04-01 18:05:23 - [MESSAGE][PASSED] - Text 'Rajendran' is set on object 'Object Repository/REALRatings/REALrating/Last Name'
+
+2019-04-01 18:05:23 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/REALrating/University Email"), findTestData("getEmployable/Applicants").getValue(3, 1)): Text 'asharajendran@gmail.com' is set on object 'Object Repository/REALRatings/REALrating/University Email'
+
+2019-04-01 18:05:23 - [MESSAGE][PASSED] - Text 'asharajendran@gmail.com' is set on object 'Object Repository/REALRatings/REALrating/University Email'
+
+2019-04-01 18:05:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 18:05:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 18:05:24 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/REALrating/FP Next"), STOP_ON_FAILURE): Object: 'Object Repository/REALRatings/REALrating/FP Next' is clicked on
+
+2019-04-01 18:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/REALrating/FP Next' is clicked on
+
+2019-04-01 18:05:24 - [TEST_STEP][PASSED] - comment("School Information"): School Information
+
+2019-04-01 18:05:24 - [MESSAGE][INFO] - School Information
+
+2019-04-01 18:05:24 - [TEST_STEP][FAILED] - ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/REALrating/ALevel Year")): ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/REALrating/ALevel Year")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get total options of object 'Object Repository/REALRatings/REALrating/ALevel Year'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at formSubmission.run(formSubmission:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554122096232.run(TempTestSuite1554122096232.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/REALRatings/REALrating/ALevel Year' located by 'By.xpath: .//*[@id='yearofAlevels']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.doCall(GetNumberOfTotalOptionKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.call(GetNumberOfTotalOptionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:50)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at Script1553240622701.run(Script1553240622701.groovy:54)
+	... 13 more
+
+
+2019-04-01 18:05:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: .//*[@id='yearofAlevels']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-01 18:05:56 - [MESSAGE][FAILED] - Unable to get total options of object 'Object Repository/REALRatings/REALrating/ALevel Year' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get total options of object 'Object Repository/REALRatings/REALrating/ALevel Year'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at formSubmission.run(formSubmission:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554122096232.run(TempTestSuite1554122096232.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/REALRatings/REALrating/ALevel Year' located by 'By.xpath: .//*[@id='yearofAlevels']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.doCall(GetNumberOfTotalOptionKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.call(GetNumberOfTotalOptionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:50)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at Script1553240622701.run(Script1553240622701.groovy:54)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Administrator\\git\\didactic-octo-spork\\Reports\\sample\\20190401_180456\\1554122155890.png]]
+
+2019-04-01 18:05:56 - [MESSAGE][FAILED] - ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/REALrating/ALevel Year")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get total options of object 'Object Repository/REALRatings/REALrating/ALevel Year'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at formSubmission.run(formSubmission:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554122096232.run(TempTestSuite1554122096232.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/REALRatings/REALrating/ALevel Year' located by 'By.xpath: .//*[@id='yearofAlevels']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.doCall(GetNumberOfTotalOptionKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.call(GetNumberOfTotalOptionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:50)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at Script1553240622701.run(Script1553240622701.groovy:54)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-01 18:04:59 - [TEST_CASE][FAILED] - Test Cases/REALratings/REALrating/formSubmission: Test Cases/REALratings/REALrating/formSubmission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get total options of object 'Object Repository/REALRatings/REALrating/ALevel Year'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at formSubmission.run(formSubmission:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554122096232.run(TempTestSuite1554122096232.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/REALRatings/REALrating/ALevel Year' located by 'By.xpath: .//*[@id='yearofAlevels']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.doCall(GetNumberOfTotalOptionKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.call(GetNumberOfTotalOptionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:50)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at Script1553240622701.run(Script1553240622701.groovy:54)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-01 18:04:59 - [TEST_SUITE][FAILED] - sample: Test Cases/REALratings/REALrating/formSubmission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get total options of object 'Object Repository/REALRatings/REALrating/ALevel Year'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at formSubmission.run(formSubmission:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554122096232.run(TempTestSuite1554122096232.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/REALRatings/REALrating/ALevel Year' located by 'By.xpath: .//*[@id='yearofAlevels']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.doCall(GetNumberOfTotalOptionKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.call(GetNumberOfTotalOptionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:50)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at Script1553240622701.run(Script1553240622701.groovy:54)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-01 18:04:59 - [TEST_SUITE][FAILED] - sample: Test Cases/REALratings/REALrating/formSubmission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get total options of object 'Object Repository/REALRatings/REALrating/ALevel Year'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at formSubmission.run(formSubmission:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554122096232.run(TempTestSuite1554122096232.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/REALRatings/REALrating/ALevel Year' located by 'By.xpath: .//*[@id='yearofAlevels']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.doCall(GetNumberOfTotalOptionKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword$_getNumberOfTotalOption_closure1.call(GetNumberOfTotalOptionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordAndReturnInt(WebUIKeywordMain.groovy:50)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.getNumberOfTotalOption(GetNumberOfTotalOptionKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword.execute(GetNumberOfTotalOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(WebUiBuiltInKeywords.groovy:1917)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$6.call(Unknown Source)
+	at Script1553240622701.run(Script1553240622701.groovy:54)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

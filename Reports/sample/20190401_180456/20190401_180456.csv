@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+sample,Firefox 47.0,,2019-04-01 18:04:59,2019-04-01 18:05:56,57.517s,FAILED
+,,,,,,
+Test Cases/REALratings/REALrating/formSubmission,Firefox 47.0,@univ.ac.uk,2019-04-01 18:04:59,2019-04-01 18:05:56,56.936s,FAILED
+"openBrowser("""")",Firefox 47.0,Open Browser,2019-04-01 18:05:00,2019-04-01 18:05:17,16.179s,PASSED
+"navigateToUrl(findTestData(""getEmployable/URL"").getValue(1, 2))",Firefox 47.0,Launch REALratings Application,2019-04-01 18:05:17,2019-04-01 18:05:20,3.814s,PASSED
+maximizeWindow(),Firefox 47.0,,2019-04-01 18:05:20,2019-04-01 18:05:20,0.051s,PASSED
+"verifyElementPresent(findTestObject(""REALRatings/REALrating/Get Started""), 5, STOP_ON_FAILURE)",Firefox 47.0,Verify REALratings Application Page,2019-04-01 18:05:20,2019-04-01 18:05:21,0.167s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Get Started""))",Firefox 47.0,Click Get Started,2019-04-01 18:05:21,2019-04-01 18:05:21,0.160s,PASSED
+delay(1),Firefox 47.0,,2019-04-01 18:05:21,2019-04-01 18:05:22,1.067s,PASSED
+"comment(""Basic Information"")",Firefox 47.0,,2019-04-01 18:05:22,2019-04-01 18:05:22,0.019s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/First Name""), findTestData(""getEmployable/Applicants"").getValue(1, 1))",Firefox 47.0,Enter First Name,2019-04-01 18:05:22,2019-04-01 18:05:22,0.285s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Last Name""), findTestData(""getEmployable/Applicants"").getValue(2, 1))",Firefox 47.0,Enter Last Name,2019-04-01 18:05:22,2019-04-01 18:05:23,0.558s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/University Email""), findTestData(""getEmployable/Applicants"").getValue(3, 1))",Firefox 47.0,Enter University Email,2019-04-01 18:05:23,2019-04-01 18:05:23,0.232s,PASSED
+delay(1),Firefox 47.0,,2019-04-01 18:05:23,2019-04-01 18:05:24,1.003s,PASSED
+"click(findTestObject(""REALRatings/REALrating/FP Next""), STOP_ON_FAILURE)",Firefox 47.0,Click NEXT,2019-04-01 18:05:24,2019-04-01 18:05:24,0.183s,PASSED
+"comment(""School Information"")",Firefox 47.0,,2019-04-01 18:05:24,2019-04-01 18:05:24,0.004s,PASSED
+"ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/ALevel Year""))",Firefox 47.0,A-Level year,2019-04-01 18:05:24,2019-04-01 18:05:56,31.809s,FAILED

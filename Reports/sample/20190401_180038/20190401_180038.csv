@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+sample,Chrome 73.0.3683.86,,2019-04-01 18:00:41,2019-04-01 18:01:26,45.483s,FAILED
+,,,,,,
+Test Cases/REALratings/REALrating/formSubmission,Chrome 73.0.3683.86,@univ.ac.uk,2019-04-01 18:00:41,2019-04-01 18:01:25,44.306s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,Open Browser,2019-04-01 18:00:42,2019-04-01 18:00:46,3.673s,PASSED
+"navigateToUrl(findTestData(""getEmployable/URL"").getValue(1, 2))",Chrome 73.0.3683.86,Launch REALratings Application,2019-04-01 18:00:46,2019-04-01 18:00:49,3.447s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-01 18:00:49,2019-04-01 18:00:50,1.142s,PASSED
+"verifyElementPresent(findTestObject(""REALRatings/REALrating/Get Started""), 5, STOP_ON_FAILURE)",Chrome 73.0.3683.86,Verify REALratings Application Page,2019-04-01 18:00:50,2019-04-01 18:00:51,0.115s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Get Started""))",Chrome 73.0.3683.86,Click Get Started,2019-04-01 18:00:51,2019-04-01 18:00:51,0.179s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-01 18:00:51,2019-04-01 18:00:52,1.038s,PASSED
+"comment(""Basic Information"")",Chrome 73.0.3683.86,,2019-04-01 18:00:52,2019-04-01 18:00:52,0.014s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/First Name""), findTestData(""getEmployable/Applicants"").getValue(1, 1))",Chrome 73.0.3683.86,Enter First Name,2019-04-01 18:00:52,2019-04-01 18:00:52,0.222s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Last Name""), findTestData(""getEmployable/Applicants"").getValue(2, 1))",Chrome 73.0.3683.86,Enter Last Name,2019-04-01 18:00:52,2019-04-01 18:00:52,0.194s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/University Email""), findTestData(""getEmployable/Applicants"").getValue(3, 1))",Chrome 73.0.3683.86,Enter University Email,2019-04-01 18:00:52,2019-04-01 18:00:53,0.307s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-01 18:00:53,2019-04-01 18:00:54,1.003s,PASSED
+"click(findTestObject(""REALRatings/REALrating/FP Next""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,Click NEXT,2019-04-01 18:00:54,2019-04-01 18:00:54,0.123s,PASSED
+"comment(""School Information"")",Chrome 73.0.3683.86,,2019-04-01 18:00:54,2019-04-01 18:00:54,0.004s,PASSED
+"ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/ALevel Year""))",Chrome 73.0.3683.86,A-Level year,2019-04-01 18:00:54,2019-04-01 18:01:25,31.584s,FAILED
