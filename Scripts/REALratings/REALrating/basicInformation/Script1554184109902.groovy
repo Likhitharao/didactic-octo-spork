@@ -13,5 +13,34 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
+
+
+'Verify REALratings Application Page'
+WebUI.verifyElementPresent(findTestObject('REALRatings/REALrating/Get Started'), 5, FailureHandling.STOP_ON_FAILURE)
+
+'Click Get Started'
+WebUI.click(findTestObject('REALRatings/REALrating/Get Started'))
+
+WebUI.delay(1)
+
+WebUI.comment('Basic Information')
+
+'Enter First Name'
+WebUI.setText(findTestObject('REALRatings/REALrating/First Name'), findTestData('getEmployable/Applicants').getValue(1, 
+        1))
+
+'Enter Last Name'
+WebUI.setText(findTestObject('REALRatings/REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(2, 1))
+
+Random rad = new Random()
+
+int emailid = rad.nextInt(1000)
+
+'Enter University Email'
+WebUI.setText(findTestObject('REALRatings/REALrating/University Email'), ('realratings' + emailid) + '@test.ac.uk')
+
+'Click NEXT'
+WebUI.click(findTestObject('REALRatings/REALrating/FP Next'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
 

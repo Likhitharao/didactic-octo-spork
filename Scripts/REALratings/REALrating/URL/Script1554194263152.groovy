@@ -13,5 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
+'Open Browser'
+WebUI.openBrowser('')
 
+'Launch REALratings Application'
+WebUI.navigateToUrl('https://uat.realrating.co.uk/')
+
+'Maximize the window'
+WebUI.maximizeWindow()

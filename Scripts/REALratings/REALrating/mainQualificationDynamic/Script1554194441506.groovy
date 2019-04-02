@@ -13,98 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open Browser'
-WebUI.openBrowser('')
-
-'Launch REALratings Application'
-WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 2))
-
-WebUI.maximizeWindow()
-
-'Verify REALratings Application Page'
-WebUI.verifyElementPresent(findTestObject('REALRatings/REALrating/Get Started'), 5, FailureHandling.STOP_ON_FAILURE)
-
-'Click Get Started'
-WebUI.click(findTestObject('REALRatings/REALrating/Get Started'))
-
-WebUI.delay(1)
-
-WebUI.comment('Basic Information')
-
-'Enter First Name'
-WebUI.setText(findTestObject('REALRatings/REALrating/First Name'), findTestData('getEmployable/Applicants').getValue(1, 
-        1))
-
-'Enter Last Name'
-WebUI.setText(findTestObject('REALRatings/REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(2, 1))
-
-'Enter University Email'
-WebUI.setText(findTestObject('REALRatings/REALrating/University Email'), findTestData('getEmployable/Applicants').getValue(
-        3, 1))
-
-WebUI.delay(1)
-
-'Click NEXT'
-WebUI.click(findTestObject('REALRatings/REALrating/FP Next'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.comment('School Information')
-
-
-'A-Level year'
-ALevelYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/ALevel Year'))
+WebUI.comment('Main Qualification')
 
 Random rad = new Random()
-
-ALevelYearcount = (1 + rad.nextInt(ALevelYearTotalOptions - 1))
-
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/ALevel Year'), ALevelYearcount)
-
-'GCSE Year'
-GCSEYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/GCSE Year'))
-
-GCSEYearCount = (1 + rad.nextInt(GCSEYearTotalOptions - 1))
-
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/GCSE Year'), GCSEYearCount)
-
-'University'
-UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/University'))
-
-UniversityCount = (1 + rad.nextInt(UniversityTotalOption - 1))
-
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/University'), UniversityCount)
-
-'Other University'
-if (UniversityCount == 95) {
-    WebUI.setText(findTestObject('REALRatings/REALrating/Other University'), 'VTU Other university')
-}
-
-'University Course'
-UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/University Course'))
-
-UniveristyCourseCount = (1 + rad.nextInt(UniversityCourseTotalOption - 1))
-
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/University Course'), UniveristyCourseCount)
-
-'University Other Course '
-if (UniveristyCourseCount == 95) {
-    WebUI.setText(findTestObject('REALRatings/REALrating/University Course Other'), 'VTU ')
-}
-
-'Length of university course'
-LengthOfUniversitycourseTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Length Of university Course'))
-
-LengthOfUniversitycount = (1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1))
-
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Length Of university Course'), LengthOfUniversitycount)
-
-'Current Year of Study (as of Sept 2018)'
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Current Year Of Study'), LengthOfUniversitycount)
-
-WebUI.delay(5)
-
-//bUI.click(findTestObject('REALRatings/REALrating/button_Next (1)'))
-
-WebUI.comment('Main Qualification')
 
 'Select Main Qualification'
 MainQualificationTotaloptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Main Qualification'))
@@ -113,10 +24,11 @@ MainQualificationCount = (1 + rad.nextInt(MainQualificationTotaloptions - 1))
 
 WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Main Qualification'), MainQualificationCount)
 
-WebUI.delay(5)
+WebUI.delay(1)
 
 'A-Level'
 if (MainQualificationCount == 1) {
+	
     'Subject Title One'
     WebUI.setText(findTestObject('REALRatings/Page_REALrating/TitleOne'), 'Further Mathematics')
 
@@ -230,37 +142,4 @@ if (MainQualificationCount == 1) {
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Page_REALrating/HEYear'), HEYearCount)
 }
 
-'Alevel School'
-WebUI.setText(findTestObject('REALRatings/Page_REALrating/ALevelschool'), findTestData('getEmployable/Applicants').getValue(
-        6, 1))
-
-'GCSE School'
-WebUI.setText(findTestObject('REALRatings/Page_REALrating/GCSEschool'), findTestData('getEmployable/Applicants').getValue(
-        7, 1))
-
-'Gender'
-WebUI.click(findTestObject('REALRatings/Page_REALrating/Gender'))
-
-'ALevel PostalCode'
-WebUI.setText(findTestObject('REALRatings/Page_REALrating/ALevelPostcode'), findTestData('getEmployable/Applicants').getValue(
-        8, 1))
-
-'GCSE PostalCode'
-WebUI.setText(findTestObject('REALRatings/Page_REALrating/GCSEPostcode'), findTestData('getEmployable/Applicants').getValue(
-        9, 1))
-
-'Tick Any Statement'
-WebUI.click(findTestObject('REALRatings/Page_REALrating/TickAnyStatement'))
-
-'How did you Hear About?'
-WebUI.click(findTestObject('REALRatings/Page_REALrating/HearAbout'))
-
-'User Agreement'
-WebUI.click(findTestObject('REALRatings/Page_REALrating/User Agreement and Data Protection Policy.'))
-
-'Click on Submit Button'
-WebUI.click(findTestObject('REALRatings/Page_REALrating/button_Submit'))
-
-'verify Sucessfull Form Submission'
-assert WebUI.getUrl() == 'https://uat.realrating.co.uk/realrating/thankyou'
 

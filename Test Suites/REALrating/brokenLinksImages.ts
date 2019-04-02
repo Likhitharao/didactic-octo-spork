@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>sample</name>
+   <name>brokenLinksImages</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-04-02T14:46:49</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>1ff12fa0-68c8-4400-8594-8c5f3e58664b</testSuiteGuid>
+   <testSuiteGuid>9873ddb2-7dc4-4680-a34b-ca1e1c7710dc</testSuiteGuid>
    <testCaseLink>
-      <guid>2972a4e8-5ea3-4247-9b7c-0bdd1c8390a0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/REALratings/REALrating/allLinksAllAccessible</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5a3345d9-19a4-4c76-a908-520c63ba337e</guid>
+      <guid>d28e3f39-c2db-4dc6-8f9a-3541f9dbf7b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REALratings/REALrating/formSubmission</testCaseId>
+      <testCaseId>Test Cases/REALratings/REALrating/URL</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8d4b5e72-cd55-464e-9948-a77ab200a438</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/REALratings/REALrating/allLinksAllAccessible</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
