@@ -17,13 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('')
 
 'Launch REALratings Application'
-WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 5))
+WebUI.navigateToUrl('https://gs-uat.realrating.co.uk/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(1)
 
 WebUI.comment('Basic Information')
+
+Random rad = new Random()
 
 'Enter First Name'
 WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/First Name'), findTestData('getEmployable/Applicants').getValue(
@@ -33,33 +35,28 @@ WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/First Name')
 WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(
         2, 1))
 
-'Enter University Email'
-WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/University Emailid'), findTestData('getEmployable/Applicants').getValue(
-        3, 1))
+int email = rad.nextInt(2000)
 
-WebUI.delay(5)
+'Enter University Email'
+WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/University Emailid'), ('greensill' + email) + '@test.com')
 
 'Click NEXT'
 WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/First Next'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 
 WebUI.comment('University Information')
 
 'University'
 UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/University'))
 
-Random rad = new Random()
-
 UniversityCount = (1 + rad.nextInt(UniversityTotalOption - 1))
 
 WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/University'), UniversityCount)
 
 'Other University'
-if (UniversityCount == 95) {
+if (UniversityCount == 98) {
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Other University'), 'VTU Other university')
-
-    'Enter Last Name'
-    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(
-            2, 1))
 }
 
 'University Course'
@@ -84,9 +81,9 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/
 'Current Year of Study (as of Sept 2018)'
 WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Current Year Of Study'), LengthOfUniversitycount)
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/Second Next'))
+
+WebUI.delay(2)
 
 WebUI.comment('Last  Information')
 
@@ -111,7 +108,122 @@ MainQualificationCount = (1 + rad.nextInt(MainQualificationTotaloptions - 1))
 
 WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Main Qualification'), MainQualificationCount)
 
-WebUI.delay(5)
+'A-Level'
+if (MainQualificationCount == 1) {
+    'Subject Title One'
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Title One'), 'Further Mathematics')
+
+    Grade1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/Grade one'))
+
+    Grade1 = rad.nextInt(Grade1TotalOptions - 1)
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Grade one'), Grade1)
+
+    Year1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/Year One'))
+
+    Year1 = (1 + rad.nextInt(Year1TotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Year One'), Year1)
+
+    'Subject Title Two'
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Title Two'), 'Computer Science')
+
+    Grade2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/Grade Two'))
+
+    Grade2 = (1 + rad.nextInt(Grade2TotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Grade Two'), Grade2)
+
+    Year2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/Year Two'))
+
+    Year2 = (1 + rad.nextInt(Year2TotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Year Two'), Year2)
+
+    'Subject Title Three'
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Title Three'), 'Further Mathematics')
+
+    Grade3TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/Grade Three'))
+
+    Grade3 = (1 + rad.nextInt(Grade3TotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Grade Three'), Grade3)
+
+    Year3TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/Year Three'))
+
+    Year3 = (1 + rad.nextInt(Year3TotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Year Three'), Year3)
+} else if (MainQualificationCount == 2) {
+    'B-Tech Subject Line'
+    WebUI.setText(findTestObject('REALRatings/Page_REALrating/BTechTitle'), 'maths')
+
+    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Page_REALrating/BTechGrade'))
+
+    BtechGradeCount = (1 + rad.nextInt(BtechGradeTotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Page_REALrating/BTechGrade'), BtechGradeCount)
+
+    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Page_REALrating/BTechYear'))
+
+    BtechYearCount = (1 + rad.nextInt(BtechYearTotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Page_REALrating/BTechYear'), BtechYearCount)
+} else if (MainQualificationCount == 3) {
+    IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points one'))
+
+    IBP1count = (1 + rad.nextInt(IBP1TotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points one'), IBP1count)
+
+    IBY1TotalPoints = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Year One'))
+
+    IBY1count = (1 + rad.nextInt(IBY1TotalPoints - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/IB Year One'), IBY1count)
+
+    IBP2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points Two'))
+
+    IBP2count = (1 + rad.nextInt(IBP2TotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points Two'), IBP2count)
+
+    WebUI.delay(2)
+
+    IBY2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB YearTwo'))
+
+    IBY2count = (1 + rad.nextInt(IBY2TotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/IB YearTwo'), IBY2count)
+
+    IBP3TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points Three'))
+
+    IBP3count = (1 + rad.nextInt(IBP3TotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points Three'), IBP3count)
+
+    IBY3TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB YearThree'))
+
+    IBY3count = (1 + rad.nextInt(IBY3TotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/IB YearThree'), IBY3count)
+} else if (MainQualificationCount == 4) {
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Other Qualification'), 'other ouualifications ')
+} else if (MainQualificationCount == 5) {
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/HETitle'), 'hemathshe course')
+
+    HEGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/HE Grade'))
+
+    HEGradeCount = (1 + rad.nextInt(HEGradeTotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/HE Grade'), HEGradeCount)
+
+    HEYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/HE Year'))
+
+    HEYearCount = (1 + rad.nextInt(HEYearTotalOptions - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/HE Year'), HEYearCount)
+}
 
 'Alevel School'
 WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/A Level School'), findTestData('getEmployable/Applicants').getValue(
@@ -136,11 +248,15 @@ WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/Gender'))
 WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/TickAnyStatement'))
 
 'User Agreement'
-WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/User Agrrement'))
+WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/input_By ticking this box I confirm that I agree to the_confirmAgreement'))
 
 'Click on Submit Button'
-WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/Last Next'))
+WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/a_Submit'))
+
+WebUI.delay(5)
 
 'verify Sucessfull Form Submission'
-assert WebUI.getUrl() == 'https://uat.realrating.co.uk/realrating/thankyou'
+assert WebUI.getUrl() == 'https://gs-uat.realrating.co.uk/thankyou'
+
+WebUI.takeScreenshot()
 

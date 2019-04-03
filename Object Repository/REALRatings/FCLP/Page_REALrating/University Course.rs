@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>University Course</name>
+   <tag></tag>
+   <elementGuidId>6b3cc651-ccbf-4fd3-870b-ab6583f7cd70</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>course_id</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>form_data.course_id</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>x.id as x.name for x in courses</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>setUniversityCourseCategory()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AccountingAccounting and FinanceAccounting and ManagementAmerican StudiesAncient HistoryAnthropologyArtificial IntelligenceBiochemistryBiologyBiomedical ScienceBroadcast JournalismBusinessBusiness and FinanceBusiness and ManagementChemical EngineeringChemistryCivil EngineeringComputer ScienceConstruction Management and SurveyingCriminologyCulture and Creative IndustriesDentistryDigital CultureDramaEconomicsEconomics and FinanceEconomics and ManagementEconomics and PhilosophyEconomics and PoliticsEgyptologyElectrical EngineeringEngineeringEnglish and HistoryEnglish and PhilosophyEnglish LanguageEnglish Language and LiteratureEnglish LiteratureEnvironmental ManagementEvent ManagementFilm StudiesFinanceFine ArtFrench and GermanFrench and Hispanic StudiesFrench and ManagementFrench and SpanishGeographyGeologyGerman and ArabicGerman and PortugeseHispanic StudiesHistoryHistory and PoliticsHuman ResourcesHuman, Social and Political SciencesInformation TechnologyInternational DevelopmentInternational RelationsLawLiberal ArtsLinguisticsManagementMarketingMathematicsMechanical EngineeringMedical SciencesMiddle Eastern StudiesModern and Medieval LanguagesMusicNeuroscienceNutritionOceanographyOptometryPharmacologyPhilosophyPhilosophy and PoliticsPhilosophy and SociologyPhilosophy and TheologyPhilosophy, Religion and EthicsPhysicsPoliticsPolitics and SociologyPolitics, Philosophy and EconomicsPsychologySociologySpanishSpanish and ArabicSpanish and Latin American StudiesSpanish and PortugueseSport ScienceStatisticsTheologyWar StudiesZoologyOthers</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;course_id&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//select[@id='course_id']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='tab1']/div/div[4]/div[6]/div/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='University Course'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other University'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='University Course Other'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='University Course Category'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[6]/div/select</value>
+   </webElementXpaths>
+</WebElementEntity>

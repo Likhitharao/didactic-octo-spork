@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+A-Levels,Chrome 73.0.3683.86,,2019-04-02 15:02:32,2019-04-02 17:43:02,2h - 40m - 29.114s,FAILED
+,,,,,,
+Test Cases/REALratings/REALrating/URL,Chrome 73.0.3683.86,,2019-04-02 15:02:33,2019-04-02 15:27:52,25m - 19.685s,FAILED
+openBrowser,Chrome 73.0.3683.86,Open Browser,2019-04-02 15:02:33,2019-04-02 15:02:47,13.709s,PASSED
+navigateToUrl,Chrome 73.0.3683.86,Launch REALratings Application,2019-04-02 15:02:47,2019-04-02 15:02:50,3.595s,PASSED
+maximizeWindow,Chrome 73.0.3683.86,Maximize the window,2019-04-02 15:02:50,2019-04-02 15:27:52,25m - 1.985s,FAILED
+,,,,,,
+Test Cases/REALratings/REALrating/basicInformation,Chrome 73.0.3683.86,,2019-04-02 15:27:53,2019-04-02 16:12:54,45m - 1.083s,FAILED
+verifyElementPresent,Chrome 73.0.3683.86,Verify REALratings Application Page,2019-04-02 15:27:53,2019-04-02 16:12:54,45m - 0.374s,FAILED
+,,,,,,
+Test Cases/REALratings/REALrating/universityDetails,Chrome 73.0.3683.86,,2019-04-02 16:12:54,2019-04-02 16:42:55,30m - 1.017s,FAILED
+comment,Chrome 73.0.3683.86,,2019-04-02 16:12:55,2019-04-02 16:12:55,0.335s,PASSED
+Statement - ALevelYearTotalOptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(REALRatings/REALrating/ALevel Year)),Chrome 73.0.3683.86,A-Level year,2019-04-02 16:12:55,2019-04-02 16:42:55,30m - 0.026s,FAILED
+,,,,,,
+Test Cases/REALratings/REALrating/A-Levels,Chrome 73.0.3683.86,,2019-04-02 16:42:55,2019-04-02 17:12:56,30m - 0.865s,FAILED
+selectOptionByIndex,Chrome 73.0.3683.86,Main Qualification,2019-04-02 16:42:56,2019-04-02 17:12:56,30m - 0.181s,FAILED
+,,,,,,
+Test Cases/REALratings/REALrating/grades,Chrome 73.0.3683.86,,2019-04-02 17:12:56,2019-04-02 17:42:58,30m - 1.167s,FAILED
+setText,Chrome 73.0.3683.86,Alevel School,2019-04-02 17:12:57,2019-04-02 17:42:58,30m - 0.535s,FAILED

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="brokenLinksImages" time="35" tests="2" failures="0" errors="0">
+   <testsuite name="brokenLinksImages" tests="2" failures="0" errors="0" time="35" timestamp="2019-04-03 11:42:57" hostname="ASHA$ - Asha.jmandigital.in" id="Test Suites/REALrating/brokenLinksImages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\didactic-octo-spork\\Reports\\REALrating\\brokenLinksImages\\20190403_110113"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\didactic-octo-spork\\Reports\\REALrating\\brokenLinksImages\\20190403_110113\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASHA$ - Asha.jmandigital.in"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.0.32"/>
+         <property name="sessionId" value="fe6b59067e9f8997ce942edcb5705360"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/REALratings/REALrating/URL" classname="Test Cases/REALratings/REALrating/URL" status="PASSED">
+         <system-out><![CDATA[2019-04-03 11:42:57 - [TEST_CASE][PASSED] - Test Cases/REALratings/REALrating/URL: Test Cases/REALratings/REALrating/URL
+
+2019-04-03 11:42:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-03 11:43:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-03 11:43:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://uat.realrating.co.uk/' successfully
+
+2019-04-03 11:43:09 - [MESSAGE][PASSED] - Navigate to 'https://uat.realrating.co.uk/' successfully
+
+2019-04-03 11:43:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-03 11:43:10 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REALratings/REALrating/allLinksAllAccessible" classname="Test Cases/REALratings/REALrating/allLinksAllAccessible" status="PASSED">
+         <system-out><![CDATA[2019-04-03 11:43:10 - [TEST_CASE][PASSED] - Test Cases/REALratings/REALrating/allLinksAllAccessible: Test Cases/REALratings/REALrating/allLinksAllAccessible
+
+2019-04-03 11:43:10 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible: All links on the page 'https://uat.realrating.co.uk/' are accessible
+
+2019-04-03 11:43:11 - [MESSAGE][PASSED] - Found 25 unique links on the page https://uat.realrating.co.uk/
+
+2019-04-03 11:43:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:25 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:26 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:27 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:27 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:28 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:29 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:29 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:30 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:31 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:31 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:32 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-03 11:43:32 - [MESSAGE][PASSED] - All links are accessible
+
+2019-04-03 11:43:32 - [MESSAGE][PASSED] - All links on the page 'https://uat.realrating.co.uk/' are accessible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-03 11:42:57 - [TEST_SUITE][PASSED] - brokenLinksImages: Test Cases/REALratings/REALrating/allLinksAllAccessible]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

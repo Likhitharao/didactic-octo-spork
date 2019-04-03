@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+brokenLinksImages,Chrome 73.0.3683.86,,2019-04-03 09:23:22,2019-04-03 10:03:43,40m - 20.686s,FAILED
+,,,,,,
+Test Cases/REALratings/REALrating/URL,Chrome 73.0.3683.86,,2019-04-03 09:23:23,2019-04-03 09:48:34,25m - 11.171s,FAILED
+openBrowser,Chrome 73.0.3683.86,Open Browser,2019-04-03 09:23:23,2019-04-03 09:23:27,3.924s,PASSED
+navigateToUrl,Chrome 73.0.3683.86,Launch REALratings Application,2019-04-03 09:23:27,2019-04-03 09:23:33,5.434s,PASSED
+maximizeWindow,Chrome 73.0.3683.86,Maximize the window,2019-04-03 09:23:33,2019-04-03 09:48:34,25m - 1.358s,FAILED
+,,,,,,
+Test Cases/REALratings/REALrating/allLinksAllAccessible,Chrome 73.0.3683.86,,2019-04-03 09:48:34,2019-04-03 10:03:37,15m - 2.518s,ERROR
+verifyAllLinksOnCurrentPageAccessible,Chrome 73.0.3683.86,,2019-04-03 09:48:35,2019-04-03 10:03:36,15m - 1.513s,PASSED

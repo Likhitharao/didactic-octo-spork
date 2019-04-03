@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-04-03T10:47:30</date>
+  <millis>1554268650278</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/REALrating/brokenLinksImages</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">brokenLinksImages</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/REALrating/brokenLinksImages</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:30</date>
+  <millis>1554268650300</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;ASHA$ - Asha.jmandigital.in&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">ASHA$ - Asha.jmandigital.in</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:30</date>
+  <millis>1554268650301</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 32bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 32bit</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:30</date>
+  <millis>1554268650301</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.0.32&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.32</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:30</date>
+  <millis>1554268650305</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.8.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.8.0.1</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:30</date>
+  <millis>1554268650602</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/REALratings/REALrating/URL</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/REALratings/REALrating/URL</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/REALratings/REALrating/URL</property>
+  <property name="source">C:\\Users\\Administrator\\git\\didactic-octo-spork\\Test Cases\\REALratings\\REALrating\\URL.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:30</date>
+  <millis>1554268650616</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:30</date>
+  <millis>1554268650893</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open Browser</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:31</date>
+  <millis>1554268651099</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:31</date>
+  <millis>1554268651105</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:31</date>
+  <millis>1554268651157</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:44</date>
+  <millis>1554268664912</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;75955499-c210-4add-9932-999365726574&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">75955499-c210-4add-9932-999365726574</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:45</date>
+  <millis>1554268665013</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Firefox 47.0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Firefox 47.0</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:45</date>
+  <millis>1554268665015</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:45</date>
+  <millis>1554268665018</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:45</date>
+  <millis>1554268665020</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:45</date>
+  <millis>1554268665021</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:45</date>
+  <millis>1554268665022</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:45</date>
+  <millis>1554268665022</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Launch REALratings Application</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:45</date>
+  <millis>1554268665038</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:45</date>
+  <millis>1554268665049</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;https://uat.realrating.co.uk/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669579</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://uat.realrating.co.uk/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669580</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669580</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Maximize the window</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669590</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Maximizing current window</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669630</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669631</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669631</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/REALratings/REALrating/URL</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669632</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/REALratings/REALrating/URL</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669641</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/REALratings/REALrating/allLinksAllAccessible</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/REALratings/REALrating/allLinksAllAccessible</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/REALratings/REALrating/allLinksAllAccessible</property>
+  <property name="source">C:\\Users\\Administrator\\git\\didactic-octo-spork\\Test Cases\\REALratings\\REALrating\\allLinksAllAccessible.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669741</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669871</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyAllLinksOnCurrentPageAccessible</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-03T10:47:49</date>
+  <millis>1554268669943</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding all element which has one of attributes href, src, cite, and data</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:50</date>
+  <millis>1554268670035</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 53 elements</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:50</date>
+  <millis>1554268670806</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 25 unique links on the page https://uat.realrating.co.uk/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:50</date>
+  <millis>1554268670854</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:52</date>
+  <millis>1554268672764</millis>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:52</date>
+  <millis>1554268672765</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:53</date>
+  <millis>1554268673446</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:53</date>
+  <millis>1554268673447</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:54</date>
+  <millis>1554268674095</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:54</date>
+  <millis>1554268674096</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:55</date>
+  <millis>1554268675001</millis>
+  <sequence>43</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:55</date>
+  <millis>1554268675001</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:56</date>
+  <millis>1554268676313</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:56</date>
+  <millis>1554268676314</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:57</date>
+  <millis>1554268677581</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:57</date>
+  <millis>1554268677582</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:58</date>
+  <millis>1554268678283</millis>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:58</date>
+  <millis>1554268678284</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:59</date>
+  <millis>1554268679117</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:59</date>
+  <millis>1554268679117</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:59</date>
+  <millis>1554268679818</millis>
+  <sequence>53</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:47:59</date>
+  <millis>1554268679819</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:00</date>
+  <millis>1554268680773</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:00</date>
+  <millis>1554268680773</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:01</date>
+  <millis>1554268681645</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:01</date>
+  <millis>1554268681646</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:02</date>
+  <millis>1554268682548</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:02</date>
+  <millis>1554268682549</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:03</date>
+  <millis>1554268683488</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:03</date>
+  <millis>1554268683489</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:04</date>
+  <millis>1554268684425</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:04</date>
+  <millis>1554268684426</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:07</date>
+  <millis>1554268687089</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:07</date>
+  <millis>1554268687090</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:07</date>
+  <millis>1554268687744</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:07</date>
+  <millis>1554268687744</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:08</date>
+  <millis>1554268688428</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:08</date>
+  <millis>1554268688428</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:09</date>
+  <millis>1554268689095</millis>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:09</date>
+  <millis>1554268689096</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:09</date>
+  <millis>1554268689771</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:09</date>
+  <millis>1554268689772</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:10</date>
+  <millis>1554268690411</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:10</date>
+  <millis>1554268690412</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:11</date>
+  <millis>1554268691096</millis>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:11</date>
+  <millis>1554268691097</millis>
+  <sequence>78</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:11</date>
+  <millis>1554268691955</millis>
+  <sequence>79</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:11</date>
+  <millis>1554268691956</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:12</date>
+  <millis>1554268692696</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:12</date>
+  <millis>1554268692697</millis>
+  <sequence>82</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:13</date>
+  <millis>1554268693326</millis>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:13</date>
+  <millis>1554268693327</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking request object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:13</date>
+  <millis>1554268693994</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:13</date>
+  <millis>1554268693994</millis>
+  <sequence>86</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All links are accessible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:13</date>
+  <millis>1554268693995</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All links on the page &amp;apos;https://uat.realrating.co.uk/&amp;apos; are accessible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:13</date>
+  <millis>1554268693995</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyAllLinksOnCurrentPageAccessible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:13</date>
+  <millis>1554268693996</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/REALratings/REALrating/allLinksAllAccessible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:13</date>
+  <millis>1554268693997</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/REALratings/REALrating/allLinksAllAccessible</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-03T10:48:14</date>
+  <millis>1554268694195</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/REALrating/brokenLinksImages</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
