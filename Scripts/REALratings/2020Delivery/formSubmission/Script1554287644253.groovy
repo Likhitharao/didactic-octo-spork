@@ -16,67 +16,77 @@ import internal.GlobalVariable as GlobalVariable
 'Open Browser'
 WebUI.openBrowser('')
 
-'Launch IPPR Application'
-WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 6))
+'Launch REALratings Application'
+WebUI.navigateToUrl('https://2020-uat.realrating.co.uk/')
 
 WebUI.maximizeWindow()
 
-Random rad = new Random()
+WebUI.delay(1)
 
 WebUI.comment('Basic Information')
 
+Random rad = new Random()
+
 'Enter First Name'
-WebUI.setText(findTestObject('REALRatings/REALrating/First Name'), findTestData('getEmployable/Applicants').getValue(1, 
-        1))
+WebUI.setText(findTestObject('REALRatings/2020Delivery/Page_REALrating/input_First Name_first_name'), findTestData('getEmployable/Applicants').getValue(
+        1, 1))
 
 'Enter Last Name'
-WebUI.setText(findTestObject('REALRatings/REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(2, 1))
+WebUI.setText(findTestObject('REALRatings/2020Delivery/Page_REALrating/input_Last Name_last_name'), findTestData('getEmployable/Applicants').getValue(
+        2, 1))
+
+int email = rad.nextInt(2000)
 
 'Enter University Email'
-WebUI.setText(findTestObject('REALRatings/REALrating/University Email'), findTestData('getEmployable/Applicants').getValue(
-        3, 1))
+WebUI.setText(findTestObject('REALRatings/2020Delivery/Page_REALrating/input_Email address used in your application_email'), 
+    ('2020' + email) + '@test.com')
 
-WebUI.click(findTestObject('REALRatings/IPPR/Page_REALrating/First Next'))
-
-WebUI.comment('School Information')
-
-'University'
-UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/University'))
-
-UniversityCount = (1 + rad.nextInt(UniversityTotalOption - 1))
-
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/University'), UniversityCount)
-
-'Other University'
-if (UniversityCount == 95) {
-    WebUI.setText(findTestObject('REALRatings/REALrating/Other University'), 'VTU Other university')
-}
-
-'University Course'
-UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/University Course'))
-
-UniveristyCourseCount = (1 + rad.nextInt(UniversityCourseTotalOption - 1))
-
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/University Course'), UniveristyCourseCount)
-
-'University Other Course '
-if (UniveristyCourseCount == 95) {
-    WebUI.setText(findTestObject('REALRatings/REALrating/University Course Other'), 'VTU ')
-}
-
-'Length of university course'
-LengthOfUniversitycourseTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Length Of university Course'))
-
-LengthOfUniversitycount = (1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1))
-
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Length Of university Course'), LengthOfUniversitycount)
-
-'Current Year of Study (as of Sept 2018)'
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Current Year Of Study'), LengthOfUniversitycount)
+'Click NEXT'
+WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/First Next'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('REALRatings/IPPR/Page_REALrating/a_Next'))
+WebUI.comment('University Information')
+
+'University'
+UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/University'))
+
+UniversityCount = (1 + rad.nextInt(UniversityTotalOption - 1))
+
+WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/University'), UniversityCount)
+
+'Other University'
+if (UniversityCount == 98) {
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Other University'), 'VTU Other university')
+}
+
+'University Course'
+UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/University Course'))
+
+UniveristyCourseCount = (1 + rad.nextInt(UniversityCourseTotalOption - 1))
+
+WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/University Course'), UniveristyCourseCount)
+
+'University Other Course '
+if (UniveristyCourseCount == 95) {
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Univerisity Course Other'), 'VTU ')
+}
+
+'Length of university course'
+LengthOfUniversitycourseTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/Length Of University Course'))
+
+LengthOfUniversitycount = (1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1))
+
+WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Length Of University Course'), LengthOfUniversitycount)
+
+'Current Year of Study (as of Sept 2018)'
+WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Current Year Of Study'), LengthOfUniversitycount)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('REALRatings/2020Delivery/Page_REALrating/Second Next'))
+
+WebUI.delay(2)
 
 WebUI.comment('Last  Information')
 
@@ -249,6 +259,7 @@ WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/a_Submit'))
 WebUI.delay(5)
 
 'verify Sucessfull Form Submission'
-assert WebUI.getUrl() == 'https://gs-uat.realrating.co.uk/thankyou'
+assert WebUI.getUrl() == 'https://2020-uat.realrating.co.uk/thankyou'
 
 WebUI.takeScreenshot()
+
