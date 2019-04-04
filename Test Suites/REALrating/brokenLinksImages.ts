@@ -4,7 +4,7 @@
    <name>brokenLinksImages</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-04-03T16:01:43</lastRun>
+   <lastRun>2019-04-04T13:01:10</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -7,27 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='tab1']/div/div[4]/div[10]/div/select[count(. | //select[@class = 'form-control ng-pristine ng-valid ng-empty ng-touched' and @ng-model = 'form_data.gcse_maths' and (text() = '
-                                    
-                                        Yes
-                                    
-                                        No
-                                ' or . = '
-                                    
-                                        Yes
-                                    
-                                        No
-                                ')]) = count(//select[@class = 'form-control ng-pristine ng-valid ng-empty ng-touched' and @ng-model = 'form_data.gcse_maths' and (text() = '
-                                    
-                                        Yes
-                                    
-                                        No
-                                ' or . = '
-                                    
-                                        Yes
-                                    
-                                        No
-                                ')])]</value>
+         <value>//select[@ng-model = 'form_data.gcse_maths']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -40,7 +20,7 @@
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -54,7 +34,7 @@
       <value>form_data.gcse_maths</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -66,7 +46,7 @@
                                 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
