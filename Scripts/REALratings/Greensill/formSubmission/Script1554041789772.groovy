@@ -16,16 +16,16 @@ import internal.GlobalVariable as GlobalVariable
 'Open Browser'
 WebUI.openBrowser('')
 
-'Launch REALratings Application'
+'Launch Greensill Application'
 WebUI.navigateToUrl('https://gs-uat.realrating.co.uk/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(1)
 
-WebUI.comment('Basic Information')
-
 Random rad = new Random()
+
+WebUI.comment('Basic Information')
 
 'Enter First Name'
 WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/First Name'), findTestData('getEmployable/Applicants').getValue(
@@ -35,10 +35,10 @@ WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/First Name')
 WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(
         2, 1))
 
-int email = rad.nextInt(2000)
-
 'Enter University Email'
-WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/University Emailid'), ('greensill' + email) + '@test.com')
+int Email = rad.nextInt(2000)
+
+WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/University Emailid'), ('greensill' + Email) + '@test.com')
 
 'Click NEXT'
 WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/First Next'), FailureHandling.STOP_ON_FAILURE)
@@ -85,7 +85,7 @@ WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/Second Next'))
 
 WebUI.delay(2)
 
-WebUI.comment('Last  Information')
+WebUI.comment('Main Qualification Information')
 
 'A-Level year'
 ALevelYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/A Level Year'))
@@ -156,19 +156,19 @@ if (MainQualificationCount == 1) {
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Year Three'), Year3)
 } else if (MainQualificationCount == 2) {
     'B-Tech Subject Line'
-    WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/BTechTitle'), 'maths')
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Title'), 'maths')
 
-    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/BTechGrade'))
+    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Grade'))
 
     BtechGradeCount = (1 + rad.nextInt(BtechGradeTotalOptions - 1))
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/BTechGrade'), BtechGradeCount)
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Grade'), BtechGradeCount)
 
-    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/BTechYear'))
+    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Year'))
 
     BtechYearCount = (1 + rad.nextInt(BtechYearTotalOptions - 1))
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/BTechYear'), BtechYearCount)
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Year'), BtechYearCount)
 } else if (MainQualificationCount == 3) {
     IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points one'))
 
