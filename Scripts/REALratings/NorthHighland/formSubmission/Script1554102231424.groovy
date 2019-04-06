@@ -16,14 +16,12 @@ import internal.GlobalVariable as GlobalVariable
 'Open Browser'
 WebUI.openBrowser('')
 
-'Launch REALratings Application'
-WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 3))
+'Launch NorthHighland Application'
+WebUI.navigateToUrl('https://nh-uat.realrating.co.uk/')
 
 WebUI.maximizeWindow()
 
-//WebUI.verifyElementPresent(findTestObject('REALRatings/REALrating/Page_REALrating/Get Started'), 5, FailureHandling.STOP_ON_FAILURE)
-//WebUI.click(findTestObject('REALRatings/REALrating/Page_REALrating/Get Started'))
-WebUI.delay(1)
+Random rad = new Random()
 
 WebUI.comment('Basic Information')
 
@@ -36,18 +34,17 @@ WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/Last Nam
         2, 1))
 
 'Enter University Email'
-WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/University Emailid'), findTestData('getEmployable/Applicants').getValue(
-        3, 1))
+int Email = rad.nextInt(2000)
+
+WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/University Emailid'), 'nh' + Email +'@test.com')
 
 'Click NEXT'
 WebUI.click(findTestObject('REALRatings/NorthHighland/Page_REALrating/First Next'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.comment('Main Qualification')
+WebUI.comment('Main Qualifications')
 
 'A-Level year'
 ALevelYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/A Level Year'))
-
-Random rad = new Random()
 
 ALevelYearcount = (1 + rad.nextInt(ALevelYearTotalOptions - 1))
 
@@ -91,7 +88,7 @@ if (MainQualificationCount == 1) {
 
     Grade2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/Grade Two'))
 
-    Grade2 = (1 + rad.nextInt(Grade2TotalOptions-1))
+    Grade2 = (1 + rad.nextInt(Grade2TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/Grade Two'), Grade2)
 
@@ -115,7 +112,9 @@ if (MainQualificationCount == 1) {
     Year3 = (1 + rad.nextInt(Year3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/Year Three'), Year3)
+	
 } else if (MainQualificationCount == 2) {
+
     'B-Tech Subject Line'
     WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/BTech Title'), 'maths')
 
@@ -130,45 +129,51 @@ if (MainQualificationCount == 1) {
     BtechYearCount = (1 + rad.nextInt(BtechYearTotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/BTech Year'), BtechYearCount)
+	
 } else if (MainQualificationCount == 3) {
+
     IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP One'))
 
-    IBP1count = (1 + rad.nextInt(IBP1TotalOptions-1))
+    IBP1count = (1 + rad.nextInt(IBP1TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP One'), IBP1count)
 
     IBY1TotalPoints = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP1 Year'))
 
-    IBY1count = (1 + rad.nextInt(IBY1TotalPoints-1))
+    IBY1count = (1 + rad.nextInt(IBY1TotalPoints - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP1 Year'), IBY1count)
 
     IBP2TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP Two'))
 
-    IBP2count = (1 + rad.nextInt(IBP2TotalOptions-1))
+    IBP2count = (1 + rad.nextInt(IBP2TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP Two'), IBP2count)
 
     IBY2TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP2 Year'))
 
-    IBY2count = (1 + rad.nextInt(IBY2TotalOptions-1))
+    IBY2count = (1 + rad.nextInt(IBY2TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP2 Year'), IBY2count)
 
     IBP3TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP Three'))
 
-    IBP3count = (1 + rad.nextInt(IBP3TotalOptions-1))
+    IBP3count = (1 + rad.nextInt(IBP3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP Three'), IBP3count)
 
     IBY3TotalOptions = WebUI.getNumberOfSelectedOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP3 Year'))
 
-     IBY3count = (1 + rad.nextInt(IBY3TotalOptions - 1))
+    IBY3count = (1 + rad.nextInt(IBY3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP3 Year'), IBY3count)
+	
 } else if (MainQualificationCount == 4) {
+
     WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/Other Qualification'), 'other ouualifications ')
+	
 } else if (MainQualificationCount == 5) {
+
     WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/HE Title'), 'hemathshe course')
 
     HEGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/HE Grade'))
@@ -179,7 +184,7 @@ if (MainQualificationCount == 1) {
 
     HEYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/HE Year'))
 
-    int HEYearCount = (1 + rad.nextInt(HEYearTotalOptions - 1))
+    int HEYearCount = 1 + rad.nextInt(HEYearTotalOptions - 1)
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/HE Year'), HEYearCount)
 }
@@ -215,3 +220,5 @@ WebUI.click(findTestObject('REALRatings/NorthHighland/Page_REALrating/Submit'))
 'verify Sucessfull Form Submission'
 assert WebUI.getUrl() == 'https://nh-uat.realrating.co.uk/thankyou'
 
+int filename = rad.nextInt(100)
+WebUI.takeScreenshot('nh' + filename, FailureHandling.STOP_ON_FAILURE)
