@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('')
 
 'Launch IPPR Application'
-WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 6))
+WebUI.navigateToUrl('https://ippr-uat.realrating.co.uk/')
 
 WebUI.maximizeWindow()
 
@@ -26,59 +26,66 @@ Random rad = new Random()
 WebUI.comment('Basic Information')
 
 'Enter First Name'
-WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/First Name'), findTestData('getEmployable/Applicants').getValue(1, 
-        1))
+WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/First Name'), findTestData('getEmployable/Applicants').getValue(
+        1, 1))
 
 'Enter Last Name'
-WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(2, 1))
+WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(
+        2, 1))
+
+int email = rad.nextInt(2000)
 
 'Enter University Email'
-WebUI.setText(findTestObject('null'), findTestData('getEmployable/Applicants').getValue(
-        3, 1))
+WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/University Emailid'), ('ippr' + email) + '@test.com')
 
-WebUI.click(findTestObject('REALRatings/IPPR/Page_REALrating/First Next'))
-
-WebUI.comment('School Information')
-
-'University'
-UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('null'))
-
-UniversityCount = (1 + rad.nextInt(UniversityTotalOption - 1))
-
-WebUI.selectOptionByIndex(findTestObject('null'), UniversityCount)
-
-'Other University'
-if (UniversityCount == 95) {
-    WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/Other University'), 'VTU Other university')
-}
-
-'University Course'
-UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('null'))
-
-UniveristyCourseCount = (1 + rad.nextInt(UniversityCourseTotalOption - 1))
-
-WebUI.selectOptionByIndex(findTestObject('null'), UniveristyCourseCount)
-
-'University Other Course '
-if (UniveristyCourseCount == 95) {
-    WebUI.setText(findTestObject('null'), 'VTU ')
-}
-
-'Length of university course'
-LengthOfUniversitycourseTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/Length Of university Course'))
-
-LengthOfUniversitycount = (1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1))
-
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/Length Of university Course'), LengthOfUniversitycount)
-
-'Current Year of Study (as of Sept 2018)'
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/Current Year Of Study'), LengthOfUniversitycount)
+'Click NEXT'
+WebUI.click(findTestObject('REALRatings/IPPR/Page_REALrating/First Next'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('REALRatings/IPPR/Page_REALrating/a_Next'))
+WebUI.comment('University Information')
 
-WebUI.comment('Last  Information')
+'University'
+UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/University'))
+
+UniversityCount = (1 + rad.nextInt(UniversityTotalOption - 1))
+
+WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/University'), UniversityCount)
+
+'Other University'
+if (UniversityCount == 98) {
+	
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Other University'), 'VTU Other university')
+}
+
+'University Course'
+UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/University Course'))
+
+UniveristyCourseCount = (1 + rad.nextInt(UniversityCourseTotalOption - 1))
+
+WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/University Course'), UniveristyCourseCount)
+
+'University Other Course '
+if (UniveristyCourseCount == 95) {
+	
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Univerisity Course Other'), 'VTU ')
+}
+
+'Length of university course'
+LengthOfUniversitycourseTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/Length Of University Course'))
+
+LengthOfUniversitycount = (1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1))
+
+WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Length Of University Course'), LengthOfUniversitycount)
+
+'Current Year of Study (as of Sept 2018)'
+WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Current Year Of Study'), LengthOfUniversitycount)
+
+WebUI.click(findTestObject('REALRatings/IPPR/Page_REALrating/Second Next'))
+
+WebUI.delay(2)
+
+WebUI.comment('Main Qualification Information')
 
 'A-Level year'
 ALevelYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/A Level Year'))
@@ -147,22 +154,26 @@ if (MainQualificationCount == 1) {
     Year3 = (1 + rad.nextInt(Year3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Year Three'), Year3)
+	
 } else if (MainQualificationCount == 2) {
-    'B-Tech Subject Line'
-    WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/BTechTitle'), 'maths')
 
-    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/BTechGrade'))
+    'B-Tech Subject Line'
+    WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Title'), 'maths')
+
+    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Grade'))
 
     BtechGradeCount = (1 + rad.nextInt(BtechGradeTotalOptions - 1))
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/BTechGrade'), BtechGradeCount)
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Grade'), BtechGradeCount)
 
-    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/BTechYear'))
+    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Year'))
 
     BtechYearCount = (1 + rad.nextInt(BtechYearTotalOptions - 1))
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/BTechYear'), BtechYearCount)
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Year'), BtechYearCount)
+	
 } else if (MainQualificationCount == 3) {
+
     IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points one'))
 
     IBP1count = (1 + rad.nextInt(IBP1TotalOptions - 1))
@@ -200,9 +211,13 @@ if (MainQualificationCount == 1) {
     IBY3count = (1 + rad.nextInt(IBY3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/IB YearThree'), IBY3count)
+	
 } else if (MainQualificationCount == 4) {
+
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Other Qualification'), 'other ouualifications ')
+	
 } else if (MainQualificationCount == 5) {
+
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/HETitle'), 'hemathshe course')
 
     HEGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/HE Grade'))
@@ -249,6 +264,7 @@ WebUI.click(findTestObject('REALRatings/Greensill/Page_REALrating/a_Submit'))
 WebUI.delay(5)
 
 'verify Sucessfull Form Submission'
-assert WebUI.getUrl() == 'https://gs-uat.realrating.co.uk/thankyou'
+assert WebUI.getUrl() == 'https://ippr-uat.realrating.co.uk/thankyou'
 
 WebUI.takeScreenshot()
+

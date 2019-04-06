@@ -3,11 +3,11 @@
    <description></description>
    <name>Second Next</name>
    <tag></tag>
-   <elementGuidId>c127b9b5-23e4-428e-9ffe-0aaebce572c7</elementGuidId>
+   <elementGuidId>f8adfa35-2598-4ce3-82c8-083a1422c0e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;tab2&quot;)/div[@class=&quot;col-md-12 col-sm-12 col-sx-12 col-xs-12 text-center&quot;]/a[@class=&quot;btn btn-black&quot;][count(. | //a[(text() = 'Next' or . = 'Next')]) = count(//a[(text() = 'Next' or . = 'Next')])]</value>
+         <value>//a[@class = 'btn btn-black ' and @ng-click = 'btnNext()' and (text() = 'Next' or . = 'Next')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,14 +20,14 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-black </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
@@ -41,7 +41,7 @@
       <value>Next</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -69,7 +69,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[4]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter your current year of study'])[2]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
