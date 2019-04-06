@@ -13,21 +13,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Open Browser'
 WebUI.openBrowser('')
 
+'Launch FCLP Applications'
 WebUI.navigateToUrl('https://fclp-uat.realrating.co.uk/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/First Name'), 'asha')
-
-WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Last Name'), 'rajednran')
-
 Random rad = new Random()
 
+WebUI.comment('Basic and University  Information')
+
+'Enter First Name'
+WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/First Name'), 'asha')
+
+'Enter Last Name'
+WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Last Name'), 'rajednran')
+
+'Enter University Email'
 int emailid = rad.nextInt(2000)
 
-WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Univrsity Emaid'), ('fclp' + emailid) + '@test.com')
+WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Univrsity Emaid'), 'fclp' + emailid + '@test.com')
 
 'University'
 UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/University'))
@@ -38,6 +45,7 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Unive
 
 'Other University'
 if (UniversityCount == 98) {
+	
     WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/Other University'), 'VTU Other university')
 }
 
@@ -50,24 +58,25 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Unive
 
 'University Other Course '
 if (UniveristyCourseCount == 95) {
+	
     WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Other University Course'), 'VTU ')
 }
 
-'Graduation'
+'Graduation Year'
 GraduationYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/Graduation Year'))
 
 GraduationYearcount = (1 + rad.nextInt(GraduationYearTotalOptions - 1))
 
 WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Graduation Year'), GraduationYearcount)
 
-'Grade 2:1'
+'Do you have a university degree at grade 2:1 or higher (or equivalent)?'
 GradeYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/Grade 21'))
 
 GradeYearcount = (1 + rad.nextInt(GradeYearTotalOptions - 1))
 
 WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Grade 21'), GradeYearcount)
 
-'Grade B English'
+'Do you have at least a grade B in GCSE English?'
 GradeEnglishYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/Grade B English'))
 
 GradeEnglishYearcount = (1 + rad.nextInt(GradeEnglishYearTotalOptions - 1))
@@ -78,14 +87,15 @@ WebUI.delay(2)
 
 //GradeMathsYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/Grade B Maths'))
 //GradeMathsYearcount = (1 + rad.nextInt(GradeMathsYearTotalOptions - 1))
-'Grade B Maths'
+
+'Do you have at least a grade B in GCSE Maths?'
 WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Grade B Maths'), GradeEnglishYearcount)
 
 WebUI.click(findTestObject('REALRatings/FCLP/Page_REALrating/a_Next'))
 
 WebUI.delay(2)
 
-WebUI.comment('Last  Information')
+WebUI.comment('Main Qualification Information')
 
 'A-Level year'
 ALevelYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/A Level Year'))
@@ -154,7 +164,9 @@ if (MainQualificationCount == 1) {
     Year3 = (1 + rad.nextInt(Year3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Year Three'), Year3)
+	
 } else if (MainQualificationCount == 2) {
+
     'B-Tech Subject Line'
     WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/BTechTitle'), 'maths')
 
@@ -169,7 +181,9 @@ if (MainQualificationCount == 1) {
     BtechYearCount = (1 + rad.nextInt(BtechYearTotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/BTechYear'), BtechYearCount)
+	
 } else if (MainQualificationCount == 3) {
+
     IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points one'))
 
     IBP1count = (1 + rad.nextInt(IBP1TotalOptions - 1))
@@ -207,9 +221,13 @@ if (MainQualificationCount == 1) {
     IBY3count = (1 + rad.nextInt(IBY3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/IB YearThree'), IBY3count)
+	
 } else if (MainQualificationCount == 4) {
+
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Other Qualification'), 'other ouualifications ')
+	
 } else if (MainQualificationCount == 5) {
+
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/HETitle'), 'hemathshe course')
 
     HEGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/HE Grade'))
@@ -249,17 +267,19 @@ WebUI.click(findTestObject('REALRatings/FCLP/Page_REALrating/Second Next'))
 
 WebUI.delay(2)
 
+WebUI.comment('Background Information')
+
 'Confirm User Agreement'
 WebUI.click(findTestObject('REALRatings/FCLP/Page_REALrating/confirm agreement'))
 
-'Select Ethnic Group'
+'What is your ethnic group?'
 EthnicTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/Ethnic Group'), FailureHandling.STOP_ON_FAILURE)
 
 EthnicCount = (1 + rad.nextInt(EthnicTotalOptions - 1))
 
 WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Ethnic Group'), EthnicCount)
 
-'Ethnic group parent career'
+'Select the group that best describes the type of work your highest earning parent or guardian did when you were 14 from the options that appear once you start typing.'
 WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/input_What is your ethnic group_parent_carer'), 'ethnicparent group')
 
 'Gender'
@@ -271,10 +291,11 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Gende
 
 'other Gender'
 if (GenderCount == 3) {
+	
     WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Other Gender'), 'Othr Gender')
 }
 
-'Religion'
+'What is your religion?'
 ReligionTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/Religion'))
 
 ReligionCount = (1 + rad.nextInt(ReligionTotalOptions - 1))
@@ -283,29 +304,31 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Relig
 
 'Other Religion'
 if (ReligionCount == 8) {
+	
     WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/input_Other Religion_religion'), 'hindu')
 }
 
-'Birth Gender'
+'Is your gender identity the same as the sex you were assigned at birth?'
 BirthTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/Birth Gender'))
 
 BirthCount = (1 + rad.nextInt(BirthTotalOptions - 1))
 
 WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Birth Gender'), BirthCount)
 
-'sexual Orientation'
+'What is your sexual orientation?'
 SexualTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/Sexual Orientation'))
 
 SexualCount = (1 + rad.nextInt(SexualTotalOptions - 1))
 
 WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Sexual Orientation'), SexualCount)
 
-'other Sexual Orientation'
+'other Orientation'
 if (SexualCount == 5) {
+	
     WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/input_Other Orientation_sexual_orientation'), 'other sexual ')
 }
 
-'Impairment'
+'Do you have an impairment, health condition or learning difference that has a substantial or long term impact on your ability to carry out day to day activities?'
 ImpairmentTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/Impairment'))
 
 ImpairmentCount = (1 + rad.nextInt(ImpairmentTotalOptions - 1))
