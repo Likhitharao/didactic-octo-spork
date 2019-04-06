@@ -26,14 +26,14 @@ Random rad = new Random()
 WebUI.comment('Basic Information')
 
 'Enter First Name'
-WebUI.setText(findTestObject('REALRatings/REALrating/First Name'), findTestData('getEmployable/Applicants').getValue(1, 
+WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/First Name'), findTestData('getEmployable/Applicants').getValue(1, 
         1))
 
 'Enter Last Name'
-WebUI.setText(findTestObject('REALRatings/REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(2, 1))
+WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/Last Name'), findTestData('getEmployable/Applicants').getValue(2, 1))
 
 'Enter University Email'
-WebUI.setText(findTestObject('REALRatings/REALrating/University Email'), findTestData('getEmployable/Applicants').getValue(
+WebUI.setText(findTestObject('null'), findTestData('getEmployable/Applicants').getValue(
         3, 1))
 
 WebUI.click(findTestObject('REALRatings/IPPR/Page_REALrating/First Next'))
@@ -41,38 +41,38 @@ WebUI.click(findTestObject('REALRatings/IPPR/Page_REALrating/First Next'))
 WebUI.comment('School Information')
 
 'University'
-UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/University'))
+UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('null'))
 
 UniversityCount = (1 + rad.nextInt(UniversityTotalOption - 1))
 
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/University'), UniversityCount)
+WebUI.selectOptionByIndex(findTestObject('null'), UniversityCount)
 
 'Other University'
 if (UniversityCount == 95) {
-    WebUI.setText(findTestObject('REALRatings/REALrating/Other University'), 'VTU Other university')
+    WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/Other University'), 'VTU Other university')
 }
 
 'University Course'
-UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/University Course'))
+UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('null'))
 
 UniveristyCourseCount = (1 + rad.nextInt(UniversityCourseTotalOption - 1))
 
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/University Course'), UniveristyCourseCount)
+WebUI.selectOptionByIndex(findTestObject('null'), UniveristyCourseCount)
 
 'University Other Course '
 if (UniveristyCourseCount == 95) {
-    WebUI.setText(findTestObject('REALRatings/REALrating/University Course Other'), 'VTU ')
+    WebUI.setText(findTestObject('null'), 'VTU ')
 }
 
 'Length of university course'
-LengthOfUniversitycourseTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Length Of university Course'))
+LengthOfUniversitycourseTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/Length Of university Course'))
 
 LengthOfUniversitycount = (1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1))
 
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Length Of university Course'), LengthOfUniversitycount)
+WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/Length Of university Course'), LengthOfUniversitycount)
 
 'Current Year of Study (as of Sept 2018)'
-WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Current Year Of Study'), LengthOfUniversitycount)
+WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/Current Year Of Study'), LengthOfUniversitycount)
 
 WebUI.delay(2)
 
@@ -149,19 +149,19 @@ if (MainQualificationCount == 1) {
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Year Three'), Year3)
 } else if (MainQualificationCount == 2) {
     'B-Tech Subject Line'
-    WebUI.setText(findTestObject('REALRatings/Page_REALrating/BTechTitle'), 'maths')
+    WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/BTechTitle'), 'maths')
 
-    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Page_REALrating/BTechGrade'))
+    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/BTechGrade'))
 
     BtechGradeCount = (1 + rad.nextInt(BtechGradeTotalOptions - 1))
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/Page_REALrating/BTechGrade'), BtechGradeCount)
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/BTechGrade'), BtechGradeCount)
 
-    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Page_REALrating/BTechYear'))
+    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/BTechYear'))
 
     BtechYearCount = (1 + rad.nextInt(BtechYearTotalOptions - 1))
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/Page_REALrating/BTechYear'), BtechYearCount)
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/BTechYear'), BtechYearCount)
 } else if (MainQualificationCount == 3) {
     IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points one'))
 

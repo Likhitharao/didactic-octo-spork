@@ -156,19 +156,19 @@ if (MainQualificationCount == 1) {
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Year Three'), Year3)
 } else if (MainQualificationCount == 2) {
     'B-Tech Subject Line'
-    WebUI.setText(findTestObject('REALRatings/Page_REALrating/BTechTitle'), 'maths')
+    WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/BTechTitle'), 'maths')
 
-    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Page_REALrating/BTechGrade'))
+    BtechGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/BTechGrade'))
 
     BtechGradeCount = (1 + rad.nextInt(BtechGradeTotalOptions - 1))
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/Page_REALrating/BTechGrade'), BtechGradeCount)
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/BTechGrade'), BtechGradeCount)
 
-    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Page_REALrating/BTechYear'))
+    BtechYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/BTechYear'))
 
     BtechYearCount = (1 + rad.nextInt(BtechYearTotalOptions - 1))
 
-    WebUI.selectOptionByIndex(findTestObject('REALRatings/Page_REALrating/BTechYear'), BtechYearCount)
+    WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/BTechYear'), BtechYearCount)
 } else if (MainQualificationCount == 3) {
     IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points one'))
 

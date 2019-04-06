@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>University</name>
+   <name>University Email</name>
    <tag></tag>
-   <elementGuidId>4a509372-6947-48c6-b78e-11902c246418</elementGuidId>
+   <elementGuidId>4b5ec1e3-2563-48aa-ac2d-6ac2f42771c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='university_id']</value>
+         <value>.//*[@id='email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='university_id']</value>
+      <value>.//*[@id='email']</value>
    </webElementProperties>
 </WebElementEntity>

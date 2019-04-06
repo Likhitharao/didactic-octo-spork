@@ -21,8 +21,8 @@ WebUI.navigateToUrl(findTestData('getEmployable/URL').getValue(1, 3))
 
 WebUI.maximizeWindow()
 
-//WebUI.verifyElementPresent(findTestObject('REALRatings/REALrating/Get Started'), 5, FailureHandling.STOP_ON_FAILURE)
-//WebUI.click(findTestObject('REALRatings/REALrating/Get Started'))
+//WebUI.verifyElementPresent(findTestObject('REALRatings/REALrating/Page_REALrating/Get Started'), 5, FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('REALRatings/REALrating/Page_REALrating/Get Started'))
 WebUI.delay(1)
 
 WebUI.comment('Basic Information')
