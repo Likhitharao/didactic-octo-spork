@@ -16,8 +16,8 @@ import internal.GlobalVariable as GlobalVariable
 'Open Browser'
 WebUI.openBrowser('')
 
-'Login to Greensill Application'
-WebUI.navigateToUrl('https://gs-uat.realrating.co.uk/login')
+'Login to NorthHighland Application'
+WebUI.navigateToUrl('https://nh-uat.realrating.co.uk/login')
 
 WebUI.maximizeWindow()
 
@@ -55,5 +55,4 @@ WebUI.delay(5)
 WebUI.click(findTestObject('REALRatings/Greensill/login/Page_RealRating/button_Logout'))
 
 'Asserting Sucessful Logout'
-assert WebUI.getUrl() == 'https://gs-uat.realrating.co.uk/login'
-
+assert WebUI.getUrl() == 'https://nh-uat.realrating.co.uk/login'
