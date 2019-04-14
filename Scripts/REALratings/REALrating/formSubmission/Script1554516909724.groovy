@@ -124,7 +124,7 @@ if (MainQualificationCount == 1) {
 
     Grade1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/GradeOne'))
 
-    Grade1 = rad.nextInt(Grade1TotalOptions - 1)
+    Grade1 = (1+rad.nextInt(Grade1TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/GradeOne'), Grade1)
 
