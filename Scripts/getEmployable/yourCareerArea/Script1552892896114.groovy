@@ -13,7 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('getEmployable/yourEmployability'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('Enter CareerArea Details')
+
+WebUI.delay(5)
 
 'Select "Banking and Finance Springboard sponsored by Bank of America Merrill Lynch "'
 WebUI.click(findTestObject('getEmployable/yourCareerArea/careerpage'))

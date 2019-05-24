@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Disability</name>
+   <tag></tag>
+   <elementGuidId>e9adf771-2b0a-4809-a903-37184b3c7b39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='msform']/fieldset[7]/div/div/div[4]/div/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='msform']/fieldset[7]/div/div/div[4]/div/div/select</value>
+   </webElementProperties>
+</WebElementEntity>

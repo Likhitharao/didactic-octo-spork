@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+gef,Chrome 74.0.3729.169,,2019-05-24 12:58:32,2019-05-24 13:01:10,2m - 38.156s,FAILED
+,,,,,,
+Test Cases/getEmployable/your background,Chrome 74.0.3729.169,,2019-05-24 12:58:32,2019-05-24 13:01:09,2m - 37.110s,FAILED
+"comment(""Enter yourbackground details"")",Chrome 74.0.3729.169,,2019-05-24 12:58:33,2019-05-24 12:58:33,0.065s,PASSED
+"callTestCase(findTestCase(""getEmployable/Jouney to University page 2""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-24 12:58:33,2019-05-24 13:00:57,2m - 24.600s,PASSED
+rad = new java.util.Random(),Chrome 74.0.3729.169,,2019-05-24 13:00:57,2019-05-24 13:00:57,0.001s,PASSED
+"ethnicity = getNumberOfTotalOption(findTestObject(""getEmployable/Employee details/21-05-2019/background/ehnicity""))",Chrome 74.0.3729.169,,2019-05-24 13:00:57,2019-05-24 13:00:57,0.079s,PASSED
+ethnicitycount = 1 + rad.nextInt(ethnicity - 1),Chrome 74.0.3729.169,,2019-05-24 13:00:57,2019-05-24 13:00:57,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/Employee details/21-05-2019/background/ehnicity""), ethnicitycount)",Chrome 74.0.3729.169,Select Ethnicity,2019-05-24 13:00:57,2019-05-24 13:00:58,0.399s,PASSED
+"sexualorientation = getNumberOfTotalOption(findTestObject(""getEmployable/Employee details/21-05-2019/background/sexual orientation""))",Chrome 74.0.3729.169,,2019-05-24 13:00:58,2019-05-24 13:00:58,0.072s,PASSED
+sexualorientationcount = 1 + rad.nextInt(sexualorientation - 1),Chrome 74.0.3729.169,,2019-05-24 13:00:58,2019-05-24 13:00:58,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/Employee details/21-05-2019/background/sexual orientation""), sexualorientationcount)",Chrome 74.0.3729.169,Select sexual orientation,2019-05-24 13:00:58,2019-05-24 13:00:58,0.215s,PASSED
+"religion = getNumberOfTotalOption(findTestObject(""getEmployable/Employee details/21-05-2019/background/religion""))",Chrome 74.0.3729.169,,2019-05-24 13:00:58,2019-05-24 13:00:58,0.090s,PASSED
+religioncount = 1 + rad.nextInt(religion - 1),Chrome 74.0.3729.169,,2019-05-24 13:00:58,2019-05-24 13:00:58,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/Employee details/21-05-2019/background/religion""), religioncount)",Chrome 74.0.3729.169,Select Religion,2019-05-24 13:00:58,2019-05-24 13:00:58,0.163s,PASSED
+"maritalstatus = getNumberOfTotalOption(findTestObject(""getEmployable/Employee details/21-05-2019/background/Page_getEmployable - Assessment Form/marital status""))",Chrome 74.0.3729.169,,2019-05-24 13:00:58,2019-05-24 13:00:58,0.049s,PASSED
+maritalstatuscount = 1 + rad.nextInt(maritalstatus - 1),Chrome 74.0.3729.169,,2019-05-24 13:00:58,2019-05-24 13:00:58,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/Employee details/21-05-2019/background/Page_getEmployable - Assessment Form/marital status""), maritalstatuscount)",Chrome 74.0.3729.169,Select Marital status,2019-05-24 13:00:58,2019-05-24 13:00:59,0.121s,PASSED
+"Disability = getNumberOfTotalOption(findTestObject(""getEmployable/Employee details/21-05-2019/background/Page_getEmployable - Assessment Form/Disability""))",Chrome 74.0.3729.169,,2019-05-24 13:00:59,2019-05-24 13:00:59,0.049s,PASSED
+Disabilitycount = 1 + rad.nextInt(Disability - 1),Chrome 74.0.3729.169,,2019-05-24 13:00:59,2019-05-24 13:00:59,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/Employee details/21-05-2019/background/Page_getEmployable - Assessment Form/Disability""), Disabilitycount)",Chrome 74.0.3729.169,Select Disability count,2019-05-24 13:00:59,2019-05-24 13:00:59,0.157s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/Page_getEmployable - Assessment Form/interested""))",Chrome 74.0.3729.169,Click interested/not interested,2019-05-24 13:00:59,2019-05-24 13:00:59,0.098s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-24 13:00:59,2019-05-24 13:01:04,5.003s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/met""))",Chrome 74.0.3729.169,Click met/not met with criteria,2019-05-24 13:01:04,2019-05-24 13:01:04,0.079s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/Tick1""))",Chrome 74.0.3729.169,Privacy policy,2019-05-24 13:01:04,2019-05-24 13:01:04,0.073s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/Tick2""))",Chrome 74.0.3729.169,Policy,2019-05-24 13:01:04,2019-05-24 13:01:04,0.075s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-24 13:01:04,2019-05-24 13:01:09,5.001s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/Submit""))",Chrome 74.0.3729.169,click on submit button,2019-05-24 13:01:09,2019-05-24 13:01:09,0.092s,PASSED
+"assert getUrl() == ""https://uat.getemployable.org/thankyou""",Chrome 74.0.3729.169,verify Sucessfull Form Submission,2019-05-24 13:01:09,2019-05-24 13:01:09,0.032s,FAILED

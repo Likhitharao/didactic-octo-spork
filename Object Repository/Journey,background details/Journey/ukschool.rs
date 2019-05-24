@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ukschool</name>
+   <tag></tag>
+   <elementGuidId>5c7365ca-b676-4853-9556-dda177e8e9ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='msform']/fieldset[5]/div/div/div[4]/div/div[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='msform']/fieldset[5]/div/div/div[4]/div/div[2]/select</value>
+   </webElementProperties>
+</WebElementEntity>

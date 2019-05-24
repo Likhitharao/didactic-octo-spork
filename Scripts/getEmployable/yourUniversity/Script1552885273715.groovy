@@ -13,14 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('getEmployable/aboutYou'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('Enter Your University Details')
 
 'Random Selection of University '
 UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('getEmployable/select_University'))
 
 Random rad = new Random()
 
-int UniversityCount = rad.nextInt(UniversityTotalOption)
+int UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1)
 
 WebUI.selectOptionByIndex(findTestObject('getEmployable/select_University'), UniversityCount)
 
@@ -31,7 +31,7 @@ int UniveristyCourseCount = rad.nextInt(UniversityCourseTotalOption)
 
 WebUI.selectOptionByIndex(findTestObject('getEmployable/select_UniversityCourse'), UniveristyCourseCount)
 
-if (UniveristyCourseCount == 94) {
+if (UniveristyCourseCount == 96) {
     WebUI.setText(findTestObject('getEmployable/select_UniversityCourseOther'), 'VTU ')
 }
 
@@ -40,14 +40,14 @@ WebUI.delay(5)
 'Random Selection of Degree'
 DegreeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('getEmployable/select_Degree'))
 
-int DegreeCount = rad.nextInt(DegreeTotalOptions)
+int DegreeCount = 1 + rad.nextInt(DegreeTotalOptions - 1)
 
 WebUI.selectOptionByIndex(findTestObject('getEmployable/select_Degree'), DegreeCount)
 
 'Random selection of Course Duration and Year Of Study'
 CourseDurationTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('getEmployable/select_CourseDuration'))
 
-int CourseDurationCount = rad.nextInt(CourseDurationTotalOptions)
+int CourseDurationCount = 1 + rad.nextInt(CourseDurationTotalOptions - 1)
 
 WebUI.selectOptionByIndex(findTestObject('getEmployable/select_CourseDuration'), CourseDurationCount)
 

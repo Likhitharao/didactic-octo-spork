@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>religion</name>
+   <tag></tag>
+   <elementGuidId>80e43f5e-fbf6-4069-a5e9-7d73049d174d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='msform']/fieldset[7]/div/div/div[3]/div[1]/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='msform']/fieldset[7]/div/div/div[3]/div[1]/div/select</value>
+   </webElementProperties>
+</WebElementEntity>

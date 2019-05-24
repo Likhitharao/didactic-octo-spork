@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+getEMploayable,Chrome 74.0.3729.157,,2019-05-21 19:31:05,2019-05-21 19:34:48,3m - 42.147s,PASSED
+,,,,,,
+Test Cases/getEmployable/background,Chrome 74.0.3729.157,,2019-05-21 19:31:06,2019-05-21 19:34:47,3m - 40.876s,PASSED
+"callTestCase(findTestCase(""getEmployable/journryToUniveristy""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-21 19:31:06,2019-05-21 19:31:06,0.030s,NOT_RUN
+"callTestCase(findTestCase(""getEmployable/yourCareerArea""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-21 19:31:06,2019-05-21 19:33:05,1m - 58.930s,PASSED
+delay(100),Chrome 74.0.3729.157,,2019-05-21 19:33:05,2019-05-21 19:34:45,1m - 40.003s,PASSED
+"click(findTestObject(""back/ehnicity""))",Chrome 74.0.3729.157,,2019-05-21 19:34:45,2019-05-21 19:34:45,0.130s,PASSED
+"click(findTestObject(""back/ethnicty click""))",Chrome 74.0.3729.157,,2019-05-21 19:34:45,2019-05-21 19:34:46,0.097s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_getEmployable - Assessment Form/select_HeterosexualstraightGay womanlesbianGay manBisexualPrefer not to say""), ""PREFER_NOT_TO_SAY"", true)",Chrome 74.0.3729.157,,2019-05-21 19:34:46,2019-05-21 19:34:46,0.233s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_getEmployable - Assessment Form/select_No religionBuddhistChristianHinduJewishMuslimSikhAny other religionPrefer not to say""), ""HINDU"", true)",Chrome 74.0.3729.157,,2019-05-21 19:34:46,2019-05-21 19:34:46,0.262s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_getEmployable - Assessment Form/select_DivorcedMarriedSingleWidowedPrefer not to say""), ""SINGLE"", true)",Chrome 74.0.3729.157,,2019-05-21 19:34:46,2019-05-21 19:34:46,0.213s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_getEmployable - Assessment Form/select_Yes                                                     No                                                     Prefer not to say""), ""YES"", true)",Chrome 74.0.3729.157,,2019-05-21 19:34:46,2019-05-21 19:34:46,0.213s,PASSED
+"click(findTestObject(""Object Repository/Page_getEmployable - Assessment Form/input_Free online Career Courses and practice tests_443""))",Chrome 74.0.3729.157,,2019-05-21 19:34:46,2019-05-21 19:34:47,0.108s,PASSED
+"click(findTestObject(""Object Repository/Page_getEmployable - Assessment Form/input_I am not interested proceed to my Personal Employability Report._terms_condition""))",Chrome 74.0.3729.157,,2019-05-21 19:34:47,2019-05-21 19:34:47,0.093s,PASSED
+"click(findTestObject(""Journey/submit""))",Chrome 74.0.3729.157,,2019-05-21 19:34:47,2019-05-21 19:34:47,0.125s,PASSED

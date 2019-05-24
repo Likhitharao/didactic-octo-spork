@@ -13,40 +13,41 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('getEmployable/launchSite'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('Enter aboutYou page details')
 
 'Enter First Name\r\n'
-WebUI.setText(findTestObject('getEmployable/input_First Name'), findTestData('getEmployable/Applicants').getValue(
-        1, 1))
+WebUI.setText(findTestObject('getEmployable/input_First Name'), findTestData('getEmployable/Applicants').getValue(1, 1))
 
 'Enter Last Name'
-WebUI.setText(findTestObject('getEmployable/input_Last name'), findTestData('getEmployable/Applicants').getValue(
-        2, 1))
+WebUI.setText(findTestObject('getEmployable/input_Last name'), findTestData('getEmployable/Applicants').getValue(2, 1))
+
+Random rad = new Random()
+
+int Email = rad.nextInt(2000)
 
 'Enter University Email'
-WebUI.setText(findTestObject('getEmployable/input_University Email'), findTestData(
-        'getEmployable/Applicants').getValue(3, 1))
+WebUI.setText(findTestObject('getEmployable/input_University Email'), ('test' + Email) + '@ac.uk')
 
 'Enter Personal Email '
-WebUI.setText(findTestObject('getEmployable/input_Personal Email'), findTestData(
-        'getEmployable/Applicants').getValue(4, 1))
+WebUI.setText(findTestObject('getEmployable/input_Personal Email'), ('personal' + Email) + '@test.com')
 
 'Enter Mobile Number\r\n'
-WebUI.setText(findTestObject('getEmployable/input_Phone Number'), findTestData(
-        'getEmployable/Applicants').getValue(5, 1))
-
-WebUI.click(findTestObject('getEmployable/input_date Of Birth'))
-
-WebUI.click(findTestObject('getEmployable/input_Date'))
+WebUI.setText(findTestObject('getEmployable/input_Phone Number'), findTestData('getEmployable/Applicants').getValue(5, 1))
 
 WebUI.delay(10)
 
+'Select DOB'
+WebUI.click(findTestObject('getEmployable/input_date Of Birth'))
+
+WebUI.click(findTestObject('ApplyNow/Page_getEmployable - Assessment Form/a_04'))
+
+WebUI.delay(5)
+
 'Select Gender'
-WebUI.click(findTestObject('getEmployable/label_Female'))
+WebUI.click(findTestObject('getEmployable/gender'))
 
 'Click Next '
 WebUI.click(findTestObject('getEmployable/input_Other_next'))
 
 WebUI.delay(5)
-
 
