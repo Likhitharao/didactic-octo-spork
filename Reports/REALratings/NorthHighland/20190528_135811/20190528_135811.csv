@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+NorthHighland,Chrome 74.0.3729.169,,2019-05-28 13:58:13,2019-05-28 13:58:41,27.704s,ERROR
+,,,,,,
+Test Cases/REALratings/NorthHighland/formSubmission,Chrome 74.0.3729.169,,2019-05-28 13:58:13,2019-05-28 13:58:31,18.382s,ERROR
+"openBrowser("""")",Chrome 74.0.3729.169,Open Browser,2019-05-28 13:58:14,2019-05-28 13:58:18,3.626s,PASSED
+"navigateToUrl(""https://nh-uat.realrating.co.uk/"")",Chrome 74.0.3729.169,Launch NorthHighland Application,2019-05-28 13:58:18,2019-05-28 13:58:21,3.692s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-05-28 13:58:21,2019-05-28 13:58:23,1.179s,PASSED
+rad = new java.util.Random(),Chrome 74.0.3729.169,,2019-05-28 13:58:23,2019-05-28 13:58:23,0.004s,PASSED
+"comment(""Basic Information"")",Chrome 74.0.3729.169,,2019-05-28 13:58:23,2019-05-28 13:58:23,0.023s,PASSED
+"setText(findTestObject(""REALRatings/NorthHighland/Page_REALrating/First Name""), findTestData(""getEmployable/Applicants"").getValue(1, 1))",Chrome 74.0.3729.169,Enter First Name,2019-05-28 13:58:23,2019-05-28 13:58:23,0.276s,PASSED
+"setText(findTestObject(""REALRatings/NorthHighland/Page_REALrating/Last Name""), findTestData(""getEmployable/Applicants"").getValue(2, 1))",Chrome 74.0.3729.169,Enter Last Name,2019-05-28 13:58:23,2019-05-28 13:58:23,0.241s,PASSED
+Email = rad.nextInt(2000),Chrome 74.0.3729.169,Enter University Email,2019-05-28 13:58:23,2019-05-28 13:58:23,0.002s,PASSED
+"setText(findTestObject(""REALRatings/NorthHighland/Page_REALrating/University Emailid""), ""nh"" + Email + ""@test.com"")",Chrome 74.0.3729.169,,2019-05-28 13:58:23,2019-05-28 13:58:24,0.321s,PASSED
+"click(findTestObject(""REALRatings/NorthHighland/Page_REALrating/First Next""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,Click NEXT,2019-05-28 13:58:24,2019-05-28 13:58:24,0.087s,PASSED
+"comment(""Main Qualifications"")",Chrome 74.0.3729.169,,2019-05-28 13:58:24,2019-05-28 13:58:24,0.002s,PASSED
+"ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/NorthHighland/Page_REALrating/A Level Year""))",Chrome 74.0.3729.169,A-Level year,2019-05-28 13:58:24,2019-05-28 13:58:24,0.110s,PASSED
+ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1),Chrome 74.0.3729.169,,2019-05-28 13:58:24,2019-05-28 13:58:24,0.003s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/NorthHighland/Page_REALrating/A Level Year""), ALevelYearcount)",Chrome 74.0.3729.169,,2019-05-28 13:58:24,2019-05-28 13:58:24,0.348s,PASSED
+"GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/NorthHighland/Page_REALrating/GCSE Year""))",Chrome 74.0.3729.169,GCSE Year,2019-05-28 13:58:24,2019-05-28 13:58:24,0.066s,PASSED
+GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1),Chrome 74.0.3729.169,,2019-05-28 13:58:24,2019-05-28 13:58:24,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/NorthHighland/Page_REALrating/GCSE Year""), GCSEYearCount)",Chrome 74.0.3729.169,,2019-05-28 13:58:24,2019-05-28 13:58:25,0.426s,PASSED
+"MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject(""REALRatings/NorthHighland/Page_REALrating/Main Qualification""))",Chrome 74.0.3729.169,Select Main Qualification,2019-05-28 13:58:25,2019-05-28 13:58:25,0.050s,PASSED
+MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1),Chrome 74.0.3729.169,,2019-05-28 13:58:25,2019-05-28 13:58:25,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/NorthHighland/Page_REALrating/Main Qualification""), MainQualificationCount)",Chrome 74.0.3729.169,,2019-05-28 13:58:25,2019-05-28 13:58:25,0.128s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-28 13:58:25,2019-05-28 13:58:30,5.012s,PASSED
+if (MainQualificationCount == 1),Chrome 74.0.3729.169,A-Level,2019-05-28 13:58:30,2019-05-28 13:58:30,0.002s,PASSED
+else if (MainQualificationCount == 2),Chrome 74.0.3729.169,,2019-05-28 13:58:30,2019-05-28 13:58:30,0.002s,PASSED
+else if (MainQualificationCount == 3),Chrome 74.0.3729.169,,2019-05-28 13:58:30,2019-05-28 13:58:31,1.671s,ERROR
+,,,,,,
+Test Cases/REALratings/NorthHighland/login,Chrome 74.0.3729.169,,2019-05-28 13:58:31,2019-05-28 13:58:40,8.340s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.169,Open Browser,2019-05-28 13:58:32,2019-05-28 13:58:35,3.559s,PASSED
+"navigateToUrl(""https://nh-uat.realrating.co.uk/login"")",Chrome 74.0.3729.169,Login to NorthHighland Application,2019-05-28 13:58:35,2019-05-28 13:58:38,2.893s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-05-28 13:58:38,2019-05-28 13:58:40,1.610s,FAILED

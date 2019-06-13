@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+REALrating,Chrome 74.0.3729.169,,2019-06-04 12:39:28,2019-06-04 12:40:34,1m - 6.441s,FAILED
+,,,,,,
+Test Cases/REALratings/REALrating/allLinksAllAccessible,Chrome 74.0.3729.169,,2019-06-04 12:39:28,2019-06-04 12:40:04,36.332s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,Open Browser,2019-06-04 12:39:28,2019-06-04 12:39:32,3.657s,PASSED
+"navigateToUrl(""https://uat.realrating.co.uk/"")",Chrome 74.0.3729.169,Launch REALrating Application,2019-06-04 12:39:32,2019-06-04 12:39:38,5.697s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,Maximize the window,2019-06-04 12:39:38,2019-06-04 12:39:39,1.136s,PASSED
+"verifyElementPresent(findTestObject(""REALRatings/REALrating/Page_REALrating/Get Started""), 5, STOP_ON_FAILURE)",Chrome 74.0.3729.169,Verify REALrating Application Page,2019-06-04 12:39:39,2019-06-04 12:39:39,0.085s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 74.0.3729.169,To Verify Broken Links/Images,2019-06-04 12:39:39,2019-06-04 12:40:04,25.370s,PASSED
+,,,,,,
+Test Cases/REALratings/REALrating/formSubmission,Chrome 74.0.3729.169,,2019-06-04 12:40:04,2019-06-04 12:40:34,29.160s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.169,Open Browser,2019-06-04 12:40:05,2019-06-04 12:40:09,3.735s,PASSED
+"navigateToUrl(""https://uat.realrating.co.uk/"")",Chrome 74.0.3729.169,Launch REALrating Application,2019-06-04 12:40:09,2019-06-04 12:40:14,4.813s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,Maximize the window,2019-06-04 12:40:14,2019-06-04 12:40:15,1.149s,PASSED
+"verifyElementPresent(findTestObject(""REALRatings/REALrating/Page_REALrating/Get Started""), 5, STOP_ON_FAILURE)",Chrome 74.0.3729.169,Verify REALrating Application Page,2019-06-04 12:40:15,2019-06-04 12:40:15,0.051s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/Get Started""))",Chrome 74.0.3729.169,Click Get Started,2019-06-04 12:40:15,2019-06-04 12:40:15,0.092s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-06-04 12:40:15,2019-06-04 12:40:16,1.033s,PASSED
+"comment(""Basic Information"")",Chrome 74.0.3729.169,,2019-06-04 12:40:16,2019-06-04 12:40:16,0.009s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Page_REALrating/First Name""), findTestData(""getEmployable/Applicants"").getValue(1, 1))",Chrome 74.0.3729.169,Enter First Name,2019-06-04 12:40:16,2019-06-04 12:40:16,0.151s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Page_REALrating/Last Name""), findTestData(""getEmployable/Applicants"").getValue(2, 1))",Chrome 74.0.3729.169,Enter Last Name,2019-06-04 12:40:16,2019-06-04 12:40:16,0.141s,PASSED
+rad = new java.util.Random(),Chrome 74.0.3729.169,,2019-06-04 12:40:16,2019-06-04 12:40:16,0.003s,PASSED
+emailid = rad.nextInt(2000),Chrome 74.0.3729.169,Enter University Email,2019-06-04 12:40:16,2019-06-04 12:40:16,0.003s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Page_REALrating/University Email""), ""realrating"" + emailid + ""@test.ac.uk"")",Chrome 74.0.3729.169,,2019-06-04 12:40:16,2019-06-04 12:40:17,0.259s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/FP Next""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,Click NEXT,2019-06-04 12:40:17,2019-06-04 12:40:17,0.099s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-06-04 12:40:17,2019-06-04 12:40:18,1.002s,PASSED
+"comment(""University Information"")",Chrome 74.0.3729.169,,2019-06-04 12:40:18,2019-06-04 12:40:18,0.006s,PASSED
+"ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/A Level Year""))",Chrome 74.0.3729.169,A-Level year,2019-06-04 12:40:18,2019-06-04 12:40:18,0.332s,PASSED
+ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1),Chrome 74.0.3729.169,,2019-06-04 12:40:18,2019-06-04 12:40:18,0.005s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/A Level Year""), ALevelYearcount)",Chrome 74.0.3729.169,,2019-06-04 12:40:18,2019-06-04 12:40:18,0.354s,PASSED
+"GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/GCSE Year""))",Chrome 74.0.3729.169,GCSE Year,2019-06-04 12:40:18,2019-06-04 12:40:18,0.078s,PASSED
+GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1),Chrome 74.0.3729.169,,2019-06-04 12:40:18,2019-06-04 12:40:18,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/GCSE Year""), GCSEYearCount)",Chrome 74.0.3729.169,,2019-06-04 12:40:18,2019-06-04 12:40:19,0.332s,PASSED
+"UniversityTotalOption = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/University""))",Chrome 74.0.3729.169,University,2019-06-04 12:40:19,2019-06-04 12:40:19,0.078s,PASSED
+UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1),Chrome 74.0.3729.169,,2019-06-04 12:40:19,2019-06-04 12:40:19,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/University""), UniversityCount)",Chrome 74.0.3729.169,,2019-06-04 12:40:19,2019-06-04 12:40:19,0.368s,PASSED
+if (UniversityCount == 95),Chrome 74.0.3729.169,Other University,2019-06-04 12:40:19,2019-06-04 12:40:19,0.000s,PASSED
+"UniversityCourseTotalOption = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/University Course""))",Chrome 74.0.3729.169,University Course,2019-06-04 12:40:19,2019-06-04 12:40:19,0.104s,PASSED
+UniveristyCourseCount = 1 + rad.nextInt(UniversityCourseTotalOption - 1),Chrome 74.0.3729.169,,2019-06-04 12:40:19,2019-06-04 12:40:19,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/University Course""), UniveristyCourseCount)",Chrome 74.0.3729.169,,2019-06-04 12:40:19,2019-06-04 12:40:20,0.580s,PASSED
+if (UniveristyCourseCount == 95),Chrome 74.0.3729.169,University Other Course ,2019-06-04 12:40:20,2019-06-04 12:40:20,0.001s,PASSED
+"LengthOfUniversitycourseTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/Length Of university Course""))",Chrome 74.0.3729.169,Length of university course,2019-06-04 12:40:20,2019-06-04 12:40:20,0.061s,PASSED
+LengthOfUniversitycount = 1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1),Chrome 74.0.3729.169,,2019-06-04 12:40:20,2019-06-04 12:40:20,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/Length Of university Course""), LengthOfUniversitycount)",Chrome 74.0.3729.169,,2019-06-04 12:40:20,2019-06-04 12:40:20,0.149s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/Current Year Of Study""), LengthOfUniversitycount)",Chrome 74.0.3729.169,Current Year of Study (as of Sept 2018),2019-06-04 12:40:20,2019-06-04 12:40:20,0.177s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-04 12:40:20,2019-06-04 12:40:25,5.003s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/button_Next (1)""))",Chrome 74.0.3729.169,,2019-06-04 12:40:25,2019-06-04 12:40:25,0.099s,PASSED
+"comment(""Main Qualification Information"")",Chrome 74.0.3729.169,,2019-06-04 12:40:25,2019-06-04 12:40:25,0.003s,PASSED
+"MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/Main Qualification""))",Chrome 74.0.3729.169,Select Main Qualification,2019-06-04 12:40:25,2019-06-04 12:40:26,0.071s,PASSED
+MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1),Chrome 74.0.3729.169,,2019-06-04 12:40:26,2019-06-04 12:40:26,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/Main Qualification""), MainQualificationCount)",Chrome 74.0.3729.169,,2019-06-04 12:40:26,2019-06-04 12:40:26,0.169s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-06-04 12:40:26,2019-06-04 12:40:27,1.003s,PASSED
+if (MainQualificationCount == 1),Chrome 74.0.3729.169,A-Level,2019-06-04 12:40:27,2019-06-04 12:40:27,0.001s,PASSED
+else if (MainQualificationCount == 2),Chrome 74.0.3729.169,,2019-06-04 12:40:27,2019-06-04 12:40:27,0.001s,PASSED
+else if (MainQualificationCount == 3),Chrome 74.0.3729.169,,2019-06-04 12:40:27,2019-06-04 12:40:27,0.001s,PASSED
+else if (MainQualificationCount == 4),Chrome 74.0.3729.169,,2019-06-04 12:40:27,2019-06-04 12:40:27,0.247s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Page_REALrating/ALevelschool""), findTestData(""getEmployable/Applicants"").getValue(6, 1))",Chrome 74.0.3729.169,Alevel School,2019-06-04 12:40:27,2019-06-04 12:40:27,0.366s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Page_REALrating/GCSEschool""), findTestData(""getEmployable/Applicants"").getValue(7, 1))",Chrome 74.0.3729.169,GCSE School,2019-06-04 12:40:27,2019-06-04 12:40:28,0.322s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/Gender""))",Chrome 74.0.3729.169,Gender,2019-06-04 12:40:28,2019-06-04 12:40:28,0.087s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Page_REALrating/ALevelPostcode""), findTestData(""getEmployable/Applicants"").getValue(8, 1))",Chrome 74.0.3729.169,ALevel PostalCode,2019-06-04 12:40:28,2019-06-04 12:40:28,0.240s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Page_REALrating/GCSEPostcode""), findTestData(""getEmployable/Applicants"").getValue(9, 1))",Chrome 74.0.3729.169,GCSE PostalCode,2019-06-04 12:40:28,2019-06-04 12:40:28,0.184s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/TickAnyStatement""))",Chrome 74.0.3729.169,Tick Any Statement,2019-06-04 12:40:28,2019-06-04 12:40:28,0.104s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/HearAbout""))",Chrome 74.0.3729.169,How did you Hear About?,2019-06-04 12:40:28,2019-06-04 12:40:28,0.097s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/User Agreement and Data Protection Policy.""))",Chrome 74.0.3729.169,User Agreement,2019-06-04 12:40:28,2019-06-04 12:40:28,0.090s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/button_Submit""))",Chrome 74.0.3729.169,Click on Submit Button,2019-06-04 12:40:28,2019-06-04 12:40:29,0.083s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-04 12:40:29,2019-06-04 12:40:34,5.005s,PASSED
+"assert getUrl() == ""https://uat.realrating.co.uk/realrating/thankyou""",Chrome 74.0.3729.169,verify Sucessfull Form Submission,2019-06-04 12:40:34,2019-06-04 12:40:34,0.051s,FAILED

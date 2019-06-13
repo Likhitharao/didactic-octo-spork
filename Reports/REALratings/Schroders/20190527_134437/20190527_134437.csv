@@ -1,0 +1,75 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Schroders,Chrome 74.0.3729.169,,2019-05-27 13:44:49,2019-05-27 13:47:13,2m - 23.452s,PASSED
+,,,,,,
+Test Cases/REALratings/Schroders/Form Submission,Chrome 74.0.3729.169,,2019-05-27 13:44:50,2019-05-27 13:45:25,34.751s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,Open Browser,2019-05-27 13:44:51,2019-05-27 13:45:02,10.423s,PASSED
+"navigateToUrl(""https://schroders-uat.realrating.co.uk/"")",Chrome 74.0.3729.169,Launch Greensill Application,2019-05-27 13:45:02,2019-05-27 13:45:05,3.805s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-05-27 13:45:05,2019-05-27 13:45:07,1.250s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-27 13:45:07,2019-05-27 13:45:08,1.027s,PASSED
+rad = new java.util.Random(),Chrome 74.0.3729.169,,2019-05-27 13:45:08,2019-05-27 13:45:08,0.004s,PASSED
+"comment(""Basic Information"")",Chrome 74.0.3729.169,,2019-05-27 13:45:08,2019-05-27 13:45:08,0.007s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/First Name""), findTestData(""getEmployable/Applicants"").getValue(1, 1))",Chrome 74.0.3729.169,Enter First Name,2019-05-27 13:45:08,2019-05-27 13:45:08,0.572s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/Last Name""), findTestData(""getEmployable/Applicants"").getValue(2, 1))",Chrome 74.0.3729.169,Enter Last Name,2019-05-27 13:45:08,2019-05-27 13:45:08,0.281s,PASSED
+Email = rad.nextInt(2000),Chrome 74.0.3729.169,Enter University Email,2019-05-27 13:45:08,2019-05-27 13:45:08,0.001s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/University Emailid""), ""greensill"" + Email + ""@test.com"")",Chrome 74.0.3729.169,,2019-05-27 13:45:08,2019-05-27 13:45:09,0.410s,PASSED
+"click(findTestObject(""REALRatings/Greensill/Page_REALrating/First Next""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,Click NEXT,2019-05-27 13:45:09,2019-05-27 13:45:09,0.198s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-27 13:45:09,2019-05-27 13:45:11,2.004s,PASSED
+"comment(""University Information"")",Chrome 74.0.3729.169,,2019-05-27 13:45:11,2019-05-27 13:45:11,0.009s,PASSED
+"UniversityTotalOption = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/University""))",Chrome 74.0.3729.169,University,2019-05-27 13:45:11,2019-05-27 13:45:11,0.181s,PASSED
+UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1),Chrome 74.0.3729.169,,2019-05-27 13:45:11,2019-05-27 13:45:11,0.005s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/University""), UniversityCount)",Chrome 74.0.3729.169,,2019-05-27 13:45:11,2019-05-27 13:45:12,0.865s,PASSED
+if (UniversityCount == 98),Chrome 74.0.3729.169,Other University,2019-05-27 13:45:12,2019-05-27 13:45:12,0.000s,PASSED
+"UniversityCourseTotalOption = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/University Course""))",Chrome 74.0.3729.169,University Course,2019-05-27 13:45:12,2019-05-27 13:45:12,0.102s,PASSED
+UniveristyCourseCount = 1 + rad.nextInt(UniversityCourseTotalOption - 1),Chrome 74.0.3729.169,,2019-05-27 13:45:12,2019-05-27 13:45:12,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/University Course""), UniveristyCourseCount)",Chrome 74.0.3729.169,,2019-05-27 13:45:12,2019-05-27 13:45:13,0.396s,PASSED
+if (UniveristyCourseCount == 95),Chrome 74.0.3729.169,University Other Course ,2019-05-27 13:45:13,2019-05-27 13:45:13,0.001s,PASSED
+"LengthOfUniversitycourseTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/Length Of University Course""))",Chrome 74.0.3729.169,Length of university course,2019-05-27 13:45:13,2019-05-27 13:45:13,0.084s,PASSED
+LengthOfUniversitycount = 1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1),Chrome 74.0.3729.169,,2019-05-27 13:45:13,2019-05-27 13:45:13,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/Length Of University Course""), LengthOfUniversitycount)",Chrome 74.0.3729.169,,2019-05-27 13:45:13,2019-05-27 13:45:13,0.146s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/Current Year Of Study""), LengthOfUniversitycount)",Chrome 74.0.3729.169,Current Year of Study (as of Sept 2018),2019-05-27 13:45:13,2019-05-27 13:45:13,0.191s,PASSED
+"click(findTestObject(""REALRatings/Schroders/second next""))",Chrome 74.0.3729.169,,2019-05-27 13:45:13,2019-05-27 13:45:13,0.122s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-27 13:45:13,2019-05-27 13:45:15,2.001s,PASSED
+"comment(""Main Qualification Information"")",Chrome 74.0.3729.169,,2019-05-27 13:45:15,2019-05-27 13:45:15,0.002s,PASSED
+"ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/Schroders/Alevelyear""))",Chrome 74.0.3729.169,A-Level year,2019-05-27 13:45:15,2019-05-27 13:45:15,0.082s,PASSED
+ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1),Chrome 74.0.3729.169,,2019-05-27 13:45:15,2019-05-27 13:45:15,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Schroders/Alevelyear""), ALevelYearcount)",Chrome 74.0.3729.169,,2019-05-27 13:45:15,2019-05-27 13:45:16,0.468s,PASSED
+"GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/Schroders/Gcse year""))",Chrome 74.0.3729.169,GCSE Year,2019-05-27 13:45:16,2019-05-27 13:45:16,0.086s,PASSED
+GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1),Chrome 74.0.3729.169,,2019-05-27 13:45:16,2019-05-27 13:45:16,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Schroders/Gcse year""), GCSEYearCount)",Chrome 74.0.3729.169,,2019-05-27 13:45:16,2019-05-27 13:45:16,0.530s,PASSED
+"MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/Main Qualification""))",Chrome 74.0.3729.169,Select Main Qualification,2019-05-27 13:45:16,2019-05-27 13:45:16,0.080s,PASSED
+MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1),Chrome 74.0.3729.169,,2019-05-27 13:45:16,2019-05-27 13:45:16,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/Main Qualification""), MainQualificationCount)",Chrome 74.0.3729.169,,2019-05-27 13:45:16,2019-05-27 13:45:17,0.157s,PASSED
+if (MainQualificationCount == 1),Chrome 74.0.3729.169,A-Level,2019-05-27 13:45:17,2019-05-27 13:45:17,0.000s,PASSED
+else if (MainQualificationCount == 2),Chrome 74.0.3729.169,,2019-05-27 13:45:17,2019-05-27 13:45:17,0.000s,PASSED
+else if (MainQualificationCount == 3),Chrome 74.0.3729.169,,2019-05-27 13:45:17,2019-05-27 13:45:17,0.001s,PASSED
+else if (MainQualificationCount == 4),Chrome 74.0.3729.169,,2019-05-27 13:45:17,2019-05-27 13:45:17,0.000s,PASSED
+else if (MainQualificationCount == 5),Chrome 74.0.3729.169,,2019-05-27 13:45:17,2019-05-27 13:45:18,1.097s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/A Level School""), findTestData(""getEmployable/Applicants"").getValue(6, 1))",Chrome 74.0.3729.169,Alevel School,2019-05-27 13:45:18,2019-05-27 13:45:18,0.388s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/GCSE School""), findTestData(""getEmployable/Applicants"").getValue(7, 1))",Chrome 74.0.3729.169,GCSE School,2019-05-27 13:45:18,2019-05-27 13:45:18,0.336s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/A Level Postalcode""), findTestData(""getEmployable/Applicants"").getValue(8, 1))",Chrome 74.0.3729.169,ALevel PostalCode,2019-05-27 13:45:18,2019-05-27 13:45:19,0.173s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/GCSE Postalcode""), findTestData(""getEmployable/Applicants"").getValue(9, 1))",Chrome 74.0.3729.169,GCSE PostalCode,2019-05-27 13:45:19,2019-05-27 13:45:19,0.221s,PASSED
+"click(findTestObject(""REALRatings/Greensill/Page_REALrating/Gender""))",Chrome 74.0.3729.169,Gender,2019-05-27 13:45:19,2019-05-27 13:45:19,0.081s,PASSED
+"click(findTestObject(""REALRatings/Greensill/Page_REALrating/TickAnyStatement""))",Chrome 74.0.3729.169,Tick Any Statement,2019-05-27 13:45:19,2019-05-27 13:45:19,0.085s,PASSED
+"click(findTestObject(""REALRatings/Greensill/Page_REALrating/input_By ticking this box I confirm that I agree to the_confirmAgreement""))",Chrome 74.0.3729.169,User Agreement,2019-05-27 13:45:19,2019-05-27 13:45:19,0.082s,PASSED
+"click(findTestObject(""REALRatings/Greensill/Page_REALrating/a_Submit""))",Chrome 74.0.3729.169,Click on Submit Button,2019-05-27 13:45:19,2019-05-27 13:45:19,0.090s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-27 13:45:19,2019-05-27 13:45:24,5.004s,PASSED
+"assert getUrl() == ""https://schroders-uat.realrating.co.uk/thankyou""",Chrome 74.0.3729.169,verify Sucessfull Form Submission,2019-05-27 13:45:24,2019-05-27 13:45:24,0.048s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-27 13:45:24,2019-05-27 13:45:25,0.347s,PASSED
+,,,,,,
+Test Cases/REALratings/Schroders/Login,Chrome 74.0.3729.169,,2019-05-27 13:45:25,2019-05-27 13:47:12,1m - 47.471s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,Open Browser,2019-05-27 13:45:25,2019-05-27 13:45:29,3.851s,PASSED
+"navigateToUrl(""https://schroders-uat.realrating.co.uk/login"")",Chrome 74.0.3729.169,Login to 2020Delivery Application,2019-05-27 13:45:29,2019-05-27 13:45:50,21.483s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-05-27 13:45:50,2019-05-27 13:45:51,1.153s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email""), ""john@upreach.org.uk"")",Chrome 74.0.3729.169,Enter Email Address,2019-05-27 13:45:51,2019-05-27 13:46:25,33.938s,PASSED
+"setEncryptedText(findTestObject(""REALRatings/Greensill/login/Page_RealRating/input_Password_password""), ""YPztdU12xyABLAH+eFFt4w=="")",Chrome 74.0.3729.169,Enter Password,2019-05-27 13:46:25,2019-05-27 13:46:25,0.197s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/button_Login""))",Chrome 74.0.3729.169,Click On Login,2019-05-27 13:46:25,2019-05-27 13:46:28,2.300s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 74.0.3729.169,Get All Links On Current Page - A-Level,2019-05-27 13:46:28,2019-05-27 13:46:28,0.311s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 74.0.3729.169,Verify All Links On Current Page Accessible - A-Level,2019-05-27 13:46:28,2019-05-27 13:46:49,21.327s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab""))",Chrome 74.0.3729.169,Click on Other Qualification Tab,2019-05-27 13:46:49,2019-05-27 13:46:49,0.116s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 74.0.3729.169,Get All Links On Current Page - Other Qualification,2019-05-27 13:46:49,2019-05-27 13:46:50,0.439s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 74.0.3729.169,Verify All Links On Current Page Accessible - Other Qualification,2019-05-27 13:46:50,2019-05-27 13:47:06,15.953s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/Profile""))",Chrome 74.0.3729.169,Logout of Greensill Application,2019-05-27 13:47:06,2019-05-27 13:47:06,0.117s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/Logout""))",Chrome 74.0.3729.169,,2019-05-27 13:47:06,2019-05-27 13:47:06,0.102s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-27 13:47:06,2019-05-27 13:47:11,5.005s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/button_Logout""))",Chrome 74.0.3729.169,,2019-05-27 13:47:11,2019-05-27 13:47:12,0.927s,PASSED
+"assert getUrl() == ""https://schroders-uat.realrating.co.uk/login""",Chrome 74.0.3729.169,Asserting Sucessful Logout,2019-05-27 13:47:12,2019-05-27 13:47:12,0.031s,PASSED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Subt2-Grade</name>
+   <tag></tag>
+   <elementGuidId>114f6edb-a9f3-42d8-ac69-a59c047f5ea6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='msform']/fieldset[5]/div/div/div[11]/div[2]/div[2]/div/select/option[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='msform']/fieldset[5]/div/div/div[11]/div[2]/div[2]/div/select/option[2]</value>
+   </webElementProperties>
+</WebElementEntity>

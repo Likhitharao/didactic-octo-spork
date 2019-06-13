@@ -124,7 +124,7 @@ if (MainQualificationCount == 1) {
 
     Grade1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/REALrating/Page_REALrating/GradeOne'))
 
-    Grade1 = (1+rad.nextInt(Grade1TotalOptions - 1))
+    Grade1 = (1 + rad.nextInt(Grade1TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/GradeOne'), Grade1)
 
@@ -264,9 +264,6 @@ WebUI.click(findTestObject('REALRatings/REALrating/Page_REALrating/User Agreemen
 WebUI.click(findTestObject('REALRatings/REALrating/Page_REALrating/button_Submit'))
 
 WebUI.delay(5)
-
-'verify Sucessfull Form Submission'
-assert WebUI.getUrl() == 'https://uat.realrating.co.uk/realrating/thankyou'
 
 WebUI.takeScreenshot()
 

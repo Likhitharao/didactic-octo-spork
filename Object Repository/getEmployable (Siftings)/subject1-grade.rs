@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>subject1-grade</name>
+   <tag></tag>
+   <elementGuidId>4ce566db-bbe3-4b0f-bfea-0baff9b9c8a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='msform']/fieldset[5]/div/div/div[11]/div[1]/div[2]/div/select/option[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='msform']/fieldset[5]/div/div/div[11]/div[1]/div[2]/div/select/option[2]</value>
+   </webElementProperties>
+</WebElementEntity>

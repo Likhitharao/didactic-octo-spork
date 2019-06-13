@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ehnicity</name>
+   <tag></tag>
+   <elementGuidId>c935d7cf-f341-4235-95a4-0b98e62ce148</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div[1]/div/div[2]/div/div/form/fieldset[7]/div/div/div[2]/div[1]/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div[1]/div/div[2]/div/div/form/fieldset[7]/div/div/div[2]/div[1]/div/select</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>degree</name>
+   <tag></tag>
+   <elementGuidId>8f661939-1551-406b-9179-5b65ef3172af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div[1]/div/div[2]/div/div/form/fieldset[2]/div/div/div[6]/div/div/select/option[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div[1]/div/div[2]/div/div/form/fieldset[2]/div/div/div[6]/div/div/select/option[3]</value>
+   </webElementProperties>
+</WebElementEntity>

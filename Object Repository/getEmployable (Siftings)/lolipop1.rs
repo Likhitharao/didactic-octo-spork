@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lolipop1</name>
+   <tag></tag>
+   <elementGuidId>6542afee-cdbc-49ab-a822-096b6d2d1c93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div[1]/div/div[2]/div/div/form/fieldset[6]/div/div/div/div[2]/div/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div[1]/div/div[2]/div/div/form/fieldset[6]/div/div/div/div[2]/div/div[1]/input</value>
+   </webElementProperties>
+</WebElementEntity>

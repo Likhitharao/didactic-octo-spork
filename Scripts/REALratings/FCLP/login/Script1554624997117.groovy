@@ -56,3 +56,4 @@ WebUI.click(findTestObject('REALRatings/Greensill/login/Page_RealRating/button_L
 
 'Asserting Sucessful Logout'
 assert WebUI.getUrl() == 'https://fclp-uat.realrating.co.uk/login'
+

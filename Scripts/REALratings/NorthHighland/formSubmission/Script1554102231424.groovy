@@ -36,7 +36,7 @@ WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/Last Nam
 'Enter University Email'
 int Email = rad.nextInt(2000)
 
-WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/University Emailid'), 'nh' + Email +'@test.com')
+WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/University Emailid'), ('nh' + Email) + '@test.com')
 
 'Click NEXT'
 WebUI.click(findTestObject('REALRatings/NorthHighland/Page_REALrating/First Next'), FailureHandling.STOP_ON_FAILURE)
@@ -112,9 +112,7 @@ if (MainQualificationCount == 1) {
     Year3 = (1 + rad.nextInt(Year3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/Year Three'), Year3)
-	
 } else if (MainQualificationCount == 2) {
-
     'B-Tech Subject Line'
     WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/BTech Title'), 'maths')
 
@@ -129,9 +127,7 @@ if (MainQualificationCount == 1) {
     BtechYearCount = (1 + rad.nextInt(BtechYearTotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/BTech Year'), BtechYearCount)
-	
 } else if (MainQualificationCount == 3) {
-
     IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP One'))
 
     IBP1count = (1 + rad.nextInt(IBP1TotalOptions - 1))
@@ -167,13 +163,9 @@ if (MainQualificationCount == 1) {
     IBY3count = (1 + rad.nextInt(IBY3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/NorthHighland/Page_REALrating/IBP3 Year'), IBY3count)
-	
 } else if (MainQualificationCount == 4) {
-
     WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/Other Qualification'), 'other ouualifications ')
-	
 } else if (MainQualificationCount == 5) {
-
     WebUI.setText(findTestObject('REALRatings/NorthHighland/Page_REALrating/HE Title'), 'hemathshe course')
 
     HEGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/NorthHighland/Page_REALrating/HE Grade'))
@@ -217,8 +209,12 @@ WebUI.click(findTestObject('REALRatings/NorthHighland/Page_REALrating/ConfirmAgg
 'Click on Submit Button'
 WebUI.click(findTestObject('REALRatings/NorthHighland/Page_REALrating/Submit'))
 
+WebUI.delay(5)
+
 'verify Sucessfull Form Submission'
 assert WebUI.getUrl() == 'https://nh-uat.realrating.co.uk/thankyou'
 
 int filename = rad.nextInt(100)
+
 WebUI.takeScreenshot('nh' + filename, FailureHandling.STOP_ON_FAILURE)
+

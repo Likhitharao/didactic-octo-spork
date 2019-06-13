@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+getEmployable,Chrome 74.0.3729.169,,2019-05-29 12:46:26,2019-05-29 12:48:35,2m - 9.597s,FAILED
+,,,,,,
+Test Cases/getEmployable/launchSite,Chrome 74.0.3729.169,,2019-05-29 12:46:26,2019-05-29 12:47:03,36.789s,FAILED
+"comment(""Opening getEmployable application"")",Chrome 74.0.3729.169,,2019-05-29 12:46:27,2019-05-29 12:46:27,0.174s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,Launch browser,2019-05-29 12:46:27,2019-05-29 12:46:40,12.848s,PASSED
+"navigateToUrl(findTestData(""getEmployable/URL"").getValue(1, 1))",Chrome 74.0.3729.169,Invoke getEmployable site ,2019-05-29 12:46:40,2019-05-29 12:46:43,3.038s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,Maximize the browser,2019-05-29 12:46:43,2019-05-29 12:46:51,8.075s,PASSED
+"verifyElementPresent(findTestObject(""getEmployable/form""), 10, STOP_ON_FAILURE)",Chrome 74.0.3729.169,Verify the site lauched sucessfully,2019-05-29 12:46:51,2019-05-29 12:47:03,12.227s,FAILED
+,,,,,,
+Test Cases/getEmployable/aboutYou,Chrome 74.0.3729.169,,2019-05-29 12:47:03,2019-05-29 12:47:15,12.360s,FAILED
+"comment(""Enter aboutYou page details"")",Chrome 74.0.3729.169,,2019-05-29 12:47:03,2019-05-29 12:47:03,0.003s,PASSED
+"setText(findTestObject(""getEmployable/input_First Name""), findTestData(""getEmployable/Applicants"").getValue(1, 1))",Chrome 74.0.3729.169,"Enter First Name
+",2019-05-29 12:47:03,2019-05-29 12:47:15,12.098s,FAILED
+,,,,,,
+Test Cases/getEmployable/yourUniversity,Chrome 74.0.3729.169,,2019-05-29 12:47:15,2019-05-29 12:47:28,12.277s,FAILED
+"comment(""Enter Your University Details"")",Chrome 74.0.3729.169,,2019-05-29 12:47:16,2019-05-29 12:47:16,0.003s,PASSED
+"UniversityTotalOption = getNumberOfTotalOption(findTestObject(""getEmployable/select_University""))",Chrome 74.0.3729.169,Random Selection of University ,2019-05-29 12:47:16,2019-05-29 12:47:28,12.049s,FAILED
+,,,,,,
+Test Cases/getEmployable/Employee pages/Employee,Chrome 74.0.3729.169,,2019-05-29 12:47:28,2019-05-29 12:47:40,12.611s,FAILED
+"comment(""Calling Employee test cases"")",Chrome 74.0.3729.169,,2019-05-29 12:47:28,2019-05-29 12:47:28,0.003s,PASSED
+"callTestCase(findTestCase(""getEmployable/Employee pages/Emp page 1""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-29 12:47:28,2019-05-29 12:47:40,12.411s,FAILED
+,,,,,,
+Test Cases/getEmployable/yourCareerArea,Chrome 74.0.3729.169,,2019-05-29 12:47:40,2019-05-29 12:47:57,17.210s,FAILED
+"comment(""Enter CareerArea Details"")",Chrome 74.0.3729.169,,2019-05-29 12:47:40,2019-05-29 12:47:40,0.001s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-29 12:47:40,2019-05-29 12:47:45,5.007s,PASSED
+"click(findTestObject(""getEmployable/yourCareerArea/careerpage""))",Chrome 74.0.3729.169,"Select ""Banking and Finance Springboard sponsored by Bank of America Merrill Lynch """,2019-05-29 12:47:45,2019-05-29 12:47:57,12.067s,FAILED
+,,,,,,
+Test Cases/getEmployable/Journey to University page 1,Chrome 74.0.3729.169,,2019-05-29 12:47:57,2019-05-29 12:48:10,12.832s,FAILED
+"comment(""Enter Journey to University Details"")",Chrome 74.0.3729.169,,2019-05-29 12:47:58,2019-05-29 12:47:58,0.002s,PASSED
+rad = new java.util.Random(),Chrome 74.0.3729.169,,2019-05-29 12:47:58,2019-05-29 12:47:58,0.004s,PASSED
+"Mathyear = getNumberOfTotalOption(findTestObject(""Journey,background details/Journey/math grade""))",Chrome 74.0.3729.169,,2019-05-29 12:47:58,2019-05-29 12:48:10,12.066s,FAILED
+,,,,,,
+Test Cases/getEmployable/Jouney to University page 2,Chrome 74.0.3729.169,,2019-05-29 12:48:10,2019-05-29 12:48:23,12.240s,FAILED
+"comment(""Enter Journey To University page 2 details"")",Chrome 74.0.3729.169,,2019-05-29 12:48:11,2019-05-29 12:48:11,0.003s,PASSED
+"click(findTestObject(""getEmployable/label_Below 25000""))",Chrome 74.0.3729.169,Household Income,2019-05-29 12:48:11,2019-05-29 12:48:23,12.064s,FAILED
+,,,,,,
+Test Cases/getEmployable/your background,Chrome 74.0.3729.169,,2019-05-29 12:48:23,2019-05-29 12:48:35,12.258s,FAILED
+"comment(""Enter yourbackground details"")",Chrome 74.0.3729.169,,2019-05-29 12:48:23,2019-05-29 12:48:23,0.002s,PASSED
+rad = new java.util.Random(),Chrome 74.0.3729.169,,2019-05-29 12:48:23,2019-05-29 12:48:23,0.001s,PASSED
+"ethnicity = getNumberOfTotalOption(findTestObject(""getEmployable/Employee details/21-05-2019/background/ehnicity""))",Chrome 74.0.3729.169,,2019-05-29 12:48:23,2019-05-29 12:48:35,12.076s,FAILED
