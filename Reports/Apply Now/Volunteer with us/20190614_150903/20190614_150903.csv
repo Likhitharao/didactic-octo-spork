@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Volunteer with us,Chrome 74.0.3729.169,,2019-06-14 15:09:05,2019-06-14 15:09:26,21.080s,FAILED
+,,,,,,
+Test Cases/ApplyNow/form1,Chrome 74.0.3729.169,,2019-06-14 15:09:05,2019-06-14 15:09:26,20.125s,FAILED
+"comment(""Apply Now/Form1 - Details"")",Chrome 74.0.3729.169,,2019-06-14 15:09:06,2019-06-14 15:09:06,0.101s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-06-14 15:09:06,2019-06-14 15:09:11,4.240s,PASSED
+"navigateToUrl(""https://uat.upreach.org.uk/"")",Chrome 74.0.3729.169,,2019-06-14 15:09:11,2019-06-14 15:09:15,4.778s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-14 15:09:15,2019-06-14 15:09:25,10.122s,PASSED
+"click(findTestObject(""ApplyNow/Page_upReach  Boosting social mobility by supporting students from less-advantaged backgrounds to secure top jobs/a_Apply Now""))",Chrome 74.0.3729.169,Click on apply now button,2019-06-14 15:09:25,2019-06-14 15:09:26,0.125s,FAILED

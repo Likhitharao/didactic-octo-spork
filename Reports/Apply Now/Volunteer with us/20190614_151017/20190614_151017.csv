@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Volunteer with us,Chrome 74.0.3729.169,,2019-06-14 15:10:19,2019-06-14 15:11:13,54.066s,PASSED
+,,,,,,
+Test Cases/ApplyNow/Volunteer with us,Chrome 74.0.3729.169,,2019-06-14 15:10:19,2019-06-14 15:11:12,53.056s,PASSED
+"comment(""Volunteer with us - Details"")",Chrome 74.0.3729.169,,2019-06-14 15:10:19,2019-06-14 15:10:20,0.118s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,Opening Browser,2019-06-14 15:10:20,2019-06-14 15:10:23,3.883s,PASSED
+"navigateToUrl(""https://uat.upreach.org.uk"")",Chrome 74.0.3729.169,Navigating to URL,2019-06-14 15:10:23,2019-06-14 15:11:04,40.515s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-14 15:11:04,2019-06-14 15:11:05,1.153s,PASSED
+"click(findTestObject(""ApplyNow/Volunteer with us/our partner""))",Chrome 74.0.3729.169,Click on Partners,2019-06-14 15:11:05,2019-06-14 15:11:11,5.938s,PASSED
+"setText(findTestObject(""ApplyNow/Volunteer with us/Firstname""), ""Mark"")",Chrome 74.0.3729.169,Enter 'First Name',2019-06-14 15:11:11,2019-06-14 15:11:11,0.139s,PASSED
+"setText(findTestObject(""ApplyNow/Volunteer with us/Lastname""), ""Levis"")",Chrome 74.0.3729.169,Enter 'LastName',2019-06-14 15:11:11,2019-06-14 15:11:11,0.107s,PASSED
+"setText(findTestObject(""ApplyNow/Volunteer with us/Contact number""), ""07704512535"")",Chrome 74.0.3729.169,Enter Contact Number,2019-06-14 15:11:11,2019-06-14 15:11:11,0.103s,PASSED
+rad = new java.util.Random(),Chrome 74.0.3729.169,,2019-06-14 15:11:11,2019-06-14 15:11:11,0.004s,PASSED
+Email = rad.nextInt(2000),Chrome 74.0.3729.169,,2019-06-14 15:11:11,2019-06-14 15:11:11,0.002s,PASSED
+"setText(findTestObject(""ApplyNow/Volunteer with us/Email""), ""personal"" + Email + ""@test.com"")",Chrome 74.0.3729.169,Enter Email ,2019-06-14 15:11:11,2019-06-14 15:11:12,0.209s,PASSED
+"setText(findTestObject(""ApplyNow/Volunteer with us/Current employer""), ""ppp"")",Chrome 74.0.3729.169,Enter 'Current Employer',2019-06-14 15:11:12,2019-06-14 15:11:12,0.125s,PASSED
+"setText(findTestObject(""ApplyNow/Volunteer with us/how you can help""), ""Volunteer with upReach"")",Chrome 74.0.3729.169,Enter 'How you can help' - Description,2019-06-14 15:11:12,2019-06-14 15:11:12,0.166s,PASSED
+"setText(findTestObject(""ApplyNow/Volunteer with us/previous skills""), ""Product Manager"")",Chrome 74.0.3729.169,Enter 'Previous Skills',2019-06-14 15:11:12,2019-06-14 15:11:12,0.154s,PASSED
+"click(findTestObject(""ApplyNow/Volunteer with us/Submit""))",Chrome 74.0.3729.169,Click on Submit button,2019-06-14 15:11:12,2019-06-14 15:11:12,0.070s,PASSED

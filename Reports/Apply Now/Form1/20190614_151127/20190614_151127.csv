@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Form1,Chrome 74.0.3729.169,,2019-06-14 15:11:29,2019-06-14 15:12:26,56.751s,PASSED
+,,,,,,
+Test Cases/ApplyNow/form1,Chrome 74.0.3729.169,,2019-06-14 15:11:29,2019-06-14 15:12:25,55.734s,PASSED
+"comment(""Apply Now/Form1 - Details"")",Chrome 74.0.3729.169,,2019-06-14 15:11:30,2019-06-14 15:11:30,0.089s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-06-14 15:11:30,2019-06-14 15:11:33,3.419s,PASSED
+"navigateToUrl(""https://uat.upreach.org.uk/"")",Chrome 74.0.3729.169,,2019-06-14 15:11:33,2019-06-14 15:12:17,43.275s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-14 15:12:17,2019-06-14 15:12:18,1.173s,PASSED
+"click(findTestObject(""ApplyNow/Page_upReach  Boosting social mobility by supporting students from less-advantaged backgrounds to secure top jobs/a_Apply Now""))",Chrome 74.0.3729.169,Click on apply now button,2019-06-14 15:12:18,2019-06-14 15:12:18,0.125s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.169,,2019-06-14 15:12:18,2019-06-14 15:12:18,0.027s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-06-14 15:12:18,2019-06-14 15:12:20,2.015s,PASSED
+"setText(findTestObject(""ApplyNow/Page_Apply Now  upReach/Firstnam""), findTestData(""getEmployable/Applicants"").getValue(1, 1))",Chrome 74.0.3729.169,Enter First Name,2019-06-14 15:12:20,2019-06-14 15:12:21,1.232s,PASSED
+"setText(findTestObject(""ApplyNow/Page_Apply Now  upReach/input__last_name""), findTestData(""getEmployable/Applicants"").getValue(2, 1))",Chrome 74.0.3729.169,Enter Last Name,2019-06-14 15:12:21,2019-06-14 15:12:21,0.184s,PASSED
+rad = new java.util.Random(),Chrome 74.0.3729.169,,2019-06-14 15:12:21,2019-06-14 15:12:21,0.006s,PASSED
+"UniversityTotalOption = getNumberOfTotalOption(findTestObject(""ApplyNow/Page_Apply Now  upReach/University""))",Chrome 74.0.3729.169,University,2019-06-14 15:12:21,2019-06-14 15:12:21,0.098s,PASSED
+UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1),Chrome 74.0.3729.169,,2019-06-14 15:12:21,2019-06-14 15:12:21,0.008s,PASSED
+"selectOptionByIndex(findTestObject(""ApplyNow/Page_Apply Now  upReach/University""), UniversityCount)",Chrome 74.0.3729.169,,2019-06-14 15:12:21,2019-06-14 15:12:23,1.280s,PASSED
+if (UniversityCount == 1),Chrome 74.0.3729.169,Not yet University,2019-06-14 15:12:23,2019-06-14 15:12:23,0.000s,PASSED
+else,Chrome 74.0.3729.169,,2019-06-14 15:12:23,2019-06-14 15:12:23,0.748s,PASSED
+"setText(findTestObject(""ApplyNow/Page_Apply Now  upReach/input__phone""), findTestData(""getEmployable/Applicants"").getValue(5, 1))",Chrome 74.0.3729.169,Enter Mobile Number,2019-06-14 15:12:23,2019-06-14 15:12:24,0.205s,PASSED
+Email = rad.nextInt(2000),Chrome 74.0.3729.169,,2019-06-14 15:12:24,2019-06-14 15:12:24,0.001s,PASSED
+"setText(findTestObject(""ApplyNow/Page_Apply Now  upReach/personal email""), ""personal"" + Email + ""@test.com"")",Chrome 74.0.3729.169,Enter Personal Email ,2019-06-14 15:12:24,2019-06-14 15:12:24,0.243s,PASSED
+"setText(findTestObject(""ApplyNow/Page_Apply Now  upReach/input__university_email""), ""test"" + Email + ""@ac.uk"")",Chrome 74.0.3729.169,Enter University Email,2019-06-14 15:12:24,2019-06-14 15:12:24,0.208s,PASSED
+"click(findTestObject(""ApplyNow/Page_Apply Now  upReach/Career Stream""))",Chrome 74.0.3729.169,,2019-06-14 15:12:24,2019-06-14 15:12:24,0.071s,PASSED
+"AboutupReach = getNumberOfTotalOption(findTestObject(""ApplyNow/Page_Apply Now  upReach/hear about upreach""))",Chrome 74.0.3729.169,Hear about upReach,2019-06-14 15:12:24,2019-06-14 15:12:24,0.067s,PASSED
+AboutupReachCount = 1 + rad.nextInt(AboutupReach - 1),Chrome 74.0.3729.169,,2019-06-14 15:12:24,2019-06-14 15:12:24,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""ApplyNow/Page_Apply Now  upReach/hear about upreach""), AboutupReachCount)",Chrome 74.0.3729.169,,2019-06-14 15:12:24,2019-06-14 15:12:24,0.206s,PASSED
+if (AboutupReachCount == 4),Chrome 74.0.3729.169,,2019-06-14 15:12:24,2019-06-14 15:12:24,0.000s,PASSED
+"click(findTestObject(""ApplyNow/Page_Apply Now  upReach/label_By ticking this box I confirm that I meet all the eligibility criteria (Who we support).""))",Chrome 74.0.3729.169,Check Confirm ,2019-06-14 15:12:24,2019-06-14 15:12:25,0.100s,PASSED
+"click(findTestObject(""ApplyNow/Page_Apply Now  upReach/Agreement tick""))",Chrome 74.0.3729.169,Check Agreement ,2019-06-14 15:12:25,2019-06-14 15:12:25,0.130s,PASSED
+"click(findTestObject(""ApplyNow/Page_Apply Now  upReach/button_Register""))",Chrome 74.0.3729.169,Click on register button,2019-06-14 15:12:25,2019-06-14 15:12:25,0.071s,PASSED

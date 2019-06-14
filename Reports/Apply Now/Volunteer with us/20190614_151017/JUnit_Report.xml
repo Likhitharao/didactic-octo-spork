@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Volunteer with us" time="54" tests="1" failures="0" errors="0">
+   <testsuite name="Volunteer with us" tests="1" failures="0" errors="0" time="54" timestamp="2019-06-14 15:10:19" hostname="sambhavi - sambhavi.jmandigital.in" id="Test Suites/Apply Now/Volunteer with us">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\Apply Now\\Volunteer with us\\20190614_151017"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\Apply Now\\Volunteer with us\\20190614_151017\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sambhavi - sambhavi.jmandigital.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="e5f80df8fd34fdff03d4480650db3cab"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ApplyNow/Volunteer with us" classname="Test Cases/ApplyNow/Volunteer with us" status="PASSED">
+         <system-out><![CDATA[2019-06-14 15:10:19 - [TEST_CASE][PASSED] - Test Cases/ApplyNow/Volunteer with us: Test Cases/ApplyNow/Volunteer with us
+
+2019-06-14 15:10:19 - [TEST_STEP][PASSED] - comment("Volunteer with us - Details"): Volunteer with us - Details
+
+2019-06-14 15:10:20 - [MESSAGE][INFO] - Volunteer with us - Details
+
+2019-06-14 15:10:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-14 15:10:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-14 15:10:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-14 15:10:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-14 15:10:23 - [TEST_STEP][PASSED] - navigateToUrl("https://uat.upreach.org.uk"): Navigate to 'https://uat.upreach.org.uk' successfully
+
+2019-06-14 15:11:04 - [MESSAGE][PASSED] - Navigate to 'https://uat.upreach.org.uk' successfully
+
+2019-06-14 15:11:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-14 15:11:05 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-14 15:11:05 - [TEST_STEP][PASSED] - click(findTestObject("ApplyNow/Volunteer with us/our partner")): Object: 'Object Repository/ApplyNow/Volunteer with us/our partner' is clicked on
+
+2019-06-14 15:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplyNow/Volunteer with us/our partner' is clicked on
+
+2019-06-14 15:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("ApplyNow/Volunteer with us/Firstname"), "Mark"): Text 'Mark' is set on object 'Object Repository/ApplyNow/Volunteer with us/Firstname'
+
+2019-06-14 15:11:11 - [MESSAGE][PASSED] - Text 'Mark' is set on object 'Object Repository/ApplyNow/Volunteer with us/Firstname'
+
+2019-06-14 15:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("ApplyNow/Volunteer with us/Lastname"), "Levis"): Text 'Levis' is set on object 'Object Repository/ApplyNow/Volunteer with us/Lastname'
+
+2019-06-14 15:11:11 - [MESSAGE][PASSED] - Text 'Levis' is set on object 'Object Repository/ApplyNow/Volunteer with us/Lastname'
+
+2019-06-14 15:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("ApplyNow/Volunteer with us/Contact number"), "07704512535"): Text '07704512535' is set on object 'Object Repository/ApplyNow/Volunteer with us/Contact number'
+
+2019-06-14 15:11:11 - [MESSAGE][PASSED] - Text '07704512535' is set on object 'Object Repository/ApplyNow/Volunteer with us/Contact number'
+
+2019-06-14 15:11:11 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-06-14 15:11:11 - [TEST_STEP][PASSED] - Email = rad.nextInt(2000): null
+
+2019-06-14 15:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("ApplyNow/Volunteer with us/Email"), "personal" + Email + "@test.com"): Text 'personal9@test.com' is set on object 'Object Repository/ApplyNow/Volunteer with us/Email'
+
+2019-06-14 15:11:12 - [MESSAGE][PASSED] - Text 'personal9@test.com' is set on object 'Object Repository/ApplyNow/Volunteer with us/Email'
+
+2019-06-14 15:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("ApplyNow/Volunteer with us/Current employer"), "ppp"): Text 'ppp' is set on object 'Object Repository/ApplyNow/Volunteer with us/Current employer'
+
+2019-06-14 15:11:12 - [MESSAGE][PASSED] - Text 'ppp' is set on object 'Object Repository/ApplyNow/Volunteer with us/Current employer'
+
+2019-06-14 15:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("ApplyNow/Volunteer with us/how you can help"), "Volunteer with upReach"): Text 'Volunteer with upReach' is set on object 'Object Repository/ApplyNow/Volunteer with us/how you can help'
+
+2019-06-14 15:11:12 - [MESSAGE][PASSED] - Text 'Volunteer with upReach' is set on object 'Object Repository/ApplyNow/Volunteer with us/how you can help'
+
+2019-06-14 15:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("ApplyNow/Volunteer with us/previous skills"), "Product Manager"): Text 'Product Manager' is set on object 'Object Repository/ApplyNow/Volunteer with us/previous skills'
+
+2019-06-14 15:11:12 - [MESSAGE][PASSED] - Text 'Product Manager' is set on object 'Object Repository/ApplyNow/Volunteer with us/previous skills'
+
+2019-06-14 15:11:12 - [TEST_STEP][PASSED] - click(findTestObject("ApplyNow/Volunteer with us/Submit")): Object: 'Object Repository/ApplyNow/Volunteer with us/Submit' is clicked on
+
+2019-06-14 15:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplyNow/Volunteer with us/Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-14 15:10:19 - [TEST_SUITE][PASSED] - Volunteer with us: Test Cases/ApplyNow/Volunteer with us]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
