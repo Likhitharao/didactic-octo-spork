@@ -12,6 +12,9 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
+
 
 'Open Browser'
 WebUI.openBrowser('')
@@ -33,8 +36,9 @@ WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Last Name'), 'raj
 
 'Enter University Email'
 int emailid = rad.nextInt(2000)
+WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Univrsity Emaid'), ('fclp' + emailid) + '@test.com')
 
-WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Univrsity Emaid'), 'fclp' + emailid + '@test.com')
+WebUI.getAttribute(findTestObject('REALRatings/FCLP/Page_REALrating/Univrsity Emaid'), 'a')
 
 'University'
 UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/University'))
@@ -45,7 +49,6 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Unive
 
 'Other University'
 if (UniversityCount == 98) {
-	
     WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/Other University'), 'VTU Other university')
 }
 
@@ -58,7 +61,6 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Unive
 
 'University Other Course '
 if (UniveristyCourseCount == 95) {
-	
     WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Other University Course'), 'VTU ')
 }
 
@@ -87,7 +89,6 @@ WebUI.delay(2)
 
 //GradeMathsYearTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/Grade B Maths'))
 //GradeMathsYearcount = (1 + rad.nextInt(GradeMathsYearTotalOptions - 1))
-
 'Do you have at least a grade B in GCSE Maths?'
 WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Grade B Maths'), GradeEnglishYearcount)
 
@@ -164,9 +165,7 @@ if (MainQualificationCount == 1) {
     Year3 = (1 + rad.nextInt(Year3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Year Three'), Year3)
-	
 } else if (MainQualificationCount == 2) {
-
     'B-Tech Subject Line'
     WebUI.setText(findTestObject('REALRatings/REALrating/Page_REALrating/BTechTitle'), 'maths')
 
@@ -181,9 +180,7 @@ if (MainQualificationCount == 1) {
     BtechYearCount = (1 + rad.nextInt(BtechYearTotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/REALrating/Page_REALrating/BTechYear'), BtechYearCount)
-	
 } else if (MainQualificationCount == 3) {
-
     IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points one'))
 
     IBP1count = (1 + rad.nextInt(IBP1TotalOptions - 1))
@@ -221,13 +218,9 @@ if (MainQualificationCount == 1) {
     IBY3count = (1 + rad.nextInt(IBY3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/IB YearThree'), IBY3count)
-	
 } else if (MainQualificationCount == 4) {
-
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Other Qualification'), 'other ouualifications ')
-	
 } else if (MainQualificationCount == 5) {
-
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/HETitle'), 'hemathshe course')
 
     HEGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/HE Grade'))
@@ -291,7 +284,6 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Gende
 
 'other Gender'
 if (GenderCount == 3) {
-	
     WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Other Gender'), 'Othr Gender')
 }
 
@@ -304,7 +296,6 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Relig
 
 'Other Religion'
 if (ReligionCount == 8) {
-	
     WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/input_Other Religion_religion'), 'hindu')
 }
 
@@ -324,7 +315,6 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/FCLP/Page_REALrating/Sexua
 
 'other Orientation'
 if (SexualCount == 5) {
-	
     WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/input_Other Orientation_sexual_orientation'), 'other sexual ')
 }
 

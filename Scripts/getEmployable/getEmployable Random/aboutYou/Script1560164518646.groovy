@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.comment('Enter aboutYou page details')
 Random rad = new Random()
 
-'Enter First Name\r\n'
+'Enter First Name'
 
 WebUI.setText(findTestObject('getEmployable/input_First Name'), findTestData('getEmployable/Applicants').getValue(1, 1))
 
@@ -32,7 +32,7 @@ WebUI.setText(findTestObject('getEmployable/input_University Email'), ('test' + 
 'Enter Personal Email '
 WebUI.setText(findTestObject('getEmployable/input_Personal Email'), ('personal' + Email) + '@test.com')
 
-'Enter Mobile Number\r\n'
+'Enter Mobile Number'
 WebUI.setText(findTestObject('getEmployable/input_Phone Number'), findTestData('getEmployable/Applicants').getValue(5, 1))
 
 WebUI.delay(10)
