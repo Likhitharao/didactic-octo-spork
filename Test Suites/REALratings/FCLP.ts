@@ -15,6 +15,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/REALratings/FCLP/formSubmission</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f0a1c83a-76f7-4491-88fa-5662cd854b8e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c7ed0b11-54a6-444e-b080-d2311d17857e</guid>

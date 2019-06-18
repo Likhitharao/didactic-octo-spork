@@ -13,11 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-
-
+import org.openqa.selenium.WebDriver as WebDriver
 
 'Open Browser'
 WebUI.openBrowser('')
+
+WebDriver myDriver = DriverFactory.getWebDriver()
 
 'Launch FCLP Applications'
 WebUI.navigateToUrl('https://fclp-uat.realrating.co.uk/')
@@ -36,9 +37,8 @@ WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Last Name'), 'raj
 
 'Enter University Email'
 int emailid = rad.nextInt(2000)
-WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Univrsity Emaid'), ('fclp' + emailid) + '@test.com')
 
-WebUI.getAttribute(findTestObject('REALRatings/FCLP/Page_REALrating/Univrsity Emaid'), 'a')
+WebUI.setText(findTestObject('REALRatings/FCLP/Page_REALrating/Univrsity Emaid'), ('fclp' + emailid) + '@test.com')
 
 'University'
 UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/FCLP/Page_REALrating/University'))

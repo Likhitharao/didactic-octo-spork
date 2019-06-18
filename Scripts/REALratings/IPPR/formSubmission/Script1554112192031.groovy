@@ -12,9 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 'Open Browser'
 WebUI.openBrowser('')
+
+WebDriver myDriver = DriverFactory.getWebDriver()
 
 'Launch IPPR Application'
 WebUI.navigateToUrl('https://ippr-uat.realrating.co.uk/')
@@ -38,6 +42,8 @@ int email = rad.nextInt(2000)
 'Enter University Email'
 WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/University Emailid'), ('ippr' + email) + '@test.com')
 
+ WebUI.getAttribute(findTestObject('REALRatings/Greensill/Page_REALrating/University Emailid'), '')
+
 'Click NEXT'
 WebUI.click(findTestObject('REALRatings/IPPR/Page_REALrating/First Next'), FailureHandling.STOP_ON_FAILURE)
 
@@ -54,7 +60,6 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/
 
 'Other University'
 if (UniversityCount == 98) {
-	
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Other University'), 'VTU Other university')
 }
 
@@ -67,7 +72,6 @@ WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/
 
 'University Other Course '
 if (UniveristyCourseCount == 95) {
-	
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Univerisity Course Other'), 'VTU ')
 }
 
@@ -154,9 +158,7 @@ if (MainQualificationCount == 1) {
     Year3 = (1 + rad.nextInt(Year3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Year Three'), Year3)
-	
 } else if (MainQualificationCount == 2) {
-
     'B-Tech Subject Line'
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Title'), 'maths')
 
@@ -171,9 +173,7 @@ if (MainQualificationCount == 1) {
     BtechYearCount = (1 + rad.nextInt(BtechYearTotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/BTech Year'), BtechYearCount)
-	
 } else if (MainQualificationCount == 3) {
-
     IBP1TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/IB Points one'))
 
     IBP1count = (1 + rad.nextInt(IBP1TotalOptions - 1))
@@ -211,13 +211,9 @@ if (MainQualificationCount == 1) {
     IBY3count = (1 + rad.nextInt(IBY3TotalOptions - 1))
 
     WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/IB YearThree'), IBY3count)
-	
 } else if (MainQualificationCount == 4) {
-
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/Other Qualification'), 'other ouualifications ')
-	
 } else if (MainQualificationCount == 5) {
-
     WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/HETitle'), 'hemathshe course')
 
     HEGradeTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('REALRatings/Greensill/Page_REALrating/HE Grade'))
