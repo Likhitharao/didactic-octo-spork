@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="getEmployable-Reject" time="156" tests="12" failures="2" errors="0">
+   <testsuite name="getEmployable-Reject" tests="12" failures="2" errors="0" time="156" timestamp="2019-07-16 11:00:41" hostname="sambhavi - sambhavi.jmandigital.in" id="Test Suites/getEmployable/getEmployable-Reject">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\getEmployable\\getEmployable-Reject\\20190716_110039"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\getEmployable\\getEmployable-Reject\\20190716_110039\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\getEmployable\\getEmployable-Reject\\20190716_110039\\1563255191567.png, C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\getEmployable\\getEmployable-Reject\\20190716_110039\\1563255197370.png"/>
+         <property name="hostName" value="sambhavi - sambhavi.jmandigital.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="5c6e4e40db565fae074d66cd334089ba"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/launchSite" classname="Test Cases/getEmployable/getEmployable Random/launchSite" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:00:41 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/launchSite: Test Cases/getEmployable/getEmployable Random/launchSite
+
+2019-07-16 11:00:42 - [TEST_STEP][PASSED] - comment("Opening getEmployable application"): Opening getEmployable application
+
+2019-07-16 11:00:42 - [MESSAGE][INFO] - Opening getEmployable application
+
+2019-07-16 11:00:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-16 11:00:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-16 11:00:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-16 11:00:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-16 11:00:45 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("getEmployable/URL").getValue(1, 1)): Navigate to 'https://uat.getemployable.org/gef-assessment' successfully
+
+2019-07-16 11:00:49 - [MESSAGE][PASSED] - Navigate to 'https://uat.getemployable.org/gef-assessment' successfully
+
+2019-07-16 11:00:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-16 11:00:50 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-16 11:00:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("getEmployable/form"), 10, STOP_ON_FAILURE): Object 'Object Repository/getEmployable/form' is present
+
+2019-07-16 11:00:50 - [MESSAGE][PASSED] - Object 'Object Repository/getEmployable/form' is present
+
+2019-07-16 11:00:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:00:55 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/aboutYou" classname="Test Cases/getEmployable/getEmployable Random/aboutYou" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:00:55 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/aboutYou: Test Cases/getEmployable/getEmployable Random/aboutYou
+
+2019-07-16 11:00:55 - [TEST_STEP][PASSED] - comment("Enter aboutYou page details"): Enter aboutYou page details
+
+2019-07-16 11:00:55 - [MESSAGE][INFO] - Enter aboutYou page details
+
+2019-07-16 11:00:55 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-07-16 11:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("getEmployable/input_First Name"), findTestData("getEmployable/Applicants").getValue(1, 1)): Text 'Asha' is set on object 'Object Repository/getEmployable/input_First Name'
+
+2019-07-16 11:00:56 - [MESSAGE][PASSED] - Text 'Asha' is set on object 'Object Repository/getEmployable/input_First Name'
+
+2019-07-16 11:00:56 - [TEST_STEP][PASSED] - setText(findTestObject("getEmployable/input_Last name"), findTestData("getEmployable/Applicants").getValue(2, 1)): Text 'Rajendran' is set on object 'Object Repository/getEmployable/input_Last name'
+
+2019-07-16 11:00:56 - [MESSAGE][PASSED] - Text 'Rajendran' is set on object 'Object Repository/getEmployable/input_Last name'
+
+2019-07-16 11:00:56 - [TEST_STEP][PASSED] - Email = rad.nextInt(2000): null
+
+2019-07-16 11:00:56 - [TEST_STEP][PASSED] - setText(findTestObject("getEmployable/input_University Email"), "test" + Email + "@ac.uk"): Text 'test1131@ac.uk' is set on object 'Object Repository/getEmployable/input_University Email'
+
+2019-07-16 11:00:56 - [MESSAGE][PASSED] - Text 'test1131@ac.uk' is set on object 'Object Repository/getEmployable/input_University Email'
+
+2019-07-16 11:00:56 - [TEST_STEP][PASSED] - setText(findTestObject("getEmployable/input_Personal Email"), "personal" + Email + "@test.com"): Text 'personal1131@test.com' is set on object 'Object Repository/getEmployable/input_Personal Email'
+
+2019-07-16 11:00:57 - [MESSAGE][PASSED] - Text 'personal1131@test.com' is set on object 'Object Repository/getEmployable/input_Personal Email'
+
+2019-07-16 11:00:57 - [TEST_STEP][PASSED] - setText(findTestObject("getEmployable/input_Phone Number"), findTestData("getEmployable/Applicants").getValue(5, 1)): Text '08125648521' is set on object 'Object Repository/getEmployable/input_Phone Number'
+
+2019-07-16 11:00:57 - [MESSAGE][PASSED] - Text '08125648521' is set on object 'Object Repository/getEmployable/input_Phone Number'
+
+2019-07-16 11:00:57 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-07-16 11:01:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-16 11:01:07 - [TEST_STEP][PASSED] - click(findTestObject("getEmployable/input_date Of Birth"), STOP_ON_FAILURE): Object: 'Object Repository/getEmployable/input_date Of Birth' is clicked on
+
+2019-07-16 11:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/getEmployable/input_date Of Birth' is clicked on
+
+2019-07-16 11:01:07 - [TEST_STEP][PASSED] - click(findTestObject("ApplyNow/Page_getEmployable - Assessment Form/a_04")): Object: 'Object Repository/ApplyNow/Page_getEmployable - Assessment Form/a_04' is clicked on
+
+2019-07-16 11:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplyNow/Page_getEmployable - Assessment Form/a_04' is clicked on
+
+2019-07-16 11:01:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:01:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:01:13 - [TEST_STEP][PASSED] - click(findTestObject("getEmployable/gender")): Object: 'Object Repository/getEmployable/gender' is clicked on
+
+2019-07-16 11:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/getEmployable/gender' is clicked on
+
+2019-07-16 11:01:13 - [TEST_STEP][PASSED] - click(findTestObject("getEmployable/input_Other_next")): Object: 'Object Repository/getEmployable/input_Other_next' is clicked on
+
+2019-07-16 11:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/getEmployable/input_Other_next' is clicked on
+
+2019-07-16 11:01:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:01:18 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/yourUniversity" classname="Test Cases/getEmployable/getEmployable Random/yourUniversity" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:01:18 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/yourUniversity: Test Cases/getEmployable/getEmployable Random/yourUniversity
+
+2019-07-16 11:01:18 - [TEST_STEP][PASSED] - comment("Enter Your University Details"): Enter Your University Details
+
+2019-07-16 11:01:18 - [MESSAGE][INFO] - Enter Your University Details
+
+2019-07-16 11:01:18 - [TEST_STEP][PASSED] - UniversityTotalOption = getNumberOfTotalOption(findTestObject("getEmployable/select_University")): 155 options of object 'Object Repository/getEmployable/select_University' counted
+
+2019-07-16 11:01:18 - [MESSAGE][PASSED] - 155 options of object 'Object Repository/getEmployable/select_University' counted
+
+2019-07-16 11:01:18 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-07-16 11:01:18 - [TEST_STEP][PASSED] - UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1): null
+
+2019-07-16 11:01:18 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("getEmployable/select_University"), UniversityCount): All options with index in [87] are selected on object 'Object Repository/getEmployable/select_University'
+
+2019-07-16 11:01:19 - [MESSAGE][PASSED] - All options with index in [87] are selected on object 'Object Repository/getEmployable/select_University'
+
+2019-07-16 11:01:19 - [TEST_STEP][PASSED] - UniversityCourseTotalOption = getNumberOfTotalOption(findTestObject("getEmployable/select_UniversityCourse")): 96 options of object 'Object Repository/getEmployable/select_UniversityCourse' counted
+
+2019-07-16 11:01:19 - [MESSAGE][PASSED] - 96 options of object 'Object Repository/getEmployable/select_UniversityCourse' counted
+
+2019-07-16 11:01:19 - [TEST_STEP][PASSED] - UniveristyCourseCount = rad.nextInt(UniversityCourseTotalOption): null
+
+2019-07-16 11:01:19 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("getEmployable/select_UniversityCourse"), UniveristyCourseCount): All options with index in [20] are selected on object 'Object Repository/getEmployable/select_UniversityCourse'
+
+2019-07-16 11:01:20 - [MESSAGE][PASSED] - All options with index in [20] are selected on object 'Object Repository/getEmployable/select_UniversityCourse'
+
+2019-07-16 11:01:20 - [TEST_STEP][PASSED] - if (UniveristyCourseCount == 96): null
+
+2019-07-16 11:01:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:01:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:01:25 - [TEST_STEP][PASSED] - DegreeTotalOptions = getNumberOfTotalOption(findTestObject("getEmployable/select_Degree")): 10 options of object 'Object Repository/getEmployable/select_Degree' counted
+
+2019-07-16 11:01:25 - [MESSAGE][PASSED] - 10 options of object 'Object Repository/getEmployable/select_Degree' counted
+
+2019-07-16 11:01:25 - [TEST_STEP][PASSED] - DegreeCount = 1 + rad.nextInt(DegreeTotalOptions - 1): null
+
+2019-07-16 11:01:25 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("getEmployable/select_Degree"), DegreeCount): All options with index in [4] are selected on object 'Object Repository/getEmployable/select_Degree'
+
+2019-07-16 11:01:25 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/getEmployable/select_Degree'
+
+2019-07-16 11:01:25 - [TEST_STEP][PASSED] - CourseDurationTotalOptions = getNumberOfTotalOption(findTestObject("getEmployable/select_CourseDuration")): 7 options of object 'Object Repository/getEmployable/select_CourseDuration' counted
+
+2019-07-16 11:01:25 - [MESSAGE][PASSED] - 7 options of object 'Object Repository/getEmployable/select_CourseDuration' counted
+
+2019-07-16 11:01:25 - [TEST_STEP][PASSED] - CourseDurationCount = 1 + rad.nextInt(CourseDurationTotalOptions - 1): null
+
+2019-07-16 11:01:25 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("getEmployable/select_CourseDuration"), CourseDurationCount): All options with index in [5] are selected on object 'Object Repository/getEmployable/select_CourseDuration'
+
+2019-07-16 11:01:25 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/getEmployable/select_CourseDuration'
+
+2019-07-16 11:01:25 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("getEmployable/select_YearOfStudy"), CourseDurationCount): All options with index in [5] are selected on object 'Object Repository/getEmployable/select_YearOfStudy'
+
+2019-07-16 11:01:25 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/getEmployable/select_YearOfStudy'
+
+2019-07-16 11:01:25 - [TEST_STEP][PASSED] - click(findTestObject("getEmployable/select_FullTime")): Object: 'Object Repository/getEmployable/select_FullTime' is clicked on
+
+2019-07-16 11:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/getEmployable/select_FullTime' is clicked on
+
+2019-07-16 11:01:25 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-07-16 11:01:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-16 11:01:35 - [TEST_STEP][PASSED] - click(findTestObject("getEmployable/button_NextUniversity")): Object: 'Object Repository/getEmployable/button_NextUniversity' is clicked on
+
+2019-07-16 11:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/getEmployable/button_NextUniversity' is clicked on
+
+2019-07-16 11:01:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-16 11:01:38 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 1" classname="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 1" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:01:38 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 1: Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 1
+
+2019-07-16 11:01:38 - [TEST_STEP][PASSED] - comment("Enter Employee page 1 details"): Enter Employee page 1 details
+
+2019-07-16 11:01:38 - [MESSAGE][INFO] - Enter Employee page 1 details
+
+2019-07-16 11:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Under 3 months_option_question_32")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Under 3 months_option_question_32' is clicked on
+
+2019-07-16 11:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Under 3 months_option_question_32' is clicked on
+
+2019-07-16 11:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Under 3 months_option_question_33")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Under 3 months_option_question_33' is clicked on
+
+2019-07-16 11:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Under 3 months_option_question_33' is clicked on
+
+2019-07-16 11:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_34")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_34' is clicked on
+
+2019-07-16 11:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_34' is clicked on
+
+2019-07-16 11:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_35")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_35' is clicked on
+
+2019-07-16 11:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_35' is clicked on
+
+2019-07-16 11:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes typically averaging at least 1-2 hours per week for the last year or more._option_question_36")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes typically averaging at least 1-2 hours per week for the last year or more._option_question_36' is clicked on
+
+2019-07-16 11:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes typically averaging at least 1-2 hours per week for the last year or more._option_question_36' is clicked on
+
+2019-07-16 11:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_37")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_37' is clicked on
+
+2019-07-16 11:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_37' is clicked on
+
+2019-07-16 11:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_38")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_38' is clicked on
+
+2019-07-16 11:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_38' is clicked on
+
+2019-07-16 11:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_39")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_39' is clicked on
+
+2019-07-16 11:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_39' is clicked on
+
+2019-07-16 11:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes - mainly to work_option_question_40")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes - mainly to work_option_question_40' is clicked on
+
+2019-07-16 11:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes - mainly to work_option_question_40' is clicked on
+
+2019-07-16 11:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Interview(s) with Careers Advisor_option_question_41")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Interview(s) with Careers Advisor_option_question_41' is clicked on
+
+2019-07-16 11:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Interview(s) with Careers Advisor_option_question_41' is clicked on
+
+2019-07-16 11:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Very helpful_followup_question_4")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Very helpful_followup_question_4' is clicked on
+
+2019-07-16 11:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Very helpful_followup_question_4' is clicked on
+
+2019-07-16 11:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Knowledgable about some relevant careers._option_question_43")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Knowledgable about some relevant careers._option_question_43' is clicked on
+
+2019-07-16 11:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Knowledgable about some relevant careers._option_question_43' is clicked on
+
+2019-07-16 11:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes they helped me a little_option_question_44")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes they helped me a little_option_question_44' is clicked on
+
+2019-07-16 11:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes they helped me a little_option_question_44' is clicked on
+
+2019-07-16 11:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_My family_option_question_46")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_My family_option_question_46' is clicked on
+
+2019-07-16 11:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_My family_option_question_46' is clicked on
+
+2019-07-16 11:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Friends of my family have helped me secure useful work experience._option_question_47")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Friends of my family have helped me secure useful work experience._option_question_47' is clicked on
+
+2019-07-16 11:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Friends of my family have helped me secure useful work experience._option_question_47' is clicked on
+
+2019-07-16 11:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x")): Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x' is clicked on
+
+2019-07-16 11:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 2" classname="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 2" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:01:40 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 2: Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 2
+
+2019-07-16 11:01:40 - [TEST_STEP][PASSED] - comment("Enter Employee page 2 details"): Enter Employee page 2 details
+
+2019-07-16 11:01:40 - [MESSAGE][INFO] - Enter Employee page 2 details
+
+2019-07-16 11:01:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:01:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_I dont know much about any careers  suited to me._option_question_19")): Object: 'Object Repository/Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_I dont know much about any careers  suited to me._option_question_19' is clicked on
+
+2019-07-16 11:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_I dont know much about any careers  suited to me._option_question_19' is clicked on
+
+2019-07-16 11:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_concat(No I don  t know which career is best for me.)_option_question_24")): Object: 'Object Repository/Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_concat(No I don  t know which career is best for me.)_option_question_24' is clicked on
+
+2019-07-16 11:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_concat(No I don  t know which career is best for me.)_option_question_24' is clicked on
+
+2019-07-16 11:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_The general application process for graduate jobs (and internships if applicable)._option_question_30")): Object: 'Object Repository/Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_The general application process for graduate jobs (and internships if applicable)._option_question_30' is clicked on
+
+2019-07-16 11:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_The general application process for graduate jobs (and internships if applicable)._option_question_30' is clicked on
+
+2019-07-16 11:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_The career trajectory including how promotion is achieved and the pay at each level._option_question_31")): Object: 'Object Repository/Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_The career trajectory including how promotion is achieved and the pay at each level._option_question_31' is clicked on
+
+2019-07-16 11:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_The career trajectory including how promotion is achieved and the pay at each level._option_question_31' is clicked on
+
+2019-07-16 11:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/span_Not applicable or none of these_fa fa-angle-right fa-2x")): Object: 'Object Repository/Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/span_Not applicable or none of these_fa fa-angle-right fa-2x' is clicked on
+
+2019-07-16 11:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/span_Not applicable or none of these_fa fa-angle-right fa-2x' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 3" classname="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 3" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:01:45 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 3: Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 3
+
+2019-07-16 11:01:46 - [TEST_STEP][PASSED] - comment("Enter Employee page 3 details"): Enter Employee page 3 details
+
+2019-07-16 11:01:46 - [MESSAGE][INFO] - Enter Employee page 3 details
+
+2019-07-16 11:01:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:01:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:01:51 - [TEST_STEP][PASSED] - click(findTestObject("getEmployable/Employee details/21-05-2019/Emp page 3/Page_getEmployable - Assessment Form/input_Application  Interview Skills_option_question_50")): Object: 'Object Repository/getEmployable/Employee details/21-05-2019/Emp page 3/Page_getEmployable - Assessment Form/input_Application  Interview Skills_option_question_50' is clicked on
+
+2019-07-16 11:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/getEmployable/Employee details/21-05-2019/Emp page 3/Page_getEmployable - Assessment Form/input_Application  Interview Skills_option_question_50' is clicked on
+
+2019-07-16 11:01:51 - [TEST_STEP][PASSED] - click(findTestObject("Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/input_No_option_question_51")): Object: 'Object Repository/Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/input_No_option_question_51' is clicked on
+
+2019-07-16 11:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/input_No_option_question_51' is clicked on
+
+2019-07-16 11:01:51 - [TEST_STEP][PASSED] - click(findTestObject("Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/input_Yes - other technique_option_question_52")): Object: 'Object Repository/Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/input_Yes - other technique_option_question_52' is clicked on
+
+2019-07-16 11:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/input_Yes - other technique_option_question_52' is clicked on
+
+2019-07-16 11:01:51 - [TEST_STEP][PASSED] - click(findTestObject("Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/span_None of the above_fa fa-angle-right fa-2x")): Object: 'Object Repository/Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/span_None of the above_fa fa-angle-right fa-2x' is clicked on
+
+2019-07-16 11:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/span_None of the above_fa fa-angle-right fa-2x' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 4" classname="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 4" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:01:51 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 4: Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 4
+
+2019-07-16 11:01:51 - [TEST_STEP][PASSED] - comment("Enter Employee page 4 details"): Enter Employee page 4 details
+
+2019-07-16 11:01:51 - [MESSAGE][INFO] - Enter Employee page 4 details
+
+2019-07-16 11:01:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:01:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:01:56 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_Communication_option_question_14")): Object: 'Object Repository/Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_Communication_option_question_14' is clicked on
+
+2019-07-16 11:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_Communication_option_question_14' is clicked on
+
+2019-07-16 11:01:56 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_None of these_option_question_15")): Object: 'Object Repository/Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_None of these_option_question_15' is clicked on
+
+2019-07-16 11:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_None of these_option_question_15' is clicked on
+
+2019-07-16 11:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_None of these_option_question_16")): Object: 'Object Repository/Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_None of these_option_question_16' is clicked on
+
+2019-07-16 11:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_None of these_option_question_16' is clicked on
+
+2019-07-16 11:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/span_I can identify some habits that prevent me working at my best but find it hard to address them._fa fa-angle-right fa-2x")): Object: 'Object Repository/Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/span_I can identify some habits that prevent me working at my best but find it hard to address them._fa fa-angle-right fa-2x' is clicked on
+
+2019-07-16 11:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/span_I can identify some habits that prevent me working at my best but find it hard to address them._fa fa-angle-right fa-2x' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 5" classname="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 5" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:01:57 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 5: Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 5
+
+2019-07-16 11:01:57 - [TEST_STEP][PASSED] - comment("Enter Employee page 5 details"): Enter Employee page 5 details
+
+2019-07-16 11:01:57 - [MESSAGE][INFO] - Enter Employee page 5 details
+
+2019-07-16 11:01:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:02:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:02:02 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_Prefect_option_question_1")): Object: 'Object Repository/Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_Prefect_option_question_1' is clicked on
+
+2019-07-16 11:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_Prefect_option_question_1' is clicked on
+
+2019-07-16 11:02:02 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_Position on a society committee such as Treasurer or Social Secretary of RAG._option_question_8")): Object: 'Object Repository/Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_Position on a society committee such as Treasurer or Social Secretary of RAG._option_question_8' is clicked on
+
+2019-07-16 11:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_Position on a society committee such as Treasurer or Social Secretary of RAG._option_question_8' is clicked on
+
+2019-07-16 11:02:02 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_None_option_question_9")): Object: 'Object Repository/Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_None_option_question_9' is clicked on
+
+2019-07-16 11:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_None_option_question_9' is clicked on
+
+2019-07-16 11:02:02 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/span_Founder of a business or project_fa fa-angle-right fa-2x")): Object: 'Object Repository/Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/span_Founder of a business or project_fa fa-angle-right fa-2x' is clicked on
+
+2019-07-16 11:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/span_Founder of a business or project_fa fa-angle-right fa-2x' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 6,7" classname="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 6,7" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:02:02 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 6,7: Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 6,7
+
+2019-07-16 11:02:03 - [TEST_STEP][PASSED] - comment("Enter Employee page 6,7 details"): Enter Employee page 6,7 details
+
+2019-07-16 11:02:03 - [MESSAGE][INFO] - Enter Employee page 6,7 details
+
+2019-07-16 11:02:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:02:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_Problem Solving  Creativity_option_question_6")): Object: 'Object Repository/Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_Problem Solving  Creativity_option_question_6' is clicked on
+
+2019-07-16 11:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_Problem Solving  Creativity_option_question_6' is clicked on
+
+2019-07-16 11:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 6,7/Page_getEmployable - Assessment Form/input_I am actively involved in a student enterprise club or a consultancy society or programme._option_question_7")): Object: 'Object Repository/Employee details/Employee pages/Emp page 6,7/Page_getEmployable - Assessment Form/input_I am actively involved in a student enterprise club or a consultancy society or programme._option_question_7' is clicked on
+
+2019-07-16 11:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 6,7/Page_getEmployable - Assessment Form/input_I am actively involved in a student enterprise club or a consultancy society or programme._option_question_7' is clicked on
+
+2019-07-16 11:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x")): Object: 'Object Repository/Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x' is clicked on
+
+2019-07-16 11:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x' is clicked on
+
+2019-07-16 11:02:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:02:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_Professionalism_option_question_48")): Object: 'Object Repository/Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_Professionalism_option_question_48' is clicked on
+
+2019-07-16 11:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_Professionalism_option_question_48' is clicked on
+
+2019-07-16 11:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_None of the above_option_question_49")): Object: 'Object Repository/Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_None of the above_option_question_49' is clicked on
+
+2019-07-16 11:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_None of the above_option_question_49' is clicked on
+
+2019-07-16 11:02:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:02:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:02:18 - [TEST_STEP][PASSED] - click(findTestObject("Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/next")): Object: 'Object Repository/Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/next' is clicked on
+
+2019-07-16 11:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 8,9,10" classname="Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 8,9,10" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:02:18 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 8,9,10: Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 8,9,10
+
+2019-07-16 11:02:18 - [TEST_STEP][PASSED] - comment("Enter Employee page 8,9,10 details"): Enter Employee page 8,9,10 details
+
+2019-07-16 11:02:18 - [MESSAGE][INFO] - Enter Employee page 8,9,10 details
+
+2019-07-16 11:02:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:02:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:02:23 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I set myself goals but rarely achieve them._option_question_17")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I set myself goals but rarely achieve them._option_question_17' is clicked on
+
+2019-07-16 11:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I set myself goals but rarely achieve them._option_question_17' is clicked on
+
+2019-07-16 11:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I wish I hadn  t wasted time attempting it.)_option_question_18")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I wish I hadn  t wasted time attempting it.)_option_question_18' is clicked on
+
+2019-07-16 11:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I wish I hadn  t wasted time attempting it.)_option_question_18' is clicked on
+
+2019-07-16 11:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I usually eat cakes crisps chocolate or sugary drinks more than twice a day._option_question_20")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I usually eat cakes crisps chocolate or sugary drinks more than twice a day._option_question_20' is clicked on
+
+2019-07-16 11:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I usually eat cakes crisps chocolate or sugary drinks more than twice a day._option_question_20' is clicked on
+
+2019-07-16 11:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I have high self-esteem._option_question_21")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I have high self-esteem._option_question_21' is clicked on
+
+2019-07-16 11:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I have high self-esteem._option_question_21' is clicked on
+
+2019-07-16 11:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x' is clicked on
+
+2019-07-16 11:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x' is clicked on
+
+2019-07-16 11:02:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:02:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I would struggle._option_question_22")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I would struggle._option_question_22' is clicked on
+
+2019-07-16 11:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I would struggle._option_question_22' is clicked on
+
+2019-07-16 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I seem to work fine most of the time but I don  t really think about why.)_option_question_23")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I seem to work fine most of the time but I don  t really think about why.)_option_question_23' is clicked on
+
+2019-07-16 11:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I seem to work fine most of the time but I don  t really think about why.)_option_question_23' is clicked on
+
+2019-07-16 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I don  t know  of any habits that adversely affect how I work.)_option_question_26")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I don  t know  of any habits that adversely affect how I work.)_option_question_26' is clicked on
+
+2019-07-16 11:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I don  t know  of any habits that adversely affect how I work.)_option_question_26' is clicked on
+
+2019-07-16 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I consistently use a diary to schedule events._option_question_27")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I consistently use a diary to schedule events._option_question_27' is clicked on
+
+2019-07-16 11:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I consistently use a diary to schedule events._option_question_27' is clicked on
+
+2019-07-16 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I regularly set myself goals but don  t think too much about how I set them.)_option_question_28")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I regularly set myself goals but don  t think too much about how I set them.)_option_question_28' is clicked on
+
+2019-07-16 11:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I regularly set myself goals but don  t think too much about how I set them.)_option_question_28' is clicked on
+
+2019-07-16 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I can find it hard to work with people who work in different ways to me._option_question_29")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I can find it hard to work with people who work in different ways to me._option_question_29' is clicked on
+
+2019-07-16 11:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I can find it hard to work with people who work in different ways to me._option_question_29' is clicked on
+
+2019-07-16 11:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I would struggle._option_question_53")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I would struggle._option_question_53' is clicked on
+
+2019-07-16 11:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I would struggle._option_question_53' is clicked on
+
+2019-07-16 11:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I sometimes get stressed and am not sure how I deal with it._option_question_54")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I sometimes get stressed and am not sure how I deal with it._option_question_54' is clicked on
+
+2019-07-16 11:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I sometimes get stressed and am not sure how I deal with it._option_question_54' is clicked on
+
+2019-07-16 11:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x_1")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x_1' is clicked on
+
+2019-07-16 11:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x_1' is clicked on
+
+2019-07-16 11:02:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:02:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I play a proactive role in group settings._option_question_5")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I play a proactive role in group settings._option_question_5' is clicked on
+
+2019-07-16 11:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I play a proactive role in group settings._option_question_5' is clicked on
+
+2019-07-16 11:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_Sports team_option_question_11")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_Sports team_option_question_11' is clicked on
+
+2019-07-16 11:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_Sports team_option_question_11' is clicked on
+
+2019-07-16 11:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I rarely complete the task on time._option_question_13")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I rarely complete the task on time._option_question_13' is clicked on
+
+2019-07-16 11:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I rarely complete the task on time._option_question_13' is clicked on
+
+2019-07-16 11:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_None or Not applicable._next")): Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_None or Not applicable._next' is clicked on
+
+2019-07-16 11:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_None or Not applicable._next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/yourCareerArea" classname="Test Cases/getEmployable/getEmployable Random/yourCareerArea" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:02:35 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/yourCareerArea: Test Cases/getEmployable/getEmployable Random/yourCareerArea
+
+2019-07-16 11:02:36 - [TEST_STEP][PASSED] - comment("Enter CareerArea Details"): Enter CareerArea Details
+
+2019-07-16 11:02:36 - [MESSAGE][INFO] - Enter CareerArea Details
+
+2019-07-16 11:02:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:02:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:02:41 - [TEST_STEP][PASSED] - click(findTestObject("getEmployable/yourCareerArea/careerpage")): Object: 'Object Repository/getEmployable/yourCareerArea/careerpage' is clicked on
+
+2019-07-16 11:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/getEmployable/yourCareerArea/careerpage' is clicked on
+
+2019-07-16 11:02:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:02:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:02:46 - [TEST_STEP][PASSED] - click(findTestObject("getEmployable/yourCareerArea/next")): Object: 'Object Repository/getEmployable/yourCareerArea/next' is clicked on
+
+2019-07-16 11:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/getEmployable/yourCareerArea/next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/Journey to University page 1" classname="Test Cases/getEmployable/getEmployable Random/Journey to University page 1" status="PASSED">
+         <system-out><![CDATA[2019-07-16 11:02:46 - [TEST_CASE][PASSED] - Test Cases/getEmployable/getEmployable Random/Journey to University page 1: Test Cases/getEmployable/getEmployable Random/Journey to University page 1
+
+2019-07-16 11:02:47 - [TEST_STEP][PASSED] - comment("Enter Journey to University Details"): Enter Journey to University Details
+
+2019-07-16 11:02:47 - [MESSAGE][INFO] - Enter Journey to University Details
+
+2019-07-16 11:02:47 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-07-16 11:02:47 - [TEST_STEP][PASSED] - Mathyear = getNumberOfTotalOption(findTestObject("Journey,background details/Journey/math grade")): 10 options of object 'Object Repository/Journey,background details/Journey/math grade' counted
+
+2019-07-16 11:02:47 - [MESSAGE][PASSED] - 10 options of object 'Object Repository/Journey,background details/Journey/math grade' counted
+
+2019-07-16 11:02:47 - [TEST_STEP][PASSED] - mathyearcount = 1 + rad.nextInt(Mathyear - 1): null
+
+2019-07-16 11:02:47 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Journey,background details/Journey/math grade"), mathyearcount): All options with index in [1] are selected on object 'Object Repository/Journey,background details/Journey/math grade'
+
+2019-07-16 11:02:47 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Journey,background details/Journey/math grade'
+
+2019-07-16 11:02:47 - [TEST_STEP][PASSED] - englishyear = getNumberOfTotalOption(findTestObject("Journey,background details/Journey/eng grade")): 10 options of object 'Object Repository/Journey,background details/Journey/eng grade' counted
+
+2019-07-16 11:02:47 - [MESSAGE][PASSED] - 10 options of object 'Object Repository/Journey,background details/Journey/eng grade' counted
+
+2019-07-16 11:02:47 - [TEST_STEP][PASSED] - englishyearcount = 1 + rad.nextInt(englishyear - 1): null
+
+2019-07-16 11:02:47 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Journey,background details/Journey/eng grade"), englishyearcount): All options with index in [7] are selected on object 'Object Repository/Journey,background details/Journey/eng grade'
+
+2019-07-16 11:02:48 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Journey,background details/Journey/eng grade'
+
+2019-07-16 11:02:48 - [TEST_STEP][PASSED] - comment("Main Qualification  Information"): Main Qualification  Information
+
+2019-07-16 11:02:48 - [MESSAGE][INFO] - Main Qualification  Information
+
+2019-07-16 11:02:48 - [TEST_STEP][PASSED] - ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject("Journey,background details/Journey/A level complete")): 71 options of object 'Object Repository/Journey,background details/Journey/A level complete' counted
+
+2019-07-16 11:02:48 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/Journey,background details/Journey/A level complete' counted
+
+2019-07-16 11:02:48 - [TEST_STEP][PASSED] - ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1): null
+
+2019-07-16 11:02:48 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Journey,background details/Journey/A level complete"), ALevelYearcount): All options with index in [25] are selected on object 'Object Repository/Journey,background details/Journey/A level complete'
+
+2019-07-16 11:02:48 - [MESSAGE][PASSED] - All options with index in [25] are selected on object 'Object Repository/Journey,background details/Journey/A level complete'
+
+2019-07-16 11:02:48 - [TEST_STEP][PASSED] - GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject("Journey,background details/Journey/complete gsce")): 71 options of object 'Object Repository/Journey,background details/Journey/complete gsce' counted
+
+2019-07-16 11:02:48 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/Journey,background details/Journey/complete gsce' counted
+
+2019-07-16 11:02:48 - [TEST_STEP][PASSED] - GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1): null
+
+2019-07-16 11:02:48 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Journey,background details/Journey/complete gsce"), GCSEYearCount): All options with index in [11] are selected on object 'Object Repository/Journey,background details/Journey/complete gsce'
+
+2019-07-16 11:02:49 - [MESSAGE][PASSED] - All options with index in [11] are selected on object 'Object Repository/Journey,background details/Journey/complete gsce'
+
+2019-07-16 11:02:49 - [TEST_STEP][PASSED] - schoolOptions = getNumberOfTotalOption(findTestObject("Journey,background details/Journey/ukschool")): 5 options of object 'Object Repository/Journey,background details/Journey/ukschool' counted
+
+2019-07-16 11:02:49 - [MESSAGE][PASSED] - 5 options of object 'Object Repository/Journey,background details/Journey/ukschool' counted
+
+2019-07-16 11:02:49 - [TEST_STEP][PASSED] - schoolCount = 1 + rad.nextInt(schoolOptions - 1): null
+
+2019-07-16 11:02:49 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Journey,background details/Journey/ukschool"), schoolCount): All options with index in [4] are selected on object 'Object Repository/Journey,background details/Journey/ukschool'
+
+2019-07-16 11:02:49 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/Journey,background details/Journey/ukschool'
+
+2019-07-16 11:02:49 - [TEST_STEP][PASSED] - if (schoolCount == 1): null
+
+2019-07-16 11:02:49 - [TEST_STEP][PASSED] - MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject("Journey,background details/Journey/main qualification")): 6 options of object 'Object Repository/Journey,background details/Journey/main qualification' counted
+
+2019-07-16 11:02:49 - [MESSAGE][PASSED] - 6 options of object 'Object Repository/Journey,background details/Journey/main qualification' counted
+
+2019-07-16 11:02:49 - [TEST_STEP][PASSED] - MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1): null
+
+2019-07-16 11:02:49 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Journey,background details/Journey/main qualification"), MainQualificationCount): All options with index in [2] are selected on object 'Object Repository/Journey,background details/Journey/main qualification'
+
+2019-07-16 11:02:49 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Journey,background details/Journey/main qualification'
+
+2019-07-16 11:02:49 - [TEST_STEP][PASSED] - if (MainQualificationCount == 1): null
+
+2019-07-16 11:02:49 - [TEST_STEP][PASSED] - else if (MainQualificationCount == 2): All options with index in [36] are selected on object 'Object Repository/Journey,background details/Journey/Btech Year'
+
+2019-07-16 11:02:49 - [TEST_STEP][PASSED] - setText(findTestObject("Journey,background details/Journey/Btech title"), "maths"): Text 'maths' is set on object 'Object Repository/Journey,background details/Journey/Btech title'
+
+2019-07-16 11:02:50 - [MESSAGE][PASSED] - Text 'maths' is set on object 'Object Repository/Journey,background details/Journey/Btech title'
+
+2019-07-16 11:02:50 - [TEST_STEP][PASSED] - BtechGradeTotalOptions = getNumberOfTotalOption(findTestObject("Journey,background details/Journey/Btech Grade")): 11 options of object 'Object Repository/Journey,background details/Journey/Btech Grade' counted
+
+2019-07-16 11:02:50 - [MESSAGE][PASSED] - 11 options of object 'Object Repository/Journey,background details/Journey/Btech Grade' counted
+
+2019-07-16 11:02:50 - [TEST_STEP][PASSED] - BtechGradeCount = 1 + rad.nextInt(BtechGradeTotalOptions - 1): null
+
+2019-07-16 11:02:50 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Journey,background details/Journey/Btech Grade"), BtechGradeCount): All options with index in [4] are selected on object 'Object Repository/Journey,background details/Journey/Btech Grade'
+
+2019-07-16 11:02:50 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/Journey,background details/Journey/Btech Grade'
+
+2019-07-16 11:02:50 - [TEST_STEP][PASSED] - BtechYearTotalOptions = getNumberOfTotalOption(findTestObject("Journey,background details/Journey/Btech Year")): 71 options of object 'Object Repository/Journey,background details/Journey/Btech Year' counted
+
+2019-07-16 11:02:50 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/Journey,background details/Journey/Btech Year' counted
+
+2019-07-16 11:02:50 - [TEST_STEP][PASSED] - BtechYearCount = 1 + rad.nextInt(BtechYearTotalOptions - 1): null
+
+2019-07-16 11:02:50 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Journey,background details/Journey/Btech Year"), BtechYearCount): All options with index in [36] are selected on object 'Object Repository/Journey,background details/Journey/Btech Year'
+
+2019-07-16 11:02:50 - [MESSAGE][PASSED] - All options with index in [36] are selected on object 'Object Repository/Journey,background details/Journey/Btech Year'
+
+2019-07-16 11:02:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:02:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:02:55 - [TEST_STEP][NOT_RUN] - setText(findTestObject("getEmployable (Siftings)/set text"), "abc", CONTINUE_ON_FAILURE): NOT_RUN: setText(findTestObject("getEmployable (Siftings)/set text"), "abc", CONTINUE_ON_FAILURE)
+
+2019-07-16 11:02:55 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("getEmployable (Siftings)/set text"), "abc", CONTINUE_ON_FAILURE)
+
+2019-07-16 11:02:55 - [TEST_STEP][PASSED] - setText(findTestObject("Journey,background details/Journey/post1"), findTestData("getEmployable/Applicants").getValue(8, 1)): Text 'NW64DN' is set on object 'Object Repository/Journey,background details/Journey/post1'
+
+2019-07-16 11:02:56 - [MESSAGE][PASSED] - Text 'NW64DN' is set on object 'Object Repository/Journey,background details/Journey/post1'
+
+2019-07-16 11:02:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:03:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:03:01 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Journey,background details/Journey/post2"), findTestData("getEmployable/Applicants").getValue(9, 1), CONTINUE_ON_FAILURE): NOT_RUN: setText(findTestObject("Journey,background details/Journey/post2"), findTestData("getEmployable/Applicants").getValue(9, 1), CONTINUE_ON_FAILURE)
+
+2019-07-16 11:03:01 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Journey,background details/Journey/post2"), findTestData("getEmployable/Applicants").getValue(9, 1), CONTINUE_ON_FAILURE)
+
+2019-07-16 11:03:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:03:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:03:06 - [TEST_STEP][PASSED] - click(findTestObject("getEmployable (Siftings)/journey1 next")): Object: 'Object Repository/getEmployable (Siftings)/journey1 next' is clicked on
+
+2019-07-16 11:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/getEmployable (Siftings)/journey1 next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable-Reject/Journey2" classname="Test Cases/getEmployable/getEmployable-Reject/Journey2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/getEmployable/getEmployable-Reject/Journey2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/getEmployable (Siftings)/above 42000'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Journey2.run(Journey2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-16 11:03:06 - [TEST_CASE][FAILED] - Test Cases/getEmployable/getEmployable-Reject/Journey2: Test Cases/getEmployable/getEmployable-Reject/Journey2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/getEmployable (Siftings)/above 42000'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Journey2.run(Journey2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)
+
+
+2019-07-16 11:03:06 - [TEST_STEP][PASSED] - comment("Rejection Criteria - Income above 42000"): Rejection Criteria - Income above 42000
+
+2019-07-16 11:03:06 - [MESSAGE][INFO] - Rejection Criteria - Income above 42000
+
+2019-07-16 11:03:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:03:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:03:11 - [TEST_STEP][FAILED] - click(findTestObject("getEmployable (Siftings)/above 42000")): click(findTestObject("getEmployable (Siftings)/above 42000")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/getEmployable (Siftings)/above 42000'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Journey2.run(Journey2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)
+
+
+2019-07-16 11:03:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/getEmployable (Siftings)/above 42000'
+[[ATTACHMENT|C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\getEmployable\\getEmployable-Reject\\20190716_110039\\1563255191567.png]]
+
+2019-07-16 11:03:11 - [MESSAGE][FAILED] - click(findTestObject("getEmployable (Siftings)/above 42000")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/getEmployable (Siftings)/above 42000'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Journey2.run(Journey2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-16 11:03:06 - [TEST_CASE][FAILED] - Test Cases/getEmployable/getEmployable-Reject/Journey2: Test Cases/getEmployable/getEmployable-Reject/Journey2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/getEmployable (Siftings)/above 42000'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Journey2.run(Journey2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/getEmployable/getEmployable Random/your background" classname="Test Cases/getEmployable/getEmployable Random/your background" status="FAILED">
+         <failure type="FAILED" message="Test Cases/getEmployable/getEmployable Random/your background FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '7' of object 'Object Repository/getEmployable (Siftings)/ehnicity'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$7.call(Unknown Source)
+	at your background.run(your background:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-16 11:03:11 - [TEST_CASE][FAILED] - Test Cases/getEmployable/getEmployable Random/your background: Test Cases/getEmployable/getEmployable Random/your background FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '7' of object 'Object Repository/getEmployable (Siftings)/ehnicity'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$7.call(Unknown Source)
+	at your background.run(your background:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)
+
+
+2019-07-16 11:03:12 - [TEST_STEP][PASSED] - comment("Enter yourbackground details"): Enter yourbackground details
+
+2019-07-16 11:03:12 - [MESSAGE][INFO] - Enter yourbackground details
+
+2019-07-16 11:03:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 11:03:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 11:03:17 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-07-16 11:03:17 - [TEST_STEP][PASSED] - ethnicity = getNumberOfTotalOption(findTestObject("getEmployable (Siftings)/ehnicity")): 23 options of object 'Object Repository/getEmployable (Siftings)/ehnicity' counted
+
+2019-07-16 11:03:17 - [MESSAGE][PASSED] - 23 options of object 'Object Repository/getEmployable (Siftings)/ehnicity' counted
+
+2019-07-16 11:03:17 - [TEST_STEP][PASSED] - ethnicitycount = 1 + rad.nextInt(ethnicity - 1): null
+
+2019-07-16 11:03:17 - [TEST_STEP][FAILED] - selectOptionByIndex(findTestObject("getEmployable (Siftings)/ehnicity"), ethnicitycount): selectOptionByIndex(findTestObject("getEmployable (Siftings)/ehnicity"), ethnicitycount) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '7' of object 'Object Repository/getEmployable (Siftings)/ehnicity'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$7.call(Unknown Source)
+	at your background.run(your background:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)
+
+
+2019-07-16 11:03:17 - [MESSAGE][FAILED] - Unable to select option by index '7' of object 'Object Repository/getEmployable (Siftings)/ehnicity'
+[[ATTACHMENT|C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\getEmployable\\getEmployable-Reject\\20190716_110039\\1563255197370.png]]
+
+2019-07-16 11:03:17 - [MESSAGE][FAILED] - selectOptionByIndex(findTestObject("getEmployable (Siftings)/ehnicity"), ethnicitycount) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '7' of object 'Object Repository/getEmployable (Siftings)/ehnicity'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$7.call(Unknown Source)
+	at your background.run(your background:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-16 11:03:11 - [TEST_CASE][FAILED] - Test Cases/getEmployable/getEmployable Random/your background: Test Cases/getEmployable/getEmployable Random/your background FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '7' of object 'Object Repository/getEmployable (Siftings)/ehnicity'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$7.call(Unknown Source)
+	at your background.run(your background:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-16 11:00:41 - [TEST_SUITE][FAILED] - getEmployable-Reject: Test Cases/getEmployable/getEmployable-Reject/Journey2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/getEmployable (Siftings)/above 42000'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Journey2.run(Journey2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-16 11:00:41 - [TEST_SUITE][FAILED] - getEmployable-Reject: Test Cases/getEmployable/getEmployable-Reject/Journey2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/getEmployable (Siftings)/above 42000'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Journey2.run(Journey2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563255039708.run(TempTestSuite1563255039708.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

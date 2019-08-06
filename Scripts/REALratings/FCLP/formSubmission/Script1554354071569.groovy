@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.WebDriver as WebDriver
 
+WebUI.comment('FCLP - Form Submission')
+
 'Open Browser'
 WebUI.openBrowser('')
 

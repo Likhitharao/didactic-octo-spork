@@ -1,0 +1,4326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-02T10:53:42</date>
+  <millis>1562045022566</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/REALratings/FCLP</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">FCLP</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/REALratings/FCLP</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:42</date>
+  <millis>1562045022584</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = sambhavi - sambhavi.jmandigital.in</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">sambhavi - sambhavi.jmandigital.in</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:42</date>
+  <millis>1562045022585</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:42</date>
+  <millis>1562045022586</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.185</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.185</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:42</date>
+  <millis>1562045022587</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.5.10</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.5.10</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:42</date>
+  <millis>1562045022914</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/REALratings/FCLP/formSubmission</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/REALratings/FCLP/formSubmission</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/REALratings/FCLP/formSubmission</property>
+  <property name="source">C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Test Cases\\REALratings\\FCLP\\formSubmission.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:43</date>
+  <millis>1562045023060</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) randomString = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:44</date>
+  <millis>1562045024671</millis>
+  <sequence>8</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open Browser</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:44</date>
+  <millis>1562045024866</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:44</date>
+  <millis>1562045024903</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:48</date>
+  <millis>1562045028018</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = d3ec9dc2eb9d6a1eb45d417abc832a94</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">d3ec9dc2eb9d6a1eb45d417abc832a94</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:48</date>
+  <millis>1562045028048</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 75.0.3770.100</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 75.0.3770.100</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:48</date>
+  <millis>1562045028048</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:48</date>
+  <millis>1562045028051</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:48</date>
+  <millis>1562045028052</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:48</date>
+  <millis>1562045028052</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:48</date>
+  <millis>1562045028054</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:48</date>
+  <millis>1562045028055</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : myDriver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:48</date>
+  <millis>1562045028065</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : myDriver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:48</date>
+  <millis>1562045028065</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://fclp-uat.realrating.co.uk/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Launch FCLP Applications</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:51</date>
+  <millis>1562045031913</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://fclp-uat.realrating.co.uk/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:51</date>
+  <millis>1562045031914</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://fclp-uat.realrating.co.uk/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:51</date>
+  <millis>1562045031914</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033054</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033055</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033055</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : rad = new java.util.Random()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033059</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : rad = new java.util.Random()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033059</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Basic and University  Information\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033083</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Basic and University  Information</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033084</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Basic and University  Information\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033084</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/First Name\&amp;quot;), \&amp;quot;asha\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">7</property>
+  <property name="description">Enter First Name</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033361</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;asha&amp;apos; is set on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/First Name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033362</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/First Name\&amp;quot;), \&amp;quot;asha\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033363</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Last Name\&amp;quot;), \&amp;quot;rajednran\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+  <property name="description">Enter Last Name</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033614</millis>
+  <sequence>62</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;rajednran&amp;apos; is set on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Last Name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033614</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Last Name\&amp;quot;), \&amp;quot;rajednran\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033614</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : emailid = rad.nextInt(2000)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">9</property>
+  <property name="description">Enter University Email</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033616</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : emailid = rad.nextInt(2000)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:53</date>
+  <millis>1562045033616</millis>
+  <sequence>66</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Univrsity Emaid\&amp;quot;), \&amp;quot;fclp\&amp;quot; + emailid + \&amp;quot;@test.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034069</millis>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;fclp866@test.com&amp;apos; is set on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Univrsity Emaid&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034070</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Univrsity Emaid\&amp;quot;), \&amp;quot;fclp\&amp;quot; + emailid + \&amp;quot;@test.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034070</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : UniversityTotalOption = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/University\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">11</property>
+  <property name="description">University</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034157</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>154 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/University&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034158</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : UniversityTotalOption = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/University\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034158</millis>
+  <sequence>89</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034162</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034162</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/University\&amp;quot;), UniversityCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034805</millis>
+  <sequence>103</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [65] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/University&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034806</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/University\&amp;quot;), UniversityCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034807</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (UniversityCount == 98)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">14</property>
+  <property name="description">Other University</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034807</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (UniversityCount == 98)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034807</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : UniversityCourseTotalOption = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/University Course\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">15</property>
+  <property name="description">University Course</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034877</millis>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>96 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/University Course&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034878</millis>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : UniversityCourseTotalOption = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/University Course\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034879</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : UniveristyCourseCount = 1 + rad.nextInt(UniversityCourseTotalOption - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034880</millis>
+  <sequence>117</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : UniveristyCourseCount = 1 + rad.nextInt(UniversityCourseTotalOption - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:54</date>
+  <millis>1562045034881</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/University Course\&amp;quot;), UniveristyCourseCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035040</millis>
+  <sequence>130</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [2] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/University Course&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035041</millis>
+  <sequence>131</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/University Course\&amp;quot;), UniveristyCourseCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035041</millis>
+  <sequence>132</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (UniveristyCourseCount == 95)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">63</property>
+  <property name="stepIndex">18</property>
+  <property name="description">University Other Course </property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035042</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (UniveristyCourseCount == 95)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035042</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GraduationYearTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Graduation Year\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">19</property>
+  <property name="description">Graduation Year</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035106</millis>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>17 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Graduation Year&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035107</millis>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GraduationYearTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Graduation Year\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035108</millis>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GraduationYearcount = 1 + rad.nextInt(GraduationYearTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035108</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GraduationYearcount = 1 + rad.nextInt(GraduationYearTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035108</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Graduation Year\&amp;quot;), GraduationYearcount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035280</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [8] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Graduation Year&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035281</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Graduation Year\&amp;quot;), GraduationYearcount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035282</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GradeYearTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Grade 21\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">22</property>
+  <property name="description">Do you have a university degree at grade 2:1 or higher (or equivalent)?</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035342</millis>
+  <sequence>166</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>3 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Grade 21&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035343</millis>
+  <sequence>167</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GradeYearTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Grade 21\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035343</millis>
+  <sequence>168</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GradeYearcount = 1 + rad.nextInt(GradeYearTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">77</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035343</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GradeYearcount = 1 + rad.nextInt(GradeYearTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035344</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Grade 21\&amp;quot;), GradeYearcount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">79</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035473</millis>
+  <sequence>182</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [1] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Grade 21&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035473</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Grade 21\&amp;quot;), GradeYearcount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035474</millis>
+  <sequence>184</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GradeEnglishYearTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Grade B English\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">82</property>
+  <property name="stepIndex">25</property>
+  <property name="description">Do you have at least a grade B in GCSE English?</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035529</millis>
+  <sequence>191</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>3 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Grade B English&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035530</millis>
+  <sequence>192</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GradeEnglishYearTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Grade B English\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035530</millis>
+  <sequence>193</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GradeEnglishYearcount = 1 + rad.nextInt(GradeEnglishYearTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">84</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035531</millis>
+  <sequence>194</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GradeEnglishYearcount = 1 + rad.nextInt(GradeEnglishYearTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035531</millis>
+  <sequence>195</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Grade B English\&amp;quot;), GradeEnglishYearcount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">86</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035669</millis>
+  <sequence>207</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [2] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Grade B English&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035669</millis>
+  <sequence>208</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Grade B English\&amp;quot;), GradeEnglishYearcount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:55</date>
+  <millis>1562045035669</millis>
+  <sequence>209</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">88</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:57</date>
+  <millis>1562045037678</millis>
+  <sequence>211</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:57</date>
+  <millis>1562045037678</millis>
+  <sequence>212</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:57</date>
+  <millis>1562045037678</millis>
+  <sequence>213</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Grade B Maths\&amp;quot;), GradeEnglishYearcount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">93</property>
+  <property name="stepIndex">29</property>
+  <property name="description">Do you have at least a grade B in GCSE Maths?</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:57</date>
+  <millis>1562045037824</millis>
+  <sequence>225</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [2] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Grade B Maths&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:57</date>
+  <millis>1562045037826</millis>
+  <sequence>226</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Grade B Maths\&amp;quot;), GradeEnglishYearcount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:57</date>
+  <millis>1562045037826</millis>
+  <sequence>227</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/a_Next\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">95</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:57</date>
+  <millis>1562045037906</millis>
+  <sequence>234</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/a_Next&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:57</date>
+  <millis>1562045037906</millis>
+  <sequence>235</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/a_Next\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:57</date>
+  <millis>1562045037907</millis>
+  <sequence>236</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">97</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039910</millis>
+  <sequence>238</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039910</millis>
+  <sequence>239</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039911</millis>
+  <sequence>240</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Main Qualification Information\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">99</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039915</millis>
+  <sequence>241</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Main Qualification Information</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039916</millis>
+  <sequence>242</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Main Qualification Information\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039917</millis>
+  <sequence>243</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/A Level Year\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">102</property>
+  <property name="stepIndex">33</property>
+  <property name="description">A-Level year</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039993</millis>
+  <sequence>250</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>71 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/A Level Year&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039994</millis>
+  <sequence>251</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/A Level Year\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039994</millis>
+  <sequence>252</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">104</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039995</millis>
+  <sequence>253</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:53:59</date>
+  <millis>1562045039995</millis>
+  <sequence>254</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/A Level Year\&amp;quot;), ALevelYearcount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">106</property>
+  <property name="stepIndex">35</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040375</millis>
+  <sequence>266</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [40] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/A Level Year&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040376</millis>
+  <sequence>267</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/A Level Year\&amp;quot;), ALevelYearcount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040376</millis>
+  <sequence>268</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/GCSE Year\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">109</property>
+  <property name="stepIndex">36</property>
+  <property name="description">GCSE Year</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040429</millis>
+  <sequence>275</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>71 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/GCSE Year&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040430</millis>
+  <sequence>276</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/GCSE Year\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040430</millis>
+  <sequence>277</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">111</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040430</millis>
+  <sequence>278</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040430</millis>
+  <sequence>279</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/GCSE Year\&amp;quot;), GCSEYearCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">113</property>
+  <property name="stepIndex">38</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040606</millis>
+  <sequence>291</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [11] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/GCSE Year&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040606</millis>
+  <sequence>292</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/GCSE Year\&amp;quot;), GCSEYearCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040606</millis>
+  <sequence>293</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/Main Qualification\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">116</property>
+  <property name="stepIndex">39</property>
+  <property name="description">Select Main Qualification</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040652</millis>
+  <sequence>300</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>6 options of object &amp;apos;Object Repository/REALRatings/Greensill/Page_REALrating/Main Qualification&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040652</millis>
+  <sequence>301</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/Main Qualification\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040652</millis>
+  <sequence>302</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">118</property>
+  <property name="stepIndex">40</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040653</millis>
+  <sequence>303</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040653</millis>
+  <sequence>304</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/Main Qualification\&amp;quot;), MainQualificationCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">120</property>
+  <property name="stepIndex">41</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040783</millis>
+  <sequence>316</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [4] are selected on object &amp;apos;Object Repository/REALRatings/Greensill/Page_REALrating/Main Qualification&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040784</millis>
+  <sequence>317</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/Main Qualification\&amp;quot;), MainQualificationCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040784</millis>
+  <sequence>318</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (MainQualificationCount == 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">123</property>
+  <property name="stepIndex">42</property>
+  <property name="description">A-Level</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040785</millis>
+  <sequence>319</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (MainQualificationCount == 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040785</millis>
+  <sequence>320</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else if (MainQualificationCount == 2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">168</property>
+  <property name="stepIndex">43</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040785</millis>
+  <sequence>321</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else if (MainQualificationCount == 2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040786</millis>
+  <sequence>322</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else if (MainQualificationCount == 3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">183</property>
+  <property name="stepIndex">44</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040786</millis>
+  <sequence>323</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else if (MainQualificationCount == 3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040786</millis>
+  <sequence>324</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else if (MainQualificationCount == 4)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">221</property>
+  <property name="stepIndex">45</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040786</millis>
+  <sequence>325</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/Other Qualification\&amp;quot;), \&amp;quot;other ouualifications \&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">222</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040976</millis>
+  <sequence>337</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;other ouualifications &amp;apos; is set on object &amp;apos;Object Repository/REALRatings/Greensill/Page_REALrating/Other Qualification&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040976</millis>
+  <sequence>338</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/Other Qualification\&amp;quot;), \&amp;quot;other ouualifications \&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040977</millis>
+  <sequence>339</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else if (MainQualificationCount == 4)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:00</date>
+  <millis>1562045040977</millis>
+  <sequence>340</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/A Level School\&amp;quot;), findTestData(\&amp;quot;getEmployable/Applicants\&amp;quot;).getValue(6, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">240</property>
+  <property name="stepIndex">47</property>
+  <property name="description">Alevel School</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:01</date>
+  <millis>1562045041316</millis>
+  <sequence>355</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Kings Richard School&amp;apos; is set on object &amp;apos;Object Repository/REALRatings/Greensill/Page_REALrating/A Level School&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:01</date>
+  <millis>1562045041316</millis>
+  <sequence>356</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/A Level School\&amp;quot;), findTestData(\&amp;quot;getEmployable/Applicants\&amp;quot;).getValue(6, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:01</date>
+  <millis>1562045041316</millis>
+  <sequence>357</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/GCSE School\&amp;quot;), findTestData(\&amp;quot;getEmployable/Applicants\&amp;quot;).getValue(7, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">244</property>
+  <property name="stepIndex">48</property>
+  <property name="description">GCSE School</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:01</date>
+  <millis>1562045041657</millis>
+  <sequence>372</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Kings Richard School&amp;apos; is set on object &amp;apos;Object Repository/REALRatings/Greensill/Page_REALrating/GCSE School&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:01</date>
+  <millis>1562045041658</millis>
+  <sequence>373</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/GCSE School\&amp;quot;), findTestData(\&amp;quot;getEmployable/Applicants\&amp;quot;).getValue(7, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:01</date>
+  <millis>1562045041658</millis>
+  <sequence>374</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/A Level Postalcode\&amp;quot;), findTestData(\&amp;quot;getEmployable/Applicants\&amp;quot;).getValue(8, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">248</property>
+  <property name="stepIndex">49</property>
+  <property name="description">ALevel PostalCode</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:01</date>
+  <millis>1562045041832</millis>
+  <sequence>389</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;NW64DN&amp;apos; is set on object &amp;apos;Object Repository/REALRatings/Greensill/Page_REALrating/A Level Postalcode&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:01</date>
+  <millis>1562045041832</millis>
+  <sequence>390</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/A Level Postalcode\&amp;quot;), findTestData(\&amp;quot;getEmployable/Applicants\&amp;quot;).getValue(8, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:01</date>
+  <millis>1562045041832</millis>
+  <sequence>391</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/GCSE Postalcode\&amp;quot;), findTestData(\&amp;quot;getEmployable/Applicants\&amp;quot;).getValue(9, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">252</property>
+  <property name="stepIndex">50</property>
+  <property name="description">GCSE PostalCode</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:02</date>
+  <millis>1562045042010</millis>
+  <sequence>406</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;AL60AA&amp;apos; is set on object &amp;apos;Object Repository/REALRatings/Greensill/Page_REALrating/GCSE Postalcode&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:02</date>
+  <millis>1562045042010</millis>
+  <sequence>407</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/GCSE Postalcode\&amp;quot;), findTestData(\&amp;quot;getEmployable/Applicants\&amp;quot;).getValue(9, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:02</date>
+  <millis>1562045042010</millis>
+  <sequence>408</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/TickAnyStatement\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">256</property>
+  <property name="stepIndex">51</property>
+  <property name="description">Tick Any Statement</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:02</date>
+  <millis>1562045042076</millis>
+  <sequence>415</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/REALRatings/Greensill/Page_REALrating/TickAnyStatement&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:02</date>
+  <millis>1562045042076</millis>
+  <sequence>416</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;REALRatings/Greensill/Page_REALrating/TickAnyStatement\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:02</date>
+  <millis>1562045042077</millis>
+  <sequence>417</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Second Next\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">259</property>
+  <property name="stepIndex">52</property>
+  <property name="description">Click on Next</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:02</date>
+  <millis>1562045042161</millis>
+  <sequence>424</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Second Next&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:02</date>
+  <millis>1562045042161</millis>
+  <sequence>425</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Second Next\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:02</date>
+  <millis>1562045042161</millis>
+  <sequence>426</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">261</property>
+  <property name="stepIndex">53</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044163</millis>
+  <sequence>428</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044163</millis>
+  <sequence>429</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044163</millis>
+  <sequence>430</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Background Information\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">263</property>
+  <property name="stepIndex">54</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044164</millis>
+  <sequence>431</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Background Information</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044165</millis>
+  <sequence>432</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Background Information\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044165</millis>
+  <sequence>433</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/confirm agreement\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">266</property>
+  <property name="stepIndex">55</property>
+  <property name="description">Confirm User Agreement</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044232</millis>
+  <sequence>440</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/confirm agreement&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044233</millis>
+  <sequence>441</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/confirm agreement\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044233</millis>
+  <sequence>442</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : EthnicTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Ethnic Group\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">269</property>
+  <property name="stepIndex">56</property>
+  <property name="description">What is your ethnic group?</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044297</millis>
+  <sequence>449</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>23 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Ethnic Group&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044297</millis>
+  <sequence>450</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : EthnicTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Ethnic Group\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044298</millis>
+  <sequence>451</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : EthnicCount = 1 + rad.nextInt(EthnicTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">271</property>
+  <property name="stepIndex">57</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044298</millis>
+  <sequence>452</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : EthnicCount = 1 + rad.nextInt(EthnicTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044298</millis>
+  <sequence>453</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Ethnic Group\&amp;quot;), EthnicCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">273</property>
+  <property name="stepIndex">58</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044475</millis>
+  <sequence>465</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [13] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Ethnic Group&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044476</millis>
+  <sequence>466</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Ethnic Group\&amp;quot;), EthnicCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044476</millis>
+  <sequence>467</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/input_What is your ethnic group_parent_carer\&amp;quot;), \&amp;quot;ethnicparent group\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">276</property>
+  <property name="stepIndex">59</property>
+  <property name="description">Select the group that best describes the type of work your highest earning parent or guardian did when you were 14 from the options that appear once you start typing.</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044758</millis>
+  <sequence>479</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;ethnicparent group&amp;apos; is set on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/input_What is your ethnic group_parent_carer&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044759</millis>
+  <sequence>480</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/input_What is your ethnic group_parent_carer\&amp;quot;), \&amp;quot;ethnicparent group\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044759</millis>
+  <sequence>481</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GenderTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Gender\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">279</property>
+  <property name="stepIndex">60</property>
+  <property name="description">Gender</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044801</millis>
+  <sequence>488</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>5 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Gender&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044802</millis>
+  <sequence>489</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GenderTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Gender\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044802</millis>
+  <sequence>490</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GenderCount = 1 + rad.nextInt(GenderTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">281</property>
+  <property name="stepIndex">61</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044802</millis>
+  <sequence>491</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GenderCount = 1 + rad.nextInt(GenderTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044802</millis>
+  <sequence>492</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Gender\&amp;quot;), GenderCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">283</property>
+  <property name="stepIndex">62</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044927</millis>
+  <sequence>504</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [4] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Gender&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044927</millis>
+  <sequence>505</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Gender\&amp;quot;), GenderCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044928</millis>
+  <sequence>506</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (GenderCount == 3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">286</property>
+  <property name="stepIndex">63</property>
+  <property name="description">other Gender</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044928</millis>
+  <sequence>507</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (GenderCount == 3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044928</millis>
+  <sequence>508</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ReligionTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Religion\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">291</property>
+  <property name="stepIndex">64</property>
+  <property name="description">What is your religion?</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044984</millis>
+  <sequence>515</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>10 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Religion&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044985</millis>
+  <sequence>516</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ReligionTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Religion\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044985</millis>
+  <sequence>517</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ReligionCount = 1 + rad.nextInt(ReligionTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">293</property>
+  <property name="stepIndex">65</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044985</millis>
+  <sequence>518</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ReligionCount = 1 + rad.nextInt(ReligionTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:04</date>
+  <millis>1562045044986</millis>
+  <sequence>519</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Religion\&amp;quot;), ReligionCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">295</property>
+  <property name="stepIndex">66</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045137</millis>
+  <sequence>531</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [9] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Religion&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045137</millis>
+  <sequence>532</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Religion\&amp;quot;), ReligionCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045137</millis>
+  <sequence>533</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ReligionCount == 8)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">298</property>
+  <property name="stepIndex">67</property>
+  <property name="description">Other Religion</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045138</millis>
+  <sequence>534</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ReligionCount == 8)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045138</millis>
+  <sequence>535</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : BirthTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Birth Gender\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">303</property>
+  <property name="stepIndex">68</property>
+  <property name="description">Is your gender identity the same as the sex you were assigned at birth?</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045181</millis>
+  <sequence>542</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>4 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Birth Gender&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045182</millis>
+  <sequence>543</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : BirthTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Birth Gender\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045182</millis>
+  <sequence>544</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : BirthCount = 1 + rad.nextInt(BirthTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">305</property>
+  <property name="stepIndex">69</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045182</millis>
+  <sequence>545</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : BirthCount = 1 + rad.nextInt(BirthTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045183</millis>
+  <sequence>546</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Birth Gender\&amp;quot;), BirthCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">307</property>
+  <property name="stepIndex">70</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045316</millis>
+  <sequence>558</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [2] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Birth Gender&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045316</millis>
+  <sequence>559</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Birth Gender\&amp;quot;), BirthCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045316</millis>
+  <sequence>560</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : SexualTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Sexual Orientation\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">310</property>
+  <property name="stepIndex">71</property>
+  <property name="description">What is your sexual orientation?</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045372</millis>
+  <sequence>567</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>7 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Sexual Orientation&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045373</millis>
+  <sequence>568</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : SexualTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Sexual Orientation\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045373</millis>
+  <sequence>569</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : SexualCount = 1 + rad.nextInt(SexualTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">312</property>
+  <property name="stepIndex">72</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045373</millis>
+  <sequence>570</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : SexualCount = 1 + rad.nextInt(SexualTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045373</millis>
+  <sequence>571</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Sexual Orientation\&amp;quot;), SexualCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">314</property>
+  <property name="stepIndex">73</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045524</millis>
+  <sequence>583</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [5] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Sexual Orientation&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045524</millis>
+  <sequence>584</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Sexual Orientation\&amp;quot;), SexualCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045525</millis>
+  <sequence>585</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (SexualCount == 5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">317</property>
+  <property name="stepIndex">74</property>
+  <property name="description">other Orientation</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045525</millis>
+  <sequence>586</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/input_Other Orientation_sexual_orientation\&amp;quot;), \&amp;quot;other sexual \&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">318</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045788</millis>
+  <sequence>598</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;other sexual &amp;apos; is set on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/input_Other Orientation_sexual_orientation&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045789</millis>
+  <sequence>599</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/input_Other Orientation_sexual_orientation\&amp;quot;), \&amp;quot;other sexual \&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045789</millis>
+  <sequence>600</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (SexualCount == 5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045789</millis>
+  <sequence>601</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ImpairmentTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Impairment\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">322</property>
+  <property name="stepIndex">75</property>
+  <property name="description">Do you have an impairment, health condition or learning difference that has a substantial or long term impact on your ability to carry out day to day activities?</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045834</millis>
+  <sequence>608</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>11 options of object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Impairment&amp;apos; counted</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045834</millis>
+  <sequence>609</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ImpairmentTotalOptions = getNumberOfTotalOption(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Impairment\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045835</millis>
+  <sequence>610</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ImpairmentCount = 1 + rad.nextInt(ImpairmentTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">324</property>
+  <property name="stepIndex">76</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045835</millis>
+  <sequence>611</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ImpairmentCount = 1 + rad.nextInt(ImpairmentTotalOptions - 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045835</millis>
+  <sequence>612</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Impairment\&amp;quot;), ImpairmentCount)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">326</property>
+  <property name="stepIndex">77</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045986</millis>
+  <sequence>624</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [6] are selected on object &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/Impairment&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045986</millis>
+  <sequence>625</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/Impairment\&amp;quot;), ImpairmentCount)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045986</millis>
+  <sequence>626</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ImpairmentCount == 9)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">329</property>
+  <property name="stepIndex">78</property>
+  <property name="description">Other Impairment</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045987</millis>
+  <sequence>627</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ImpairmentCount == 9)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:05</date>
+  <millis>1562045045987</millis>
+  <sequence>628</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/a_Submit\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">334</property>
+  <property name="stepIndex">79</property>
+  <property name="description">click submit button</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:06</date>
+  <millis>1562045046064</millis>
+  <sequence>635</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/REALRatings/FCLP/Page_REALrating/a_Submit&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:06</date>
+  <millis>1562045046064</millis>
+  <sequence>636</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;REALRatings/FCLP/Page_REALrating/a_Submit\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:06</date>
+  <millis>1562045046065</millis>
+  <sequence>637</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">336</property>
+  <property name="stepIndex">80</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051066</millis>
+  <sequence>639</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051066</millis>
+  <sequence>640</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051067</millis>
+  <sequence>641</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : assert getUrl() == \&amp;quot;https://fclp-uat.realrating.co.uk/thankyou\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">339</property>
+  <property name="stepIndex">81</property>
+  <property name="description">verify Sucessfull Form Submission</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051088</millis>
+  <sequence>643</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window&amp;apos;s url is: &amp;apos;https://fclp-uat.realrating.co.uk/thankyou&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051088</millis>
+  <sequence>644</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : assert getUrl() == \&amp;quot;https://fclp-uat.realrating.co.uk/thankyou\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051088</millis>
+  <sequence>645</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">341</property>
+  <property name="stepIndex">82</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051382</millis>
+  <sequence>646</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\1562045051100.png</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051382</millis>
+  <sequence>647</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051382</millis>
+  <sequence>648</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/REALratings/FCLP/formSubmission</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051383</millis>
+  <sequence>649</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/REALratings/FCLP/formSubmission</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051388</millis>
+  <sequence>650</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/REALratings/FCLP/login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/REALratings/FCLP/login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/REALratings/FCLP/login</property>
+  <property name="source">C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Test Cases\\REALratings\\FCLP\\login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051613</millis>
+  <sequence>652</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open Browser</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:11</date>
+  <millis>1562045051617</millis>
+  <sequence>654</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:12</date>
+  <millis>1562045052351</millis>
+  <sequence>655</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:14</date>
+  <millis>1562045054723</millis>
+  <sequence>657</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = e02bf2a8297996778686c1e8ab8653fb</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">e02bf2a8297996778686c1e8ab8653fb</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:14</date>
+  <millis>1562045054763</millis>
+  <sequence>658</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 75.0.3770.100</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 75.0.3770.100</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:14</date>
+  <millis>1562045054763</millis>
+  <sequence>659</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:14</date>
+  <millis>1562045054764</millis>
+  <sequence>660</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:14</date>
+  <millis>1562045054764</millis>
+  <sequence>661</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:14</date>
+  <millis>1562045054765</millis>
+  <sequence>662</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:14</date>
+  <millis>1562045054765</millis>
+  <sequence>663</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:14</date>
+  <millis>1562045054766</millis>
+  <sequence>664</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://fclp-uat.realrating.co.uk/login\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Login to FCLP Application</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:17</date>
+  <millis>1562045057696</millis>
+  <sequence>667</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://fclp-uat.realrating.co.uk/login&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:17</date>
+  <millis>1562045057697</millis>
+  <sequence>668</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://fclp-uat.realrating.co.uk/login\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:17</date>
+  <millis>1562045057697</millis>
+  <sequence>669</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:18</date>
+  <millis>1562045058813</millis>
+  <sequence>671</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:18</date>
+  <millis>1562045058815</millis>
+  <sequence>672</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:18</date>
+  <millis>1562045058815</millis>
+  <sequence>673</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email\&amp;quot;), \&amp;quot;john@upreach.org.uk\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Enter Email Address</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:18</date>
+  <millis>1562045058978</millis>
+  <sequence>685</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;john@upreach.org.uk&amp;apos; is set on object &amp;apos;Object Repository/REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:18</date>
+  <millis>1562045058979</millis>
+  <sequence>686</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email\&amp;quot;), \&amp;quot;john@upreach.org.uk\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:18</date>
+  <millis>1562045058979</millis>
+  <sequence>687</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/input_Password_password\&amp;quot;), \&amp;quot;YPztdU12xyABLAH+eFFt4w==\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Enter Password</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:19</date>
+  <millis>1562045059154</millis>
+  <sequence>696</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/REALRatings/Greensill/login/Page_RealRating/input_Password_password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:19</date>
+  <millis>1562045059154</millis>
+  <sequence>697</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/input_Password_password\&amp;quot;), \&amp;quot;YPztdU12xyABLAH+eFFt4w==\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:19</date>
+  <millis>1562045059154</millis>
+  <sequence>698</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/button_Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+  <property name="description">Click On Login</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:22</date>
+  <millis>1562045062803</millis>
+  <sequence>705</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/REALRatings/Greensill/login/Page_RealRating/button_Login&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:22</date>
+  <millis>1562045062804</millis>
+  <sequence>706</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/button_Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:22</date>
+  <millis>1562045062804</millis>
+  <sequence>707</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : getAllLinksOnCurrentPage(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">7</property>
+  <property name="description">Get All Links On Current Page - A-Level</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:23</date>
+  <millis>1562045063106</millis>
+  <sequence>710</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 16 unique links on the page https://fclp-uat.realrating.co.uk/home</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:23</date>
+  <millis>1562045063107</millis>
+  <sequence>711</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : getAllLinksOnCurrentPage(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:23</date>
+  <millis>1562045063107</millis>
+  <sequence>712</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyAllLinksOnCurrentPageAccessible(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+  <property name="description">Verify All Links On Current Page Accessible - A-Level</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:23</date>
+  <millis>1562045063380</millis>
+  <sequence>715</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 16 unique links on the page https://fclp-uat.realrating.co.uk/home</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:25</date>
+  <millis>1562045065921</millis>
+  <sequence>718</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">687693bb-b813-4cd2-a86e-b7ca135c1515</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:26</date>
+  <millis>1562045066017</millis>
+  <sequence>719</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:26</date>
+  <millis>1562045066761</millis>
+  <sequence>721</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">293e4383-f8e0-441d-9de7-c21d524c873f</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:26</date>
+  <millis>1562045066770</millis>
+  <sequence>722</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:27</date>
+  <millis>1562045067287</millis>
+  <sequence>724</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">62780e3e-cb80-4fc7-8921-ef249c75ee84</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:27</date>
+  <millis>1562045067295</millis>
+  <sequence>725</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:27</date>
+  <millis>1562045067825</millis>
+  <sequence>727</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">7e65c898-32c5-4ca9-ae42-de86fb2234d2</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:27</date>
+  <millis>1562045067853</millis>
+  <sequence>728</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:28</date>
+  <millis>1562045068679</millis>
+  <sequence>730</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5f211ca3-8080-48fa-81e1-0e4b8739a442</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:28</date>
+  <millis>1562045068736</millis>
+  <sequence>731</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:29</date>
+  <millis>1562045069436</millis>
+  <sequence>733</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\5.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b72d2a01-7175-4c44-9980-43531d3fad87</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:29</date>
+  <millis>1562045069461</millis>
+  <sequence>734</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:30</date>
+  <millis>1562045070629</millis>
+  <sequence>736</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\6.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6576d49e-e268-40fe-8ea0-3ff948d669e1</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:30</date>
+  <millis>1562045070655</millis>
+  <sequence>737</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:31</date>
+  <millis>1562045071440</millis>
+  <sequence>739</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\7.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">23809573-832b-4060-a1ff-dd5eaf2bd62f</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:31</date>
+  <millis>1562045071452</millis>
+  <sequence>740</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:31</date>
+  <millis>1562045071966</millis>
+  <sequence>742</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\8.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2d427df3-ca87-4c21-aecc-da84ff5a4f07</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:31</date>
+  <millis>1562045071972</millis>
+  <sequence>743</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:32</date>
+  <millis>1562045072835</millis>
+  <sequence>745</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\9.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b2d45c8c-a348-4350-bba5-e176149b613e</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:32</date>
+  <millis>1562045072885</millis>
+  <sequence>746</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:34</date>
+  <millis>1562045074350</millis>
+  <sequence>748</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\10.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">aa89127e-f331-4e94-a108-7cc97fd54cf7</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:34</date>
+  <millis>1562045074378</millis>
+  <sequence>749</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:34</date>
+  <millis>1562045074897</millis>
+  <sequence>751</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\11.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">bd15d9d8-2f27-47a6-9198-4a248cdea159</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:34</date>
+  <millis>1562045074928</millis>
+  <sequence>752</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:36</date>
+  <millis>1562045076246</millis>
+  <sequence>754</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\12.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">54ab09bb-34c7-48b1-91b7-66896d0ce690</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:36</date>
+  <millis>1562045076300</millis>
+  <sequence>755</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:38</date>
+  <millis>1562045078708</millis>
+  <sequence>757</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\13.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ce71bbe6-949d-4c61-a816-f000f759dfcd</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:38</date>
+  <millis>1562045078737</millis>
+  <sequence>758</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079295</millis>
+  <sequence>760</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\14.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">0af85336-b5dd-4a50-860e-0624ca925de3</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079337</millis>
+  <sequence>761</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079845</millis>
+  <sequence>763</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\15.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5c9fae3c-cd01-4e7c-a92c-f883ffc060cd</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079877</millis>
+  <sequence>764</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079878</millis>
+  <sequence>765</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All links are accessible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079878</millis>
+  <sequence>766</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All links on the page &amp;apos;https://fclp-uat.realrating.co.uk/home&amp;apos; are accessible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079879</millis>
+  <sequence>767</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyAllLinksOnCurrentPageAccessible(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079879</millis>
+  <sequence>768</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">9</property>
+  <property name="description">Click on Other Qualification Tab</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079982</millis>
+  <sequence>775</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079982</millis>
+  <sequence>776</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:39</date>
+  <millis>1562045079982</millis>
+  <sequence>777</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : getAllLinksOnCurrentPage(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">10</property>
+  <property name="description">Get All Links On Current Page - Other Qualification</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:40</date>
+  <millis>1562045080325</millis>
+  <sequence>780</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 16 unique links on the page https://fclp-uat.realrating.co.uk/home</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:40</date>
+  <millis>1562045080325</millis>
+  <sequence>781</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : getAllLinksOnCurrentPage(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:40</date>
+  <millis>1562045080325</millis>
+  <sequence>782</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyAllLinksOnCurrentPageAccessible(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">11</property>
+  <property name="description">Verify All Links On Current Page Accessible - Other Qualification</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:40</date>
+  <millis>1562045080589</millis>
+  <sequence>785</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 16 unique links on the page https://fclp-uat.realrating.co.uk/home</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:41</date>
+  <millis>1562045081706</millis>
+  <sequence>787</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\16.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">e3a21393-d0e1-48f3-89e2-87be0585b9fc</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:41</date>
+  <millis>1562045081725</millis>
+  <sequence>788</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:42</date>
+  <millis>1562045082554</millis>
+  <sequence>790</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\17.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">4abbf208-8050-42e7-8a83-ea3ffbc58dba</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:42</date>
+  <millis>1562045082657</millis>
+  <sequence>791</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:43</date>
+  <millis>1562045083144</millis>
+  <sequence>793</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\18.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">8f5a3566-ba5f-49c1-9513-b9bf6b8aaa4e</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:43</date>
+  <millis>1562045083154</millis>
+  <sequence>794</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:43</date>
+  <millis>1562045083652</millis>
+  <sequence>796</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\19.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b97332e4-b22c-4d11-8f85-a26f1a6d7b47</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:43</date>
+  <millis>1562045083659</millis>
+  <sequence>797</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:44</date>
+  <millis>1562045084611</millis>
+  <sequence>799</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\20.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">3a3b7c3d-caf4-4a08-aefa-d8e0560e347a</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:44</date>
+  <millis>1562045084632</millis>
+  <sequence>800</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:45</date>
+  <millis>1562045085301</millis>
+  <sequence>802</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\21.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2b2184d5-719f-4eb5-99c3-90843faf258b</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:45</date>
+  <millis>1562045085313</millis>
+  <sequence>803</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:46</date>
+  <millis>1562045086355</millis>
+  <sequence>805</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\22.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ed8e930e-0b71-4d09-a4e4-52a2b6b7a06c</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:46</date>
+  <millis>1562045086382</millis>
+  <sequence>806</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:47</date>
+  <millis>1562045087045</millis>
+  <sequence>808</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\23.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">d5ed3b61-070e-42b2-83d1-dec164ba402d</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:47</date>
+  <millis>1562045087052</millis>
+  <sequence>809</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:47</date>
+  <millis>1562045087564</millis>
+  <sequence>811</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\24.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b8a939de-3ae1-40dc-84b4-788ad70e19cd</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:47</date>
+  <millis>1562045087583</millis>
+  <sequence>812</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:48</date>
+  <millis>1562045088450</millis>
+  <sequence>814</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\25.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">80384ef8-3862-4a51-9d09-66607bef5956</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:48</date>
+  <millis>1562045088484</millis>
+  <sequence>815</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:49</date>
+  <millis>1562045089311</millis>
+  <sequence>817</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\26.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b2ed1911-2573-4e17-8d63-c598f8304cb7</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:49</date>
+  <millis>1562045089351</millis>
+  <sequence>818</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:50</date>
+  <millis>1562045090063</millis>
+  <sequence>820</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\27.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f34c340b-f2e6-4ba9-a448-62e721b7e023</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:50</date>
+  <millis>1562045090102</millis>
+  <sequence>821</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:51</date>
+  <millis>1562045091247</millis>
+  <sequence>823</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\28.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f306ea54-71a4-4255-b8cd-678b03012781</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:51</date>
+  <millis>1562045091303</millis>
+  <sequence>824</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:55</date>
+  <millis>1562045095264</millis>
+  <sequence>826</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\29.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b8fe43dc-ecf7-4ef3-b0e5-752ac33e3221</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:55</date>
+  <millis>1562045095283</millis>
+  <sequence>827</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:55</date>
+  <millis>1562045095987</millis>
+  <sequence>829</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\30.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ba927224-710f-41fb-9719-acdfdfcf5c4c</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096008</millis>
+  <sequence>830</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096517</millis>
+  <sequence>832</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\FCLP\\20190702_105340\\requests\\main\\31.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">393491cc-a949-439f-82df-c815134a4fc2</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096540</millis>
+  <sequence>833</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096540</millis>
+  <sequence>834</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All links are accessible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096541</millis>
+  <sequence>835</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All links on the page &amp;apos;https://fclp-uat.realrating.co.uk/home&amp;apos; are accessible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096541</millis>
+  <sequence>836</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyAllLinksOnCurrentPageAccessible(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096541</millis>
+  <sequence>837</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/Profile\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">12</property>
+  <property name="description">Logout of Greensill Application</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096635</millis>
+  <sequence>844</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/REALRatings/Greensill/login/Page_RealRating/Profile&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096636</millis>
+  <sequence>845</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/Profile\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096636</millis>
+  <sequence>846</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/Logout\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096709</millis>
+  <sequence>853</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/REALRatings/Greensill/login/Page_RealRating/Logout&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096709</millis>
+  <sequence>854</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/Logout\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:54:56</date>
+  <millis>1562045096709</millis>
+  <sequence>855</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">55</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-07-02T10:55:01</date>
+  <millis>1562045101711</millis>
+  <sequence>857</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:55:01</date>
+  <millis>1562045101712</millis>
+  <sequence>858</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:55:01</date>
+  <millis>1562045101712</millis>
+  <sequence>859</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/button_Logout\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-07-02T10:55:02</date>
+  <millis>1562045102613</millis>
+  <sequence>866</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/REALRatings/Greensill/login/Page_RealRating/button_Logout&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:55:02</date>
+  <millis>1562045102613</millis>
+  <sequence>867</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;REALRatings/Greensill/login/Page_RealRating/button_Logout\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:55:02</date>
+  <millis>1562045102614</millis>
+  <sequence>868</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : assert getUrl() == \&amp;quot;https://fclp-uat.realrating.co.uk/login\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">16</property>
+  <property name="description">Asserting Sucessful Logout</property>
+</record>
+<record>
+  <date>2019-07-02T10:55:02</date>
+  <millis>1562045102623</millis>
+  <sequence>870</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window&amp;apos;s url is: &amp;apos;https://fclp-uat.realrating.co.uk/login&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:55:02</date>
+  <millis>1562045102624</millis>
+  <sequence>871</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : assert getUrl() == \&amp;quot;https://fclp-uat.realrating.co.uk/login\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:55:02</date>
+  <millis>1562045102624</millis>
+  <sequence>872</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/REALratings/FCLP/login</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:55:02</date>
+  <millis>1562045102624</millis>
+  <sequence>873</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/REALratings/FCLP/login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-02T10:55:03</date>
+  <millis>1562045103308</millis>
+  <sequence>874</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/REALratings/FCLP</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Schroders" time="140" tests="1" failures="1" errors="0">
+   <testsuite name="Schroders" tests="1" failures="1" errors="0" time="140" timestamp="2019-07-08 11:07:02" hostname="SAMBHAVI$ - sambhavi.jmandigital.in" id="Test Suites/REALratings/Schroders">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\Schroders\\20190708_110700"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\Schroders\\20190708_110700\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\Schroders\\20190708_110700\\1562564252884.png"/>
+         <property name="hostName" value="SAMBHAVI$ - sambhavi.jmandigital.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="aa02c771d3e6842a9ea3bf85e909d89c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/REALratings/Schroders/Form Submission" classname="Test Cases/REALratings/Schroders/Form Submission" status="PASSED">
+         <system-out><![CDATA[2019-07-08 11:07:03 - [TEST_CASE][PASSED] - Test Cases/REALratings/Schroders/Form Submission: Test Cases/REALratings/Schroders/Form Submission
+
+2019-07-08 11:07:04 - [TEST_STEP][PASSED] - comment("Schroders - Form Submission"): Schroders - Form Submission
+
+2019-07-08 11:07:04 - [MESSAGE][INFO] - Schroders - Form Submission
+
+2019-07-08 11:07:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-08 11:07:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-08 11:07:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-08 11:07:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-08 11:07:08 - [TEST_STEP][PASSED] - navigateToUrl("https://schroders-uat.realrating.co.uk/"): Navigate to 'https://schroders-uat.realrating.co.uk/' successfully
+
+2019-07-08 11:07:12 - [MESSAGE][PASSED] - Navigate to 'https://schroders-uat.realrating.co.uk/' successfully
+
+2019-07-08 11:07:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-08 11:07:13 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-08 11:07:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-07-08 11:07:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-08 11:07:14 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-07-08 11:07:14 - [TEST_STEP][PASSED] - comment("Basic Information"): Basic Information
+
+2019-07-08 11:07:14 - [MESSAGE][INFO] - Basic Information
+
+2019-07-08 11:07:14 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/First Name"), findTestData("getEmployable/Applicants").getValue(1, 1)): Text 'Asha' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/First Name'
+
+2019-07-08 11:07:14 - [MESSAGE][PASSED] - Text 'Asha' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/First Name'
+
+2019-07-08 11:07:14 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/Last Name"), findTestData("getEmployable/Applicants").getValue(2, 1)): Text 'Rajendran' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Last Name'
+
+2019-07-08 11:07:15 - [MESSAGE][PASSED] - Text 'Rajendran' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Last Name'
+
+2019-07-08 11:07:15 - [TEST_STEP][PASSED] - Email = rad.nextInt(2000): null
+
+2019-07-08 11:07:15 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/University Emailid"), "greensill" + Email + "@test.com"): Text 'greensill1865@test.com' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Emailid'
+
+2019-07-08 11:07:15 - [MESSAGE][PASSED] - Text 'greensill1865@test.com' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Emailid'
+
+2019-07-08 11:07:15 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/Page_REALrating/First Next"), STOP_ON_FAILURE): Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/First Next' is clicked on
+
+2019-07-08 11:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/First Next' is clicked on
+
+2019-07-08 11:07:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-08 11:07:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 11:07:17 - [TEST_STEP][PASSED] - comment("University Information"): University Information
+
+2019-07-08 11:07:17 - [MESSAGE][INFO] - University Information
+
+2019-07-08 11:07:17 - [TEST_STEP][PASSED] - UniversityTotalOption = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/University")): 154 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/University' counted
+
+2019-07-08 11:07:17 - [MESSAGE][PASSED] - 154 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/University' counted
+
+2019-07-08 11:07:17 - [TEST_STEP][PASSED] - UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1): null
+
+2019-07-08 11:07:17 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/University"), UniversityCount): All options with index in [144] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University'
+
+2019-07-08 11:07:18 - [MESSAGE][PASSED] - All options with index in [144] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University'
+
+2019-07-08 11:07:18 - [TEST_STEP][PASSED] - if (UniversityCount == 98): null
+
+2019-07-08 11:07:18 - [TEST_STEP][PASSED] - UniversityCourseTotalOption = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/University Course")): 96 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Course' counted
+
+2019-07-08 11:07:18 - [MESSAGE][PASSED] - 96 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Course' counted
+
+2019-07-08 11:07:18 - [TEST_STEP][PASSED] - UniveristyCourseCount = 1 + rad.nextInt(UniversityCourseTotalOption - 1): null
+
+2019-07-08 11:07:18 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/University Course"), UniveristyCourseCount): All options with index in [89] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Course'
+
+2019-07-08 11:07:19 - [MESSAGE][PASSED] - All options with index in [89] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Course'
+
+2019-07-08 11:07:19 - [TEST_STEP][PASSED] - if (UniveristyCourseCount == 95): null
+
+2019-07-08 11:07:19 - [TEST_STEP][PASSED] - LengthOfUniversitycourseTotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/Length Of University Course")): 9 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/Length Of University Course' counted
+
+2019-07-08 11:07:19 - [MESSAGE][PASSED] - 9 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/Length Of University Course' counted
+
+2019-07-08 11:07:19 - [TEST_STEP][PASSED] - LengthOfUniversitycount = 1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1): null
+
+2019-07-08 11:07:19 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/Length Of University Course"), LengthOfUniversitycount): All options with index in [8] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Length Of University Course'
+
+2019-07-08 11:07:19 - [MESSAGE][PASSED] - All options with index in [8] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Length Of University Course'
+
+2019-07-08 11:07:19 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/Current Year Of Study"), LengthOfUniversitycount): All options with index in [8] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Current Year Of Study'
+
+2019-07-08 11:07:19 - [MESSAGE][PASSED] - All options with index in [8] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Current Year Of Study'
+
+2019-07-08 11:07:19 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Schroders/second next")): Object: 'Object Repository/REALRatings/Schroders/second next' is clicked on
+
+2019-07-08 11:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Schroders/second next' is clicked on
+
+2019-07-08 11:07:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-08 11:07:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 11:07:22 - [TEST_STEP][PASSED] - comment("Main Qualification Information"): Main Qualification Information
+
+2019-07-08 11:07:22 - [MESSAGE][INFO] - Main Qualification Information
+
+2019-07-08 11:07:22 - [TEST_STEP][PASSED] - ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Schroders/Alevelyear")): 71 options of object 'Object Repository/REALRatings/Schroders/Alevelyear' counted
+
+2019-07-08 11:07:22 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/REALRatings/Schroders/Alevelyear' counted
+
+2019-07-08 11:07:22 - [TEST_STEP][PASSED] - ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1): null
+
+2019-07-08 11:07:22 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Schroders/Alevelyear"), ALevelYearcount): All options with index in [40] are selected on object 'Object Repository/REALRatings/Schroders/Alevelyear'
+
+2019-07-08 11:07:22 - [MESSAGE][PASSED] - All options with index in [40] are selected on object 'Object Repository/REALRatings/Schroders/Alevelyear'
+
+2019-07-08 11:07:22 - [TEST_STEP][PASSED] - GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Schroders/Gcse year")): 71 options of object 'Object Repository/REALRatings/Schroders/Gcse year' counted
+
+2019-07-08 11:07:22 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/REALRatings/Schroders/Gcse year' counted
+
+2019-07-08 11:07:22 - [TEST_STEP][PASSED] - GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1): null
+
+2019-07-08 11:07:22 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Schroders/Gcse year"), GCSEYearCount): All options with index in [40] are selected on object 'Object Repository/REALRatings/Schroders/Gcse year'
+
+2019-07-08 11:07:22 - [MESSAGE][PASSED] - All options with index in [40] are selected on object 'Object Repository/REALRatings/Schroders/Gcse year'
+
+2019-07-08 11:07:22 - [TEST_STEP][PASSED] - MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/Main Qualification")): 6 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/Main Qualification' counted
+
+2019-07-08 11:07:22 - [MESSAGE][PASSED] - 6 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/Main Qualification' counted
+
+2019-07-08 11:07:22 - [TEST_STEP][PASSED] - MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1): null
+
+2019-07-08 11:07:22 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/Main Qualification"), MainQualificationCount): All options with index in [3] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Main Qualification'
+
+2019-07-08 11:07:23 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Main Qualification'
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - if (MainQualificationCount == 1): null
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - else if (MainQualificationCount == 2): null
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - else if (MainQualificationCount == 3): All options with index in [22] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearThree'
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - IBP1TotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points one")): 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points one' counted
+
+2019-07-08 11:07:23 - [MESSAGE][PASSED] - 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points one' counted
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - IBP1count = 1 + rad.nextInt(IBP1TotalOptions - 1): null
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points one"), IBP1count): All options with index in [3] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points one'
+
+2019-07-08 11:07:23 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points one'
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - IBY1TotalPoints = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB Year One")): 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Year One' counted
+
+2019-07-08 11:07:23 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Year One' counted
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - IBY1count = 1 + rad.nextInt(IBY1TotalPoints - 1): null
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB Year One"), IBY1count): All options with index in [13] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Year One'
+
+2019-07-08 11:07:23 - [MESSAGE][PASSED] - All options with index in [13] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Year One'
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - IBP2TotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points Two")): 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Two' counted
+
+2019-07-08 11:07:23 - [MESSAGE][PASSED] - 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Two' counted
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - IBP2count = 1 + rad.nextInt(IBP2TotalOptions - 1): null
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points Two"), IBP2count): All options with index in [4] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Two'
+
+2019-07-08 11:07:23 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Two'
+
+2019-07-08 11:07:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-08 11:07:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 11:07:25 - [TEST_STEP][PASSED] - IBY2TotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB YearTwo")): 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearTwo' counted
+
+2019-07-08 11:07:25 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearTwo' counted
+
+2019-07-08 11:07:25 - [TEST_STEP][PASSED] - IBY2count = 1 + rad.nextInt(IBY2TotalOptions - 1): null
+
+2019-07-08 11:07:25 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB YearTwo"), IBY2count): All options with index in [26] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearTwo'
+
+2019-07-08 11:07:26 - [MESSAGE][PASSED] - All options with index in [26] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearTwo'
+
+2019-07-08 11:07:26 - [TEST_STEP][PASSED] - IBP3TotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points Three")): 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Three' counted
+
+2019-07-08 11:07:26 - [MESSAGE][PASSED] - 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Three' counted
+
+2019-07-08 11:07:26 - [TEST_STEP][PASSED] - IBP3count = 1 + rad.nextInt(IBP3TotalOptions - 1): null
+
+2019-07-08 11:07:26 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points Three"), IBP3count): All options with index in [6] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Three'
+
+2019-07-08 11:07:26 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Three'
+
+2019-07-08 11:07:26 - [TEST_STEP][PASSED] - IBY3TotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB YearThree")): 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearThree' counted
+
+2019-07-08 11:07:26 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearThree' counted
+
+2019-07-08 11:07:26 - [TEST_STEP][PASSED] - IBY3count = 1 + rad.nextInt(IBY3TotalOptions - 1): null
+
+2019-07-08 11:07:26 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB YearThree"), IBY3count): All options with index in [22] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearThree'
+
+2019-07-08 11:07:26 - [MESSAGE][PASSED] - All options with index in [22] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearThree'
+
+2019-07-08 11:07:26 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/A Level School"), findTestData("getEmployable/Applicants").getValue(6, 1)): Text 'Kings Richard School' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level School'
+
+2019-07-08 11:07:26 - [MESSAGE][PASSED] - Text 'Kings Richard School' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level School'
+
+2019-07-08 11:07:26 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/GCSE School"), findTestData("getEmployable/Applicants").getValue(7, 1)): Text 'Kings Richard School' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE School'
+
+2019-07-08 11:07:27 - [MESSAGE][PASSED] - Text 'Kings Richard School' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE School'
+
+2019-07-08 11:07:27 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/A Level Postalcode"), findTestData("getEmployable/Applicants").getValue(8, 1)): Text 'NW64DN' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level Postalcode'
+
+2019-07-08 11:07:27 - [MESSAGE][PASSED] - Text 'NW64DN' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level Postalcode'
+
+2019-07-08 11:07:27 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/GCSE Postalcode"), findTestData("getEmployable/Applicants").getValue(9, 1)): Text 'AL60AA' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE Postalcode'
+
+2019-07-08 11:07:27 - [MESSAGE][PASSED] - Text 'AL60AA' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE Postalcode'
+
+2019-07-08 11:07:27 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/Page_REALrating/Gender")): Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/Gender' is clicked on
+
+2019-07-08 11:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/Gender' is clicked on
+
+2019-07-08 11:07:27 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/Page_REALrating/TickAnyStatement")): Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/TickAnyStatement' is clicked on
+
+2019-07-08 11:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/TickAnyStatement' is clicked on
+
+2019-07-08 11:07:27 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/Page_REALrating/input_By ticking this box I confirm that I agree to the_confirmAgreement")): Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/input_By ticking this box I confirm that I agree to the_confirmAgreement' is clicked on
+
+2019-07-08 11:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/input_By ticking this box I confirm that I agree to the_confirmAgreement' is clicked on
+
+2019-07-08 11:07:27 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/Page_REALrating/a_Submit")): Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/a_Submit' is clicked on
+
+2019-07-08 11:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/a_Submit' is clicked on
+
+2019-07-08 11:07:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-08 11:07:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-08 11:07:32 - [TEST_STEP][PASSED] - assert getUrl() == "https://schroders-uat.realrating.co.uk/thankyou": Current window's url is: 'https://schroders-uat.realrating.co.uk/thankyou'
+
+2019-07-08 11:07:32 - [MESSAGE][PASSED] - Current window's url is: 'https://schroders-uat.realrating.co.uk/thankyou'
+
+2019-07-08 11:07:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-07-08 11:07:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\Schroders\\20190708_110700\\1562564252884.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REALratings/Schroders/Login" classname="Test Cases/REALratings/Schroders/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/REALratings/Schroders/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify all links on the page 'https://schroders-uat.realrating.co.uk/home' are accessible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$11.call(Unknown Source)
+	at Login.run(Login:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562564220467.run(TempTestSuite1562564220467.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-08 11:07:33 - [TEST_CASE][FAILED] - Test Cases/REALratings/Schroders/Login: Test Cases/REALratings/Schroders/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify all links on the page 'https://schroders-uat.realrating.co.uk/home' are accessible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$11.call(Unknown Source)
+	at Login.run(Login:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562564220467.run(TempTestSuite1562564220467.groovy:35)
+
+
+2019-07-08 11:07:33 - [TEST_STEP][PASSED] - comment("Schroders - Login"): Schroders - Login
+
+2019-07-08 11:07:33 - [MESSAGE][INFO] - Schroders - Login
+
+2019-07-08 11:07:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-08 11:07:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-08 11:07:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-08 11:07:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-08 11:07:37 - [TEST_STEP][PASSED] - navigateToUrl("https://schroders-uat.realrating.co.uk/login"): Navigate to 'https://schroders-uat.realrating.co.uk/login' successfully
+
+2019-07-08 11:07:41 - [MESSAGE][PASSED] - Navigate to 'https://schroders-uat.realrating.co.uk/login' successfully
+
+2019-07-08 11:07:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-08 11:07:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-08 11:07:42 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email"), "john@upreach.org.uk"): Text 'john@upreach.org.uk' is set on object 'Object Repository/REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email'
+
+2019-07-08 11:07:43 - [MESSAGE][PASSED] - Text 'john@upreach.org.uk' is set on object 'Object Repository/REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email'
+
+2019-07-08 11:07:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("REALRatings/Greensill/login/Page_RealRating/input_Password_password"), "YPztdU12xyABLAH+eFFt4w=="): Text ****** has been set on object 'Object Repository/REALRatings/Greensill/login/Page_RealRating/input_Password_password'
+
+2019-07-08 11:07:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/REALRatings/Greensill/login/Page_RealRating/input_Password_password'
+
+2019-07-08 11:07:43 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/login/Page_RealRating/button_Login")): Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/button_Login' is clicked on
+
+2019-07-08 11:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/button_Login' is clicked on
+
+2019-07-08 11:07:45 - [TEST_STEP][PASSED] - getAllLinksOnCurrentPage(false, []): Found 16 unique links on the page https://schroders-uat.realrating.co.uk/home
+
+2019-07-08 11:07:45 - [MESSAGE][PASSED] - Found 16 unique links on the page https://schroders-uat.realrating.co.uk/home
+
+2019-07-08 11:07:45 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(false, []): All links on the page 'https://schroders-uat.realrating.co.uk/home' are accessible
+
+2019-07-08 11:07:45 - [MESSAGE][PASSED] - Found 16 unique links on the page https://schroders-uat.realrating.co.uk/home
+
+2019-07-08 11:07:48 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\0.har
+
+2019-07-08 11:07:48 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:49 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\1.har
+
+2019-07-08 11:07:49 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:50 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\2.har
+
+2019-07-08 11:07:50 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:50 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\3.har
+
+2019-07-08 11:07:50 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:51 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\4.har
+
+2019-07-08 11:07:51 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:52 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\5.har
+
+2019-07-08 11:07:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:53 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\6.har
+
+2019-07-08 11:07:53 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:54 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\7.har
+
+2019-07-08 11:07:54 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:55 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\8.har
+
+2019-07-08 11:07:55 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:56 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\9.har
+
+2019-07-08 11:07:56 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:57 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\10.har
+
+2019-07-08 11:07:57 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:58 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\11.har
+
+2019-07-08 11:07:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:07:59 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\12.har
+
+2019-07-08 11:07:59 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:03 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\13.har
+
+2019-07-08 11:08:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:03 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\14.har
+
+2019-07-08 11:08:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:04 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\15.har
+
+2019-07-08 11:08:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:04 - [MESSAGE][PASSED] - All links are accessible
+
+2019-07-08 11:08:04 - [MESSAGE][PASSED] - All links on the page 'https://schroders-uat.realrating.co.uk/home' are accessible
+
+2019-07-08 11:08:04 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab")): Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab' is clicked on
+
+2019-07-08 11:08:04 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab' is clicked on
+
+2019-07-08 11:08:04 - [TEST_STEP][PASSED] - getAllLinksOnCurrentPage(false, []): Found 16 unique links on the page https://schroders-uat.realrating.co.uk/home
+
+2019-07-08 11:08:04 - [MESSAGE][PASSED] - Found 16 unique links on the page https://schroders-uat.realrating.co.uk/home
+
+2019-07-08 11:08:04 - [TEST_STEP][FAILED] - verifyAllLinksOnCurrentPageAccessible(false, []): verifyAllLinksOnCurrentPageAccessible(false, []) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify all links on the page 'https://schroders-uat.realrating.co.uk/home' are accessible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$11.call(Unknown Source)
+	at Login.run(Login:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562564220467.run(TempTestSuite1562564220467.groovy:35)
+
+
+2019-07-08 11:08:04 - [MESSAGE][PASSED] - Found 16 unique links on the page https://schroders-uat.realrating.co.uk/home
+
+2019-07-08 11:08:06 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\16.har
+
+2019-07-08 11:08:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:07 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\17.har
+
+2019-07-08 11:08:07 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:16 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\18.har
+
+2019-07-08 11:08:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:37 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\19.har
+
+2019-07-08 11:08:37 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:39 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\20.har
+
+2019-07-08 11:08:39 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:39 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\21.har
+
+2019-07-08 11:08:39 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:40 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\22.har
+
+2019-07-08 11:08:40 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:41 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\23.har
+
+2019-07-08 11:08:41 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:42 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\24.har
+
+2019-07-08 11:08:42 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:43 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\25.har
+
+2019-07-08 11:08:43 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:08:44 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\26.har
+
+2019-07-08 11:08:44 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:09:13 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\27.har
+
+2019-07-08 11:09:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:09:16 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\28.har
+
+2019-07-08 11:09:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:09:21 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\29.har
+
+2019-07-08 11:09:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:09:22 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\30.har
+
+2019-07-08 11:09:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:09:22 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\Schroders\20190708_110700\requests\main\31.har
+
+2019-07-08 11:09:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-08 11:09:22 - [MESSAGE][WARNING] - Found 1 inaccessible links [https://schroders-uat.realrating.co.uk/css/sb-admin.css]
+
+2019-07-08 11:09:22 - [MESSAGE][FAILED] - Some of links on the current page are inaccessible
+
+2019-07-08 11:09:22 - [MESSAGE][FAILED] - Unable to verify all links on the page 'https://schroders-uat.realrating.co.uk/home' are accessible
+
+2019-07-08 11:09:22 - [MESSAGE][FAILED] - verifyAllLinksOnCurrentPageAccessible(false, []) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify all links on the page 'https://schroders-uat.realrating.co.uk/home' are accessible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$11.call(Unknown Source)
+	at Login.run(Login:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562564220467.run(TempTestSuite1562564220467.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-08 11:07:33 - [TEST_CASE][FAILED] - Test Cases/REALratings/Schroders/Login: Test Cases/REALratings/Schroders/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify all links on the page 'https://schroders-uat.realrating.co.uk/home' are accessible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$11.call(Unknown Source)
+	at Login.run(Login:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562564220467.run(TempTestSuite1562564220467.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-08 11:07:02 - [TEST_SUITE][FAILED] - Schroders: Test Cases/REALratings/Schroders/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify all links on the page 'https://schroders-uat.realrating.co.uk/home' are accessible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$11.call(Unknown Source)
+	at Login.run(Login:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562564220467.run(TempTestSuite1562564220467.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-08 11:07:02 - [TEST_SUITE][FAILED] - Schroders: Test Cases/REALratings/Schroders/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify all links on the page 'https://schroders-uat.realrating.co.uk/home' are accessible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$11.call(Unknown Source)
+	at Login.run(Login:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562564220467.run(TempTestSuite1562564220467.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

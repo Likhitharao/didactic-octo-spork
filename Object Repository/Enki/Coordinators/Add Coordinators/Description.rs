@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Description</name>
+   <tag></tag>
+   <elementGuidId>e74f64b4-a172-4db8-b4a6-22b3b6e57486</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='coordinatorModal']/div/div/form/div[2]/div/div/div/div/div[3]/div[1]/div/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='coordinatorModal']/div/div/form/div[2]/div/div/div/div/div[3]/div[1]/div/textarea</value>
+   </webElementProperties>
+</WebElementEntity>

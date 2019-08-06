@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.comment('NorthHighland - Form Submission')
+
 'Open Browser'
 WebUI.openBrowser('')
 
@@ -214,7 +216,5 @@ WebUI.delay(5)
 'verify Sucessfull Form Submission'
 assert WebUI.getUrl() == 'https://nh-uat.realrating.co.uk/thankyou'
 
-int filename = rad.nextInt(100)
-
-WebUI.takeScreenshot('nh' + filename, FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot()
 

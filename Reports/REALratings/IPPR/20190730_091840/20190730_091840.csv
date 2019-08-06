@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IPPR,Chrome 75.0.3770.142,,2019-07-30 09:18:43,2019-07-30 09:20:05,1m - 22.462s,FAILED
+,,,,,,
+Test Cases/REALratings/IPPR/formSubmission,Chrome 75.0.3770.142,,2019-07-30 09:18:43,2019-07-30 09:19:07,24.575s,PASSED
+"comment(""IPPR - Form Submission"")",Chrome 75.0.3770.142,,2019-07-30 09:18:44,2019-07-30 09:18:44,0.078s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,Open Browser,2019-07-30 09:18:44,2019-07-30 09:18:48,3.495s,PASSED
+myDriver = getWebDriver(),Chrome 75.0.3770.142,,2019-07-30 09:18:48,2019-07-30 09:18:48,0.010s,PASSED
+"navigateToUrl(""https://ippr-uat.realrating.co.uk/"")",Chrome 75.0.3770.142,Launch IPPR Application,2019-07-30 09:18:48,2019-07-30 09:18:51,3.278s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-30 09:18:51,2019-07-30 09:18:52,1.149s,PASSED
+rad = new java.util.Random(),Chrome 75.0.3770.142,,2019-07-30 09:18:52,2019-07-30 09:18:52,0.005s,PASSED
+"comment(""Basic Information"")",Chrome 75.0.3770.142,,2019-07-30 09:18:52,2019-07-30 09:18:52,0.003s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/First Name""), findTestData(""getEmployable/Applicants"").getValue(1, 1))",Chrome 75.0.3770.142,Enter First Name,2019-07-30 09:18:52,2019-07-30 09:18:52,0.308s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/Last Name""), findTestData(""getEmployable/Applicants"").getValue(2, 1))",Chrome 75.0.3770.142,Enter Last Name,2019-07-30 09:18:52,2019-07-30 09:18:53,0.269s,PASSED
+email = rad.nextInt(2000),Chrome 75.0.3770.142,,2019-07-30 09:18:53,2019-07-30 09:18:53,0.002s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/University Emailid""), ""ippr"" + email + ""@test.com"")",Chrome 75.0.3770.142,Enter University Email,2019-07-30 09:18:53,2019-07-30 09:18:53,0.384s,PASSED
+"getAttribute(findTestObject(""REALRatings/Greensill/Page_REALrating/University Emailid""), """")",Chrome 75.0.3770.142,,2019-07-30 09:18:53,2019-07-30 09:18:53,0.041s,PASSED
+"click(findTestObject(""REALRatings/IPPR/Page_REALrating/First Next""), STOP_ON_FAILURE)",Chrome 75.0.3770.142,Click NEXT,2019-07-30 09:18:53,2019-07-30 09:18:53,0.121s,PASSED
+delay(2),Chrome 75.0.3770.142,,2019-07-30 09:18:53,2019-07-30 09:18:55,2.012s,PASSED
+"comment(""University Information"")",Chrome 75.0.3770.142,,2019-07-30 09:18:55,2019-07-30 09:18:55,0.013s,PASSED
+"UniversityTotalOption = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/University""))",Chrome 75.0.3770.142,University,2019-07-30 09:18:55,2019-07-30 09:18:55,0.147s,PASSED
+UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1),Chrome 75.0.3770.142,,2019-07-30 09:18:55,2019-07-30 09:18:55,0.003s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/University""), UniversityCount)",Chrome 75.0.3770.142,,2019-07-30 09:18:55,2019-07-30 09:18:56,0.793s,PASSED
+if (UniversityCount == 98),Chrome 75.0.3770.142,Other University,2019-07-30 09:18:56,2019-07-30 09:18:56,0.001s,PASSED
+"UniversityCourseTotalOption = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/University Course""))",Chrome 75.0.3770.142,University Course,2019-07-30 09:18:56,2019-07-30 09:18:56,0.063s,PASSED
+UniveristyCourseCount = 1 + rad.nextInt(UniversityCourseTotalOption - 1),Chrome 75.0.3770.142,,2019-07-30 09:18:56,2019-07-30 09:18:56,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/University Course""), UniveristyCourseCount)",Chrome 75.0.3770.142,,2019-07-30 09:18:56,2019-07-30 09:18:57,0.272s,PASSED
+if (UniveristyCourseCount == 95),Chrome 75.0.3770.142,University Other Course ,2019-07-30 09:18:57,2019-07-30 09:18:57,0.001s,PASSED
+"LengthOfUniversitycourseTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/Length Of University Course""))",Chrome 75.0.3770.142,Length of university course,2019-07-30 09:18:57,2019-07-30 09:18:57,0.058s,PASSED
+LengthOfUniversitycount = 1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-30 09:18:57,2019-07-30 09:18:57,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/Length Of University Course""), LengthOfUniversitycount)",Chrome 75.0.3770.142,,2019-07-30 09:18:57,2019-07-30 09:18:57,0.175s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/Current Year Of Study""), LengthOfUniversitycount)",Chrome 75.0.3770.142,Current Year of Study (as of Sept 2018),2019-07-30 09:18:57,2019-07-30 09:18:57,0.163s,PASSED
+"click(findTestObject(""REALRatings/IPPR/Page_REALrating/Second Next""))",Chrome 75.0.3770.142,,2019-07-30 09:18:57,2019-07-30 09:18:57,0.086s,PASSED
+delay(2),Chrome 75.0.3770.142,,2019-07-30 09:18:57,2019-07-30 09:18:59,2.003s,PASSED
+"comment(""Main Qualification Information"")",Chrome 75.0.3770.142,,2019-07-30 09:18:59,2019-07-30 09:18:59,0.003s,PASSED
+"ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/A Level Year""))",Chrome 75.0.3770.142,A-Level year,2019-07-30 09:18:59,2019-07-30 09:18:59,0.080s,PASSED
+ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-30 09:18:59,2019-07-30 09:18:59,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/A Level Year""), ALevelYearcount)",Chrome 75.0.3770.142,,2019-07-30 09:18:59,2019-07-30 09:18:59,0.287s,PASSED
+"GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/GCSE Year""))",Chrome 75.0.3770.142,GCSE Year,2019-07-30 09:18:59,2019-07-30 09:19:00,0.067s,PASSED
+GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-30 09:19:00,2019-07-30 09:19:00,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/GCSE Year""), GCSEYearCount)",Chrome 75.0.3770.142,,2019-07-30 09:19:00,2019-07-30 09:19:00,0.135s,PASSED
+"MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/Main Qualification""))",Chrome 75.0.3770.142,Select Main Qualification,2019-07-30 09:19:00,2019-07-30 09:19:00,0.052s,PASSED
+MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1),Chrome 75.0.3770.142,,2019-07-30 09:19:00,2019-07-30 09:19:00,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/Main Qualification""), MainQualificationCount)",Chrome 75.0.3770.142,,2019-07-30 09:19:00,2019-07-30 09:19:00,0.146s,PASSED
+if (MainQualificationCount == 1),Chrome 75.0.3770.142,A-Level,2019-07-30 09:19:00,2019-07-30 09:19:00,0.001s,PASSED
+else if (MainQualificationCount == 2),Chrome 75.0.3770.142,,2019-07-30 09:19:00,2019-07-30 09:19:00,0.000s,PASSED
+else if (MainQualificationCount == 3),Chrome 75.0.3770.142,,2019-07-30 09:19:00,2019-07-30 09:19:00,0.001s,PASSED
+else if (MainQualificationCount == 4),Chrome 75.0.3770.142,,2019-07-30 09:19:00,2019-07-30 09:19:00,0.000s,PASSED
+else if (MainQualificationCount == 5),Chrome 75.0.3770.142,,2019-07-30 09:19:00,2019-07-30 09:19:01,0.790s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/A Level School""), findTestData(""getEmployable/Applicants"").getValue(6, 1))",Chrome 75.0.3770.142,Alevel School,2019-07-30 09:19:01,2019-07-30 09:19:01,0.416s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/GCSE School""), findTestData(""getEmployable/Applicants"").getValue(7, 1))",Chrome 75.0.3770.142,GCSE School,2019-07-30 09:19:01,2019-07-30 09:19:01,0.356s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/A Level Postalcode""), findTestData(""getEmployable/Applicants"").getValue(8, 1))",Chrome 75.0.3770.142,ALevel PostalCode,2019-07-30 09:19:01,2019-07-30 09:19:02,0.173s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/Page_REALrating/GCSE Postalcode""), findTestData(""getEmployable/Applicants"").getValue(9, 1))",Chrome 75.0.3770.142,GCSE PostalCode,2019-07-30 09:19:02,2019-07-30 09:19:02,0.161s,PASSED
+"click(findTestObject(""REALRatings/Greensill/Page_REALrating/Gender""))",Chrome 75.0.3770.142,Gender,2019-07-30 09:19:02,2019-07-30 09:19:02,0.079s,PASSED
+"click(findTestObject(""REALRatings/Greensill/Page_REALrating/TickAnyStatement""))",Chrome 75.0.3770.142,Tick Any Statement,2019-07-30 09:19:02,2019-07-30 09:19:02,0.080s,PASSED
+"click(findTestObject(""REALRatings/Greensill/Page_REALrating/input_By ticking this box I confirm that I agree to the_confirmAgreement""))",Chrome 75.0.3770.142,User Agreement,2019-07-30 09:19:02,2019-07-30 09:19:02,0.072s,PASSED
+"click(findTestObject(""REALRatings/Greensill/Page_REALrating/a_Submit""))",Chrome 75.0.3770.142,Click on Submit Button,2019-07-30 09:19:02,2019-07-30 09:19:02,0.066s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:19:02,2019-07-30 09:19:07,5.003s,PASSED
+"assert getUrl() == ""https://ippr-uat.realrating.co.uk/thankyou""",Chrome 75.0.3770.142,verify Sucessfull Form Submission,2019-07-30 09:19:07,2019-07-30 09:19:07,0.046s,PASSED
+takeScreenshot(),Chrome 75.0.3770.142,,2019-07-30 09:19:07,2019-07-30 09:19:07,0.342s,PASSED
+,,,,,,
+Test Cases/REALratings/IPPR/login,Chrome 75.0.3770.142,,2019-07-30 09:19:07,2019-07-30 09:20:04,56.849s,FAILED
+"comment(""IPPR - Login"")",Chrome 75.0.3770.142,,2019-07-30 09:19:08,2019-07-30 09:19:08,0.006s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,Open Browser,2019-07-30 09:19:08,2019-07-30 09:19:11,3.188s,PASSED
+"navigateToUrl(""https://ippr-uat.realrating.co.uk/login"")",Chrome 75.0.3770.142,Login to IPPI Application,2019-07-30 09:19:11,2019-07-30 09:19:14,3.599s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-30 09:19:14,2019-07-30 09:19:16,1.124s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email""), ""john@upreach.org.uk"")",Chrome 75.0.3770.142,Enter Email Address,2019-07-30 09:19:16,2019-07-30 09:19:16,0.146s,PASSED
+"setEncryptedText(findTestObject(""REALRatings/Greensill/login/Page_RealRating/input_Password_password""), ""YPztdU12xyABLAH+eFFt4w=="")",Chrome 75.0.3770.142,Enter Password,2019-07-30 09:19:16,2019-07-30 09:19:16,0.164s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/button_Login""))",Chrome 75.0.3770.142,Click On Login,2019-07-30 09:19:16,2019-07-30 09:19:18,2.167s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 75.0.3770.142,Get All Links On Current Page - A-Level,2019-07-30 09:19:18,2019-07-30 09:19:18,0.330s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 75.0.3770.142,Verify All Links On Current Page Accessible - A-Level,2019-07-30 09:19:18,2019-07-30 09:20:04,45.894s,FAILED

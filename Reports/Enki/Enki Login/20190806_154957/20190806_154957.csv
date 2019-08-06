@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Enki Login,Chrome 75.0.3770.142,,2019-08-06 15:49:59,2019-08-06 15:50:38,39.243s,PASSED
+,,,,,,
+Test Cases/Management Screen (Settings)/Login/Enki Login,Chrome 75.0.3770.142,,2019-08-06 15:50:00,2019-08-06 15:50:38,38.194s,PASSED
+"comment(""Enki - Login"")",Chrome 75.0.3770.142,,2019-08-06 15:50:00,2019-08-06 15:50:00,0.143s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,Open browser,2019-08-06 15:50:00,2019-08-06 15:50:03,3.387s,PASSED
+"navigateToUrl(""https://uat-enki.upreach.org.uk/"")",Chrome 75.0.3770.142,,2019-08-06 15:50:03,2019-08-06 15:50:08,4.148s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,Maximize the opened browser,2019-08-06 15:50:08,2019-08-06 15:50:09,1.172s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 75.0.3770.142,Print message on console log,2019-08-06 15:50:09,2019-08-06 15:50:09,0.004s,PASSED
+try,Chrome 75.0.3770.142,Check whether User Name field exists or not,2019-08-06 15:50:09,2019-08-06 15:50:09,0.330s,PASSED
+try,Chrome 75.0.3770.142,Check whether Password field exists or not,2019-08-06 15:50:09,2019-08-06 15:50:09,0.246s,PASSED
+try,Chrome 75.0.3770.142,Check whether Log In button exists or not,2019-08-06 15:50:09,2019-08-06 15:50:09,0.159s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-08-06 15:50:09,2019-08-06 15:50:15,5.014s,PASSED
+currentpageurl = getUrl(),Chrome 75.0.3770.142,Check if login was proper or not,2019-08-06 15:50:15,2019-08-06 15:50:33,18.187s,PASSED
+"if (currentpageurl.equals(""https://uat-enki.upreach.org.uk/home""))",Chrome 75.0.3770.142,,2019-08-06 15:50:33,2019-08-06 15:50:33,0.004s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-08-06 15:50:33,2019-08-06 15:50:38,5.003s,PASSED

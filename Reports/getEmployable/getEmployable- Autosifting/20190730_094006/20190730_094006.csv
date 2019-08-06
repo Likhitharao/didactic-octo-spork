@@ -1,0 +1,235 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+getEmployable- Autosifting,Chrome 75.0.3770.142,,2019-07-30 09:40:08,2019-07-30 09:43:22,3m - 13.975s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Random/launchSite,Chrome 75.0.3770.142,,2019-07-30 09:40:09,2019-07-30 09:40:24,15.414s,PASSED
+"comment(""Opening getEmployable application"")",Chrome 75.0.3770.142,,2019-07-30 09:40:09,2019-07-30 09:40:09,0.139s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,Launch browser,2019-07-30 09:40:09,2019-07-30 09:40:13,3.579s,PASSED
+"navigateToUrl(findTestData(""getEmployable/URL"").getValue(1, 1))",Chrome 75.0.3770.142,Invoke getEmployable site ,2019-07-30 09:40:13,2019-07-30 09:40:18,4.779s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,Maximize the browser,2019-07-30 09:40:18,2019-07-30 09:40:19,1.140s,PASSED
+"verifyElementPresent(findTestObject(""getEmployable/form""), 10, STOP_ON_FAILURE)",Chrome 75.0.3770.142,Verify the site lauched sucessfully,2019-07-30 09:40:19,2019-07-30 09:40:19,0.372s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:40:19,2019-07-30 09:40:24,5.010s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Auto sifting/Aboutyou,Chrome 75.0.3770.142,,2019-07-30 09:40:24,2019-07-30 09:40:42,18.078s,PASSED
+"comment(""Enter aboutYou page details"")",Chrome 75.0.3770.142,,2019-07-30 09:40:24,2019-07-30 09:40:24,0.002s,PASSED
+"setText(findTestObject(""getEmployable/input_First Name""), ""Jam"")",Chrome 75.0.3770.142,Enter First Name,2019-07-30 09:40:24,2019-07-30 09:40:25,0.210s,PASSED
+"setText(findTestObject(""getEmployable/input_Last name""), findTestData(""getEmployable/Applicants"").getValue(2, 1))",Chrome 75.0.3770.142,Enter Last Name,2019-07-30 09:40:25,2019-07-30 09:40:25,0.224s,PASSED
+rad = new java.util.Random(),Chrome 75.0.3770.142,,2019-07-30 09:40:25,2019-07-30 09:40:25,0.004s,PASSED
+Email = rad.nextInt(2000),Chrome 75.0.3770.142,,2019-07-30 09:40:25,2019-07-30 09:40:25,0.002s,PASSED
+"setText(findTestObject(""getEmployable/input_University Email""), ""test"" + Email + ""@ac.uk"")",Chrome 75.0.3770.142,Enter University Email,2019-07-30 09:40:25,2019-07-30 09:40:25,0.271s,PASSED
+"setText(findTestObject(""getEmployable/input_Personal Email""), ""personal"" + Email + ""@test.com"")",Chrome 75.0.3770.142,Enter Personal Email ,2019-07-30 09:40:25,2019-07-30 09:40:25,0.352s,PASSED
+"setText(findTestObject(""getEmployable/input_Phone Number""), findTestData(""getEmployable/Applicants"").getValue(5, 1))",Chrome 75.0.3770.142,"Enter Mobile Number
+",2019-07-30 09:40:25,2019-07-30 09:40:26,0.240s,PASSED
+delay(10),Chrome 75.0.3770.142,,2019-07-30 09:40:26,2019-07-30 09:40:36,10.009s,PASSED
+"click(findTestObject(""getEmployable/input_date Of Birth""), STOP_ON_FAILURE)",Chrome 75.0.3770.142,Select DOB,2019-07-30 09:40:36,2019-07-30 09:40:36,0.153s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/date picker""))",Chrome 75.0.3770.142,,2019-07-30 09:40:36,2019-07-30 09:40:37,0.793s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/date picker""))",Chrome 75.0.3770.142,,2019-07-30 09:40:37,2019-07-30 09:40:37,0.095s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/date picker""))",Chrome 75.0.3770.142,,2019-07-30 09:40:37,2019-07-30 09:40:37,0.083s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/date picker""))",Chrome 75.0.3770.142,,2019-07-30 09:40:37,2019-07-30 09:40:37,0.092s,PASSED
+"click(findTestObject(""ApplyNow/Page_getEmployable - Assessment Form/a_04""))",Chrome 75.0.3770.142,,2019-07-30 09:40:37,2019-07-30 09:40:37,0.075s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:40:37,2019-07-30 09:40:42,5.002s,PASSED
+"click(findTestObject(""getEmployable/gender""))",Chrome 75.0.3770.142,Select Gender,2019-07-30 09:40:42,2019-07-30 09:40:42,0.087s,PASSED
+"click(findTestObject(""getEmployable/input_Other_next""))",Chrome 75.0.3770.142,Click Next ,2019-07-30 09:40:42,2019-07-30 09:40:42,0.093s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Auto sifting/University Details,Chrome 75.0.3770.142,,2019-07-30 09:40:42,2019-07-30 09:41:06,23.390s,PASSED
+"comment(""Autosifting-University criteria"")",Chrome 75.0.3770.142,,2019-07-30 09:40:42,2019-07-30 09:40:42,0.004s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:40:42,2019-07-30 09:40:47,5.006s,PASSED
+rad = new java.util.Random(),Chrome 75.0.3770.142,,2019-07-30 09:40:47,2019-07-30 09:40:47,0.001s,PASSED
+"UniversityTotalOption = getNumberOfTotalOption(findTestObject(""getEmployable/select_University""))",Chrome 75.0.3770.142,Random Selection of University ,2019-07-30 09:40:47,2019-07-30 09:40:47,0.095s,PASSED
+UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1),Chrome 75.0.3770.142,,2019-07-30 09:40:47,2019-07-30 09:40:47,0.003s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/select_University""), UniversityCount)",Chrome 75.0.3770.142,,2019-07-30 09:40:47,2019-07-30 09:40:48,0.241s,PASSED
+delay(5),Chrome 75.0.3770.142, Selection of University Course,2019-07-30 09:40:48,2019-07-30 09:40:53,5.004s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/University course - acc and finance""))",Chrome 75.0.3770.142,,2019-07-30 09:40:53,2019-07-30 09:40:53,0.092s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/degree""), STOP_ON_FAILURE)",Chrome 75.0.3770.142,Random Selection of Degree,2019-07-30 09:40:53,2019-07-30 09:40:53,0.080s,PASSED
+"CourseDurationTotalOptions = getNumberOfTotalOption(findTestObject(""getEmployable/select_CourseDuration""))",Chrome 75.0.3770.142,Random selection of Course Duration and Year Of Study,2019-07-30 09:40:53,2019-07-30 09:40:53,0.056s,PASSED
+CourseDurationCount = 1 + rad.nextInt(CourseDurationTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-30 09:40:53,2019-07-30 09:40:53,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/select_CourseDuration""), CourseDurationCount)",Chrome 75.0.3770.142,,2019-07-30 09:40:53,2019-07-30 09:40:53,0.145s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/select_YearOfStudy""), CourseDurationCount)",Chrome 75.0.3770.142,,2019-07-30 09:40:53,2019-07-30 09:40:53,0.131s,PASSED
+"click(findTestObject(""getEmployable/select_FullTime""))",Chrome 75.0.3770.142,Select Full Time ,2019-07-30 09:40:53,2019-07-30 09:40:53,0.096s,PASSED
+delay(10),Chrome 75.0.3770.142,,2019-07-30 09:40:53,2019-07-30 09:41:03,10.005s,PASSED
+"click(findTestObject(""getEmployable/button_NextUniversity""))",Chrome 75.0.3770.142,Click Next ,2019-07-30 09:41:03,2019-07-30 09:41:04,0.150s,PASSED
+delay(2),Chrome 75.0.3770.142,,2019-07-30 09:41:04,2019-07-30 09:41:06,2.002s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 1,Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:07,1.706s,PASSED
+"comment(""Enter Employee page 1 details"")",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:06,0.002s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Under 3 months_option_question_32""))",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:06,0.082s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Under 3 months_option_question_33""))",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:06,0.084s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_34""))",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:06,0.109s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_35""))",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:06,0.097s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes typically averaging at least 1-2 hours per week for the last year or more._option_question_36""))",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:06,0.077s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_37""))",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:06,0.089s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_38""))",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:06,0.081s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_None_option_question_39""))",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:06,0.080s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes - mainly to work_option_question_40""))",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:06,0.099s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Interview(s) with Careers Advisor_option_question_41""))",Chrome 75.0.3770.142,,2019-07-30 09:41:06,2019-07-30 09:41:07,0.116s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Very helpful_followup_question_4""))",Chrome 75.0.3770.142,,2019-07-30 09:41:07,2019-07-30 09:41:07,0.103s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Knowledgable about some relevant careers._option_question_43""))",Chrome 75.0.3770.142,,2019-07-30 09:41:07,2019-07-30 09:41:07,0.101s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Yes they helped me a little_option_question_44""))",Chrome 75.0.3770.142,,2019-07-30 09:41:07,2019-07-30 09:41:07,0.093s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_My family_option_question_46""))",Chrome 75.0.3770.142,,2019-07-30 09:41:07,2019-07-30 09:41:07,0.101s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/input_Friends of my family have helped me secure useful work experience._option_question_47""))",Chrome 75.0.3770.142,,2019-07-30 09:41:07,2019-07-30 09:41:07,0.116s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 1/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x""))",Chrome 75.0.3770.142,,2019-07-30 09:41:07,2019-07-30 09:41:07,0.111s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 2,Chrome 75.0.3770.142,,2019-07-30 09:41:07,2019-07-30 09:41:13,5.706s,PASSED
+"comment(""Enter Employee page 2 details"")",Chrome 75.0.3770.142,,2019-07-30 09:41:07,2019-07-30 09:41:07,0.002s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:41:07,2019-07-30 09:41:12,5.002s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_I dont know much about any careers  suited to me._option_question_19""))",Chrome 75.0.3770.142,,2019-07-30 09:41:12,2019-07-30 09:41:13,0.126s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_concat(No I don  t know which career is best for me.)_option_question_24""))",Chrome 75.0.3770.142,,2019-07-30 09:41:13,2019-07-30 09:41:13,0.086s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_The general application process for graduate jobs (and internships if applicable)._option_question_30""))",Chrome 75.0.3770.142,,2019-07-30 09:41:13,2019-07-30 09:41:13,0.101s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/input_The career trajectory including how promotion is achieved and the pay at each level._option_question_31""))",Chrome 75.0.3770.142,,2019-07-30 09:41:13,2019-07-30 09:41:13,0.103s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 2/Page_getEmployable - Assessment Form/span_Not applicable or none of these_fa fa-angle-right fa-2x""))",Chrome 75.0.3770.142,,2019-07-30 09:41:13,2019-07-30 09:41:13,0.103s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 3,Chrome 75.0.3770.142,,2019-07-30 09:41:13,2019-07-30 09:41:19,5.599s,PASSED
+"comment(""Enter Employee page 3 details"")",Chrome 75.0.3770.142,,2019-07-30 09:41:13,2019-07-30 09:41:13,0.003s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:41:13,2019-07-30 09:41:18,5.004s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/Emp page 3/Page_getEmployable - Assessment Form/input_Application  Interview Skills_option_question_50""))",Chrome 75.0.3770.142,,2019-07-30 09:41:18,2019-07-30 09:41:18,0.125s,PASSED
+"click(findTestObject(""Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/input_No_option_question_51""))",Chrome 75.0.3770.142,,2019-07-30 09:41:18,2019-07-30 09:41:18,0.084s,PASSED
+"click(findTestObject(""Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/input_Yes - other technique_option_question_52""))",Chrome 75.0.3770.142,,2019-07-30 09:41:18,2019-07-30 09:41:18,0.101s,PASSED
+"click(findTestObject(""Journey,background details/Emp page 3/Page_getEmployable - Assessment Form/span_None of the above_fa fa-angle-right fa-2x""))",Chrome 75.0.3770.142,,2019-07-30 09:41:18,2019-07-30 09:41:19,0.103s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 4,Chrome 75.0.3770.142,,2019-07-30 09:41:19,2019-07-30 09:41:24,5.599s,PASSED
+"comment(""Enter Employee page 4 details"")",Chrome 75.0.3770.142,,2019-07-30 09:41:19,2019-07-30 09:41:19,0.003s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:41:19,2019-07-30 09:41:24,5.006s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_Communication_option_question_14""))",Chrome 75.0.3770.142,,2019-07-30 09:41:24,2019-07-30 09:41:24,0.119s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_None of these_option_question_15""))",Chrome 75.0.3770.142,,2019-07-30 09:41:24,2019-07-30 09:41:24,0.101s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/input_None of these_option_question_16""))",Chrome 75.0.3770.142,,2019-07-30 09:41:24,2019-07-30 09:41:24,0.102s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 4/Page_getEmployable - Assessment Form/span_I can identify some habits that prevent me working at my best but find it hard to address them._fa fa-angle-right fa-2x""))",Chrome 75.0.3770.142,,2019-07-30 09:41:24,2019-07-30 09:41:24,0.097s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 5,Chrome 75.0.3770.142,,2019-07-30 09:41:24,2019-07-30 09:41:30,5.735s,PASSED
+"comment(""Enter Employee page 5 details"")",Chrome 75.0.3770.142,,2019-07-30 09:41:24,2019-07-30 09:41:24,0.002s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:41:24,2019-07-30 09:41:29,5.004s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_Prefect_option_question_1""))",Chrome 75.0.3770.142,,2019-07-30 09:41:29,2019-07-30 09:41:29,0.124s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_Position on a society committee such as Treasurer or Social Secretary of RAG._option_question_8""))",Chrome 75.0.3770.142,,2019-07-30 09:41:29,2019-07-30 09:41:30,0.139s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/input_None_option_question_9""))",Chrome 75.0.3770.142,,2019-07-30 09:41:30,2019-07-30 09:41:30,0.125s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 5/Page_getEmployable - Assessment Form/span_Founder of a business or project_fa fa-angle-right fa-2x""))",Chrome 75.0.3770.142,,2019-07-30 09:41:30,2019-07-30 09:41:30,0.111s,PASSED
+,,,,,,
+"Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 6,7",Chrome 75.0.3770.142,,2019-07-30 09:41:30,2019-07-30 09:41:46,15.882s,PASSED
+"comment(""Enter Employee page 6,7 details"")",Chrome 75.0.3770.142,,2019-07-30 09:41:30,2019-07-30 09:41:30,0.003s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:41:30,2019-07-30 09:41:35,5.002s,PASSED
+"click(findTestObject(""Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_Problem Solving  Creativity_option_question_6""))",Chrome 75.0.3770.142,,2019-07-30 09:41:35,2019-07-30 09:41:35,0.096s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 6,7/Page_getEmployable - Assessment Form/input_I am actively involved in a student enterprise club or a consultancy society or programme._option_question_7""))",Chrome 75.0.3770.142,,2019-07-30 09:41:35,2019-07-30 09:41:35,0.134s,PASSED
+"click(findTestObject(""Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x""))",Chrome 75.0.3770.142,,2019-07-30 09:41:35,2019-07-30 09:41:35,0.119s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:41:35,2019-07-30 09:41:40,5.001s,PASSED
+"click(findTestObject(""Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_Professionalism_option_question_48""))",Chrome 75.0.3770.142,,2019-07-30 09:41:40,2019-07-30 09:41:41,0.096s,PASSED
+"click(findTestObject(""Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/input_None of the above_option_question_49""))",Chrome 75.0.3770.142,,2019-07-30 09:41:41,2019-07-30 09:41:41,0.105s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:41:41,2019-07-30 09:41:46,5.003s,PASSED
+"click(findTestObject(""Journey,background details/Emp page 6,7/Page_getEmployable - Assessment Form/next""))",Chrome 75.0.3770.142,,2019-07-30 09:41:46,2019-07-30 09:41:46,0.126s,PASSED
+,,,,,,
+"Test Cases/getEmployable/getEmployable Random/Employee pages/Emp page 8,9,10",Chrome 75.0.3770.142,,2019-07-30 09:41:46,2019-07-30 09:42:03,17.028s,PASSED
+"comment(""Enter Employee page 8,9,10 details"")",Chrome 75.0.3770.142,,2019-07-30 09:41:46,2019-07-30 09:41:46,0.002s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:41:46,2019-07-30 09:41:51,5.003s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I set myself goals but rarely achieve them._option_question_17""))",Chrome 75.0.3770.142,,2019-07-30 09:41:51,2019-07-30 09:41:51,0.115s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I wish I hadn  t wasted time attempting it.)_option_question_18""))",Chrome 75.0.3770.142,,2019-07-30 09:41:51,2019-07-30 09:41:51,0.092s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I usually eat cakes crisps chocolate or sugary drinks more than twice a day._option_question_20""))",Chrome 75.0.3770.142,,2019-07-30 09:41:51,2019-07-30 09:41:51,0.099s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I have high self-esteem._option_question_21""))",Chrome 75.0.3770.142,,2019-07-30 09:41:51,2019-07-30 09:41:51,0.117s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x""))",Chrome 75.0.3770.142,,2019-07-30 09:41:51,2019-07-30 09:41:51,0.084s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:41:51,2019-07-30 09:41:56,5.003s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I would struggle._option_question_22""))",Chrome 75.0.3770.142,,2019-07-30 09:41:56,2019-07-30 09:41:57,0.104s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I seem to work fine most of the time but I don  t really think about why.)_option_question_23""))",Chrome 75.0.3770.142,,2019-07-30 09:41:57,2019-07-30 09:41:57,0.091s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I don  t know  of any habits that adversely affect how I work.)_option_question_26""))",Chrome 75.0.3770.142,,2019-07-30 09:41:57,2019-07-30 09:41:57,0.100s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I consistently use a diary to schedule events._option_question_27""))",Chrome 75.0.3770.142,,2019-07-30 09:41:57,2019-07-30 09:41:57,0.102s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_concat(I regularly set myself goals but don  t think too much about how I set them.)_option_question_28""))",Chrome 75.0.3770.142,,2019-07-30 09:41:57,2019-07-30 09:41:57,0.100s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I can find it hard to work with people who work in different ways to me._option_question_29""))",Chrome 75.0.3770.142,,2019-07-30 09:41:57,2019-07-30 09:41:57,0.082s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I would struggle._option_question_53""))",Chrome 75.0.3770.142,,2019-07-30 09:41:57,2019-07-30 09:41:57,0.110s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I sometimes get stressed and am not sure how I deal with it._option_question_54""))",Chrome 75.0.3770.142,,2019-07-30 09:41:57,2019-07-30 09:41:57,0.085s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/span_None of these_fa fa-angle-right fa-2x_1""))",Chrome 75.0.3770.142,,2019-07-30 09:41:57,2019-07-30 09:41:57,0.096s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:41:57,2019-07-30 09:42:02,5.002s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I play a proactive role in group settings._option_question_5""))",Chrome 75.0.3770.142,,2019-07-30 09:42:02,2019-07-30 09:42:02,0.131s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_Sports team_option_question_11""))",Chrome 75.0.3770.142,,2019-07-30 09:42:02,2019-07-30 09:42:03,0.119s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_I rarely complete the task on time._option_question_13""))",Chrome 75.0.3770.142,,2019-07-30 09:42:03,2019-07-30 09:42:03,0.112s,PASSED
+"click(findTestObject(""Employee details/Employee pages/Emp page 8,9,10/Page_getEmployable - Assessment Form/input_None or Not applicable._next""))",Chrome 75.0.3770.142,,2019-07-30 09:42:03,2019-07-30 09:42:03,0.133s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Auto sifting/Career Area details,Chrome 75.0.3770.142,,2019-07-30 09:42:03,2019-07-30 09:42:18,15.672s,PASSED
+"comment(""Enter CareerArea Details"")",Chrome 75.0.3770.142,,2019-07-30 09:42:03,2019-07-30 09:42:03,0.002s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:42:03,2019-07-30 09:42:08,5.003s,PASSED
+"click(findTestObject(""getEmployable/yourCareerArea/careerpage""))",Chrome 75.0.3770.142,"Select ""Banking and Finance Springboard sponsored by Bank of America Merrill Lynch """,2019-07-30 09:42:08,2019-07-30 09:42:08,0.120s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:42:08,2019-07-30 09:42:13,5.003s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/Tax Audit strong Intertest""))",Chrome 75.0.3770.142,,2019-07-30 09:42:13,2019-07-30 09:42:13,0.124s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/tax strong interest""))",Chrome 75.0.3770.142,,2019-07-30 09:42:13,2019-07-30 09:42:13,0.089s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:42:13,2019-07-30 09:42:18,5.004s,PASSED
+"click(findTestObject(""getEmployable/yourCareerArea/next""))",Chrome 75.0.3770.142,Click  NEXT,2019-07-30 09:42:18,2019-07-30 09:42:18,0.109s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Auto sifting/Journey1,Chrome 75.0.3770.142,,2019-07-30 09:42:18,2019-07-30 09:42:53,34.136s,PASSED
+"comment(""Auto-sifting- Journey to University page 1 criteria"")",Chrome 75.0.3770.142,,2019-07-30 09:42:19,2019-07-30 09:42:19,0.003s,PASSED
+rad = new java.util.Random(),Chrome 75.0.3770.142,,2019-07-30 09:42:19,2019-07-30 09:42:19,0.001s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/GCSE math grade""))",Chrome 75.0.3770.142,,2019-07-30 09:42:19,2019-07-30 09:42:19,0.087s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/GCSE English grade A""))",Chrome 75.0.3770.142,,2019-07-30 09:42:19,2019-07-30 09:42:19,0.123s,PASSED
+"comment(""Main Qualification  Information"")",Chrome 75.0.3770.142,,2019-07-30 09:42:19,2019-07-30 09:42:19,0.002s,PASSED
+"ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(""Journey,background details/Journey/A level complete""))",Chrome 75.0.3770.142,A-Level year,2019-07-30 09:42:19,2019-07-30 09:42:19,0.081s,PASSED
+ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-30 09:42:19,2019-07-30 09:42:19,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""Journey,background details/Journey/A level complete""), ALevelYearcount)",Chrome 75.0.3770.142,,2019-07-30 09:42:19,2019-07-30 09:42:20,0.661s,PASSED
+"GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject(""Journey,background details/Journey/complete gsce""))",Chrome 75.0.3770.142,GCSE Year,2019-07-30 09:42:20,2019-07-30 09:42:20,0.069s,PASSED
+GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-30 09:42:20,2019-07-30 09:42:20,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""Journey,background details/Journey/complete gsce""), GCSEYearCount)",Chrome 75.0.3770.142,,2019-07-30 09:42:20,2019-07-30 09:42:21,0.683s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/uk scools (2)""))",Chrome 75.0.3770.142,,2019-07-30 09:42:21,2019-07-30 09:42:21,0.126s,PASSED
+"setText(findTestObject(""Journey,background details/Journey/school1""), ""Kings School"")",Chrome 75.0.3770.142,Uk schools,2019-07-30 09:42:21,2019-07-30 09:42:21,0.268s,PASSED
+delay(3),Chrome 75.0.3770.142,,2019-07-30 09:42:21,2019-07-30 09:42:24,3.001s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/uk school dd""))",Chrome 75.0.3770.142,,2019-07-30 09:42:24,2019-07-30 09:42:24,0.114s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:42:24,2019-07-30 09:42:29,5.002s,PASSED
+"setText(findTestObject(""Journey,background details/Journey/school2""), ""Richard "")",Chrome 75.0.3770.142,Uk shcool,2019-07-30 09:42:29,2019-07-30 09:42:29,0.218s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:42:29,2019-07-30 09:42:34,5.002s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/uk school dd2""))",Chrome 75.0.3770.142,,2019-07-30 09:42:34,2019-07-30 09:42:34,0.095s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:42:34,2019-07-30 09:42:39,5.004s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/A level""))",Chrome 75.0.3770.142,Select Main Qualification,2019-07-30 09:42:39,2019-07-30 09:42:39,0.097s,PASSED
+"""A-Level""",Chrome 75.0.3770.142,,2019-07-30 09:42:39,2019-07-30 09:42:39,0.001s,PASSED
+"setText(findTestObject(""Journey,background details/Journey/subjecttitle1""), ""Further Mathematics"")",Chrome 75.0.3770.142,Subject Title One,2019-07-30 09:42:39,2019-07-30 09:42:40,0.343s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/subject1-grade""))",Chrome 75.0.3770.142,,2019-07-30 09:42:40,2019-07-30 09:42:40,0.062s,PASSED
+"Year1TotalOptions = getNumberOfTotalOption(findTestObject(""Journey,background details/Journey/year one""))",Chrome 75.0.3770.142,,2019-07-30 09:42:40,2019-07-30 09:42:40,0.060s,PASSED
+Year1 = 1 + rad.nextInt(Year1TotalOptions - 1),Chrome 75.0.3770.142,,2019-07-30 09:42:40,2019-07-30 09:42:40,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""Journey,background details/Journey/year one""), Year1)",Chrome 75.0.3770.142,,2019-07-30 09:42:40,2019-07-30 09:42:40,0.285s,PASSED
+"setText(findTestObject(""Journey,background details/Journey/subjecttitle2""), ""Computer Science"")",Chrome 75.0.3770.142,Subject Title Two,2019-07-30 09:42:40,2019-07-30 09:42:41,0.307s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/Subt2-Grade""))",Chrome 75.0.3770.142,,2019-07-30 09:42:41,2019-07-30 09:42:41,0.066s,PASSED
+"Year2TotalOptions = getNumberOfTotalOption(findTestObject(""Journey,background details/Journey/year 2""))",Chrome 75.0.3770.142,,2019-07-30 09:42:41,2019-07-30 09:42:41,0.059s,PASSED
+Year2 = 1 + rad.nextInt(Year2TotalOptions - 1),Chrome 75.0.3770.142,,2019-07-30 09:42:41,2019-07-30 09:42:41,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""Journey,background details/Journey/year 2""), Year2)",Chrome 75.0.3770.142,,2019-07-30 09:42:41,2019-07-30 09:42:41,0.596s,PASSED
+"setText(findTestObject(""Journey,background details/Journey/Subjecttitle3""), ""Accounting"")",Chrome 75.0.3770.142,Subject Title Three,2019-07-30 09:42:41,2019-07-30 09:42:41,0.238s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/subt3-grade""))",Chrome 75.0.3770.142,,2019-07-30 09:42:41,2019-07-30 09:42:42,0.067s,PASSED
+"Year3TotalOptions = getNumberOfTotalOption(findTestObject(""Journey,background details/Journey/year 3""))",Chrome 75.0.3770.142,,2019-07-30 09:42:42,2019-07-30 09:42:42,0.058s,PASSED
+Year3 = 1 + rad.nextInt(Year3TotalOptions - 1),Chrome 75.0.3770.142,,2019-07-30 09:42:42,2019-07-30 09:42:42,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""Journey,background details/Journey/year 3""), Year3)",Chrome 75.0.3770.142,,2019-07-30 09:42:42,2019-07-30 09:42:42,0.236s,PASSED
+"setText(findTestObject(""getEmployable (Siftings)/set text""), ""abc"")",Chrome 75.0.3770.142,illness,2019-07-30 09:42:42,2019-07-30 09:42:42,0.113s,PASSED
+"setText(findTestObject(""Journey,background details/Journey/post1""), findTestData(""getEmployable/Applicants"").getValue(8, 1))",Chrome 75.0.3770.142,ALevel PostalCode,2019-07-30 09:42:42,2019-07-30 09:42:42,0.179s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:42:42,2019-07-30 09:42:47,5.003s,PASSED
+"click(findTestObject(""Journey,background details/Journey/post click1""))",Chrome 75.0.3770.142,,2019-07-30 09:42:47,2019-07-30 09:42:47,0.120s,PASSED
+"setText(findTestObject(""Journey,background details/Journey/post2""), findTestData(""getEmployable/Applicants"").getValue(9, 1))",Chrome 75.0.3770.142,GCSE PostalCode,2019-07-30 09:42:47,2019-07-30 09:42:47,0.203s,PASSED
+"click(findTestObject(""Journey,background details/Journey/next""))",Chrome 75.0.3770.142,,2019-07-30 09:42:47,2019-07-30 09:42:48,0.113s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:42:48,2019-07-30 09:42:53,5.003s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Auto sifting/Journey2,Chrome 75.0.3770.142,,2019-07-30 09:42:53,2019-07-30 09:42:59,6.643s,PASSED
+"comment(""Auto-sifting- Journey to university page 2 Criteria"")",Chrome 75.0.3770.142,,2019-07-30 09:42:53,2019-07-30 09:42:53,0.002s,PASSED
+"click(findTestObject(""getEmployable (Siftings)/25000""))",Chrome 75.0.3770.142,Household Income,2019-07-30 09:42:53,2019-07-30 09:42:53,0.079s,PASSED
+"setText(findTestObject(""getEmployable (Siftings)/lolipop1""), ""Lollipop Lady, Lollipop Man, School Crossing Patrol Attendant"")",Chrome 75.0.3770.142,First Parent,2019-07-30 09:42:53,2019-07-30 09:42:54,0.732s,PASSED
+"setText(findTestObject(""getEmployable (Siftings)/school sec""), ""School Secretary"")",Chrome 75.0.3770.142,Second parent,2019-07-30 09:42:54,2019-07-30 09:42:54,0.282s,PASSED
+"click(findTestObject(""getEmployable/input_Please tick any statements that apply to you_dis_16""))",Chrome 75.0.3770.142,disadvntage,2019-07-30 09:42:54,2019-07-30 09:42:54,0.098s,PASSED
+"click(findTestObject(""getEmployable/input_Please tick any statements that apply to you_dis_17""))",Chrome 75.0.3770.142,,2019-07-30 09:42:54,2019-07-30 09:42:54,0.082s,PASSED
+"click(findTestObject(""Journey,background details/Journey/friend""))",Chrome 75.0.3770.142,Click on how you hear about getEmployable,2019-07-30 09:42:54,2019-07-30 09:42:54,0.085s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:42:54,2019-07-30 09:42:59,5.003s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/background next""))",Chrome 75.0.3770.142,Click on next button,2019-07-30 09:42:59,2019-07-30 09:42:59,0.122s,PASSED
+,,,,,,
+Test Cases/getEmployable/getEmployable Random/your background,Chrome 75.0.3770.142,,2019-07-30 09:42:59,2019-07-30 09:43:22,22.332s,PASSED
+"comment(""Enter yourbackground details"")",Chrome 75.0.3770.142,,2019-07-30 09:42:59,2019-07-30 09:42:59,0.002s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:42:59,2019-07-30 09:43:04,5.006s,PASSED
+rad = new java.util.Random(),Chrome 75.0.3770.142,,2019-07-30 09:43:04,2019-07-30 09:43:04,0.007s,PASSED
+"ethnicity = getNumberOfTotalOption(findTestObject(""getEmployable (Siftings)/ehnicity""))",Chrome 75.0.3770.142,,2019-07-30 09:43:04,2019-07-30 09:43:05,0.086s,PASSED
+ethnicitycount = 1 + rad.nextInt(ethnicity - 1),Chrome 75.0.3770.142,,2019-07-30 09:43:05,2019-07-30 09:43:05,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable (Siftings)/ehnicity""), ethnicitycount)",Chrome 75.0.3770.142,Select Ethnicity,2019-07-30 09:43:05,2019-07-30 09:43:05,0.211s,PASSED
+"sexualorientation = getNumberOfTotalOption(findTestObject(""getEmployable/Employee details/21-05-2019/background/sexual orientation""))",Chrome 75.0.3770.142,,2019-07-30 09:43:05,2019-07-30 09:43:05,0.054s,PASSED
+sexualorientationcount = 1 + rad.nextInt(sexualorientation - 1),Chrome 75.0.3770.142,,2019-07-30 09:43:05,2019-07-30 09:43:05,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/Employee details/21-05-2019/background/sexual orientation""), sexualorientationcount)",Chrome 75.0.3770.142,Select sexual orientation,2019-07-30 09:43:05,2019-07-30 09:43:05,0.131s,PASSED
+"religion = getNumberOfTotalOption(findTestObject(""getEmployable/Employee details/21-05-2019/background/religion""))",Chrome 75.0.3770.142,,2019-07-30 09:43:05,2019-07-30 09:43:05,0.053s,PASSED
+religioncount = 1 + rad.nextInt(religion - 1),Chrome 75.0.3770.142,,2019-07-30 09:43:05,2019-07-30 09:43:05,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/Employee details/21-05-2019/background/religion""), religioncount)",Chrome 75.0.3770.142,Select Religion,2019-07-30 09:43:05,2019-07-30 09:43:05,0.166s,PASSED
+"maritalstatus = getNumberOfTotalOption(findTestObject(""getEmployable/Employee details/21-05-2019/background/Page_getEmployable - Assessment Form/marital status""))",Chrome 75.0.3770.142,,2019-07-30 09:43:05,2019-07-30 09:43:05,0.055s,PASSED
+maritalstatuscount = 1 + rad.nextInt(maritalstatus - 1),Chrome 75.0.3770.142,,2019-07-30 09:43:05,2019-07-30 09:43:05,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/Employee details/21-05-2019/background/Page_getEmployable - Assessment Form/marital status""), maritalstatuscount)",Chrome 75.0.3770.142,Select Marital status,2019-07-30 09:43:05,2019-07-30 09:43:05,0.127s,PASSED
+"Disability = getNumberOfTotalOption(findTestObject(""getEmployable/Employee details/21-05-2019/background/Page_getEmployable - Assessment Form/Disability""))",Chrome 75.0.3770.142,,2019-07-30 09:43:05,2019-07-30 09:43:05,0.071s,PASSED
+Disabilitycount = 1 + rad.nextInt(Disability - 1),Chrome 75.0.3770.142,,2019-07-30 09:43:05,2019-07-30 09:43:05,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""getEmployable/Employee details/21-05-2019/background/Page_getEmployable - Assessment Form/Disability""), Disabilitycount)",Chrome 75.0.3770.142,Select Disability count,2019-07-30 09:43:05,2019-07-30 09:43:06,0.138s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/Page_getEmployable - Assessment Form/interested""))",Chrome 75.0.3770.142,Click interested/not interested,2019-07-30 09:43:06,2019-07-30 09:43:06,0.092s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:43:06,2019-07-30 09:43:11,5.002s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/met""))",Chrome 75.0.3770.142,Click met/not met with criteria,2019-07-30 09:43:11,2019-07-30 09:43:11,0.119s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/Tick1""))",Chrome 75.0.3770.142,Privacy policy,2019-07-30 09:43:11,2019-07-30 09:43:11,0.084s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/Tick2""))",Chrome 75.0.3770.142,Policy,2019-07-30 09:43:11,2019-07-30 09:43:11,0.082s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:43:11,2019-07-30 09:43:16,5.001s,PASSED
+"click(findTestObject(""getEmployable/Employee details/21-05-2019/background/Submit""))",Chrome 75.0.3770.142,click on submit button,2019-07-30 09:43:16,2019-07-30 09:43:16,0.131s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-30 09:43:16,2019-07-30 09:43:21,5.003s,PASSED
+"verifyTextPresent(""Congratulations on completing the Employability Assessment!"", false)",Chrome 75.0.3770.142,,2019-07-30 09:43:21,2019-07-30 09:43:21,0.088s,PASSED
+takeScreenshot(),Chrome 75.0.3770.142,,2019-07-30 09:43:21,2019-07-30 09:43:22,0.400s,PASSED

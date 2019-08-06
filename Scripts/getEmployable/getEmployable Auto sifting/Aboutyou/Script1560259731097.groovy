@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Enter aboutYou page details')
 
-'Enter First Name\r\n'
+'Enter First Name'
 WebUI.setText(findTestObject('getEmployable/input_First Name'), 'Jam')
 
 'Enter Last Name'

@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FCLP,Chrome 75.0.3770.142,,2019-07-23 10:27:15,2019-07-23 10:29:09,1m - 53.971s,FAILED
+,,,,,,
+Test Cases/REALratings/FCLP/formSubmission,Chrome 75.0.3770.142,,2019-07-23 10:27:16,2019-07-23 10:28:12,55.524s,FAILED
+"comment(""FCLP - Form Submission"")",Chrome 75.0.3770.142,,2019-07-23 10:27:21,2019-07-23 10:27:21,0.185s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,Open Browser,2019-07-23 10:27:21,2019-07-23 10:27:25,4.078s,PASSED
+myDriver = getWebDriver(),Chrome 75.0.3770.142,,2019-07-23 10:27:25,2019-07-23 10:27:25,0.063s,PASSED
+"navigateToUrl(""https://fclp-uat.realrating.co.uk/"")",Chrome 75.0.3770.142,Launch FCLP Applications,2019-07-23 10:27:25,2019-07-23 10:27:30,5.242s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-23 10:27:30,2019-07-23 10:27:31,1.130s,PASSED
+rad = new java.util.Random(),Chrome 75.0.3770.142,,2019-07-23 10:27:31,2019-07-23 10:27:31,0.003s,PASSED
+"comment(""Basic and University  Information"")",Chrome 75.0.3770.142,,2019-07-23 10:27:31,2019-07-23 10:27:31,0.003s,PASSED
+"setText(findTestObject(""REALRatings/FCLP/Page_REALrating/First Name""), ""asha"")",Chrome 75.0.3770.142,Enter First Name,2019-07-23 10:27:31,2019-07-23 10:27:32,0.312s,PASSED
+"setText(findTestObject(""REALRatings/FCLP/Page_REALrating/Last Name""), ""rajednran"")",Chrome 75.0.3770.142,Enter Last Name,2019-07-23 10:27:32,2019-07-23 10:27:32,0.257s,PASSED
+emailid = rad.nextInt(2000),Chrome 75.0.3770.142,Enter University Email,2019-07-23 10:27:32,2019-07-23 10:27:32,0.002s,PASSED
+"setText(findTestObject(""REALRatings/FCLP/Page_REALrating/Univrsity Emaid""), ""fclp"" + emailid + ""@test.com"")",Chrome 75.0.3770.142,,2019-07-23 10:27:32,2019-07-23 10:27:32,0.403s,PASSED
+"UniversityTotalOption = getNumberOfTotalOption(findTestObject(""REALRatings/FCLP/Page_REALrating/University""))",Chrome 75.0.3770.142,University,2019-07-23 10:27:32,2019-07-23 10:27:32,0.096s,PASSED
+UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1),Chrome 75.0.3770.142,,2019-07-23 10:27:32,2019-07-23 10:27:32,0.003s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/FCLP/Page_REALrating/University""), UniversityCount)",Chrome 75.0.3770.142,,2019-07-23 10:27:32,2019-07-23 10:27:33,0.486s,PASSED
+if (UniversityCount == 98),Chrome 75.0.3770.142,Other University,2019-07-23 10:27:33,2019-07-23 10:27:33,0.001s,PASSED
+"UniversityCourseTotalOption = getNumberOfTotalOption(findTestObject(""REALRatings/FCLP/Page_REALrating/University Course""))",Chrome 75.0.3770.142,University Course,2019-07-23 10:27:33,2019-07-23 10:27:33,0.066s,PASSED
+UniveristyCourseCount = 1 + rad.nextInt(UniversityCourseTotalOption - 1),Chrome 75.0.3770.142,,2019-07-23 10:27:33,2019-07-23 10:27:33,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/FCLP/Page_REALrating/University Course""), UniveristyCourseCount)",Chrome 75.0.3770.142,,2019-07-23 10:27:33,2019-07-23 10:27:33,0.508s,PASSED
+if (UniveristyCourseCount == 95),Chrome 75.0.3770.142,University Other Course ,2019-07-23 10:27:33,2019-07-23 10:27:33,0.000s,PASSED
+"GraduationYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/FCLP/Page_REALrating/Graduation Year""))",Chrome 75.0.3770.142,Graduation Year,2019-07-23 10:27:33,2019-07-23 10:27:33,0.061s,PASSED
+GraduationYearcount = 1 + rad.nextInt(GraduationYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-23 10:27:33,2019-07-23 10:27:33,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/FCLP/Page_REALrating/Graduation Year""), GraduationYearcount)",Chrome 75.0.3770.142,,2019-07-23 10:27:33,2019-07-23 10:27:34,0.223s,PASSED
+"GradeYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/FCLP/Page_REALrating/Grade 21""))",Chrome 75.0.3770.142,Do you have a university degree at grade 2:1 or higher (or equivalent)?,2019-07-23 10:27:34,2019-07-23 10:27:34,0.065s,PASSED
+GradeYearcount = 1 + rad.nextInt(GradeYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-23 10:27:34,2019-07-23 10:27:34,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/FCLP/Page_REALrating/Grade 21""), GradeYearcount)",Chrome 75.0.3770.142,,2019-07-23 10:27:34,2019-07-23 10:27:34,0.124s,PASSED
+"GradeEnglishYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/FCLP/Page_REALrating/Grade B English""))",Chrome 75.0.3770.142,Do you have at least a grade B in GCSE English?,2019-07-23 10:27:34,2019-07-23 10:27:34,0.062s,PASSED
+GradeEnglishYearcount = 1 + rad.nextInt(GradeEnglishYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-23 10:27:34,2019-07-23 10:27:34,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/FCLP/Page_REALrating/Grade B English""), GradeEnglishYearcount)",Chrome 75.0.3770.142,,2019-07-23 10:27:34,2019-07-23 10:27:34,0.114s,PASSED
+delay(2),Chrome 75.0.3770.142,,2019-07-23 10:27:34,2019-07-23 10:27:36,2.009s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/FCLP/Page_REALrating/Grade B Maths""), GradeEnglishYearcount)",Chrome 75.0.3770.142,Do you have at least a grade B in GCSE Maths?,2019-07-23 10:27:36,2019-07-23 10:27:36,0.159s,PASSED
+"click(findTestObject(""REALRatings/FCLP/Page_REALrating/a_Next""))",Chrome 75.0.3770.142,,2019-07-23 10:27:36,2019-07-23 10:27:36,0.076s,PASSED
+delay(2),Chrome 75.0.3770.142,,2019-07-23 10:27:36,2019-07-23 10:27:38,2.003s,PASSED
+"comment(""Main Qualification Information"")",Chrome 75.0.3770.142,,2019-07-23 10:27:38,2019-07-23 10:27:38,0.002s,PASSED
+"ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/FCLP/Page_REALrating/A Level Year""))",Chrome 75.0.3770.142,A-Level year,2019-07-23 10:27:38,2019-07-23 10:27:38,0.061s,PASSED
+ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-23 10:27:38,2019-07-23 10:27:38,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/FCLP/Page_REALrating/A Level Year""), ALevelYearcount)",Chrome 75.0.3770.142,,2019-07-23 10:27:38,2019-07-23 10:27:39,0.282s,PASSED
+"GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/FCLP/Page_REALrating/GCSE Year""))",Chrome 75.0.3770.142,GCSE Year,2019-07-23 10:27:39,2019-07-23 10:27:39,0.052s,PASSED
+GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-07-23 10:27:39,2019-07-23 10:27:39,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/FCLP/Page_REALrating/GCSE Year""), GCSEYearCount)",Chrome 75.0.3770.142,,2019-07-23 10:27:39,2019-07-23 10:27:39,0.413s,PASSED
+"MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject(""REALRatings/Greensill/Page_REALrating/Main Qualification""))",Chrome 75.0.3770.142,Select Main Qualification,2019-07-23 10:27:39,2019-07-23 10:27:39,0.042s,PASSED
+MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1),Chrome 75.0.3770.142,,2019-07-23 10:27:39,2019-07-23 10:27:39,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/Greensill/Page_REALrating/Main Qualification""), MainQualificationCount)",Chrome 75.0.3770.142,,2019-07-23 10:27:39,2019-07-23 10:27:39,0.121s,PASSED
+if (MainQualificationCount == 1),Chrome 75.0.3770.142,A-Level,2019-07-23 10:27:39,2019-07-23 10:27:39,0.000s,PASSED
+else if (MainQualificationCount == 2),Chrome 75.0.3770.142,,2019-07-23 10:27:39,2019-07-23 10:28:12,32.231s,FAILED
+,,,,,,
+Test Cases/REALratings/FCLP/login,Chrome 75.0.3770.142,,2019-07-23 10:28:12,2019-07-23 10:29:08,56.820s,PASSED
+"comment(""FCLP - Login"")",Chrome 75.0.3770.142,,2019-07-23 10:28:12,2019-07-23 10:28:12,0.003s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,Open Browser,2019-07-23 10:28:12,2019-07-23 10:28:15,3.110s,PASSED
+"navigateToUrl(""https://fclp-uat.realrating.co.uk/login"")",Chrome 75.0.3770.142,Login to FCLP Application,2019-07-23 10:28:15,2019-07-23 10:28:19,4.507s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-23 10:28:19,2019-07-23 10:28:20,1.113s,PASSED
+"setText(findTestObject(""REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email""), ""john@upreach.org.uk"")",Chrome 75.0.3770.142,Enter Email Address,2019-07-23 10:28:20,2019-07-23 10:28:21,0.129s,PASSED
+"setEncryptedText(findTestObject(""REALRatings/Greensill/login/Page_RealRating/input_Password_password""), ""YPztdU12xyABLAH+eFFt4w=="")",Chrome 75.0.3770.142,Enter Password,2019-07-23 10:28:21,2019-07-23 10:28:21,0.127s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/button_Login""))",Chrome 75.0.3770.142,Click On Login,2019-07-23 10:28:21,2019-07-23 10:28:23,2.662s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 75.0.3770.142,Get All Links On Current Page - A-Level,2019-07-23 10:28:23,2019-07-23 10:28:24,0.425s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 75.0.3770.142,Verify All Links On Current Page Accessible - A-Level,2019-07-23 10:28:24,2019-07-23 10:28:45,20.874s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab""))",Chrome 75.0.3770.142,Click on Other Qualification Tab,2019-07-23 10:28:45,2019-07-23 10:28:45,0.106s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 75.0.3770.142,Get All Links On Current Page - Other Qualification,2019-07-23 10:28:45,2019-07-23 10:28:45,0.407s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 75.0.3770.142,Verify All Links On Current Page Accessible - Other Qualification,2019-07-23 10:28:45,2019-07-23 10:29:02,17.092s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/Profile""))",Chrome 75.0.3770.142,Logout of Greensill Application,2019-07-23 10:29:02,2019-07-23 10:29:02,0.119s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/Logout""))",Chrome 75.0.3770.142,,2019-07-23 10:29:02,2019-07-23 10:29:02,0.114s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-07-23 10:29:02,2019-07-23 10:29:07,5.005s,PASSED
+"click(findTestObject(""REALRatings/Greensill/login/Page_RealRating/button_Logout""))",Chrome 75.0.3770.142,,2019-07-23 10:29:07,2019-07-23 10:29:08,0.870s,PASSED
+"assert getUrl() == ""https://fclp-uat.realrating.co.uk/login""",Chrome 75.0.3770.142,Asserting Sucessful Logout,2019-07-23 10:29:08,2019-07-23 10:29:08,0.017s,PASSED

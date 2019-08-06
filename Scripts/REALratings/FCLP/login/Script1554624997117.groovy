@@ -12,9 +12,10 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.WebDriver
-import com.kms.katalon.core.webui.driver.DriverFactory
-WebUI.callTestCase(findTestCase('REALratings/FCLP/formSubmission'), [:], FailureHandling.STOP_ON_FAILURE)
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
+WebUI.comment('FCLP - Login')
 
 'Open Browser'
 WebUI.openBrowser('')
@@ -32,7 +33,6 @@ WebUI.setEncryptedText(findTestObject('REALRatings/Greensill/login/Page_RealRati
 
 'Click On Login'
 WebUI.click(findTestObject('REALRatings/Greensill/login/Page_RealRating/button_Login'))
-
 
 'Get All Links On Current Page - A-Level'
 WebUI.getAllLinksOnCurrentPage(false, [])

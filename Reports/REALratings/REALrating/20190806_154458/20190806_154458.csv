@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+REALrating,Chrome 75.0.3770.142,,2019-08-06 15:45:00,2019-08-06 15:47:23,2m - 23.337s,ERROR
+,,,,,,
+Test Cases/REALratings/REALrating/allLinksAllAccessible,Chrome 75.0.3770.142,,2019-08-06 15:45:00,2019-08-06 15:46:59,1m - 58.389s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,Open Browser,2019-08-06 15:45:01,2019-08-06 15:45:04,3.469s,PASSED
+"navigateToUrl(""https://uat.realrating.co.uk/"")",Chrome 75.0.3770.142,Launch REALrating Application,2019-08-06 15:45:04,2019-08-06 15:45:10,5.697s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,Maximize the window,2019-08-06 15:45:10,2019-08-06 15:45:11,1.142s,PASSED
+"verifyElementPresent(findTestObject(""REALRatings/REALrating/Page_REALrating/Get Started""), 5, STOP_ON_FAILURE)",Chrome 75.0.3770.142,Verify REALrating Application Page,2019-08-06 15:45:11,2019-08-06 15:45:11,0.078s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 75.0.3770.142,To Verify Broken Links/Images,2019-08-06 15:45:11,2019-08-06 15:46:59,1m - 47.620s,PASSED
+,,,,,,
+Test Cases/REALratings/REALrating/formSubmission,Chrome 75.0.3770.142,,2019-08-06 15:46:59,2019-08-06 15:47:23,24.020s,ERROR
+"openBrowser("""")",Chrome 75.0.3770.142,Open Browser,2019-08-06 15:46:59,2019-08-06 15:47:03,3.293s,PASSED
+"navigateToUrl(""https://uat.realrating.co.uk/"")",Chrome 75.0.3770.142,Launch REALrating Application,2019-08-06 15:47:03,2019-08-06 15:47:08,4.994s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,Maximize the window,2019-08-06 15:47:08,2019-08-06 15:47:09,1.140s,PASSED
+"verifyElementPresent(findTestObject(""REALRatings/REALrating/Page_REALrating/Get Started""), 5, STOP_ON_FAILURE)",Chrome 75.0.3770.142,Verify REALrating Application Page,2019-08-06 15:47:09,2019-08-06 15:47:09,0.036s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/Get Started""))",Chrome 75.0.3770.142,Click Get Started,2019-08-06 15:47:09,2019-08-06 15:47:09,0.104s,PASSED
+delay(1),Chrome 75.0.3770.142,,2019-08-06 15:47:09,2019-08-06 15:47:10,1.029s,PASSED
+"comment(""Basic Information"")",Chrome 75.0.3770.142,,2019-08-06 15:47:10,2019-08-06 15:47:10,0.015s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Page_REALrating/First Name""), findTestData(""getEmployable/Applicants"").getValue(1, 1))",Chrome 75.0.3770.142,Enter First Name,2019-08-06 15:47:10,2019-08-06 15:47:10,0.166s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Page_REALrating/Last Name""), findTestData(""getEmployable/Applicants"").getValue(2, 1))",Chrome 75.0.3770.142,Enter Last Name,2019-08-06 15:47:10,2019-08-06 15:47:10,0.122s,PASSED
+rad = new java.util.Random(),Chrome 75.0.3770.142,,2019-08-06 15:47:10,2019-08-06 15:47:10,0.004s,PASSED
+emailid = rad.nextInt(2000),Chrome 75.0.3770.142,Enter University Email,2019-08-06 15:47:10,2019-08-06 15:47:10,0.002s,PASSED
+"setText(findTestObject(""REALRatings/REALrating/Page_REALrating/University Email""), ""realrating"" + emailid + ""@test.ac.uk"")",Chrome 75.0.3770.142,,2019-08-06 15:47:10,2019-08-06 15:47:11,0.237s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/FP Next""), STOP_ON_FAILURE)",Chrome 75.0.3770.142,Click NEXT,2019-08-06 15:47:11,2019-08-06 15:47:11,0.094s,PASSED
+delay(1),Chrome 75.0.3770.142,,2019-08-06 15:47:11,2019-08-06 15:47:12,1.003s,PASSED
+"comment(""University Information"")",Chrome 75.0.3770.142,,2019-08-06 15:47:12,2019-08-06 15:47:12,0.004s,PASSED
+"ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/A Level Year""))",Chrome 75.0.3770.142,A-Level year,2019-08-06 15:47:12,2019-08-06 15:47:12,0.178s,PASSED
+ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-08-06 15:47:12,2019-08-06 15:47:12,0.003s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/A Level Year""), ALevelYearcount)",Chrome 75.0.3770.142,,2019-08-06 15:47:12,2019-08-06 15:47:12,0.432s,PASSED
+"GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/GCSE Year""))",Chrome 75.0.3770.142,GCSE Year,2019-08-06 15:47:12,2019-08-06 15:47:12,0.071s,PASSED
+GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1),Chrome 75.0.3770.142,,2019-08-06 15:47:12,2019-08-06 15:47:12,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/GCSE Year""), GCSEYearCount)",Chrome 75.0.3770.142,,2019-08-06 15:47:12,2019-08-06 15:47:13,0.328s,PASSED
+"UniversityTotalOption = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/University""))",Chrome 75.0.3770.142,University,2019-08-06 15:47:13,2019-08-06 15:47:13,0.074s,PASSED
+UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1),Chrome 75.0.3770.142,,2019-08-06 15:47:13,2019-08-06 15:47:13,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/University""), UniversityCount)",Chrome 75.0.3770.142,,2019-08-06 15:47:13,2019-08-06 15:47:13,0.492s,PASSED
+if (UniversityCount == 95),Chrome 75.0.3770.142,Other University,2019-08-06 15:47:13,2019-08-06 15:47:13,0.000s,PASSED
+"UniversityCourseTotalOption = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/University Course""))",Chrome 75.0.3770.142,University Course,2019-08-06 15:47:13,2019-08-06 15:47:13,0.068s,PASSED
+UniveristyCourseCount = 1 + rad.nextInt(UniversityCourseTotalOption - 1),Chrome 75.0.3770.142,,2019-08-06 15:47:13,2019-08-06 15:47:13,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/University Course""), UniveristyCourseCount)",Chrome 75.0.3770.142,,2019-08-06 15:47:13,2019-08-06 15:47:14,0.608s,PASSED
+if (UniveristyCourseCount == 95),Chrome 75.0.3770.142,University Other Course ,2019-08-06 15:47:14,2019-08-06 15:47:14,0.001s,PASSED
+"LengthOfUniversitycourseTotalOptions = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/Length Of university Course""))",Chrome 75.0.3770.142,Length of university course,2019-08-06 15:47:14,2019-08-06 15:47:14,0.074s,PASSED
+LengthOfUniversitycount = 1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1),Chrome 75.0.3770.142,,2019-08-06 15:47:14,2019-08-06 15:47:14,0.000s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/Length Of university Course""), LengthOfUniversitycount)",Chrome 75.0.3770.142,,2019-08-06 15:47:14,2019-08-06 15:47:14,0.138s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/Current Year Of Study""), LengthOfUniversitycount)",Chrome 75.0.3770.142,Current Year of Study (as of Sept 2018),2019-08-06 15:47:14,2019-08-06 15:47:14,0.162s,PASSED
+delay(5),Chrome 75.0.3770.142,,2019-08-06 15:47:14,2019-08-06 15:47:19,5.004s,PASSED
+"click(findTestObject(""REALRatings/REALrating/Page_REALrating/button_Next (1)""))",Chrome 75.0.3770.142,,2019-08-06 15:47:19,2019-08-06 15:47:20,0.142s,PASSED
+"comment(""Main Qualification Information"")",Chrome 75.0.3770.142,,2019-08-06 15:47:20,2019-08-06 15:47:20,0.002s,PASSED
+"MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject(""REALRatings/REALrating/Page_REALrating/Main Qualification""))",Chrome 75.0.3770.142,Select Main Qualification,2019-08-06 15:47:20,2019-08-06 15:47:20,0.068s,PASSED
+MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1),Chrome 75.0.3770.142,,2019-08-06 15:47:20,2019-08-06 15:47:20,0.001s,PASSED
+"selectOptionByIndex(findTestObject(""REALRatings/REALrating/Page_REALrating/Main Qualification""), MainQualificationCount)",Chrome 75.0.3770.142,,2019-08-06 15:47:20,2019-08-06 15:47:20,0.133s,PASSED
+delay(1),Chrome 75.0.3770.142,,2019-08-06 15:47:20,2019-08-06 15:47:21,1.003s,PASSED
+if (MainQualificationCount == 1),Chrome 75.0.3770.142,A-Level,2019-08-06 15:47:21,2019-08-06 15:47:21,0.002s,PASSED
+else if (MainQualificationCount == 2),Chrome 75.0.3770.142,,2019-08-06 15:47:21,2019-08-06 15:47:21,0.001s,PASSED
+else if (MainQualificationCount == 3),Chrome 75.0.3770.142,,2019-08-06 15:47:21,2019-08-06 15:47:23,2.025s,ERROR

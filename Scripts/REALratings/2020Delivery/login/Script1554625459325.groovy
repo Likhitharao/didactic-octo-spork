@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.comment('2020Delivery - Login')
+
 'Open Browser'
 WebUI.openBrowser('')
 
@@ -56,3 +58,4 @@ WebUI.click(findTestObject('REALRatings/Greensill/login/Page_RealRating/button_L
 
 'Asserting Sucessful Logout'
 assert WebUI.getUrl() == 'https://2020-uat.realrating.co.uk/login'
+

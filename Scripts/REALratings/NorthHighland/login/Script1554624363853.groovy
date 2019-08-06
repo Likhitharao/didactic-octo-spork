@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.comment('NorthHighland- Login')
+
 'Open Browser'
 WebUI.openBrowser('')
 
@@ -45,7 +47,7 @@ WebUI.getAllLinksOnCurrentPage(false, [])
 'Verify All Links On Current Page Accessible - Other Qualification'
 WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
 
-'Logout of Greensill Application'
+'Logout of North Highland Application'
 WebUI.click(findTestObject('REALRatings/Greensill/login/Page_RealRating/Profile'))
 
 WebUI.click(findTestObject('REALRatings/Greensill/login/Page_RealRating/Logout'))
@@ -56,3 +58,4 @@ WebUI.click(findTestObject('REALRatings/Greensill/login/Page_RealRating/button_L
 
 'Asserting Sucessful Logout'
 assert WebUI.getUrl() == 'https://nh-uat.realrating.co.uk/login'
+

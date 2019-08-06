@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
+WebUI.comment('IPPR - Form Submission')
+
 'Open Browser'
 WebUI.openBrowser('')
 
@@ -42,7 +44,7 @@ int email = rad.nextInt(2000)
 'Enter University Email'
 WebUI.setText(findTestObject('REALRatings/Greensill/Page_REALrating/University Emailid'), ('ippr' + email) + '@test.com')
 
- WebUI.getAttribute(findTestObject('REALRatings/Greensill/Page_REALrating/University Emailid'), '')
+WebUI.getAttribute(findTestObject('REALRatings/Greensill/Page_REALrating/University Emailid'), '')
 
 'Click NEXT'
 WebUI.click(findTestObject('REALRatings/IPPR/Page_REALrating/First Next'), FailureHandling.STOP_ON_FAILURE)

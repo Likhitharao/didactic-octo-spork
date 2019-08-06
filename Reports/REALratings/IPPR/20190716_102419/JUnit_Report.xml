@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IPPR" time="98" tests="2" failures="0" errors="0">
+   <testsuite name="IPPR" tests="2" failures="0" errors="0" time="98" timestamp="2019-07-16 10:24:21" hostname="sambhavi - sambhavi.jmandigital.in" id="Test Suites/REALratings/IPPR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\IPPR\\20190716_102419"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\IPPR\\20190716_102419\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\IPPR\\20190716_102419\\1563252889643.png"/>
+         <property name="hostName" value="sambhavi - sambhavi.jmandigital.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="7a803dd664be055f58785e4f49cbac40"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/REALratings/IPPR/formSubmission" classname="Test Cases/REALratings/IPPR/formSubmission" status="PASSED">
+         <system-out><![CDATA[2019-07-16 10:24:21 - [TEST_CASE][PASSED] - Test Cases/REALratings/IPPR/formSubmission: Test Cases/REALratings/IPPR/formSubmission
+
+2019-07-16 10:24:22 - [TEST_STEP][PASSED] - comment("IPPR - Form Submission"): IPPR - Form Submission
+
+2019-07-16 10:24:22 - [MESSAGE][INFO] - IPPR - Form Submission
+
+2019-07-16 10:24:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-16 10:24:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-16 10:24:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-16 10:24:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-16 10:24:26 - [TEST_STEP][PASSED] - myDriver = getWebDriver(): null
+
+2019-07-16 10:24:26 - [TEST_STEP][PASSED] - navigateToUrl("https://ippr-uat.realrating.co.uk/"): Navigate to 'https://ippr-uat.realrating.co.uk/' successfully
+
+2019-07-16 10:24:30 - [MESSAGE][PASSED] - Navigate to 'https://ippr-uat.realrating.co.uk/' successfully
+
+2019-07-16 10:24:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-16 10:24:32 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-16 10:24:32 - [TEST_STEP][PASSED] - rad = new java.util.Random(): null
+
+2019-07-16 10:24:32 - [TEST_STEP][PASSED] - comment("Basic Information"): Basic Information
+
+2019-07-16 10:24:32 - [MESSAGE][INFO] - Basic Information
+
+2019-07-16 10:24:32 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/First Name"), findTestData("getEmployable/Applicants").getValue(1, 1)): Text 'Asha' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/First Name'
+
+2019-07-16 10:24:32 - [MESSAGE][PASSED] - Text 'Asha' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/First Name'
+
+2019-07-16 10:24:32 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/Last Name"), findTestData("getEmployable/Applicants").getValue(2, 1)): Text 'Rajendran' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Last Name'
+
+2019-07-16 10:24:32 - [MESSAGE][PASSED] - Text 'Rajendran' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Last Name'
+
+2019-07-16 10:24:32 - [TEST_STEP][PASSED] - email = rad.nextInt(2000): null
+
+2019-07-16 10:24:32 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/University Emailid"), "ippr" + email + "@test.com"): Text 'ippr359@test.com' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Emailid'
+
+2019-07-16 10:24:33 - [MESSAGE][PASSED] - Text 'ippr359@test.com' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Emailid'
+
+2019-07-16 10:24:33 - [TEST_STEP][PASSED] - getAttribute(findTestObject("REALRatings/Greensill/Page_REALrating/University Emailid"), ""): Attribute '' of object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Emailid' is: 'null'
+
+2019-07-16 10:24:33 - [MESSAGE][PASSED] - Attribute '' of object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Emailid' is: 'null'
+
+2019-07-16 10:24:33 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/IPPR/Page_REALrating/First Next"), STOP_ON_FAILURE): Object: 'Object Repository/REALRatings/IPPR/Page_REALrating/First Next' is clicked on
+
+2019-07-16 10:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/IPPR/Page_REALrating/First Next' is clicked on
+
+2019-07-16 10:24:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-16 10:24:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-16 10:24:35 - [TEST_STEP][PASSED] - comment("University Information"): University Information
+
+2019-07-16 10:24:35 - [MESSAGE][INFO] - University Information
+
+2019-07-16 10:24:35 - [TEST_STEP][PASSED] - UniversityTotalOption = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/University")): 154 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/University' counted
+
+2019-07-16 10:24:35 - [MESSAGE][PASSED] - 154 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/University' counted
+
+2019-07-16 10:24:35 - [TEST_STEP][PASSED] - UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1): null
+
+2019-07-16 10:24:35 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/University"), UniversityCount): All options with index in [86] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University'
+
+2019-07-16 10:24:36 - [MESSAGE][PASSED] - All options with index in [86] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University'
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - if (UniversityCount == 98): null
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - UniversityCourseTotalOption = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/University Course")): 96 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Course' counted
+
+2019-07-16 10:24:36 - [MESSAGE][PASSED] - 96 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Course' counted
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - UniveristyCourseCount = 1 + rad.nextInt(UniversityCourseTotalOption - 1): null
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/University Course"), UniveristyCourseCount): All options with index in [10] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Course'
+
+2019-07-16 10:24:36 - [MESSAGE][PASSED] - All options with index in [10] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/University Course'
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - if (UniveristyCourseCount == 95): null
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - LengthOfUniversitycourseTotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/Length Of University Course")): 9 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/Length Of University Course' counted
+
+2019-07-16 10:24:36 - [MESSAGE][PASSED] - 9 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/Length Of University Course' counted
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - LengthOfUniversitycount = 1 + rad.nextInt(LengthOfUniversitycourseTotalOptions - 1): null
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/Length Of University Course"), LengthOfUniversitycount): All options with index in [5] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Length Of University Course'
+
+2019-07-16 10:24:36 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Length Of University Course'
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/Current Year Of Study"), LengthOfUniversitycount): All options with index in [5] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Current Year Of Study'
+
+2019-07-16 10:24:36 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Current Year Of Study'
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/IPPR/Page_REALrating/Second Next")): Object: 'Object Repository/REALRatings/IPPR/Page_REALrating/Second Next' is clicked on
+
+2019-07-16 10:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/IPPR/Page_REALrating/Second Next' is clicked on
+
+2019-07-16 10:24:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-16 10:24:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-16 10:24:38 - [TEST_STEP][PASSED] - comment("Main Qualification Information"): Main Qualification Information
+
+2019-07-16 10:24:38 - [MESSAGE][INFO] - Main Qualification Information
+
+2019-07-16 10:24:38 - [TEST_STEP][PASSED] - ALevelYearTotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/A Level Year")): 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level Year' counted
+
+2019-07-16 10:24:38 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level Year' counted
+
+2019-07-16 10:24:38 - [TEST_STEP][PASSED] - ALevelYearcount = 1 + rad.nextInt(ALevelYearTotalOptions - 1): null
+
+2019-07-16 10:24:38 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/A Level Year"), ALevelYearcount): All options with index in [58] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level Year'
+
+2019-07-16 10:24:39 - [MESSAGE][PASSED] - All options with index in [58] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level Year'
+
+2019-07-16 10:24:39 - [TEST_STEP][PASSED] - GCSEYearTotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/GCSE Year")): 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE Year' counted
+
+2019-07-16 10:24:39 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE Year' counted
+
+2019-07-16 10:24:39 - [TEST_STEP][PASSED] - GCSEYearCount = 1 + rad.nextInt(GCSEYearTotalOptions - 1): null
+
+2019-07-16 10:24:39 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/GCSE Year"), GCSEYearCount): All options with index in [37] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE Year'
+
+2019-07-16 10:24:39 - [MESSAGE][PASSED] - All options with index in [37] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE Year'
+
+2019-07-16 10:24:39 - [TEST_STEP][PASSED] - MainQualificationTotaloptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/Main Qualification")): 6 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/Main Qualification' counted
+
+2019-07-16 10:24:39 - [MESSAGE][PASSED] - 6 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/Main Qualification' counted
+
+2019-07-16 10:24:39 - [TEST_STEP][PASSED] - MainQualificationCount = 1 + rad.nextInt(MainQualificationTotaloptions - 1): null
+
+2019-07-16 10:24:39 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/Main Qualification"), MainQualificationCount): All options with index in [3] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Main Qualification'
+
+2019-07-16 10:24:40 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/Main Qualification'
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - if (MainQualificationCount == 1): null
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - else if (MainQualificationCount == 2): null
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - else if (MainQualificationCount == 3): All options with index in [8] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearThree'
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - IBP1TotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points one")): 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points one' counted
+
+2019-07-16 10:24:40 - [MESSAGE][PASSED] - 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points one' counted
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - IBP1count = 1 + rad.nextInt(IBP1TotalOptions - 1): null
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points one"), IBP1count): All options with index in [3] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points one'
+
+2019-07-16 10:24:40 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points one'
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - IBY1TotalPoints = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB Year One")): 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Year One' counted
+
+2019-07-16 10:24:40 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Year One' counted
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - IBY1count = 1 + rad.nextInt(IBY1TotalPoints - 1): null
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB Year One"), IBY1count): All options with index in [15] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Year One'
+
+2019-07-16 10:24:40 - [MESSAGE][PASSED] - All options with index in [15] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Year One'
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - IBP2TotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points Two")): 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Two' counted
+
+2019-07-16 10:24:40 - [MESSAGE][PASSED] - 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Two' counted
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - IBP2count = 1 + rad.nextInt(IBP2TotalOptions - 1): null
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points Two"), IBP2count): All options with index in [6] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Two'
+
+2019-07-16 10:24:40 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Two'
+
+2019-07-16 10:24:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-16 10:24:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-16 10:24:42 - [TEST_STEP][PASSED] - IBY2TotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB YearTwo")): 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearTwo' counted
+
+2019-07-16 10:24:42 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearTwo' counted
+
+2019-07-16 10:24:42 - [TEST_STEP][PASSED] - IBY2count = 1 + rad.nextInt(IBY2TotalOptions - 1): null
+
+2019-07-16 10:24:42 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB YearTwo"), IBY2count): All options with index in [6] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearTwo'
+
+2019-07-16 10:24:43 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearTwo'
+
+2019-07-16 10:24:43 - [TEST_STEP][PASSED] - IBP3TotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points Three")): 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Three' counted
+
+2019-07-16 10:24:43 - [MESSAGE][PASSED] - 8 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Three' counted
+
+2019-07-16 10:24:43 - [TEST_STEP][PASSED] - IBP3count = 1 + rad.nextInt(IBP3TotalOptions - 1): null
+
+2019-07-16 10:24:43 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB Points Three"), IBP3count): All options with index in [1] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Three'
+
+2019-07-16 10:24:43 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB Points Three'
+
+2019-07-16 10:24:43 - [TEST_STEP][PASSED] - IBY3TotalOptions = getNumberOfTotalOption(findTestObject("REALRatings/Greensill/Page_REALrating/IB YearThree")): 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearThree' counted
+
+2019-07-16 10:24:43 - [MESSAGE][PASSED] - 71 options of object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearThree' counted
+
+2019-07-16 10:24:43 - [TEST_STEP][PASSED] - IBY3count = 1 + rad.nextInt(IBY3TotalOptions - 1): null
+
+2019-07-16 10:24:43 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("REALRatings/Greensill/Page_REALrating/IB YearThree"), IBY3count): All options with index in [8] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearThree'
+
+2019-07-16 10:24:43 - [MESSAGE][PASSED] - All options with index in [8] are selected on object 'Object Repository/REALRatings/Greensill/Page_REALrating/IB YearThree'
+
+2019-07-16 10:24:43 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/A Level School"), findTestData("getEmployable/Applicants").getValue(6, 1)): Text 'Kings Richard School' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level School'
+
+2019-07-16 10:24:43 - [MESSAGE][PASSED] - Text 'Kings Richard School' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level School'
+
+2019-07-16 10:24:43 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/GCSE School"), findTestData("getEmployable/Applicants").getValue(7, 1)): Text 'Kings Richard School' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE School'
+
+2019-07-16 10:24:44 - [MESSAGE][PASSED] - Text 'Kings Richard School' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE School'
+
+2019-07-16 10:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/A Level Postalcode"), findTestData("getEmployable/Applicants").getValue(8, 1)): Text 'NW64DN' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level Postalcode'
+
+2019-07-16 10:24:44 - [MESSAGE][PASSED] - Text 'NW64DN' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/A Level Postalcode'
+
+2019-07-16 10:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/Page_REALrating/GCSE Postalcode"), findTestData("getEmployable/Applicants").getValue(9, 1)): Text 'AL60AA' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE Postalcode'
+
+2019-07-16 10:24:44 - [MESSAGE][PASSED] - Text 'AL60AA' is set on object 'Object Repository/REALRatings/Greensill/Page_REALrating/GCSE Postalcode'
+
+2019-07-16 10:24:44 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/Page_REALrating/Gender")): Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/Gender' is clicked on
+
+2019-07-16 10:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/Gender' is clicked on
+
+2019-07-16 10:24:44 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/Page_REALrating/TickAnyStatement")): Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/TickAnyStatement' is clicked on
+
+2019-07-16 10:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/TickAnyStatement' is clicked on
+
+2019-07-16 10:24:44 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/Page_REALrating/input_By ticking this box I confirm that I agree to the_confirmAgreement")): Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/input_By ticking this box I confirm that I agree to the_confirmAgreement' is clicked on
+
+2019-07-16 10:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/input_By ticking this box I confirm that I agree to the_confirmAgreement' is clicked on
+
+2019-07-16 10:24:44 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/Page_REALrating/a_Submit")): Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/a_Submit' is clicked on
+
+2019-07-16 10:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/Page_REALrating/a_Submit' is clicked on
+
+2019-07-16 10:24:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 10:24:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 10:24:49 - [TEST_STEP][PASSED] - assert getUrl() == "https://ippr-uat.realrating.co.uk/thankyou": Current window's url is: 'https://ippr-uat.realrating.co.uk/thankyou'
+
+2019-07-16 10:24:49 - [MESSAGE][PASSED] - Current window's url is: 'https://ippr-uat.realrating.co.uk/thankyou'
+
+2019-07-16 10:24:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-07-16 10:24:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sambhavi\\git\\didactic-octo-spork\\Reports\\REALratings\\IPPR\\20190716_102419\\1563252889643.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REALratings/IPPR/login" classname="Test Cases/REALratings/IPPR/login" status="PASSED">
+         <system-out><![CDATA[2019-07-16 10:24:49 - [TEST_CASE][PASSED] - Test Cases/REALratings/IPPR/login: Test Cases/REALratings/IPPR/login
+
+2019-07-16 10:24:50 - [TEST_STEP][PASSED] - comment("IPPR - Login"): IPPR - Login
+
+2019-07-16 10:24:50 - [MESSAGE][INFO] - IPPR - Login
+
+2019-07-16 10:24:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-16 10:24:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-16 10:24:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-16 10:24:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-16 10:24:53 - [TEST_STEP][PASSED] - navigateToUrl("https://ippr-uat.realrating.co.uk/login"): Navigate to 'https://ippr-uat.realrating.co.uk/login' successfully
+
+2019-07-16 10:24:58 - [MESSAGE][PASSED] - Navigate to 'https://ippr-uat.realrating.co.uk/login' successfully
+
+2019-07-16 10:24:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-16 10:24:59 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-16 10:24:59 - [TEST_STEP][PASSED] - setText(findTestObject("REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email"), "john@upreach.org.uk"): Text 'john@upreach.org.uk' is set on object 'Object Repository/REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email'
+
+2019-07-16 10:24:59 - [MESSAGE][PASSED] - Text 'john@upreach.org.uk' is set on object 'Object Repository/REALRatings/Greensill/login/Page_RealRating/input_E-Mail Address_email'
+
+2019-07-16 10:24:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("REALRatings/Greensill/login/Page_RealRating/input_Password_password"), "YPztdU12xyABLAH+eFFt4w=="): Text ****** has been set on object 'Object Repository/REALRatings/Greensill/login/Page_RealRating/input_Password_password'
+
+2019-07-16 10:24:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/REALRatings/Greensill/login/Page_RealRating/input_Password_password'
+
+2019-07-16 10:24:59 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/login/Page_RealRating/button_Login")): Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/button_Login' is clicked on
+
+2019-07-16 10:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/button_Login' is clicked on
+
+2019-07-16 10:25:02 - [TEST_STEP][PASSED] - getAllLinksOnCurrentPage(false, []): Found 16 unique links on the page https://ippr-uat.realrating.co.uk/home
+
+2019-07-16 10:25:02 - [MESSAGE][PASSED] - Found 16 unique links on the page https://ippr-uat.realrating.co.uk/home
+
+2019-07-16 10:25:02 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(false, []): All links on the page 'https://ippr-uat.realrating.co.uk/home' are accessible
+
+2019-07-16 10:25:02 - [MESSAGE][PASSED] - Found 16 unique links on the page https://ippr-uat.realrating.co.uk/home
+
+2019-07-16 10:25:06 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\0.har
+
+2019-07-16 10:25:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:07 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\1.har
+
+2019-07-16 10:25:07 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:08 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\2.har
+
+2019-07-16 10:25:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:18 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\3.har
+
+2019-07-16 10:25:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:19 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\4.har
+
+2019-07-16 10:25:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:20 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\5.har
+
+2019-07-16 10:25:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:21 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\6.har
+
+2019-07-16 10:25:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:21 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\7.har
+
+2019-07-16 10:25:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:22 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\8.har
+
+2019-07-16 10:25:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:23 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\9.har
+
+2019-07-16 10:25:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:25 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\10.har
+
+2019-07-16 10:25:25 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:25 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\11.har
+
+2019-07-16 10:25:25 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:27 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\12.har
+
+2019-07-16 10:25:27 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:31 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\13.har
+
+2019-07-16 10:25:31 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:32 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\14.har
+
+2019-07-16 10:25:32 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:32 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\15.har
+
+2019-07-16 10:25:32 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:32 - [MESSAGE][PASSED] - All links are accessible
+
+2019-07-16 10:25:32 - [MESSAGE][PASSED] - All links on the page 'https://ippr-uat.realrating.co.uk/home' are accessible
+
+2019-07-16 10:25:32 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab")): Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab' is clicked on
+
+2019-07-16 10:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/Other Qualifications Tab' is clicked on
+
+2019-07-16 10:25:33 - [TEST_STEP][PASSED] - getAllLinksOnCurrentPage(false, []): Found 16 unique links on the page https://ippr-uat.realrating.co.uk/home
+
+2019-07-16 10:25:33 - [MESSAGE][PASSED] - Found 16 unique links on the page https://ippr-uat.realrating.co.uk/home
+
+2019-07-16 10:25:33 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(false, []): All links on the page 'https://ippr-uat.realrating.co.uk/home' are accessible
+
+2019-07-16 10:25:33 - [MESSAGE][PASSED] - Found 16 unique links on the page https://ippr-uat.realrating.co.uk/home
+
+2019-07-16 10:25:35 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\16.har
+
+2019-07-16 10:25:35 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:36 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\17.har
+
+2019-07-16 10:25:36 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:37 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\18.har
+
+2019-07-16 10:25:37 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:37 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\19.har
+
+2019-07-16 10:25:37 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:38 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\20.har
+
+2019-07-16 10:25:38 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:39 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\21.har
+
+2019-07-16 10:25:39 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:40 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\22.har
+
+2019-07-16 10:25:40 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:41 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\23.har
+
+2019-07-16 10:25:41 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:41 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\24.har
+
+2019-07-16 10:25:41 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:43 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\25.har
+
+2019-07-16 10:25:43 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:44 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\26.har
+
+2019-07-16 10:25:44 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:45 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\27.har
+
+2019-07-16 10:25:45 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:46 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\28.har
+
+2019-07-16 10:25:47 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:51 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\29.har
+
+2019-07-16 10:25:51 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:51 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\30.har
+
+2019-07-16 10:25:51 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:52 - [MESSAGE][INFO] - HAR: C:\Users\sambhavi\git\didactic-octo-spork\Reports\REALratings\IPPR\20190716_102419\requests\main\31.har
+
+2019-07-16 10:25:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-16 10:25:52 - [MESSAGE][PASSED] - All links are accessible
+
+2019-07-16 10:25:52 - [MESSAGE][PASSED] - All links on the page 'https://ippr-uat.realrating.co.uk/home' are accessible
+
+2019-07-16 10:25:52 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/login/Page_RealRating/Profile")): Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/Profile' is clicked on
+
+2019-07-16 10:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/Profile' is clicked on
+
+2019-07-16 10:25:52 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/login/Page_RealRating/Logout")): Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/Logout' is clicked on
+
+2019-07-16 10:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/Logout' is clicked on
+
+2019-07-16 10:25:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-07-16 10:25:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-16 10:25:57 - [TEST_STEP][PASSED] - click(findTestObject("REALRatings/Greensill/login/Page_RealRating/button_Logout")): Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/button_Logout' is clicked on
+
+2019-07-16 10:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/REALRatings/Greensill/login/Page_RealRating/button_Logout' is clicked on
+
+2019-07-16 10:25:58 - [TEST_STEP][PASSED] - assert getUrl() == "https://ippr-uat.realrating.co.uk/login": Current window's url is: 'https://ippr-uat.realrating.co.uk/login'
+
+2019-07-16 10:25:58 - [MESSAGE][PASSED] - Current window's url is: 'https://ippr-uat.realrating.co.uk/login']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-16 10:24:21 - [TEST_SUITE][PASSED] - IPPR: Test Cases/REALratings/IPPR/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
