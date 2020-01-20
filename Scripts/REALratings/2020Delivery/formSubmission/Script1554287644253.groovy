@@ -82,7 +82,7 @@ LengthOfUniversitycount = (1 + rad.nextInt(LengthOfUniversitycourseTotalOptions 
 WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Length Of University Course'), LengthOfUniversitycount)
 
 'Current Year of Study (as of Sept 2018)'
-WebUI.selectOptionByIndex(findTestObject('REALRatings/Greensill/Page_REALrating/Current Year Of Study'), LengthOfUniversitycount)
+WebUI.selectOptionByIndex(findTestObject('REALRatings/Current Year'), LengthOfUniversitycount)
 
 WebUI.delay(5)
 

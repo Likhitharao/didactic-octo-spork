@@ -19,7 +19,7 @@ WebUI.comment('Enki - Login')
 'Open browser'
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://uat-enki.upreach.org.uk/')
+WebUI.navigateToUrl('http://uat-enki.upreach.org.uk/')
 
 'Maximize the opened browser'
 WebUI.maximizeWindow()
