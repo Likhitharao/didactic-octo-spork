@@ -1,62 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h3_upReach Future Charity Lead</name>
+   <name>label_By ticking this box I ag</name>
    <tag></tag>
-   <elementGuidId>023d7f55-b172-4076-8e01-f52fa7cf65b8</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>8d339d89-b3a5-425c-8806-513ce043deb6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='dataPolicyCheckbox']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='form1']/div[15]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>text-center</value>
+      <value> By ticking this box, I agree to the upReach's Associate User Agreement and Data Protection Policy.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>upReach Future Charity Leaders Programme
-                                    (FCLP)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab1&quot;)/div[@class=&quot;text-center&quot;]/h3[@class=&quot;text-center&quot;]</value>
+      <value>.//*[@id='dataPolicyCheckbox']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='tab1']/div/h3</value>
+      <value>//form[@id='form1']/div[15]/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Application Form - January 2020'])[1]/preceding::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Who we support'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Applications will close at midday on Tuesday 18th February 2020.'])[1]/preceding::h3[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//h3</value>
+      <value>//div[15]/label</value>
    </webElementXpaths>
 </WebElementEntity>

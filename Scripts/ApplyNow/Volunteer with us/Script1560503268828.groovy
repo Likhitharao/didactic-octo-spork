@@ -26,11 +26,11 @@ WebUI.maximizeWindow()
 'Click on Partners'
 WebUI.click(findTestObject('ApplyNow/Volunteer with us/our partner'))
 
-'Enter \'First Name\''
-WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Firstname'), 'Mark')
+'Enter First Name'
+WebUI.setText(findTestObject('ApplyNow/Volunteer with us/First Name'), 'Mark')
 
-'Enter \'LastName\''
-WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Lastname'), 'Levis')
+'Enter Last Name'
+WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Last Name'), 'Levis')
 
 'Enter Contact Number'
 WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Contact number'), '07704512535')
@@ -42,15 +42,19 @@ int Email = rad.nextInt(2000)
 'Enter Email '
 WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Email'), ('personal' + Email) + '@test.com')
 
-'Enter \'Current Employer\''
+'Enter Current Employer'
 WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Current employer'), 'ppp')
 
-'Enter \'How you can help\' - Description'
+'Enter How you can help'
 WebUI.setText(findTestObject('ApplyNow/Volunteer with us/how you can help'), 'Volunteer with upReach')
 
-'Enter \'Previous Skills\''
-WebUI.setText(findTestObject('ApplyNow/Volunteer with us/previous skills'), 'Product Manager')
+'Enter Previous Experience'
+WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Previous Experience or Skill'), 'Product Manager')
 
 'Click on Submit button'
 WebUI.click(findTestObject('ApplyNow/Volunteer with us/Submit'))
+
+'Verify the Volunteer submission'
+
+WebUI.verifyElementText(findTestObject('ApplyNow/Volunteer with us/Thank You'), 'Thank You')
 

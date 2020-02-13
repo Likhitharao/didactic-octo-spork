@@ -12,6 +12,11 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.By as By
+import org.openqa.selenium.By.ByXPath as ByXPath
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.comment('Apply Now/Form1 - Details')
 
@@ -21,19 +26,24 @@ WebUI.navigateToUrl('https://uat.upreach.org.uk/')
 
 WebUI.maximizeWindow()
 
-'Click on apply now button'
+WebDriver myDriver = DriverFactory.getWebDriver()
+
+'Click on Apply Now button'
 WebUI.click(findTestObject('ApplyNow/Page_upReach  Boosting social mobility by supporting students from less-advantaged backgrounds to secure top jobs/a_Apply Now'))
 
 WebUI.switchToWindowIndex(1)
 
 WebUI.delay(2)
 
+'Validate the URL'
+assert WebUI.getUrl() == 'https://uat.upreach.org.uk/apply-now/'
+
 'Enter First Name'
-WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/Firstnam'), findTestData('getEmployable/Applicants').getValue(
+WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/First Name'), findTestData('getEmployable/Applicants').getValue(
         1, 1))
 
 'Enter Last Name'
-WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/input__last_name'), findTestData('getEmployable/Applicants').getValue(
+WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/Last Name '), findTestData('getEmployable/Applicants').getValue(
         2, 1))
 
 Random rad = new Random()
@@ -47,62 +57,83 @@ WebUI.selectOptionByIndex(findTestObject('ApplyNow/Page_Apply Now  upReach/Unive
 
 'Not yet University'
 if (UniversityCount == 1) {
+    'Start Date'
+    StartDateTotalOption = WebUI.getNumberOfTotalOption(findTestObject('ApplyNow/Page_Apply Now  upReach/Start Date_University'))
+
+    StartDateCount = (1 + rad.nextInt(StartDateTotalOption - 1))
+
+    WebUI.selectOptionByIndex(findTestObject('ApplyNow/Page_Apply Now  upReach/Start Date_University'), StartDateCount)
 } else {
     'University Course'
-    UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('ApplyNow/Page_Apply Now  upReach/University course'))
+    UniversityCourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('ApplyNow/Page_Apply Now  upReach/University Courses'))
 
     UniveristyCourseCount = (1 + rad.nextInt(UniversityCourseTotalOption - 1))
 
-    WebUI.selectOptionByIndex(findTestObject('ApplyNow/Page_Apply Now  upReach/University course'), UniveristyCourseCount)
+    WebUI.selectOptionByIndex(findTestObject('ApplyNow/Page_Apply Now  upReach/University Courses'), UniveristyCourseCount)
 
     'University Other Course '
     if (UniveristyCourseCount == 94) {
-        WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/other course'), 'VTU ')
+        WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/Other_Unviveristy Course'), 'VTU ')
     }
     
     'Random selection of Course Duration and Year Of Study'
-    CourseDurationTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('ApplyNow/Page_Apply Now  upReach/Course length'))
+    CourseDurationTotalOptions = WebUI.getNumberOfTotalOption(findTestObject('ApplyNow/Page_Apply Now  upReach/Length of undergraduate course (years)'))
 
     int CourseDurationCount = 1 + rad.nextInt(CourseDurationTotalOptions - 1)
 
-    WebUI.selectOptionByIndex(findTestObject('ApplyNow/Page_Apply Now  upReach/Course length'), CourseDurationCount)
+    WebUI.selectOptionByIndex(findTestObject('ApplyNow/Page_Apply Now  upReach/Length of undergraduate course (years)'), CourseDurationCount)
 
-    WebUI.selectOptionByIndex(findTestObject('ApplyNow/Page_Apply Now  upReach/Current Year'), CourseDurationCount)
+    WebUI.selectOptionByIndex(findTestObject('ApplyNow/Page_Apply Now  upReach/Year of study as of September 2018'), CourseDurationCount)
 }
 
 'Enter Mobile Number'
-WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/input__phone'), findTestData('getEmployable/Applicants').getValue(
+WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/Mobile Number'), findTestData('getEmployable/Applicants').getValue(
         5, 1))
 
 int Email = rad.nextInt(2000)
-
 'Enter Personal Email '
-WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/personal email'), ('personal' + Email) + '@test.com')
+WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/Personal Email Address'), ('personal' + Email) + '@test.com')
 
 'Enter University Email'
-WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/input__university_email'), ('test' + Email) + '@ac.uk')
+WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/University Email Address'), ('test' + Email) + '@ac.uk')
 
-WebUI.click(findTestObject('ApplyNow/Page_Apply Now  upReach/Career Stream'))
+WebUI.delay(2)
+
+'Select the Preferred Career Stream'
+List Career = myDriver.findElements(By.xpath('.//*[@id=\'form1\']/div[11]/table/tbody/tr/td/label/input'))
+
+int Careercount = Career.size()
+
+java.lang.System.out.println('The total number of Career stream options =' + Careercount)
+
+CareerStreamCount = (1 + rad.nextInt(Careercount - 1))
+
+myDriver.findElement(By.xpath('.//*[@id=\'form1\']/div[11]/table/tbody/tr[1]/td/label/input')).click()
 
 'Hear about upReach'
-AboutupReach = WebUI.getNumberOfTotalOption(findTestObject('ApplyNow/Page_Apply Now  upReach/hear about upreach'))
+AboutupReach = WebUI.getNumberOfTotalOption(findTestObject('ApplyNow/Page_Apply Now  upReach/How did you hear about upReach'))
 
 AboutupReachCount = (1 + rad.nextInt(AboutupReach - 1))
 
-WebUI.selectOptionByIndex(findTestObject('ApplyNow/Page_Apply Now  upReach/hear about upreach'), AboutupReachCount)
+WebUI.selectOptionByIndex(findTestObject('ApplyNow/Page_Apply Now  upReach/How did you hear about upReach'), AboutupReachCount)
 
 if (AboutupReachCount == 4) {
-    WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/Associate name'), 'John')
-} else if (AboutupReachCount == 2) {
-    WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/other hear about upreach'), 'Other')
+    WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/Associate Name _How did you hear about upReach'), 'John')
+} else if (AboutupReachCount == 16) {
+    WebUI.setText(findTestObject('ApplyNow/Page_Apply Now  upReach/Other_How did you hear about upReach'), 'Other')
 }
 
-'Check Confirm '
-WebUI.click(findTestObject('ApplyNow/Page_Apply Now  upReach/label_By ticking this box I confirm that I meet all the eligibility criteria (Who we support).'))
+WebUI.delay(2)
 
-'Check Agreement '
-WebUI.click(findTestObject('ApplyNow/Page_Apply Now  upReach/Agreement tick'))
+'I confirm that I meet all the eligibility criteria (Who we support). '
+WebUI.click(findTestObject('ApplyNow/Page_Apply Now  upReach/label_By ticking this box I co'))
+
+'I agree to the upReachs Associate User Agreement and Data Protection Policy.'
+WebUI.click(findTestObject('ApplyNow/Page_Apply Now  upReach/label_By ticking this box I ag'))
 
 'Click on register button'
 WebUI.click(findTestObject('ApplyNow/Page_Apply Now  upReach/button_Register'))
+
+'Verify Successfull registration'
+assert WebUI.getUrl()== 'https://uat-enki.upreach.org.uk/form/register'
 
