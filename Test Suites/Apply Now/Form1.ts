@@ -4,6 +4,7 @@
    <name>Form1</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2020-02-13T15:37:31</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Form1" time="52" tests="0" failures="1" errors="0">
+   <testsuite name="Form1" tests="0" failures="1" errors="0" time="52" timestamp="2020-02-13 15:37:37" hostname="Administrator - Asha" id="Test Suites/Apply Now/Form1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\didactic-octo-spork\\Reports\\Apply Now\\Form1\\20200213_153731"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\didactic-octo-spork\\Reports\\Apply Now\\Form1\\20200213_153731\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - Asha"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="192.168.0.238"/>
+         <property name="sessionId" value="0656a22de21c708b566f157ed8e4dce6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ApplyNow/form1" classname="Test Cases/ApplyNow/form1" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get the url of the current window (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please Enter Other Reason}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASHA', ip: '192.168.0.238', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 0656a22de21c708b566f157ed8e4dce6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetUrlKeyword.getUrl(GetUrlKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetUrlKeyword.execute(GetUrlKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(WebUiBuiltInKeywords.groovy:233)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getUrl$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1551850042401.run(Script1551850042401.groovy:138)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1581588451688.run(TempTestSuite1581588451688.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2020-02-13 15:37:38 - [TEST_CASE][FAILED] - Test Cases/ApplyNow/form1: Test Cases/ApplyNow/form1 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get the url of the current window (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please Enter Other Reason}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASHA', ip: '192.168.0.238', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 0656a22de21c708b566f157ed8e4dce6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetUrlKeyword.getUrl(GetUrlKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetUrlKeyword.execute(GetUrlKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(WebUiBuiltInKeywords.groovy:233)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getUrl$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1551850042401.run(Script1551850042401.groovy:138)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1581588451688.run(TempTestSuite1581588451688.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2020-02-13 15:37:39 - [TEST_STEP][PASSED] - comment: Apply Now/Form1 - Details
+
+2020-02-13 15:37:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2020-02-13 15:37:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-13 15:37:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://uat.upreach.org.uk/' successfully
+
+2020-02-13 15:38:10 - [MESSAGE][PASSED] - Navigate to 'https://uat.upreach.org.uk/' successfully
+
+2020-02-13 15:38:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2020-02-13 15:38:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-13 15:38:11 - [TEST_STEP][PASSED] - Statement - myDriver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2020-02-13 15:38:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ApplyNow/Page_upReach  Boosting social mobility by supporting students from less-advantaged backgrounds to secure top jobs/a_Apply Now' is clicked on
+
+2020-02-13 15:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplyNow/Page_upReach  Boosting social mobility by supporting students from less-advantaged backgrounds to secure top jobs/a_Apply Now' is clicked on
+
+2020-02-13 15:38:13 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2020-02-13 15:38:13 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-02-13 15:38:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2020-02-13 15:38:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-13 15:38:15 - [TEST_STEP][PASSED] - Statement - assert com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl() == "https://uat.upreach.org.uk/apply-now/": Current window's url is: 'https://uat.upreach.org.uk/apply-now/'
+
+2020-02-13 15:38:16 - [MESSAGE][PASSED] - Current window's url is: 'https://uat.upreach.org.uk/apply-now/'
+
+2020-02-13 15:38:16 - [TEST_STEP][PASSED] - setText: Text 'Asha' is set on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/First Name'
+
+2020-02-13 15:38:17 - [MESSAGE][PASSED] - Text 'Asha' is set on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/First Name'
+
+2020-02-13 15:38:17 - [TEST_STEP][PASSED] - setText: Text 'Rajendran' is set on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Last Name '
+
+2020-02-13 15:38:17 - [MESSAGE][PASSED] - Text 'Rajendran' is set on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Last Name '
+
+2020-02-13 15:38:17 - [TEST_STEP][PASSED] - Statement - rad = new java.util.Random(): null
+
+2020-02-13 15:38:17 - [TEST_STEP][PASSED] - Statement - UniversityTotalOption = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ApplyNow/Page_Apply Now  upReach/University)): 158 options of object 'Object Repository/ApplyNow/Page_Apply Now  upReach/University' counted
+
+2020-02-13 15:38:18 - [MESSAGE][PASSED] - 158 options of object 'Object Repository/ApplyNow/Page_Apply Now  upReach/University' counted
+
+2020-02-13 15:38:18 - [TEST_STEP][PASSED] - Statement - UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1): null
+
+2020-02-13 15:38:18 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [48] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/University'
+
+2020-02-13 15:38:19 - [MESSAGE][PASSED] - All options with index in [48] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/University'
+
+2020-02-13 15:38:19 - [TEST_STEP][PASSED] - Statement - If (UniversityCount == 1): null
+
+2020-02-13 15:38:19 - [TEST_STEP][PASSED] - Statement - Else: All options with index in [2] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Year of study as of September 2018'
+
+2020-02-13 15:38:19 - [TEST_STEP][PASSED] - Statement - UniversityCourseTotalOption = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ApplyNow/Page_Apply Now  upReach/University Courses)): 96 options of object 'Object Repository/ApplyNow/Page_Apply Now  upReach/University Courses' counted
+
+2020-02-13 15:38:19 - [MESSAGE][PASSED] - 96 options of object 'Object Repository/ApplyNow/Page_Apply Now  upReach/University Courses' counted
+
+2020-02-13 15:38:19 - [TEST_STEP][PASSED] - Statement - UniveristyCourseCount = 1 + rad.nextInt(UniversityCourseTotalOption - 1): null
+
+2020-02-13 15:38:19 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [70] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/University Courses'
+
+2020-02-13 15:38:20 - [MESSAGE][PASSED] - All options with index in [70] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/University Courses'
+
+2020-02-13 15:38:20 - [TEST_STEP][PASSED] - Statement - If (UniveristyCourseCount == 94): null
+
+2020-02-13 15:38:20 - [TEST_STEP][PASSED] - Statement - CourseDurationTotalOptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ApplyNow/Page_Apply Now  upReach/Length of undergraduate course (years))): 7 options of object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Length of undergraduate course (years)' counted
+
+2020-02-13 15:38:20 - [MESSAGE][PASSED] - 7 options of object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Length of undergraduate course (years)' counted
+
+2020-02-13 15:38:20 - [TEST_STEP][PASSED] - Statement - CourseDurationCount = 1 + rad.nextInt(CourseDurationTotalOptions - 1): null
+
+2020-02-13 15:38:20 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Length of undergraduate course (years)'
+
+2020-02-13 15:38:20 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Length of undergraduate course (years)'
+
+2020-02-13 15:38:20 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Year of study as of September 2018'
+
+2020-02-13 15:38:20 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Year of study as of September 2018'
+
+2020-02-13 15:38:20 - [TEST_STEP][PASSED] - setText: Text '08125648521' is set on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Mobile Number'
+
+2020-02-13 15:38:21 - [MESSAGE][PASSED] - Text '08125648521' is set on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Mobile Number'
+
+2020-02-13 15:38:21 - [TEST_STEP][PASSED] - Statement - Email = rad.nextInt(2000): null
+
+2020-02-13 15:38:21 - [TEST_STEP][PASSED] - setText: Text 'personal910@test.com' is set on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Personal Email Address'
+
+2020-02-13 15:38:22 - [MESSAGE][PASSED] - Text 'personal910@test.com' is set on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/Personal Email Address'
+
+2020-02-13 15:38:22 - [TEST_STEP][PASSED] - setText: Text 'test910@ac.uk' is set on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/University Email Address'
+
+2020-02-13 15:38:22 - [MESSAGE][PASSED] - Text 'test910@ac.uk' is set on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/University Email Address'
+
+2020-02-13 15:38:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2020-02-13 15:38:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-13 15:38:24 - [TEST_STEP][PASSED] - Statement - Career = myDriver.findElements(org.openqa.selenium.By.xpath(".//*[@id='form1']/div[11]/table/tbody/tr/td/label/input")): null
+
+2020-02-13 15:38:24 - [TEST_STEP][PASSED] - Statement - Careercount = Career.size(): null
+
+2020-02-13 15:38:24 - [TEST_STEP][PASSED] - Statement - out.println("The total number of Career stream options =" + Careercount): null
+
+2020-02-13 15:38:24 - [TEST_STEP][PASSED] - Statement - CareerStreamCount = 1 + rad.nextInt(Careercount - 1): null
+
+2020-02-13 15:38:24 - [TEST_STEP][PASSED] - Statement - myDriver.findElement(org.openqa.selenium.By.xpath(".//*[@id='form1']/div[11]/table/tbody/tr[1]/td/label/input")).click(): null
+
+2020-02-13 15:38:24 - [TEST_STEP][PASSED] - Statement - AboutupReach = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ApplyNow/Page_Apply Now  upReach/How did you hear about upReach)): 18 options of object 'Object Repository/ApplyNow/Page_Apply Now  upReach/How did you hear about upReach' counted
+
+2020-02-13 15:38:25 - [MESSAGE][PASSED] - 18 options of object 'Object Repository/ApplyNow/Page_Apply Now  upReach/How did you hear about upReach' counted
+
+2020-02-13 15:38:25 - [TEST_STEP][PASSED] - Statement - AboutupReachCount = 1 + rad.nextInt(AboutupReach - 1): null
+
+2020-02-13 15:38:25 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [17] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/How did you hear about upReach'
+
+2020-02-13 15:38:25 - [MESSAGE][PASSED] - All options with index in [17] are selected on object 'Object Repository/ApplyNow/Page_Apply Now  upReach/How did you hear about upReach'
+
+2020-02-13 15:38:25 - [TEST_STEP][PASSED] - Statement - If (AboutupReachCount == 4): null
+
+2020-02-13 15:38:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2020-02-13 15:38:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-13 15:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ApplyNow/Page_Apply Now  upReach/label_By ticking this box I co' is clicked on
+
+2020-02-13 15:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplyNow/Page_Apply Now  upReach/label_By ticking this box I co' is clicked on
+
+2020-02-13 15:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ApplyNow/Page_Apply Now  upReach/label_By ticking this box I ag' is clicked on
+
+2020-02-13 15:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplyNow/Page_Apply Now  upReach/label_By ticking this box I ag' is clicked on
+
+2020-02-13 15:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ApplyNow/Page_Apply Now  upReach/button_Register' is clicked on
+
+2020-02-13 15:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplyNow/Page_Apply Now  upReach/button_Register' is clicked on
+
+2020-02-13 15:38:28 - [TEST_STEP][FAILED] - Statement - assert com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl() == "https://uat-enki.upreach.org.uk/form/register": Unable to get the url of the current window (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please Enter Other Reason}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASHA', ip: '192.168.0.238', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 0656a22de21c708b566f157ed8e4dce6)
+
+2020-02-13 15:38:28 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-02-13 15:38:28 - [MESSAGE][FAILED] - Unable to get the url of the current window (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please Enter Other Reason}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASHA', ip: '192.168.0.238', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 0656a22de21c708b566f157ed8e4dce6)]]></system-out>
+         <system-err><![CDATA[2020-02-13 15:37:38 - [TEST_CASE][FAILED] - Test Cases/ApplyNow/form1: Test Cases/ApplyNow/form1 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get the url of the current window (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please Enter Other Reason}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASHA', ip: '192.168.0.238', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 0656a22de21c708b566f157ed8e4dce6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetUrlKeyword.getUrl(GetUrlKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetUrlKeyword.execute(GetUrlKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(WebUiBuiltInKeywords.groovy:233)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getUrl$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1551850042401.run(Script1551850042401.groovy:138)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1581588451688.run(TempTestSuite1581588451688.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-13 15:37:37 - [TEST_SUITE][FAILED] - Form1: Test Cases/ApplyNow/form1 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get the url of the current window (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please Enter Other Reason}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASHA', ip: '192.168.0.238', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 0656a22de21c708b566f157ed8e4dce6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetUrlKeyword.getUrl(GetUrlKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetUrlKeyword.execute(GetUrlKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(WebUiBuiltInKeywords.groovy:233)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getUrl$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1551850042401.run(Script1551850042401.groovy:138)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1581588451688.run(TempTestSuite1581588451688.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2020-02-13 15:37:37 - [TEST_SUITE][FAILED] - Form1: Test Cases/ApplyNow/form1 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get the url of the current window (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please Enter Other Reason}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASHA', ip: '192.168.0.238', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 0656a22de21c708b566f157ed8e4dce6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetUrlKeyword.getUrl(GetUrlKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetUrlKeyword.execute(GetUrlKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(WebUiBuiltInKeywords.groovy:233)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getUrl$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1551850042401.run(Script1551850042401.groovy:138)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1581588451688.run(TempTestSuite1581588451688.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

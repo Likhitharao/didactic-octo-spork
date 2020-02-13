@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Form1,Chrome 79.0.3945.130,,2020-02-13 15:37:37,2020-02-13 15:38:30,52.476s,FAILED
+,,,,,,
+Test Cases/ApplyNow/form1,Chrome 79.0.3945.130,,2020-02-13 15:37:38,2020-02-13 15:38:28,49.927s,FAILED
+comment,Chrome 79.0.3945.130,,2020-02-13 15:37:39,2020-02-13 15:37:39,0.071s,PASSED
+openBrowser,Chrome 79.0.3945.130,,2020-02-13 15:37:39,2020-02-13 15:37:48,8.432s,PASSED
+navigateToUrl,Chrome 79.0.3945.130,,2020-02-13 15:37:48,2020-02-13 15:38:10,21.987s,PASSED
+maximizeWindow,Chrome 79.0.3945.130,,2020-02-13 15:38:10,2020-02-13 15:38:11,1.700s,PASSED
+Statement - myDriver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 79.0.3945.130,,2020-02-13 15:38:11,2020-02-13 15:38:12,0.165s,PASSED
+click,Chrome 79.0.3945.130,Click on Apply Now button,2020-02-13 15:38:12,2020-02-13 15:38:13,0.948s,PASSED
+switchToWindowIndex,Chrome 79.0.3945.130,,2020-02-13 15:38:13,2020-02-13 15:38:13,0.100s,PASSED
+delay,Chrome 79.0.3945.130,,2020-02-13 15:38:13,2020-02-13 15:38:15,2.020s,PASSED
+"Statement - assert com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl() == ""https://uat.upreach.org.uk/apply-now/""",Chrome 79.0.3945.130,Validate the URL,2020-02-13 15:38:15,2020-02-13 15:38:16,1.074s,PASSED
+setText,Chrome 79.0.3945.130,Enter First Name,2020-02-13 15:38:16,2020-02-13 15:38:17,1.181s,PASSED
+setText,Chrome 79.0.3945.130,Enter Last Name,2020-02-13 15:38:17,2020-02-13 15:38:17,0.376s,PASSED
+Statement - rad = new java.util.Random(),Chrome 79.0.3945.130,,2020-02-13 15:38:17,2020-02-13 15:38:17,0.007s,PASSED
+Statement - UniversityTotalOption = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ApplyNow/Page_Apply Now  upReach/University)),Chrome 79.0.3945.130,University,2020-02-13 15:38:17,2020-02-13 15:38:18,0.453s,PASSED
+Statement - UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1),Chrome 79.0.3945.130,,2020-02-13 15:38:18,2020-02-13 15:38:18,0.063s,PASSED
+selectOptionByIndex,Chrome 79.0.3945.130,,2020-02-13 15:38:18,2020-02-13 15:38:19,0.771s,PASSED
+Statement - If (UniversityCount == 1),Chrome 79.0.3945.130,Not yet University,2020-02-13 15:38:19,2020-02-13 15:38:19,0.001s,PASSED
+Statement - Else,Chrome 79.0.3945.130,,2020-02-13 15:38:19,2020-02-13 15:38:20,1.881s,PASSED
+setText,Chrome 79.0.3945.130,Enter Mobile Number,2020-02-13 15:38:20,2020-02-13 15:38:21,0.375s,PASSED
+Statement - Email = rad.nextInt(2000),Chrome 79.0.3945.130,,2020-02-13 15:38:21,2020-02-13 15:38:21,0.000s,PASSED
+setText,Chrome 79.0.3945.130,Enter Personal Email ,2020-02-13 15:38:21,2020-02-13 15:38:22,0.648s,PASSED
+setText,Chrome 79.0.3945.130,Enter University Email,2020-02-13 15:38:22,2020-02-13 15:38:22,0.441s,PASSED
+delay,Chrome 79.0.3945.130,,2020-02-13 15:38:22,2020-02-13 15:38:24,2.003s,PASSED
+"Statement - Career = myDriver.findElements(org.openqa.selenium.By.xpath("".//*[@id='form1']/div[11]/table/tbody/tr/td/label/input""))",Chrome 79.0.3945.130,Select the Preferred Career Stream,2020-02-13 15:38:24,2020-02-13 15:38:24,0.135s,PASSED
+Statement - Careercount = Career.size(),Chrome 79.0.3945.130,,2020-02-13 15:38:24,2020-02-13 15:38:24,0.002s,PASSED
+"Statement - out.println(""The total number of Career stream options ="" + Careercount)",Chrome 79.0.3945.130,,2020-02-13 15:38:24,2020-02-13 15:38:24,0.032s,PASSED
+Statement - CareerStreamCount = 1 + rad.nextInt(Careercount - 1),Chrome 79.0.3945.130,,2020-02-13 15:38:24,2020-02-13 15:38:24,0.001s,PASSED
+"Statement - myDriver.findElement(org.openqa.selenium.By.xpath("".//*[@id='form1']/div[11]/table/tbody/tr[1]/td/label/input"")).click()",Chrome 79.0.3945.130,,2020-02-13 15:38:24,2020-02-13 15:38:24,0.178s,PASSED
+Statement - AboutupReach = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ApplyNow/Page_Apply Now  upReach/How did you hear about upReach)),Chrome 79.0.3945.130,Hear about upReach,2020-02-13 15:38:24,2020-02-13 15:38:25,0.204s,PASSED
+Statement - AboutupReachCount = 1 + rad.nextInt(AboutupReach - 1),Chrome 79.0.3945.130,,2020-02-13 15:38:25,2020-02-13 15:38:25,0.001s,PASSED
+selectOptionByIndex,Chrome 79.0.3945.130,,2020-02-13 15:38:25,2020-02-13 15:38:25,0.601s,PASSED
+Statement - If (AboutupReachCount == 4),Chrome 79.0.3945.130,,2020-02-13 15:38:25,2020-02-13 15:38:25,0.001s,PASSED
+delay,Chrome 79.0.3945.130,,2020-02-13 15:38:25,2020-02-13 15:38:27,2.002s,PASSED
+click,Chrome 79.0.3945.130,I confirm that I meet all the eligibility criteria (Who we support). ,2020-02-13 15:38:27,2020-02-13 15:38:27,0.138s,PASSED
+click,Chrome 79.0.3945.130,I agree to the upReachs Associate User Agreement and Data Protection Policy.,2020-02-13 15:38:27,2020-02-13 15:38:27,0.143s,PASSED
+click,Chrome 79.0.3945.130,Click on register button,2020-02-13 15:38:27,2020-02-13 15:38:28,0.227s,PASSED
+"Statement - assert com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl() == ""https://uat-enki.upreach.org.uk/form/register""",Chrome 79.0.3945.130,Verify Successfull registration,2020-02-13 15:38:28,2020-02-13 15:38:28,0.322s,FAILED

@@ -23,30 +23,32 @@ WebUI.navigateToUrl('https://uat.upreach.org.uk')
 
 WebUI.maximizeWindow()
 
+Random rad = new Random()
+
 'Click on Partners'
 WebUI.click(findTestObject('ApplyNow/Volunteer with us/our partner'))
 
 'Enter First Name'
-WebUI.setText(findTestObject('ApplyNow/Volunteer with us/First Name'), 'Mark')
+WebUI.setText(findTestObject('ApplyNow/Volunteer with us/First Name'),findTestData('getEmployable/Applicants').getValue(
+	1, 1))
 
 'Enter Last Name'
-WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Last Name'), 'Levis')
+WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Last Name'),findTestData('getEmployable/Applicants').getValue(
+        2, 1))
 
 'Enter Contact Number'
-WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Contact number'), '07704512535')
-
-Random rad = new Random()
-
-int Email = rad.nextInt(2000)
+WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Contact number'), findTestData('getEmployable/Applicants').getValue(
+        5, 1))
 
 'Enter Email '
-WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Email'), ('personal' + Email) + '@test.com')
+int Email = rad.nextInt(2000)
+WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Email'), ('asha' + Email) + '@test.com')
 
 'Enter Current Employer'
-WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Current employer'), 'ppp')
+WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Current employer'), 'JMAN')
 
 'Enter How you can help'
-WebUI.setText(findTestObject('ApplyNow/Volunteer with us/how you can help'), 'Volunteer with upReach')
+WebUI.setText(findTestObject('ApplyNow/Volunteer with us/how you can help'), 'Volunteer With upReach')
 
 'Enter Previous Experience'
 WebUI.setText(findTestObject('ApplyNow/Volunteer with us/Previous Experience or Skill'), 'Product Manager')
