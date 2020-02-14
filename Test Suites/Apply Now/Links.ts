@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>281b07bd-73dc-402d-9b3d-b17959ef49be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ApplyNow/Links/Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

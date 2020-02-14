@@ -21,96 +21,67 @@ WebUI.openBrowser('upReach mentoring Programme Sing-up Form-Partners')
 'Navigate to Partner URL'
 WebUI.navigateToUrl('https://uat-enki.upreach.org.uk/form/partner-mentor-application')
 
-'Maximize the opened browser'
 WebUI.maximizeWindow()
-
-'Print message on console log'
-KeywordLogger log = new KeywordLogger()
-
-'Check whether First Name field exists or not'
-try {
-    log.logInfo('---------First Name exists --------------')
-
-    'Enter First Name'
-    WebUI.setText(findTestObject('Mentors/partner Form/Firstname'), 'William')
-}
-catch (Throwable e) {
-    log.logInfo('knowm Name not found: ' + e.getMessage())
-} 
-
-try {
-    log.logInfo('---------Known Name exists --------------')
-
-    'Enter Known name'
-    WebUI.setText(findTestObject('Mentors/partner Form/Know Name'), 'William')
-}
-catch (Throwable e) {
-    log.logInfo('Known not found: ' + e.getMessage())
-} 
-
-
-'Check whether last Name field exists or not'
-try {
-	log.logInfo('---------Last Name exists --------------')
-	'Enter LastName'
-	WebUI.setText(findTestObject('Mentors/partner Form/lastName'), 'Levis')
-	
-}
-catch (Throwable e) {
-	log.logInfo('Last Name not found: ' + e.getMessage())
-}
-
 
 Random rad = new Random()
 
-int Email = rad.nextInt(2000)
+'Enter First Name'
+WebUI.setText(findTestObject('Mentors/partner Form/Firstname'), findTestData('getEmployable/Applicants').getValue(1, 1))
+
+'Enter Known Name'
+WebUI.setText(findTestObject('Mentors/partner Form/Know Name'), findTestData('getEmployable/Applicants').getValue(10, 1))
+
+'Enter Last Name'
+WebUI.setText(findTestObject('Mentors/partner Form/Last Name'), findTestData('getEmployable/Applicants').getValue(2, 1))
 
 'Enter Work Email'
-WebUI.setText(findTestObject('Mentors/partner Form/WorkEmail'), ('test' + Email) + '@ac.uk')
+int Email = rad.nextInt(2000)
+
+WebUI.setText(findTestObject('Mentors/partner Form/Work Email'), ('asha' + Email) + '@ac.uk')
 
 'Enter Personal Email '
-WebUI.setText(findTestObject('Mentors/partner Form/Personal Email'), ('personal' + Email) + '@test.com')
+WebUI.setText(findTestObject('Mentors/partner Form/Personal Email'), ('asha' + Email) + '@test.com')
 
-WebUI.setText(findTestObject('Mentors/partner Form/Linkedin-URL'), 'Linkedin-Williams')
+'Enter LinkedIn URL'
+WebUI.setText(findTestObject('Mentors/partner Form/Linkedin-URL'), 'https://www.linkedin.com/feed/')
 
-WebUI.setText(findTestObject('Mentors/partner Form/Skype-Id'), 'Skype-Williams')
+'Enter Skype ID'
+WebUI.setText(findTestObject('Mentors/partner Form/Skype ID'), 'https://www.skype.com/en/')
 
+'Select preferred Email'
 WebUI.click(findTestObject('Mentors/partner Form/Prefered Email'))
 
+'Random Selection of gender'
+GenderTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/Gender'))
 
-try {
-	log.logInfo('--------Gender exists --------------')
+int GenderCount = 1 + rad.nextInt(GenderTotalOption - 1)
 
-	'Random Selection of gender'
-	GenderTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/Gender'))
-	
-	int GenderCount = 1 + rad.nextInt(GenderTotalOption - 1)
-	
-	WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/Gender'), GenderCount)
-	
-}
-catch (Throwable e) {
-	log.logInfo('gendernot found: ' + e.getMessage())
-}
+WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/Gender'), GenderCount)
 
+WebUI.delay(2)
 
+'Upload Photo'
 
-WebUI.delay(5)
+//WebUI.uploadFile(findTestObject('Mentors/partner Form/Upload Photo'), 'C:\\Users\\Administrator\\Downloads\\91AvcLraAtL._SL1500_.png')
+'Enter Phone Number'
+WebUI.setText(findTestObject('Mentors/partner Form/PhoneNumber'), findTestData('getEmployable/Applicants').getValue(5, 1))
 
-WebUI.uploadFile(findTestObject('Mentors/partner Form/Upload Photo'), 'C:\\Users\\sambhavi\\Desktop\\\\Smiley-Thumbnail.png')
-
-WebUI.setText(findTestObject('Mentors/partner Form/PhoneNumber'), '07704562566')
-
+'Enter Job Title'
 WebUI.setText(findTestObject('Mentors/partner Form/Job title'), 'Project Manager')
 
-'Random Selection of Employer'
-EmployerTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/SelectEmployer'))
+'Select Employer'
+EmployerTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/Select Employer'))
 
 int EmployerCount = 1 + rad.nextInt(EmployerTotalOption - 1)
 
-WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/SelectEmployer'), EmployerCount)
+WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/Select Employer'), EmployerCount)
 
-'Random Selection of Industry'
+if (EmployerCount == 71) {
+	'Who is your other employer?'
+	WebUI.setText(findTestObject('Mentors/partner Form/PhoneNumber'), 'JMAN Employer')
+}
+
+'Select Industry'
 IndustryTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/Select Industry'))
 
 int IndustryCount = 1 + rad.nextInt(IndustryTotalOption - 1)
@@ -118,28 +89,30 @@ int IndustryCount = 1 + rad.nextInt(IndustryTotalOption - 1)
 WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/Select Industry'), IndustryCount)
 
 if (IndustryCount == 11) {
-    WebUI.setText(findTestObject('Mentors/partner Form/Other Industry'), 'Abc')
+	'What is your other Indusrty?'
+	WebUI.setText(findTestObject('Mentors/partner Form/Other Industry'), 'Information Technology')
 }
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-'Random Selection of Department'
-DepartmentTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/Select Department'))
+'Select Department'
+DepartmentTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/select_3) Select Departments'))
 
 int DepartmentCount = 1 + rad.nextInt(DepartmentTotalOption - 1)
 
-WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/Select Department'), DepartmentCount)
+WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/select_3) Select Departments'), DepartmentCount)
 
-'Random Selection of CurrentEmployer'
+'Select How long you have been with your current employer?'
 CurrentEmployerTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/Current'))
 
 int CurrentEmployerCount = 1 + rad.nextInt(CurrentEmployerTotalOption - 1)
 
 WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/Current'), CurrentEmployerCount)
 
-WebUI.setText(findTestObject('Mentors/partner Form/Description'), 'ABC')
+'Describe your role in 2 - 3 sentences'
+WebUI.setText(findTestObject('Mentors/partner Form/Description'), 'Your role in the project will be strictly defined.The role of the police is to ensure (that) the law is obeyed.')
 
-'Random Selection of Based'
+'Select Where are you based?'
 BasedTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/Based'))
 
 int BasedCount = 1 + rad.nextInt(BasedTotalOption - 1)
@@ -147,12 +120,11 @@ int BasedCount = 1 + rad.nextInt(BasedTotalOption - 1)
 WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/Based'), BasedCount)
 
 if (BasedCount == 9) {
-    WebUI.setText(findTestObject('Mentors/partner Form/Other Based'), 'Abc')
+	'Which location are you from?'
+	WebUI.setText(findTestObject('Mentors/partner Form/Other Based'), 'Chennai')
 }
 
-WebUI.delay(5)
-
-'Random Selection of University'
+'Select University'
 UniversityTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/University'))
 
 int UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1)
@@ -160,12 +132,11 @@ int UniversityCount = 1 + rad.nextInt(UniversityTotalOption - 1)
 WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/University'), UniversityCount)
 
 if (UniversityCount == 157) {
-    WebUI.setText(findTestObject('Mentors/partner Form/Other University'), 'VTU')
+	'Which university did you attend?'
+	WebUI.setText(findTestObject('Mentors/partner Form/Other University'), 'London University')
 }
 
-WebUI.delay(5)
-
-'Random Selection of Degree'
+'Select Degree'
 DegreeTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/Degree'))
 
 int DegreeCount = 1 + rad.nextInt(DegreeTotalOption - 1)
@@ -173,12 +144,11 @@ int DegreeCount = 1 + rad.nextInt(DegreeTotalOption - 1)
 WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/Degree'), DegreeCount)
 
 if (DegreeCount == 9) {
-    WebUI.setText(findTestObject('Mentors/partner Form/Other Degree'), 'MCA')
+	'Which degree did you complete?'
+	WebUI.setText(findTestObject('Mentors/partner Form/Other Degree'), 'MCA')
 }
 
-WebUI.delay(5)
-
-'Random Selection of Course'
+'Select Course'
 CourseTotalOption = WebUI.getNumberOfTotalOption(findTestObject('Mentors/partner Form/Course'))
 
 int CourseCount = 1 + rad.nextInt(CourseTotalOption - 1)
@@ -186,26 +156,24 @@ int CourseCount = 1 + rad.nextInt(CourseTotalOption - 1)
 WebUI.selectOptionByIndex(findTestObject('Mentors/partner Form/Course'), CourseCount)
 
 if (CourseCount == 97) {
-    WebUI.setText(findTestObject('Mentors/partner Form/other course'), 'Other')
+	'Which course did you complete?'
+	WebUI.setText(findTestObject('Mentors/partner Form/other course'), 'Software Testing')
 }
 
-WebUI.delay(5)
-
-'Select Mentoring Cycle'
+'Select upReach operates 3 and 6 month mentoring cycles. Which would you prefer?'
 WebUI.click(findTestObject('Mentors/partner Form/Mentoring Cycle'))
 
-'Select prospective mentee'
+'Where do you think you can add the most value to your prospective mentee?'
 WebUI.click(findTestObject('Mentors/partner Form/Prospective Mentee'))
 
-'Enter Best quality'
-WebUI.setText(findTestObject('Mentors/partner Form/Best Quality'), 'ABc')
+'Can you tell us a little about yourself?'
+WebUI.setText(findTestObject('Mentors/partner Form/Best Quality'), 'In business, engineering, and manufacturing, quality has a pragmatic interpretation as the non-inferiority or superiority of something; its also defined as being suitable for its')
 
-'Select Mentor Training Session'
-WebUI.click(findTestObject('Mentors/partner Form/Mentor Training session'))
-
-'Accept Terms and conditions'
+'Mentor User Agreement and Data Protection Guidelines.'
 WebUI.click(findTestObject('Mentors/partner Form/Terms and Conditions'))
 
 'Click Submit'
 WebUI.click(findTestObject('Mentors/partner Form/Submit'))
+
+
 

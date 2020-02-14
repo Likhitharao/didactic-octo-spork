@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lastName</name>
+   <name>Select Employer</name>
    <tag></tag>
-   <elementGuidId>2b3e18f0-4027-4408-ba66-829aa1627c19</elementGuidId>
+   <elementGuidId>9e492c99-847a-46f2-a512-ceaf543a45af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='msform']/fieldset/div[2]/div[3]/div/input</value>
+         <value>.//*[@id='msform']/fieldset/div[2]/div[13]/div/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='msform']/fieldset/div[2]/div[3]/div/input</value>
+      <value>.//*[@id='msform']/fieldset/div[2]/div[13]/div/select</value>
    </webElementProperties>
 </WebElementEntity>
